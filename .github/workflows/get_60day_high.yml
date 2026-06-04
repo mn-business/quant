@@ -39,6 +39,7 @@ jobs:
         run: |
           python src/get_60day_high_krx.py
           python src/get_60day_high_yf.py
+          python src/get_60day_high_macro.py
 
       - name: Push results to Public Repository
         env:

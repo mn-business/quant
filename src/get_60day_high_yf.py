@@ -78,10 +78,10 @@ def parse_yfinance_chunk(df_chunk, ticker_map_reverse):
         df_stacked.dropna(subset=['종목코드', '종가'], inplace=True)
         
         df_stacked['날짜'] = pd.to_datetime(df_stacked['날짜'])
-        df_stacked['시가'] = pd.to_numeric(df_stacked['시가'], errors='coerce').fillna(0).astype(float).astype(int)
-        df_stacked['고가'] = pd.to_numeric(df_stacked['고가'], errors='coerce').fillna(0).astype(float).astype(int)
-        df_stacked['저가'] = pd.to_numeric(df_stacked['저가'], errors='coerce').fillna(0).astype(float).astype(int)
-        df_stacked['종가'] = pd.to_numeric(df_stacked['종가'], errors='coerce').fillna(0).astype(float).astype(int)
+        df_stacked['시가'] = pd.to_numeric(df_stacked['시가'], errors='coerce').fillna(0).astype(float)
+        df_stacked['고가'] = pd.to_numeric(df_stacked['고가'], errors='coerce').fillna(0).astype(float)
+        df_stacked['저가'] = pd.to_numeric(df_stacked['저가'], errors='coerce').fillna(0).astype(float)
+        df_stacked['종가'] = pd.to_numeric(df_stacked['종가'], errors='coerce').fillna(0).astype(float)
         df_stacked['거래량'] = pd.to_numeric(df_stacked['거래량'], errors='coerce').fillna(0).astype(float).astype('int64')
         
         return df_stacked[['날짜', '종목코드', '시가', '고가', '저가', '종가', '거래량']]
@@ -137,59 +137,133 @@ def update_and_get_data():
     print(f"수집 대상 영업일 수: {len(target_days)}일 ({target_days[0]} ~ {target_days[-1]})")
 
     # 3. yfinance 병렬 다운로드 (종목들을 chunks로 쪼개서 다운로드)
+    ticker_map = {}
+    ticker_map_reverse = {}
+
+    # (1) 한국 KRX 종목 목록 로드
     try:
         df_krx = fdr.StockListing('KRX')
         df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
+        for _, row in df_krx.iterrows():
+            code = str(row['Code']).strip().zfill(6)
+            market = str(row['Market']).upper()
+            yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
+            ticker_map[code] = yf_ticker
+            ticker_map_reverse[yf_ticker] = code
     except Exception as e:
-        print(f"[ERROR] KRX 종목 목록 로드 실패: {e}")
-        return df_local
+        print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
 
-    # yfinance 티커 맵 빌드
-    ticker_map = {}
-    ticker_map_reverse = {}
-    for _, row in df_krx.iterrows():
-        code = str(row['Code']).strip().zfill(6)
-        market = str(row['Market']).upper()
-        yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
-        ticker_map[code] = yf_ticker
-        ticker_map_reverse[yf_ticker] = code
+    # (2) 미국 S&P 500 종목 목록 로드
+    try:
+        df_sp500 = fdr.StockListing('S&P500')
+        for _, row in df_sp500.iterrows():
+            symbol = str(row['Symbol']).strip()
+            yf_ticker = symbol.replace('.', '-')
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] S&P500 종목 목록 로드 실패: {e}")
+
+    # (3) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집)
+    try:
+        df_tse = fdr.StockListing('TSE').head(500)
+        for _, row in df_tse.iterrows():
+            symbol = str(row['Symbol']).strip()
+            yf_ticker = f"{symbol}.T"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] TSE 종목 목록 로드 실패: {e}")
 
     tickers_list = list(ticker_map.values())
-    chunk_size = 150
-    chunks = [tickers_list[i:i + chunk_size] for i in range(0, len(tickers_list), chunk_size)]
-    
-    # query_start ~ today 범위를 yfinance 형식에 맞춰서 변환
-    start_dt = datetime.strptime(query_start, "%Y%m%d").strftime("%Y-%m-%d")
-    end_dt = (datetime.strptime(target_days[-1], "%Y%m%d") + timedelta(days=1)).strftime("%Y-%m-%d")
 
-    print(f"[PROCESS] 전종목(총 {len(tickers_list)}개)의 {start_dt} ~ {datetime.strptime(target_days[-1], '%Y%m%d').strftime('%Y-%m-%d')} 기간 데이터를 야후 파이낸스에서 다운로드합니다.")
+    # 로컬 DB에 이미 60일 이상 충분한 데이터가 쌓여 있는지 판단하여 다운로드 그룹 분류
+    full_download_tickers = []
+    incremental_tickers = []
+    
+    if df_local.empty:
+        full_download_tickers = tickers_list
+    else:
+        counts = df_local.groupby("종목코드")["날짜"].count().to_dict()
+        for yf_ticker in tickers_list:
+            code = ticker_map_reverse.get(yf_ticker)
+            if code not in counts or counts[code] < 60:
+                full_download_tickers.append(yf_ticker)
+            else:
+                incremental_tickers.append(yf_ticker)
 
     new_data_list = []
-    total_chunks = len(chunks)
+    end_dt = (datetime.strptime(target_days[-1], "%Y%m%d") + timedelta(days=1)).strftime("%Y-%m-%d")
 
-    # download worker function
-    def download_chunk(chunk):
-        try:
-            df_chunk = yf.download(chunk, start=start_dt, end=end_dt, group_by='ticker', progress=False)
-            parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse)
-            return parsed_df
-        except Exception as e:
-            return pd.DataFrame()
+    # 1단계: 전체 다운로드 대상 종목들 수집 (start_dt = 150일 전부터)
+    if full_download_tickers:
+        start_dt_full = datetime.strptime(start_date_limit, "%Y%m%d").strftime("%Y-%m-%d")
+        print(f"[PROCESS] 신규 또는 데이터가 부족한 종목 {len(full_download_tickers)}개에 대해 {start_dt_full} ~ {end_dt} 전체 수집을 시작합니다.")
+        
+        chunk_size = 150
+        chunks_full = [full_download_tickers[i:i + chunk_size] for i in range(0, len(full_download_tickers), chunk_size)]
+        
+        def download_chunk_full(chunk):
+            try:
+                df_chunk = yf.download(chunk, start=start_dt_full, end=end_dt, group_by='ticker', progress=False)
+                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse)
+                return parsed_df
+            except Exception as e:
+                return pd.DataFrame()
+                
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            futures = {executor.submit(download_chunk_full, chunk): chunk for chunk in chunks_full}
+            for future in tqdm(as_completed(futures), total=len(chunks_full), desc="신규 종목 전체 수집 중"):
+                df_res = future.result()
+                if not df_res.empty:
+                    new_data_list.append(df_res)
+                time.sleep(0.1)
 
-    with ThreadPoolExecutor(max_workers=8) as executor:
-        futures = {executor.submit(download_chunk, chunk): chunk for chunk in chunks}
-        for future in tqdm(as_completed(futures), total=total_chunks, desc="야후 파이낸스 데이터 동기화 중"):
-            df_res = future.result()
-            if not df_res.empty:
-                new_data_list.append(df_res)
-            time.sleep(0.1)
+    # 2단계: 기존 증분 다운로드 대상 종목들 수집 (start_dt = query_start부터)
+    if incremental_tickers:
+        start_dt_inc = datetime.strptime(query_start, "%Y%m%d").strftime("%Y-%m-%d")
+        print(f"[PROCESS] 기존 종목 {len(incremental_tickers)}개에 대해 {start_dt_inc} ~ {end_dt} 증분 수집을 시작합니다.")
+        
+        chunk_size = 150
+        chunks_inc = [incremental_tickers[i:i + chunk_size] for i in range(0, len(incremental_tickers), chunk_size)]
+        
+        def download_chunk_inc(chunk):
+            try:
+                df_chunk = yf.download(chunk, start=start_dt_inc, end=end_dt, group_by='ticker', progress=False)
+                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse)
+                return parsed_df
+            except Exception as e:
+                return pd.DataFrame()
+                
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            futures = {executor.submit(download_chunk_inc, chunk): chunk for chunk in chunks_inc}
+            for future in tqdm(as_completed(futures), total=len(chunks_inc), desc="기존 종목 증분 수집 중"):
+                df_res = future.result()
+                if not df_res.empty:
+                    new_data_list.append(df_res)
+                time.sleep(0.1)
 
     # 4. 기존 데이터와 신규 데이터 병합 후 파일 저장
     if new_data_list:
         df_new = pd.concat(new_data_list, ignore_index=True)
-        # yfinance 데이터 날짜 필터링 (target_days 범위에 들어오는지 재검증)
-        target_dates = pd.to_datetime(target_days)
-        df_new = df_new[df_new['날짜'].isin(target_dates)]
+        
+        # 각 종목별로 알맞은 날짜 범위 필터링 (신규 전체 수집 vs 기존 증분 수집)
+        full_codes = set(ticker_map_reverse[t] for t in full_download_tickers)
+        
+        # 1) 전체 수집 종목: start_date_limit ~ target_days[-1] 범위 유지
+        df_new_full = df_new[df_new['종목코드'].isin(full_codes)].copy()
+        if not df_new_full.empty:
+            limit_dt = pd.to_datetime(start_date_limit)
+            max_dt = pd.to_datetime(target_days[-1])
+            df_new_full = df_new_full[(df_new_full['날짜'] >= limit_dt) & (df_new_full['날짜'] <= max_dt)]
+            
+        # 2) 증분 수집 종목: target_days 범위만 유지
+        df_new_inc = df_new[~df_new['종목코드'].isin(full_codes)].copy()
+        if not df_new_inc.empty:
+            target_dates = pd.to_datetime(target_days)
+            df_new_inc = df_new_inc[df_new_inc['날짜'].isin(target_dates)]
+            
+        df_new = pd.concat([df_new_full, df_new_inc], ignore_index=True)
 
         if not df_local.empty:
             df_total = pd.concat([df_local, df_new], ignore_index=True)
@@ -251,18 +325,23 @@ def screen_60day_high(df_total):
             
             high_date_str = high_date.strftime('%Y-%m-%d') if not pd.isna(high_date) else 'N/A'
             
-            # 파이썬 정밀 연산 및 int 캐스팅으로 int32 오버플로우 방지
-            trade_amount = int(int(today_close) * int(today_volume))
+            # 파이썬 정밀 연산으로 int32 오버플로우 방지
+            trade_amount = float(today_close) * int(today_volume)
+            
+            # 종목코드가 숫자 형태인 경우에만 6자리 zfill 수행 (예: 한국 005930, 일본 7203 등)
+            ticker_str = str(ticker).strip()
+            if ticker_str.isdigit():
+                ticker_str = ticker_str.zfill(6)
             
             high_new_stocks.append(
                 {
-                    "종목코드": str(ticker).strip().zfill(6),
-                    "당일종가": int(today_close),
-                    "대비": int(change),
+                    "종목코드": ticker_str,
+                    "당일종가": float(today_close),
+                    "대비": float(change),
                     "등락률": round(change_ratio, 2),
                     "종료일 거래량": int(today_volume),
                     "종료일 거래금액": trade_amount,
-                    "기존최고가": int(max_close_past),
+                    "기존최고가": float(max_close_past),
                     "기존최고가달성일": high_date_str
                 }
             )
@@ -271,14 +350,15 @@ def screen_60day_high(df_total):
     if df_res.empty:
         return df_res
 
-    # --- 정보 결합 시작 (KRX 목록 및 KIND 섹터) ---
+    # --- 정보 결합 시작 (KRX, S&P500, TSE 목록 및 KIND 섹터) ---
+    # 1. 한국 KRX 및 KIND 정보 구축
     try:
         df_krx = fdr.StockListing('KRX')
         df_krx = df_krx[['Code', 'Name', 'Market', 'Stocks']].copy()
         df_krx.rename(columns={'Code': '종목코드', 'Name': '종목명', 'Market': '시장구분', 'Stocks': '상장주식수'}, inplace=True)
         df_krx['종목코드'] = df_krx['종목코드'].astype(str).str.strip().str.zfill(6)
     except Exception as e:
-        print(f"[WARN] fdr 종목 리스트 로드 실패: {e}")
+        print(f"[WARN] fdr KRX 종목 리스트 로드 실패: {e}")
         df_krx = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수'])
 
     # KIND 섹터 데이터 가져오기
@@ -305,21 +385,54 @@ def screen_60day_high(df_total):
     else:
         df_kind_sub = pd.DataFrame(columns=['종목코드', '섹터A', '섹터B'])
 
-    df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip().str.zfill(6)
+    df_krx_merged = pd.merge(df_krx, df_kind_sub, on='종목코드', how='left')
+    # 본주 기준 섹터 재매핑
+    missing_mask = df_krx_merged['섹터A'].isna() | (df_krx_merged['섹터A'] == '')
+    if missing_mask.any() and not df_kind_sub.empty:
+        df_krx_merged.loc[missing_mask, '본주코드'] = df_krx_merged.loc[missing_mask, '종목코드'].str[:-1] + '0'
+        df_krx_merged = pd.merge(df_krx_merged, df_kind_sub, left_on='본주코드', right_on='종목코드', how='left', suffixes=('', '_본주'))
+        df_krx_merged.loc[missing_mask, '섹터A'] = df_krx_merged.loc[missing_mask, '섹터A_본주']
+        df_krx_merged.loc[missing_mask, '섹터B'] = df_krx_merged.loc[missing_mask, '섹터B_본주']
+        df_krx_merged.drop(columns=['본주코드', '종목코드_본주', '섹터A_본주', '섹터B_본주'], inplace=True, errors='ignore')
+
+    # 2. 미국 S&P 500 정보 구축
+    df_us_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_sp500 = fdr.StockListing('S&P500')
+        df_us_meta = pd.DataFrame({
+            '종목코드': df_sp500['Symbol'].astype(str).str.strip(),
+            '종목명': df_sp500['Name'],
+            '시장구분': 'S&P500',
+            '상장주식수': 0,
+            '섹터A': df_sp500['Sector'].fillna(''),
+            '섹터B': df_sp500['Industry'].fillna('')
+        })
+    except Exception as e:
+        print(f"[WARN] fdr S&P500 메타 정보 로드 실패: {e}")
+
+    # 3. 일본 TSE 정보 구축
+    df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_tse = fdr.StockListing('TSE').head(500)
+        df_jp_meta = pd.DataFrame({
+            '종목코드': df_tse['Symbol'].astype(str).str.strip(),
+            '종목명': df_tse['Name'],
+            '시장구분': 'TSE',
+            '상장주식수': 0,
+            '섹터A': df_tse['Industry'].fillna(''),
+            '섹터B': df_tse['IndustryCode'].fillna('')
+        })
+    except Exception as e:
+        print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
+
+    # 모든 메타 정보 수직 결합
+    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_jp_meta], ignore_index=True)
+
+    df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
+    df_unified_meta['종목코드'] = df_unified_meta['종목코드'].astype(str).str.strip()
     
     # 조인
-    df_merged = pd.merge(df_res, df_krx, on='종목코드', how='left')
-    df_merged = pd.merge(df_merged, df_kind_sub, on='종목코드', how='left')
-
-    # 우선주 등 미매핑 종목에 대해 본주(끝자리 0) 기준으로 섹터 재매핑
-    missing_mask = df_merged['섹터A'].isna() | (df_merged['섹터A'] == '')
-    if missing_mask.any() and not df_kind_sub.empty:
-        df_merged.loc[missing_mask, '본주코드'] = df_merged.loc[missing_mask, '종목코드'].str[:-1] + '0'
-        df_merged = pd.merge(df_merged, df_kind_sub, left_on='본주코드', right_on='종목코드', how='left', suffixes=('', '_본주'))
-        
-        df_merged.loc[missing_mask, '섹터A'] = df_merged.loc[missing_mask, '섹터A_본주']
-        df_merged.loc[missing_mask, '섹터B'] = df_merged.loc[missing_mask, '섹터B_본주']
-        df_merged.drop(columns=['본주코드', '종목코드_본주', '섹터A_본주', '섹터B_본주'], inplace=True, errors='ignore')
+    df_merged = pd.merge(df_res, df_unified_meta, on='종목코드', how='left')
 
     df_merged['종목명'] = df_merged['종목명'].fillna('')
     df_merged = df_merged[df_merged['종목명'].str.strip() != '']
@@ -331,13 +444,35 @@ def screen_60day_high(df_total):
     # 추가 수치 연산 (시가총액 = 당일종가 * 상장주식수)
     df_merged['상장주식수'] = pd.to_numeric(df_merged['상장주식수'], errors='coerce').fillna(0)
     market_caps = (df_merged['당일종가'].astype(float) * df_merged['상장주식수'].astype(float)).astype('int64')
-    df_merged['종료일 시가총액(억원)'] = (market_caps // 100_000_000).apply(lambda x: f"{x:,}")
-    df_merged['종료일 거래금액(백만원)'] = (df_merged['종료일 거래금액'].astype('int64') // 1_000_000).apply(lambda x: f"{x:,}")
     
-    comma_cols = ['기존최고가', '당일종가', '대비', '종료일 거래량']
-    for col in comma_cols:
-        df_merged[col] = df_merged[col].astype('int64').apply(lambda x: f"{x:,}")
+    # 시가총액 포맷팅: 상장주식수가 0인 미국/일본 주식은 'N/A'로 표시
+    df_merged['종료일 시가총액(억원)'] = market_caps.apply(lambda x: f"{x // 100_000_000:,}" if x > 0 else 'N/A')
+    
+    # 종료일 거래금액 포맷팅: 환산하지 않고 통화 단위 그대로 백만 단위 표시
+    df_merged['종료일 거래금액(백만원)'] = df_merged.apply(
+        lambda r: f"{int(r['종료일 거래금액'] // 1_000_000):,}" if str(r['시장구분']).upper() in ['KOSPI', 'KOSDAQ']
+        else f"{r['종료일 거래금액'] / 1_000_000:,.2f}" if str(r['시장구분']).upper() == 'S&P500'
+        else f"{int(r['종료일 거래금액'] // 1_000_000):,}", axis=1
+    )
 
+    # 가격/대비/거래량 콤마 포맷팅
+    def format_row_value(r, col):
+        val = r[col]
+        market = str(r['시장구분']).upper()
+        if market in ['KOSPI', 'KOSDAQ']:
+            return f"{int(round(val)):,}"
+        elif market == 'S&P500':
+            return f"{val:,.2f}"
+        else: # Japan TSE 등
+            if val == int(val):
+                return f"{int(val):,}"
+            else:
+                return f"{val:,.2f}"
+
+    for col in ['당일종가', '대비', '기존최고가']:
+        df_merged[col] = df_merged.apply(lambda r: format_row_value(r, col), axis=1)
+
+    df_merged['종료일 거래량'] = df_merged['종료일 거래량'].astype('int64').apply(lambda x: f"{x:,}")
     df_merged['시장구분'] = df_merged['시장구분'].str.lower()
 
     df_merged = df_merged.sort_values(
