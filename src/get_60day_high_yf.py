@@ -115,16 +115,20 @@ def update_and_get_data():
             df_local = pd.DataFrame()
 
     # 2. 실제 마켓 영업일 기준 수집해야 할 날짜 계산
-    query_start = start_date_limit if last_saved_date is None else last_saved_date
+    if last_saved_date is not None:
+        # 야후 파이낸스 등의 데이터 정산 보정을 고려하여, 로컬에 저장된 마지막 날짜의 '직전 영업일'부터 수집을 수행하여 최신화합니다.
+        temp_all_days = get_market_business_days(start_date_limit, today)
+        if last_saved_date in temp_all_days:
+            idx = temp_all_days.index(last_saved_date)
+            query_start = temp_all_days[max(0, idx - 1)]
+        else:
+            query_start = last_saved_date
+    else:
+        query_start = start_date_limit
+
     print(f"[PROCESS] {query_start} ~ {today} 기간의 영업일 정보를 확인 중...")
     all_business_days = get_market_business_days(query_start, today)
-    
-    if last_saved_date is not None:
-        # 장중(실시간) 실행 후 장 마감 후에 다시 실행할 때 데이터를 최종 마감 가격으로 갱신하도록
-        # 마지막 저장 날짜(last_saved_date)를 포함하여(>=) 다시 수집합니다.
-        target_days = [d for d in all_business_days if d >= last_saved_date]
-    else:
-        target_days = all_business_days
+    target_days = all_business_days
 
     if not target_days:
         print("이미 최신 데이터가 반영되어 있습니다.")
@@ -363,19 +367,30 @@ if __name__ == "__main__":
         print(f"\n[INFO] {TARGET_DATE} 이전 데이터만 필터링하여 분석을 진행합니다.")
 
     # 2단계: 로컬 데이터를 기반으로 실시간 신고가 연산
-    result = screen_60day_high(total_data)
-
-    if not result.empty:
-        target_date_str = total_data["날짜"].max().strftime("%Y%m%d")
-        
-        output_dir = os.path.join(BASE_DIR, "result", "60day_high")
-        os.makedirs(output_dir, exist_ok=True)
-        
-        file_path = os.path.join(output_dir, f"60일_신고가_결과_{target_date_str}_yf.csv")
-        
-        print(f"\n★ 60일 신고가 경신 종목 (총 {len(result)}개) ★")
-        print(result.to_string(index=False))
-        result.to_csv(file_path, index=False, encoding="utf-8-sig")
-        print(f"\n'{file_path}' 파일로 저장 완료되었습니다.")
+    if TARGET_DATE is not None:
+        target_dates = [pd.to_datetime(TARGET_DATE)]
     else:
-        print("\n오늘 60일 신고가를 경신한 종목이 없습니다.")
+        # 데이터 정산 보정이 완료된 직전 영업일과 당일 모두 결과 파일을 갱신하도록 최근 2개 영업일을 대상으로 지정합니다.
+        unique_dates = sorted(total_data["날짜"].unique())
+        target_dates = unique_dates[-2:] if len(unique_dates) >= 2 else unique_dates
+
+    output_dir = os.path.join(BASE_DIR, "result", "60day_high")
+    os.makedirs(output_dir, exist_ok=True)
+
+    for t_date in target_dates:
+        t_date_str = t_date.strftime("%Y%m%d")
+        # 해당 분석 대상일 이전 데이터만 슬라이싱하여 그 날짜 기준으로 신고가를 집계
+        df_sub = total_data[total_data["날짜"] <= t_date]
+        result = screen_60day_high(df_sub)
+        
+        file_path = os.path.join(output_dir, f"{t_date_str}_yf.csv")
+        
+        if not result.empty:
+            print(f"\n★ 60일 신고가 경신 종목 - {t_date.strftime('%Y-%m-%d')} (총 {len(result)}개) ★")
+            print(result.to_string(index=False))
+            result.to_csv(file_path, index=False, encoding="utf-8-sig")
+            print(f"'{file_path}' 파일로 저장 완료되었습니다.")
+        else:
+            # 기존에 결과물이 있었으나 수정되어 비게 된 경우를 대비해 빈 CSV로 덮어씁니다.
+            result.to_csv(file_path, index=False, encoding="utf-8-sig")
+            print(f"\n{t_date.strftime('%Y-%m-%d')} 기준 60일 신고가를 경신한 종목이 없어 빈 파일로 저장했습니다.")
