@@ -37,15 +37,16 @@ jobs:
         KRX_ID: ${{ secrets.KRX_ID }}
         KRX_PW: ${{ secrets.KRX_PW }}
       run: |
-        python src/get_60day_high.py
+        python src/get_60day_high_krx.py
+        python src/get_60day_high_yf.py
 
     - name: Commit and Push changes
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         
-        # db/60day_high.csv 캐시와 result/60day_high/ 하위의 새 결과 파일들을 스테이징
-        git add db/60day_high.csv result/60day_high/*.csv
+        # db/ 하위 캐시들과 result/60day_high/ 하위의 새 결과 파일들을 스테이징
+        git add db/*.csv result/60day_high/*.csv
         
         # 변경 사항이 있을 때만 커밋 및 푸시 진행
         if ! git diff --cached --quiet; then
