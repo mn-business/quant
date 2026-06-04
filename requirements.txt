@@ -1,6 +1,6 @@
 pandas
 pykrx
-FinanceDataReader
+finance-datareader
 yfinance
 tqdm
 lxml
