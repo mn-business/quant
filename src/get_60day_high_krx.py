@@ -72,8 +72,9 @@ def update_and_get_data():
     all_business_days = get_market_business_days(query_start, today)
     
     if last_saved_date is not None:
-        # 이미 수집된 날짜는 제외
-        target_days = [d for d in all_business_days if d > last_saved_date]
+        # 장중(실시간) 실행 후 장 마감 후에 다시 실행할 때 데이터를 최종 마감 가격으로 갱신하도록
+        # 마지막 저장 날짜(last_saved_date)를 포함하여(>=) 다시 수집합니다.
+        target_days = [d for d in all_business_days if d >= last_saved_date]
     else:
         target_days = all_business_days
 
@@ -287,10 +288,17 @@ def screen_60day_high(df_total):
     
     existing_cols = [col for col in ordered_cols if col in df_merged.columns]
     return df_merged[existing_cols]
-
 if __name__ == "__main__":
     # 1단계: 데이터 업데이트 (일자별 일괄 요청으로 초고속 및 차단 회피)
     total_data = update_and_get_data()
+
+    # 특정 기준일(예: 2026-06-03)을 지정하여 그 날짜 기준으로 분석하려면 아래 변수에 날짜를 기입하세요.
+    # None으로 설정하면 오늘 실시간 데이터를 포함한 최신 영업일 기준 데이터로 분석합니다.
+    TARGET_DATE = None  # 예: "2026-06-03"
+
+    if TARGET_DATE is not None:
+        total_data = total_data[total_data["날짜"] <= pd.to_datetime(TARGET_DATE)]
+        print(f"\n[INFO] {TARGET_DATE} 이전 데이터만 필터링하여 분석을 진행합니다.")
 
     # 2단계: 로컬 데이터를 기반으로 실시간 신고가 연산 (서버 호출 없음 -> 1~2초 만에 종료)
     result = screen_60day_high(total_data)
