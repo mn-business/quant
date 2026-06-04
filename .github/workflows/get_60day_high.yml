@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas pykrx FinanceDataReader tqdm lxml openpyxl requests
+          pip install -r requirements.txt
 
       - name: Run Screener Script
         env:
@@ -49,8 +49,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           # 2. 발급한 토큰을 이용해 공개 레포지토리를 별도 임시 폴더(public-repo)에 복제(Clone)
-          # ※ <내-GitHub-계정명>과 <공개-레포지토리-이름>을 본인의 정보로 변경해 주세요.
-          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/<내-GitHub-계정명>/<공개-레포지토리-이름>.git public-repo
+          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/mn-business/quant-pub.git public-repo
 
           # 3. 공개 레포지토리 내의 결과물 저장용 경로 생성
           mkdir -p public-repo/result/60day_high

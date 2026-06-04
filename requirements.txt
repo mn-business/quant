@@ -1,0 +1,8 @@
+pandas
+pykrx
+FinanceDataReader
+yfinance
+tqdm
+lxml
+openpyxl
+requests
