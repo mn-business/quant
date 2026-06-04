@@ -24,7 +24,7 @@ if "KRX_PW" not in os.environ or not os.environ["KRX_PW"]:
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # 데이터 보관용 로컬 CSV 파일 경로를 절대 경로로 정의
-DB_FILE = os.path.join(BASE_DIR, "db", "60day_high.csv")
+DB_FILE = os.path.join(BASE_DIR, "db", "60day_high_krx.csv")
 
 def get_market_business_days(start_date, end_date):
     """삼성전자(005930) 데이터를 기준으로 실제 주식시장 영업일 목록을 가져옵니다."""
@@ -303,7 +303,7 @@ if __name__ == "__main__":
         output_dir = os.path.join(BASE_DIR, "result", "60day_high")
         os.makedirs(output_dir, exist_ok=True)
         
-        file_path = os.path.join(output_dir, f"60일_신고가_결과_{target_date_str}.csv")
+        file_path = os.path.join(output_dir, f"60일_신고가_결과_{target_date_str}_krx.csv")
         
         print(f"\n★ 60일 신고가 경신 종목 (총 {len(result)}개) ★")
         print(result.to_string(index=False))
