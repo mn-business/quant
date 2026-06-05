@@ -518,14 +518,22 @@ if __name__ == "__main__":
         df_sub = total_data[total_data["날짜"] <= t_date]
         result = screen_60day_high(df_sub)
         
-        file_path = os.path.join(output_dir, f"{t_date_str}_yf.csv")
+        # 시장별 분리 처리 매핑 정의
+        markets_mapping = {
+            "krx": result[result['시장구분'].isin(['kospi', 'kosdaq'])],
+            "sp500": result[result['시장구분'] == 's&p500'],
+            "tse": result[result['시장구분'] == 'tse']
+        }
         
-        if not result.empty:
-            print(f"\n★ 60일 신고가 경신 종목 - {t_date.strftime('%Y-%m-%d')} (총 {len(result)}개) ★")
-            print(result.to_string(index=False))
-            result.to_csv(file_path, index=False, encoding="utf-8-sig")
-            print(f"'{file_path}' 파일로 저장 완료되었습니다.")
-        else:
-            # 기존에 결과물이 있었으나 수정되어 비게 된 경우를 대비해 빈 CSV로 덮어씁니다.
-            result.to_csv(file_path, index=False, encoding="utf-8-sig")
-            print(f"\n{t_date.strftime('%Y-%m-%d')} 기준 60일 신고가를 경신한 종목이 없어 빈 파일로 저장했습니다.")
+        for m_name, df_m in markets_mapping.items():
+            file_path = os.path.join(output_dir, f"{t_date_str}_yf_{m_name}.csv")
+            
+            if not df_m.empty:
+                print(f"\n★ 60일 신고가 경신 종목 [{m_name.upper()}] - {t_date.strftime('%Y-%m-%d')} (총 {len(df_m)}개) ★")
+                print(df_m.to_string(index=False))
+                df_m.to_csv(file_path, index=False, encoding="utf-8-sig")
+                print(f"'{file_path}' 파일로 저장 완료되었습니다.")
+            else:
+                # 기존에 결과물이 있었으나 수정되어 비게 된 경우를 대비해 빈 CSV로 덮어씁니다.
+                df_m.to_csv(file_path, index=False, encoding="utf-8-sig")
+                print(f"{t_date.strftime('%Y-%m-%d')} 기준 [{m_name.upper()}] 60일 신고가를 경신한 종목이 없어 빈 파일로 저장했습니다.")
