@@ -41,7 +41,7 @@ jobs:
         run: |
           python src/get_60day_high_krx.py
           python src/get_60day_high_yf.py
-          python src/get_60day_high_macro.py
+          # python src/get_60day_high_macro.py
 
       - name: Push results to Public Repository
         env:
@@ -69,18 +69,19 @@ jobs:
           else
             echo "No changes to commit to the public repository."
           fi
-    # - name: Commit and Push changes
-    #   run: |
-    #     git config --global user.name "github-actions[bot]"
-    #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    #     # db/ 하위 캐시들과 result/60day_high/ 하위의 새 결과 파일들을 스테이징
-    #     git add db/*.csv result/60day_high/*.csv
+      - name: Commit and Push changes to Private Repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-    #     # 변경 사항이 있을 때만 커밋 및 푸시 진행
-    #     if ! git diff --cached --quiet; then
-    #       git commit -m "Auto-update: 60-day new high results ($(date +'%Y-%m-%d'))"
-    #       git push origin main
-    #     else
-    #       echo "No changes to commit."
-    #     fi
+          # db/ 하위 캐시들과 result/60day_high/ 하위의 새 결과 파일들을 스테이징
+          git add db/*.csv result/60day_high/*.csv
+
+          # 변경 사항이 있을 때만 커밋 및 푸시 진행
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto-update: 60-day new high results ($(date +'%Y-%m-%d'))"
+            git push origin main
+          else
+            echo "No changes to commit."
+          fi
