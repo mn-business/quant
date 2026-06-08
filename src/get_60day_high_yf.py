@@ -208,16 +208,16 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] S&P500 종목 목록 로드 실패: {e}")
 
-    # (3) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집)
-    try:
-        df_tse = fdr.StockListing('TSE').head(500)
-        for _, row in df_tse.iterrows():
-            symbol = str(row['Symbol']).strip()
-            yf_ticker = f"{symbol}.T"
-            ticker_map[symbol] = yf_ticker
-            ticker_map_reverse[yf_ticker] = symbol
-    except Exception as e:
-        print(f"[WARN] TSE 종목 목록 로드 실패: {e}")
+    # (3) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
+    # try:
+    #     df_tse = fdr.StockListing('TSE').head(500)
+    #     for _, row in df_tse.iterrows():
+    #         symbol = str(row['Symbol']).strip()
+    #         yf_ticker = f"{symbol}.T"
+    #         ticker_map[symbol] = yf_ticker
+    #         ticker_map_reverse[yf_ticker] = symbol
+    # except Exception as e:
+    #     print(f"[WARN] TSE 종목 목록 로드 실패: {e}")
 
     tickers_list = list(ticker_map.values())
 
@@ -454,20 +454,20 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] fdr S&P500 메타 정보 로드 실패: {e}")
 
-    # 3. 일본 TSE 정보 구축
+    # 3. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
-    try:
-        df_tse = fdr.StockListing('TSE').head(500)
-        df_jp_meta = pd.DataFrame({
-            '종목코드': df_tse['Symbol'].astype(str).str.strip(),
-            '종목명': df_tse['Name'],
-            '시장구분': 'TSE',
-            '상장주식수': 0,
-            '섹터A': df_tse['Industry'].fillna(''),
-            '섹터B': df_tse['IndustryCode'].fillna('')
-        })
-    except Exception as e:
-        print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
+    # try:
+    #     df_tse = fdr.StockListing('TSE').head(500)
+    #     df_jp_meta = pd.DataFrame({
+    #         '종목코드': df_tse['Symbol'].astype(str).str.strip(),
+    #         '종목명': df_tse['Name'],
+    #         '시장구분': 'TSE',
+    #         '상장주식수': 0,
+    #         '섹터A': df_tse['Industry'].fillna(''),
+    #         '섹터B': df_tse['IndustryCode'].fillna('')
+    #     })
+    # except Exception as e:
+    #     print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
 
     # 모든 메타 정보 수직 결합
     df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_jp_meta], ignore_index=True)
@@ -566,7 +566,7 @@ if __name__ == "__main__":
         markets_mapping = {
             "krx": result[result['시장구분'].isin(['kospi', 'kosdaq'])],
             "sp500": result[result['시장구분'] == 's&p500'],
-            "tse": result[result['시장구분'] == 'tse']
+            # "tse": result[result['시장구분'] == 'tse']
         }
         
         for m_name, df_m in markets_mapping.items():
