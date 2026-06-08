@@ -40,6 +40,49 @@ def get_market_business_days(start_date, end_date):
         all_days = [(s + timedelta(days=i)).strftime("%Y%m%d") for i in range(delta.days + 1)]
         return all_days
 
+def get_robust_krx_listing():
+    """fdr.StockListing('KRX')가 404 에러 등으로 실패 시 GitHub 캐시에서 날짜를 역산하여 로드하는 robust한 래퍼입니다."""
+    import requests
+    import io
+    
+    # 1. fdr 직접 호출 시도
+    try:
+        df = fdr.StockListing('KRX')
+        if not df.empty:
+            return df
+    except Exception as e:
+        print(f"[WARN] fdr.StockListing('KRX') 직접 호출 실패 ({e}). 백업 캐시 다운로드를 시도합니다.")
+    
+    # 2. GitHub 캐시 데이터 역산 다운로드 시도 (최대 10일 전까지 역산)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+    }
+    base_url = 'https://raw.githubusercontent.com/FinanceData/fdr_krx_data_cache/refs/heads/master/data/listing/krx/'
+    
+    for i in range(10):
+        check_date = (datetime.today() - timedelta(days=i)).strftime('%Y-%m-%d')
+        url = f"{base_url}{check_date}.csv"
+        try:
+            res = requests.get(url, headers=headers, timeout=5)
+            if res.status_code == 200:
+                print(f"[INFO] GitHub KRX 캐시 데이터 로드 성공: {check_date}")
+                df = pd.read_csv(io.StringIO(res.text), index_col=0, dtype={'Code': str, 'Dept': str, 'ChangeCode': str, 'MarketId': str})
+                df = df.reset_index(drop=True)
+                return df
+        except Exception:
+            continue
+            
+    # 3. 마지막 수단: corazzon 퍼블릭 미러
+    try:
+        url = "https://raw.githubusercontent.com/corazzon/finance-data-analysis/main/krx.csv"
+        df = pd.read_csv(url)
+        df.rename(columns={'Symbol': 'Code'}, inplace=True)
+        print("[INFO] corazzon KRX 미러 데이터 로드 성공")
+        return df
+    except Exception as e:
+        print(f"[ERROR] 모든 KRX 종목 리스트 로드 수단이 실패했습니다: {e}")
+        raise e
+
 def update_and_get_data():
     today = datetime.today().strftime("%Y%m%d")
     start_date_limit = (datetime.today() - timedelta(days=150)).strftime("%Y%m%d")
@@ -202,7 +245,7 @@ def screen_60day_high(df_total):
     # --- 정보 결합 시작 (KRX 목록 및 KIND 섹터) ---
     # fdr을 통해 KRX 상장정보 가져오기
     try:
-        df_krx = fdr.StockListing('KRX')
+        df_krx = get_robust_krx_listing()
         df_krx = df_krx[['Code', 'Name', 'Market', 'Stocks']].copy()
         df_krx.rename(columns={'Code': '종목코드', 'Name': '종목명', 'Market': '시장구분', 'Stocks': '상장주식수'}, inplace=True)
         df_krx['종목코드'] = df_krx['종목코드'].astype(str).str.strip().str.zfill(6)
