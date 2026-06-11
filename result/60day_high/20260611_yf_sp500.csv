@@ -1,30 +1,35 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일종가,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Apparel Retail,TJX,TJX Companies,s&p500,2026-06-09,164.87,167.66,2.79,1.69,"7,134,100","1,196.10",N/A
-Consumer Staples,Food Retail,CASY,Casey's,s&p500,2026-05-13,888.36,915.60,154.42,20.29,"2,009,000","1,839.44",N/A
-Consumer Staples,Household Products,CHD,Church & Dwight,s&p500,2026-05-27,98.01,98.19,1.16,1.2,"1,727,000",169.57,N/A
-Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-06-09,100.52,101.58,1.06,1.05,"3,391,200",344.48,N/A
-Consumer Staples,Packaged Foods & Meats,CPB,Campbell's Company (The),s&p500,2026-06-09,22.13,22.88,0.75,3.39,"13,930,100",318.72,N/A
-Consumer Staples,Packaged Foods & Meats,HRL,Hormel Foods,s&p500,2026-06-09,23.98,24.29,0.31,1.29,"4,009,800",97.40,N/A
-Consumer Staples,Packaged Foods & Meats,MDLZ,Mondelez International,s&p500,2026-06-09,62.93,64.18,1.25,1.99,"7,752,200",497.54,N/A
-Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-06-09,112.39,117.05,4.66,4.15,"2,808,100",328.69,N/A
-Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-09,17.92,18.05,0.13,0.73,"12,612,000",227.65,N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-09,31.48,31.70,0.22,0.7,"15,327,400",485.88,N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-05-19,81.92,83.59,2.25,2.77,"20,802,000","1,738.84",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-09,90.15,91.21,1.06,1.18,"6,942,400",633.22,N/A
-Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-09,54.42,54.54,0.12,0.22,"36,975,500","2,016.64",N/A
-Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-09,232.18,232.64,0.46,0.2,"2,742,400",637.99,N/A
-Financials,Insurance Brokers,AON,Aon plc,s&p500,2026-04-16,334.46,336.33,4.74,1.43,"1,748,400",588.04,N/A
-Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-09,159.33,162.52,3.19,2.0,"449,000",72.97,N/A
-Financials,Life & Health Insurance,MET,MetLife,s&p500,2026-06-09,85.57,86.13,0.56,0.65,"4,188,400",360.75,N/A
-Financials,Life & Health Insurance,PFG,Principal Financial Group,s&p500,2026-06-09,106.66,109.21,2.55,2.39,"1,569,900",171.45,N/A
-Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-06-05,104.62,105.17,1.47,1.42,"1,675,100",176.17,N/A
-Health Care,Biotechnology,INCY,Incyte,s&p500,2026-06-09,103.23,105.39,2.16,2.09,"2,653,500",279.65,N/A
-Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-03-17,215.84,216.30,3.63,1.71,"3,818,700",825.98,N/A
-Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-06-09,20.03,20.31,0.28,1.4,"11,719,200",238.02,N/A
-Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-09,363.18,364.46,1.28,0.35,"959,600",349.74,N/A
-Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-06-09,156.39,156.85,0.46,0.29,"7,859,200","1,232.72",N/A
-Real Estate,Multi-Family Residential REITs,MAA,Mid-America Apartment Communities,s&p500,2026-06-09,138.91,139.78,0.87,0.63,"1,189,000",166.20,N/A
-Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-06-09,25.19,25.38,0.19,0.75,"8,143,600",206.68,N/A
-Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-06-09,211.89,212.82,0.93,0.44,"2,002,200",426.11,N/A
-Real Estate,Self-Storage REITs,EXR,Extra Space Storage,s&p500,2026-06-09,148.23,149.60,1.37,0.92,"1,304,100",195.09,N/A
-Real Estate,Self-Storage REITs,PSA,Public Storage,s&p500,2026-06-09,322.86,323.87,1.01,0.31,"1,628,400",527.39,N/A
+Communication Services,Broadcasting,FOX,Fox Corporation (Class B),s&p500,2026-05-11,61.18,61.24,0.21,0.34,"148,340",9.08,N/A
+Communication Services,Movies & Entertainment,LYV,Live Nation Entertainment,s&p500,2026-06-01,170.45,170.49,2.99,1.79,"914,199",155.86,N/A
+Communication Services,Movies & Entertainment,TKO,TKO Group Holdings,s&p500,2026-06-01,208.47,209.87,3.44,1.67,"227,602",47.77,N/A
+Consumer Discretionary,Apparel Retail,ROST,Ross Stores,s&p500,2026-05-22,234.81,237.61,5.69,2.45,"885,058",210.30,N/A
+Consumer Discretionary,Apparel Retail,TJX,TJX Companies,s&p500,2026-06-10,167.66,167.95,0.29,0.17,"2,189,029",367.64,N/A
+Consumer Discretionary,Restaurants,DRI,Darden Restaurants,s&p500,2026-05-27,205.93,208.00,4.36,2.14,"477,721",99.37,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-04-21,130.86,130.92,2.94,2.3,"1,607,485",210.45,N/A
+Consumer Staples,Packaged Foods & Meats,CPB,Campbell's Company (The),s&p500,2026-06-10,22.88,22.98,0.10,0.42,"5,002,847",114.95,N/A
+Consumer Staples,Packaged Foods & Meats,HRL,Hormel Foods,s&p500,2026-06-10,24.29,24.31,0.02,0.08,"1,006,169",24.46,N/A
+Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-10,18.05,18.06,0.01,0.04,"4,106,485",74.15,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-10,91.21,91.61,0.40,0.44,"1,438,880",131.82,N/A
+Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-10,54.54,54.58,0.04,0.08,"12,279,459",670.27,N/A
+Financials,Diversified Banks,C,Citigroup,s&p500,2026-06-04,135.15,135.15,1.77,1.33,"4,310,808",582.63,N/A
+Financials,Insurance Brokers,AON,Aon plc,s&p500,2026-06-10,336.33,338.05,1.72,0.51,"413,777",139.88,N/A
+Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-10,162.52,164.18,1.66,1.02,"123,461",20.27,N/A
+Financials,Life & Health Insurance,MET,MetLife,s&p500,2026-06-10,86.13,87.17,1.04,1.2,"1,805,658",157.39,N/A
+Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-06-10,105.17,105.73,0.56,0.53,"438,318",46.34,N/A
+Financials,Multi-line Insurance,AIZ,Assurant,s&p500,2026-05-18,258.17,258.52,1.18,0.46,"80,392",20.78,N/A
+Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-05-20,168.53,168.96,2.53,1.52,"250,526",42.33,N/A
+Financials,Regional Banks,FITB,Fifth Third Bancorp,s&p500,2026-06-09,52.71,52.81,0.16,0.3,"1,973,288",104.21,N/A
+Health Care,Biotechnology,INCY,Incyte,s&p500,2026-06-10,105.39,108.70,3.31,3.14,"864,925",94.02,N/A
+Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-06-10,216.30,222.37,6.07,2.8,"945,870",210.33,N/A
+Health Care,Health Care Services,CVS,CVS Health,s&p500,2026-05-13,98.11,99.17,1.15,1.17,"5,276,819",523.30,N/A
+Health Care,Health Care Services,DVA,DaVita,s&p500,2026-05-12,200.54,202.73,4.19,2.11,"277,176",56.19,N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-10,364.46,367.42,2.96,0.81,"431,887",158.68,N/A
+Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-08,"1,149.15","1,156.34",19.97,1.76,"1,255,327","1,451.58",N/A
+Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-03-26,353.64,358.58,17.51,5.13,"497,060",178.24,N/A
+Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-06-10,156.85,156.99,0.14,0.09,"1,329,571",208.73,N/A
+Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-04,501.70,530.54,33.53,6.75,"4,586,630","2,433.37",N/A
+Information Technology,Semiconductor Materials & Equipment,KLAC,KLA Corporation,s&p500,2026-06-09,"2,139.37","2,320.72","2,107.16",986.66,"638,394","1,481.53",N/A
+Information Technology,Semiconductor Materials & Equipment,LRCX,Lam Research,s&p500,2026-06-03,343.71,348.69,26.89,8.35,"5,787,625","2,018.06",N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-06-09,124.44,124.86,1.24,1.0,"538,534",67.24,N/A
+Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-06-10,25.38,25.62,0.25,0.97,"11,079,772",283.92,N/A
+Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-06-10,212.82,213.98,1.15,0.54,"474,262",101.48,N/A
