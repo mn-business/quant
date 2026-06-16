@@ -4,13 +4,13 @@ Consumer Discretionary,"Apparel, Accessories & Luxury Goods",RL,Ralph Lauren Cor
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",CCL,Carnival Corporation,s&p500,2026-06-12,29.18,30.12,0.94,3.22,"37,900,600","1,141.57",N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-06-12,345.95,347.11,1.16,0.34,"1,146,100",397.82,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",RCL,Royal Caribbean Group,s&p500,2026-06-12,294.38,313.67,19.29,6.55,"3,049,000",956.38,N/A
-Consumer Staples,Household Products,CHD,Church & Dwight,s&p500,2026-06-10,98.19,98.32,0.76,0.78,"1,404,948",138.13,N/A
+Consumer Staples,Household Products,CHD,Church & Dwight,s&p500,2026-06-10,98.19,98.32,0.76,0.78,"1,891,200",185.94,N/A
 Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-06-12,102.29,103.14,0.85,0.83,"4,456,800",459.67,N/A
 Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-12,18.14,18.25,0.11,0.61,"11,515,300",210.15,N/A
 Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-06-12,149.61,150.46,0.85,0.57,"9,158,900","1,378.05",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-12,31.71,31.77,0.06,0.19,"15,458,729",491.12,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-12,31.71,31.77,0.06,0.19,"15,744,700",500.21,N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-12,92.83,93.23,0.40,0.43,"4,762,100",443.97,N/A
-Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,2026-05-14,134.95,136.11,2.23,1.67,"3,151,647",428.97,N/A
+Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,2026-05-14,134.95,136.11,2.23,1.67,"3,186,400",433.70,N/A
 Financials,Asset Management & Custody Banks,ARES,Ares Management,s&p500,2026-06-12,134.90,135.36,0.46,0.34,"2,319,700",313.99,N/A
 Financials,Asset Management & Custody Banks,BEN,Franklin Resources,s&p500,2026-05-14,32.35,32.51,0.38,1.18,"3,360,200",109.24,N/A
 Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-06-12,28.92,29.10,0.18,0.62,"3,339,800",97.19,N/A
@@ -19,10 +19,10 @@ Financials,Consumer Finance,AXP,American Express,s&p500,2026-04-22,332.90,335.38
 Financials,Diversified Banks,C,Citigroup,s&p500,2026-06-12,139.83,141.21,1.38,0.99,"12,775,600","1,804.04",N/A
 Financials,Investment Banking & Brokerage,HOOD,Robinhood Markets,s&p500,2026-05-29,94.30,98.12,4.93,5.29,"36,576,900","3,588.93",N/A
 Financials,Investment Banking & Brokerage,IBKR,Interactive Brokers,s&p500,2026-06-12,90.81,92.76,1.95,2.15,"3,530,200",327.46,N/A
-Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-12,166.76,167.39,0.63,0.38,"472,528",79.10,N/A
+Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-12,166.76,167.39,0.63,0.38,"688,100",115.18,N/A
 Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-06-12,108.50,108.69,0.19,0.18,"2,198,400",238.94,N/A
 Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-06-12,169.01,169.34,0.33,0.2,"748,100",126.68,N/A
-Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-06-12,223.85,226.40,2.55,1.14,"1,757,936",398.00,N/A
+Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-06-12,223.85,226.40,2.55,1.14,"2,397,200",542.73,N/A
 Health Care,Health Care Services,DVA,DaVita,s&p500,2026-06-12,208.66,209.75,1.09,0.52,"846,300",177.51,N/A
 Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-12,379.22,380.26,1.04,0.27,"1,784,600",678.61,N/A
 Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-06-12,335.30,342.26,6.96,2.08,"5,252,700","1,797.79",N/A
