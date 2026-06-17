@@ -1,14 +1,14 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일종가,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Consumer Discretionary,Homefurnishing Retail,WSM,"Williams-Sonoma, Inc.",s&p500,2026-06-12,223.54,227.18,3.89,1.74,"1,239,200",281.52,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",CCL,Carnival Corporation,s&p500,2026-06-15,30.12,30.90,0.78,2.59,"24,473,500",756.23,N/A
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-06-15,347.11,350.22,3.11,0.9,"1,175,901",411.82,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-06-15,347.11,350.22,3.11,0.9,"1,481,000",518.68,N/A
 Consumer Staples,Household Products,CHD,Church & Dwight,s&p500,2026-06-15,98.32,98.42,0.10,0.1,"1,877,400",184.77,N/A
 Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-06-15,103.14,104.28,1.14,1.11,"3,039,400",316.95,N/A
-Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-15,18.25,18.43,0.18,0.99,"7,937,666",146.29,N/A
+Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-15,18.25,18.43,0.18,0.99,"11,506,100",212.06,N/A
 Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-06-15,150.46,152.49,2.03,1.35,"8,517,600","1,298.85",N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-15,31.77,32.00,0.23,0.72,"12,383,100",396.26,N/A
 Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,2026-06-15,136.11,138.48,2.37,1.74,"2,821,200",390.68,N/A
-Financials,Asset Management & Custody Banks,ARES,Ares Management,s&p500,2026-06-12,134.90,134.98,0.97,0.72,"1,604,419",216.56,N/A
+Financials,Asset Management & Custody Banks,ARES,Ares Management,s&p500,2026-06-12,134.90,134.98,0.97,0.72,"2,306,100",311.28,N/A
 Financials,Asset Management & Custody Banks,BEN,Franklin Resources,s&p500,2026-06-15,32.51,33.18,0.67,2.06,"3,987,900",132.32,N/A
 Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-06-04,144.02,144.45,1.95,1.37,"3,118,700",450.50,N/A
 Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-06-15,29.10,29.20,0.10,0.34,"2,901,100",84.71,N/A
