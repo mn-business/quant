@@ -1,26 +1,47 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일종가,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,2026-06-16,138.48,138.91,0.43,0.31,"3,781,400",525.27,N/A
-Financials,Asset Management & Custody Banks,BEN,Franklin Resources,s&p500,2026-06-16,33.18,33.29,0.11,0.33,"6,476,600",215.61,N/A
-Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-06-16,144.45,146.07,1.62,1.12,"3,213,100",469.34,N/A
-Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-06-16,174.84,174.95,0.11,0.06,"906,800",158.64,N/A
-Financials,Diversified Banks,C,Citigroup,s&p500,2026-06-16,142.99,143.78,0.79,0.55,"13,136,900","1,888.82",N/A
-Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-06-16,331.14,333.46,2.32,0.7,"12,242,100","4,082.25",N/A
-Financials,Investment Banking & Brokerage,GS,Goldman Sachs,s&p500,2026-06-04,"1,092.61","1,099.14",8.47,0.78,"2,179,300","2,395.36",N/A
-Financials,Investment Banking & Brokerage,HOOD,Robinhood Markets,s&p500,2026-06-15,98.12,105.20,8.49,8.78,"70,547,100","7,421.55",N/A
-Financials,Investment Banking & Brokerage,IBKR,Interactive Brokers,s&p500,2026-06-16,93.10,95.09,1.99,2.14,"5,278,900",501.97,N/A
-Financials,Investment Banking & Brokerage,MS,Morgan Stanley,s&p500,2026-06-16,220.83,224.96,4.13,1.87,"8,689,200","1,954.72",N/A
-Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-16,169.17,171.25,2.08,1.23,"664,800",113.85,N/A
-Financials,Multi-line Insurance,AIZ,Assurant,s&p500,2026-06-12,260.99,262.13,1.58,0.61,"384,500",100.79,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-04-22,55.60,61.80,6.40,11.55,"12,425,400",767.89,N/A
-Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-03-25,454.97,458.99,5.82,1.28,"1,524,000",699.50,N/A
-Health Care,Health Care Services,DVA,DaVita,s&p500,2026-06-15,209.75,210.58,1.60,0.77,"637,700",134.29,N/A
-Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-06-16,351.73,357.03,5.30,1.51,"5,027,300","1,794.90",N/A
-Industrials,Aerospace & Defense,HWM,Howmet Aerospace,s&p500,2026-06-16,277.42,283.23,5.81,2.09,"2,700,500",764.86,N/A
-Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-06-16,"1,301.20","1,316.75",15.55,1.2,"424,500",558.96,N/A
-Industrials,Construction Machinery & Heavy Transportation Equipment,CAT,Caterpillar Inc.,s&p500,2026-06-16,945.46,955.92,10.46,1.11,"2,742,600","2,621.71",N/A
-Industrials,Construction Machinery & Heavy Transportation Equipment,CMI,Cummins,s&p500,2026-05-14,714.21,717.78,17.81,2.54,"1,851,700","1,329.11",N/A
-Industrials,Electrical Components & Equipment,EMR,Emerson Electric,s&p500,2026-06-16,148.81,149.00,0.19,0.13,"2,962,300",441.38,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-06-16,158.81,161.11,2.30,1.45,"8,707,000","1,402.78",N/A
-Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-15,585.78,592.92,24.69,4.35,"11,022,700","6,535.58",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",STX,Seagate Technology,s&p500,2026-06-16,"1,031.34","1,066.07",34.73,3.37,"4,576,400","4,878.76",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",WDC,Western Digital,s&p500,2026-06-16,681.08,712.13,31.05,4.56,"13,489,800","9,606.49",N/A
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",RL,Ralph Lauren Corporation,s&p500,2026-06-15,412.36,416.08,12.23,3.03,"117,929",49.07,N/A
+Consumer Discretionary,Homefurnishing Retail,WSM,"Williams-Sonoma, Inc.",s&p500,2026-06-16,227.18,229.92,8.77,3.97,"239,839",55.14,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",CCL,Carnival Corporation,s&p500,2026-06-16,30.90,31.02,1.11,3.71,"5,780,541",179.31,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-06-16,350.22,354.64,5.34,1.53,"444,102",157.50,N/A
+Consumer Discretionary,Restaurants,DRI,Darden Restaurants,s&p500,2026-06-12,211.47,217.37,6.04,2.86,"388,574",84.46,N/A
+Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,2026-06-17,138.91,139.22,0.31,0.22,"1,031,075",143.55,N/A
+Financials,Asset Management & Custody Banks,BEN,Franklin Resources,s&p500,2026-06-17,33.29,33.69,0.40,1.2,"1,404,470",47.32,N/A
+Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-06-16,171.29,173.00,1.90,1.11,"569,153",98.46,N/A
+Financials,Consumer Finance,AXP,American Express,s&p500,2026-06-16,340.74,342.82,2.28,0.67,"1,302,923",446.67,N/A
+Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-16,56.84,56.88,0.35,0.63,"12,610,432",717.34,N/A
+Financials,Diversified Banks,C,Citigroup,s&p500,2026-06-17,143.78,146.93,3.15,2.19,"6,125,820",900.07,N/A
+Financials,Investment Banking & Brokerage,GS,Goldman Sachs,s&p500,2026-06-17,"1,099.14","1,116.21",17.07,1.55,"1,077,730","1,202.97",N/A
+Financials,Investment Banking & Brokerage,HOOD,Robinhood Markets,s&p500,2026-06-17,105.20,106.82,1.62,1.54,"11,794,339","1,259.87",N/A
+Financials,Investment Banking & Brokerage,IBKR,Interactive Brokers,s&p500,2026-06-17,95.09,97.50,2.41,2.53,"1,327,738",129.45,N/A
+Financials,Investment Banking & Brokerage,MS,Morgan Stanley,s&p500,2026-06-17,224.96,228.74,3.78,1.68,"2,368,961",541.88,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-06-17,61.80,62.20,0.40,0.65,"4,899,009",304.74,N/A
+Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-06-17,357.03,359.55,2.52,0.71,"1,454,140",522.84,N/A
+Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-06-17,"1,316.75","1,319.59",2.84,0.22,"90,813",119.84,N/A
+Industrials,Building Products,CARR,Carrier Global,s&p500,2026-06-09,71.24,72.14,2.65,3.81,"1,168,512",84.30,N/A
+Industrials,Building Products,MAS,Masco,s&p500,2026-04-23,75.04,75.79,3.17,4.36,"530,874",40.23,N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,CAT,Caterpillar Inc.,s&p500,2026-06-17,955.92,985.04,29.12,3.05,"1,337,545","1,317.54",N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,CMI,Cummins,s&p500,2026-06-17,717.78,721.92,4.14,0.58,"288,021",207.93,N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,WAB,Wabtec,s&p500,2026-06-16,272.12,277.06,5.20,1.91,"244,691",67.79,N/A
+Industrials,Electrical Components & Equipment,EMR,Emerson Electric,s&p500,2026-06-17,149.00,151.28,2.28,1.53,"847,575",128.22,N/A
+Industrials,Electrical Components & Equipment,ROK,Rockwell Automation,s&p500,2026-06-16,466.31,471.90,13.21,2.88,"158,122",74.62,N/A
+Industrials,Industrial Machinery & Supplies & Components,GWW,W. W. Grainger,s&p500,2026-06-09,"1,329.80","1,347.37",36.27,2.77,"74,275",100.08,N/A
+Industrials,Industrial Machinery & Supplies & Components,IEX,IDEX Corporation,s&p500,2026-06-16,223.81,226.63,2.94,1.32,"147,031",33.32,N/A
+Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-06-16,292.90,295.92,5.70,1.96,"85,248",25.23,N/A
+Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-06-15,84.80,86.74,4.26,5.17,"349,048",30.27,N/A
+Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-15,84.07,84.60,2.35,2.86,"2,259,473",191.15,N/A
+Industrials,Passenger Airlines,LUV,Southwest Airlines,s&p500,2026-06-16,47.43,48.24,1.58,3.39,"1,782,996",86.01,N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-06-17,161.11,163.98,2.87,1.78,"2,084,798",341.85,N/A
+Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-17,592.92,631.86,38.95,6.57,"3,489,475","2,204.88",N/A
+Information Technology,Semiconductor Materials & Equipment,LRCX,Lam Research,s&p500,2026-06-15,388.92,394.98,20.80,5.56,"3,518,068","1,389.58",N/A
+Information Technology,Semiconductors,INTC,Intel,s&p500,2026-05-11,129.44,129.89,8.79,7.26,"77,840,449","10,110.70",N/A
+Information Technology,Semiconductors,MU,Micron Technology,s&p500,2026-06-15,"1,087.99","1,122.67",79.48,7.62,"17,548,261","19,700.82",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SNDK,Sandisk,s&p500,2026-06-15,"2,107.86","2,154.69",195.89,10.0,"4,236,951","9,129.32",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",STX,Seagate Technology,s&p500,2026-06-17,"1,066.07","1,092.48",26.41,2.48,"1,999,130","2,184.02",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",WDC,Western Digital,s&p500,2026-06-17,712.13,773.71,61.58,8.65,"4,942,816","3,824.31",N/A
+Materials,Construction Materials,VMC,Vulcan Materials Company,s&p500,2026-04-30,301.14,305.22,10.40,3.53,"350,311",106.92,N/A
+Materials,Paper & Plastic Packaging Products & Materials,IP,International Paper,s&p500,2026-04-17,36.58,37.60,1.44,3.98,"1,799,045",67.64,N/A
+Materials,Paper & Plastic Packaging Products & Materials,PKG,Packaging Corporation of America,s&p500,2026-06-15,229.96,234.21,4.96,2.16,"215,621",50.50,N/A
+Materials,Paper & Plastic Packaging Products & Materials,SW,Smurfit Westrock,s&p500,2026-06-15,44.51,44.90,1.49,3.42,"1,829,442",82.15,N/A
+Real Estate,Data Center REITs,EQIX,Equinix,s&p500,2026-04-23,"1,109.80","1,111.17",22.65,2.08,"197,581",219.55,N/A
+Real Estate,Hotel & Resort REITs,HST,Host Hotels & Resorts,s&p500,2026-06-16,24.90,25.24,0.61,2.5,"2,118,177",53.45,N/A
+Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-06-16,68.50,68.95,0.93,1.37,"2,006,351",138.34,N/A
