@@ -1,35 +1,35 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일종가,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,TTWO,Take-Two Interactive,s&p500,2026-05-15,242.44,242.64,3.07,1.28,"3,042,083",738.13,N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-15,93.23,93.69,0.67,0.72,"5,251,744",492.04,N/A
-Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-06-22,146.44,147.29,0.85,0.58,"3,257,016",479.73,N/A
-Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-06-22,175.56,176.26,0.70,0.4,"785,102",138.38,N/A
-Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-06-22,173.71,173.73,0.02,0.01,"2,134,568",370.84,N/A
-Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-22,57.37,57.91,0.54,0.94,"29,775,486","1,724.30",N/A
-Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-06-17,333.46,334.14,2.66,0.8,"7,544,744","2,521.00",N/A
-Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-12,237.66,238.67,3.96,1.69,"2,564,416",612.05,N/A
-Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-06-12,58.94,60.05,1.37,2.33,"9,307,949",558.94,N/A
-Financials,Life & Health Insurance,AFL,Aflac,s&p500,2026-06-05,118.24,118.79,2.24,1.92,"1,528,624",181.59,N/A
-Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-22,172.05,175.58,3.53,2.05,"482,427",84.70,N/A
-Financials,Life & Health Insurance,PFG,Principal Financial Group,s&p500,2026-06-22,111.23,112.36,1.13,1.02,"935,697",105.13,N/A
-Financials,Multi-line Insurance,AIZ,Assurant,s&p500,2026-06-17,262.13,265.30,3.72,1.42,"245,248",65.06,N/A
-Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-05-19,223.40,231.55,8.99,4.04,"1,755,958",406.59,N/A
-Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-06-16,171.79,175.81,4.29,2.5,"683,741",120.21,N/A
-Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-04-21,207.50,215.69,8.31,4.01,"3,523,993",760.09,N/A
-Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-06-22,310.61,316.96,6.35,2.04,"3,168,522","1,004.29",N/A
-Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-05-18,68.76,68.96,2.42,3.64,"1,336,345",92.15,N/A
-Financials,Regional Banks,CFG,Citizens Financial Group,s&p500,2026-06-22,67.99,68.99,1.00,1.47,"3,051,737",210.54,N/A
-Financials,Regional Banks,KEY,KeyCorp,s&p500,2026-06-22,22.83,23.02,0.19,0.83,"11,301,248",260.15,N/A
-Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-06-12,29.27,29.29,0.54,1.88,"8,968,901",262.70,N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-06-22,230.01,234.76,4.75,2.07,"7,182,895","1,686.26",N/A
-Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-06-22,466.79,468.42,1.63,0.35,"1,181,523",553.45,N/A
-Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-06-16,227.72,228.91,6.17,2.77,"2,110,342",483.08,N/A
-Health Care,Health Care Services,DVA,DaVita,s&p500,2026-06-17,210.58,210.93,1.25,0.6,"504,297",106.37,N/A
-Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-06-09,334.66,336.39,6.68,2.03,"484,386",162.94,N/A
-Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-22,85.92,86.72,0.80,0.93,"5,155,554",447.09,N/A
-Industrials,Passenger Airlines,LUV,Southwest Airlines,s&p500,2026-06-22,48.57,49.41,0.84,1.73,"5,580,671",275.74,N/A
-Industrials,Passenger Airlines,UAL,United Airlines Holdings,s&p500,2026-06-15,119.97,121.55,2.87,2.42,"5,391,608",655.35,N/A
-Real Estate,Other Specialized REITs,IRM,Iron Mountain,s&p500,2026-05-06,132.06,133.06,1.20,0.91,"1,332,753",177.34,N/A
-Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-06-05,70.60,71.03,0.91,1.3,"2,460,151",174.74,N/A
-Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-05-27,84.17,84.84,1.59,1.91,"1,898,570",161.07,N/A
-Utilities,Electric Utilities,LNT,Alliant Energy,s&p500,2026-05-01,74.06,74.57,1.36,1.86,"2,630,784",196.18,N/A
-Utilities,Multi-Utilities,PNW,Pinnacle West Capital,s&p500,2026-06-16,103.85,104.05,1.62,1.58,"1,037,977",108.00,N/A
+Communication Services,Interactive Home Entertainment,TTWO,Take-Two Interactive,s&p500,2026-05-15,242.44,242.64,3.07,1.28,"3,147,800",763.78,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-15,93.23,93.69,0.67,0.72,"5,365,100",502.66,N/A
+Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-06-22,146.44,147.29,0.85,0.58,"4,830,700",711.51,N/A
+Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-06-22,175.56,176.26,0.70,0.4,"811,700",143.07,N/A
+Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-06-22,173.71,173.73,0.02,0.01,"2,135,900",371.07,N/A
+Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-22,57.37,57.91,0.54,0.94,"30,035,100","1,739.33",N/A
+Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-06-17,333.46,334.14,2.66,0.8,"7,578,600","2,532.31",N/A
+Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-12,237.66,238.67,3.96,1.69,"2,586,300",617.27,N/A
+Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-06-12,58.94,60.05,1.37,2.33,"10,932,400",656.49,N/A
+Financials,Life & Health Insurance,AFL,Aflac,s&p500,2026-06-05,118.24,118.79,2.24,1.92,"3,460,500",411.07,N/A
+Financials,Life & Health Insurance,GL,Globe Life,s&p500,2026-06-22,172.05,175.58,3.53,2.05,"646,900",113.58,N/A
+Financials,Life & Health Insurance,PFG,Principal Financial Group,s&p500,2026-06-22,111.23,112.36,1.13,1.02,"1,067,400",119.93,N/A
+Financials,Multi-line Insurance,AIZ,Assurant,s&p500,2026-06-17,262.13,265.30,3.72,1.42,"405,800",107.66,N/A
+Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-05-19,223.40,231.55,8.99,4.04,"1,810,900",419.31,N/A
+Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-06-16,171.79,175.81,4.29,2.5,"956,700",168.20,N/A
+Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-04-21,207.50,215.69,8.31,4.01,"5,353,100","1,154.61",N/A
+Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-06-22,310.61,316.96,6.35,2.04,"4,129,600","1,308.92",N/A
+Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-05-18,68.76,68.96,2.42,3.64,"2,959,400",204.08,N/A
+Financials,Regional Banks,CFG,Citizens Financial Group,s&p500,2026-06-22,67.99,68.99,1.00,1.47,"4,390,400",302.89,N/A
+Financials,Regional Banks,KEY,KeyCorp,s&p500,2026-06-22,22.83,23.02,0.19,0.83,"11,301,500",260.16,N/A
+Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-06-12,29.27,29.29,0.54,1.88,"13,810,100",404.50,N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-06-22,230.01,234.76,4.75,2.07,"7,365,600","1,729.15",N/A
+Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-06-22,466.79,468.42,1.63,0.35,"1,203,800",563.88,N/A
+Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-06-16,227.72,228.91,6.17,2.77,"2,110,400",483.09,N/A
+Health Care,Health Care Services,DVA,DaVita,s&p500,2026-06-17,210.58,210.93,1.25,0.6,"858,100",181.00,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-06-09,334.66,336.39,6.68,2.03,"784,600",263.93,N/A
+Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-22,85.92,86.72,0.80,0.93,"6,881,400",596.76,N/A
+Industrials,Passenger Airlines,LUV,Southwest Airlines,s&p500,2026-06-22,48.57,49.41,0.84,1.73,"6,104,400",301.62,N/A
+Industrials,Passenger Airlines,UAL,United Airlines Holdings,s&p500,2026-06-15,119.97,121.55,2.87,2.42,"5,413,300",657.99,N/A
+Real Estate,Other Specialized REITs,IRM,Iron Mountain,s&p500,2026-05-06,132.06,133.06,1.20,0.91,"1,969,200",262.02,N/A
+Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-06-05,70.60,71.03,0.91,1.3,"3,501,100",248.68,N/A
+Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-05-27,84.17,84.84,1.59,1.91,"1,981,500",168.11,N/A
+Utilities,Electric Utilities,LNT,Alliant Energy,s&p500,2026-05-01,74.06,74.57,1.36,1.86,"3,222,600",240.31,N/A
+Utilities,Multi-Utilities,PNW,Pinnacle West Capital,s&p500,2026-06-16,103.85,104.05,1.62,1.58,"1,348,100",140.27,N/A
