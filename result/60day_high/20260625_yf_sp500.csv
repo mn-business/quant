@@ -11,7 +11,7 @@ Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-24,18.80,18.9
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-16,32.00,32.29,0.89,2.83,"20,090,300",648.72,N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-24,94.70,95.83,1.13,1.19,"5,820,200",557.75,N/A
 Financials,Consumer Finance,SYF,Synchrony Financial,s&p500,2026-04-22,78.37,78.52,2.20,2.88,"3,635,000",285.42,N/A
-Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-23,57.91,58.19,0.46,0.8,"33,759,500","1,964.47",N/A
+Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-06-23,57.91,58.19,0.46,0.8,"33,747,400","1,963.76",N/A
 Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-06-23,334.14,335.12,1.67,0.5,"10,043,100","3,365.64",N/A
 Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-24,239.92,245.28,5.36,2.23,"2,751,600",674.91,N/A
 Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-06-24,60.11,61.21,1.10,1.83,"11,435,600",699.97,N/A
@@ -60,10 +60,10 @@ Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-24,90.65,92.11
 Industrials,Passenger Airlines,LUV,Southwest Airlines,s&p500,2026-06-24,50.94,52.09,1.15,2.26,"7,781,500",405.34,N/A
 Industrials,Passenger Airlines,UAL,United Airlines Holdings,s&p500,2026-06-24,130.54,134.61,4.07,3.12,"7,326,000",986.15,N/A
 Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-06-09,"1,094.17","1,139.51",55.79,5.15,"759,600",865.57,N/A
-Information Technology,Electronic Components,GLW,Corning Inc.,s&p500,2026-06-22,209.83,228.01,22.18,10.78,"25,707,300","5,861.52",N/A
-Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-22,640.18,668.00,79.03,13.42,"16,508,300","11,027.54",N/A
-Information Technology,Semiconductor Materials & Equipment,TER,Teradyne,s&p500,2026-06-22,457.00,471.96,44.76,10.48,"7,039,200","3,322.22",N/A
-Information Technology,Semiconductors,MU,Micron Technology,s&p500,2026-06-22,"1,211.38","1,213.56",165.05,15.74,"83,041,000","100,775.24",N/A
+Information Technology,Electronic Components,GLW,Corning Inc.,s&p500,2026-06-22,209.83,228.01,22.18,10.78,"25,620,300","5,841.68",N/A
+Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-22,640.18,668.00,79.03,13.42,"16,477,800","11,007.17",N/A
+Information Technology,Semiconductor Materials & Equipment,TER,Teradyne,s&p500,2026-06-22,457.00,471.96,44.76,10.48,"7,025,300","3,315.66",N/A
+Information Technology,Semiconductors,MU,Micron Technology,s&p500,2026-06-22,"1,211.38","1,213.56",165.05,15.74,"82,143,900","99,686.56",N/A
 Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-06-04,149.67,149.93,4.65,3.2,"6,546,900",981.58,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",SNDK,Sandisk,s&p500,2026-06-22,"2,273.73","2,335.00",420.54,21.97,"15,030,200","35,095.52",N/A
 Materials,Construction Materials,VMC,Vulcan Materials Company,s&p500,2026-06-24,307.29,312.97,5.68,1.85,"1,111,600",347.90,N/A
