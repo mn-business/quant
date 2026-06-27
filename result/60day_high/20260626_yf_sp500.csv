@@ -14,7 +14,7 @@ Consumer Staples,Household Products,CL,Colgate-Palmolive,s&p500,2026-06-24,91.88
 Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-06-25,108.10,109.37,1.27,1.17,"12,425,439","1,358.97",N/A
 Consumer Staples,Packaged Foods & Meats,HRL,Hormel Foods,s&p500,2026-06-25,26.02,26.51,0.49,1.88,"4,509,598",119.55,N/A
 Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-06-25,18.96,19.13,0.17,0.9,"24,146,946",461.93,N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-25,32.52,33.40,0.88,2.71,"53,646,669","1,791.80",N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-25,32.29,33.40,1.11,3.44,"53,646,669","1,791.80",N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-25,95.83,96.38,0.55,0.57,"13,338,586","1,285.57",N/A
 Financials,Asset Management & Custody Banks,TROW,T. Rowe Price,s&p500,2026-06-16,108.94,110.27,3.93,3.7,"3,716,700",409.84,N/A
 Financials,Consumer Finance,SYF,Synchrony Financial,s&p500,2026-06-25,78.52,78.66,0.14,0.18,"2,966,264",233.33,N/A
@@ -48,7 +48,7 @@ Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-06
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-06-25,212.71,215.75,3.04,1.43,"1,035,754",223.46,N/A
 Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-06-04,186.88,191.14,4.71,2.53,"1,016,816",194.35,N/A
 Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-06-25,70.70,71.00,0.30,0.42,"12,242,821",869.24,N/A
-Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-15,380.26,383.84,7.84,2.09,"1,670,545",641.22,N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-15,380.26,383.84,8.73,2.33,"1,670,545",641.22,N/A
 Health Care,Managed Health Care,UNH,UnitedHealth Group,s&p500,2026-06-25,415.53,427.89,12.36,2.97,"6,812,847","2,915.15",N/A
 Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-06-25,244.88,254.66,9.78,3.99,"16,242,949","4,136.43",N/A
 Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-11,"1,160.95","1,208.12",80.43,7.13,"7,701,171","9,303.94",N/A
