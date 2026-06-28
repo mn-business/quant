@@ -54,6 +54,7 @@ Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-06-25,244.88,254.6
 Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-11,"1,160.95","1,208.12",80.43,7.13,"7,721,600","9,328.62",N/A
 Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-06-25,125.45,128.66,3.21,2.56,"18,888,700","2,430.22",N/A
 Industrials,Building Products,MAS,Masco,s&p500,2026-06-25,79.72,79.97,0.25,0.31,"3,007,100",240.48,N/A
+Industrials,Industrial Conglomerates,HON,Honeywell,s&p500,2026-06-25,462.48,464.42,1.94,0.42,"8,387,947","3,895.53",N/A
 Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-25,92.11,92.57,0.46,0.5,"11,451,500","1,060.07",N/A
 Industrials,Passenger Airlines,UAL,United Airlines Holdings,s&p500,2026-06-25,134.61,136.11,1.50,1.11,"6,065,700",825.60,N/A
 Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-06-12,47.57,47.66,0.22,0.46,"19,418,700",925.50,N/A
