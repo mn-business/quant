@@ -1,37 +1,61 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일종가,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,TTWO,Take-Two Interactive,s&p500,2026-06-23,242.64,246.15,7.62,3.19,"2,061,447",507.43,N/A
-Communication Services,Movies & Entertainment,LYV,Live Nation Entertainment,s&p500,2026-06-26,179.46,181.72,2.26,1.26,"985,679",179.12,N/A
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-06-26,145.56,147.85,2.29,1.57,"2,156,251",318.80,N/A
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",NCLH,Norwegian Cruise Line Holdings,s&p500,2026-06-26,21.24,21.59,0.35,1.67,"8,110,226",175.14,N/A
-Consumer Staples,Food Distributors,SYY,Sysco,s&p500,2026-06-26,82.82,83.10,0.28,0.34,"909,294",75.56,N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-26,96.38,96.72,0.34,0.35,"2,179,751",210.83,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-06-03,261.45,270.92,11.55,4.45,"1,389,023",376.31,N/A
-Financials,Asset Management & Custody Banks,TROW,T. Rowe Price,s&p500,2026-06-26,110.27,111.45,1.18,1.07,"1,750,535",195.09,N/A
-Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-25,245.28,246.11,1.12,0.46,"600,166",147.71,N/A
-Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-06-26,239.61,239.62,0.01,0.0,"503,965",120.76,N/A
-Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-06-26,184.08,184.22,0.14,0.08,"175,642",32.36,N/A
-Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-06-26,327.37,328.99,1.62,0.49,"427,183",140.54,N/A
-Financials,Regional Banks,MTB,M&T Bank,s&p500,2026-06-26,237.26,237.34,0.08,0.03,"387,812",92.04,N/A
-Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-06-26,30.06,30.10,0.05,0.15,"4,159,636",125.23,N/A
-Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-06-26,336.23,341.77,5.54,1.65,"4,126,845","1,410.43",N/A
-Financials,Transaction & Payment Processing Services,XYZ,"Block, Inc.",s&p500,2026-06-26,77.82,78.43,0.61,0.78,"2,957,777",231.98,N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-06-26,253.35,253.35,0.00,0.0,"4,438,310","1,124.45",N/A
-Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-06-26,358.33,359.31,0.98,0.27,"883,121",317.31,N/A
-Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-06-26,216.03,216.24,0.21,0.1,"523,547",113.21,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-06-26,67.27,68.36,1.10,1.63,"4,425,282",302.53,N/A
-Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-06-26,491.34,492.93,1.60,0.32,"751,971",370.67,N/A
-Health Care,Health Care Equipment,EW,Edwards Lifesciences,s&p500,2026-06-26,90.78,91.43,0.65,0.72,"1,464,212",133.87,N/A
-Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-06-26,350.85,351.49,0.64,0.18,"249,202",87.59,N/A
-Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-06-26,215.75,221.12,5.37,2.49,"327,816",72.49,N/A
-Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-06-26,254.66,256.37,1.71,0.67,"3,546,485",909.21,N/A
-Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-26,"1,208.12","1,213.23",5.11,0.42,"1,957,420","2,374.80",N/A
-Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-06-25,371.36,373.50,4.50,1.22,"1,630,179",608.87,N/A
-Industrials,Electrical Components & Equipment,ROK,Rockwell Automation,s&p500,2026-06-25,479.39,483.32,6.50,1.36,"413,692",199.95,N/A
-Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-06-26,47.66,47.92,0.26,0.54,"3,452,705",165.44,N/A
-Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-06-02,409.13,412.23,17.70,4.49,"294,539",121.42,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-06-22,165.71,166.03,2.31,1.41,"2,975,161",493.97,N/A
-Information Technology,Electronic Components,GLW,Corning Inc.,s&p500,2026-06-25,228.01,248.02,26.97,12.2,"14,901,703","3,695.97",N/A
-Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-25,668.00,690.00,63.16,10.08,"8,534,702","5,888.94",N/A
-Information Technology,Semiconductor Materials & Equipment,LRCX,Lam Research,s&p500,2026-06-22,409.54,410.21,31.12,8.21,"7,593,005","3,114.73",N/A
-Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-06-26,151.35,156.24,4.89,3.23,"2,940,849",459.48,N/A
-Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-06-26,304.20,328.78,24.58,8.08,"5,609,901","1,844.42",N/A
+Communication Services,Interactive Home Entertainment,TTWO,Take-Two Interactive,s&p500,2026-06-23,242.64,246.99,8.46,3.55,"2,750,166",679.26,N/A
+Communication Services,Movies & Entertainment,LYV,Live Nation Entertainment,s&p500,2026-06-26,179.46,181.09,1.63,0.91,"1,717,289",310.98,N/A
+Consumer Discretionary,Distributors,GPC,Genuine Parts Company,s&p500,2026-06-26,116.02,116.82,0.80,0.69,"802,076",93.69,N/A
+Consumer Discretionary,Homefurnishing Retail,WSM,"Williams-Sonoma, Inc.",s&p500,2026-06-25,240.06,240.16,0.97,0.41,"504,937",121.27,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-06-26,145.56,147.26,1.70,1.17,"2,869,067",422.50,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",NCLH,Norwegian Cruise Line Holdings,s&p500,2026-06-26,21.24,21.90,0.66,3.11,"11,662,262",255.40,N/A
+Consumer Staples,Food Distributors,SYY,Sysco,s&p500,2026-06-26,82.82,83.31,0.49,0.59,"1,427,108",118.89,N/A
+Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-06-26,109.37,109.67,0.30,0.27,"2,854,579",313.06,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-06-26,33.40,33.46,0.06,0.16,"7,499,816",250.91,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-06-26,96.38,97.54,1.17,1.21,"2,798,856",273.01,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-06-03,261.45,267.48,8.11,3.13,"2,011,327",537.99,N/A
+Financials,Asset Management & Custody Banks,TROW,T. Rowe Price,s&p500,2026-06-26,110.27,114.06,3.79,3.44,"2,765,106",315.39,N/A
+Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-06-25,245.28,246.70,1.71,0.7,"888,491",219.19,N/A
+Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-06-25,61.21,61.29,0.38,0.62,"4,925,669",301.89,N/A
+Financials,Multi-line Insurance,AIZ,Assurant,s&p500,2026-06-23,265.30,266.55,2.12,0.8,"158,529",42.26,N/A
+Financials,Multi-line Insurance,L,Loews Corporation,s&p500,2026-06-26,113.25,113.75,0.50,0.44,"269,754",30.68,N/A
+Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-06-26,239.61,241.26,1.65,0.69,"809,296",195.25,N/A
+Financials,Property & Casualty Insurance,CB,Chubb Limited,s&p500,2026-06-26,341.44,342.59,1.15,0.34,"861,362",295.09,N/A
+Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-06-26,184.08,185.48,1.40,0.76,"309,903",57.48,N/A
+Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-06-26,327.37,331.07,3.70,1.13,"659,939",218.49,N/A
+Financials,Regional Banks,FITB,Fifth Third Bancorp,s&p500,2026-06-25,56.41,56.67,0.36,0.64,"3,500,558",198.38,N/A
+Financials,Regional Banks,MTB,M&T Bank,s&p500,2026-06-26,237.26,237.93,0.68,0.28,"578,780",137.71,N/A
+Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-06-26,30.06,30.20,0.15,0.48,"6,790,555",205.11,N/A
+Financials,Reinsurance,EG,Everest Group,s&p500,2026-05-20,358.42,360.10,4.58,1.29,"201,225",72.46,N/A
+Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-06-26,336.23,342.23,6.00,1.78,"5,368,801","1,837.36",N/A
+Financials,Transaction & Payment Processing Services,XYZ,"Block, Inc.",s&p500,2026-06-26,77.82,78.25,0.43,0.55,"4,338,723",339.51,N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-06-26,253.35,255.63,2.28,0.9,"6,209,634","1,587.37",N/A
+Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-06-26,358.33,359.35,1.02,0.28,"1,451,552",521.62,N/A
+Health Care,Biotechnology,INCY,Incyte,s&p500,2026-06-26,113.75,114.51,0.76,0.67,"831,959",95.27,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-06-26,67.27,69.17,1.90,2.82,"5,415,516",374.56,N/A
+Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-06-26,491.34,497.98,6.64,1.35,"1,087,659",541.63,N/A
+Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-06-26,22.04,22.05,0.00,0.02,"3,168,201",69.84,N/A
+Health Care,Health Care Equipment,EW,Edwards Lifesciences,s&p500,2026-06-26,90.78,91.24,0.46,0.51,"2,308,979",210.67,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-06-26,209.88,210.29,0.41,0.2,"406,860",85.56,N/A
+Health Care,Health Care Services,DVA,DaVita,s&p500,2026-06-26,217.04,217.40,0.36,0.17,"501,878",109.11,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-04-08,273.97,276.40,4.93,1.82,"437,441",120.91,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-06-26,350.85,353.38,2.53,0.72,"373,882",132.12,N/A
+Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-06-26,215.75,222.40,6.65,3.08,"546,177",121.47,N/A
+Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-06-26,191.14,192.60,1.46,0.76,"867,442",167.06,N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-06-26,383.84,387.09,3.25,0.85,"634,259",245.52,N/A
+Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-06-26,254.66,257.52,2.86,1.12,"4,960,889","1,277.53",N/A
+Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-26,"1,208.12","1,228.12",20.01,1.66,"2,576,357","3,164.09",N/A
+Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-06-26,128.66,129.67,1.01,0.79,"5,729,404",742.93,N/A
+Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-06-25,371.36,374.49,5.49,1.49,"2,335,829",874.76,N/A
+Industrials,Building Products,MAS,Masco,s&p500,2026-06-26,79.97,80.24,0.27,0.34,"1,670,709",134.06,N/A
+Industrials,Electrical Components & Equipment,ROK,Rockwell Automation,s&p500,2026-06-25,479.39,479.64,2.82,0.59,"575,589",276.08,N/A
+Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-06-25,92.31,92.90,0.92,1.0,"1,337,921",124.29,N/A
+Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-06-26,92.57,92.60,0.03,0.03,"3,656,537",338.60,N/A
+Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-06-26,47.66,47.92,0.26,0.55,"5,217,406",250.02,N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-06-02,409.13,411.86,17.33,4.39,"509,310",209.77,N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-06-22,165.71,166.10,2.38,1.45,"4,286,317",711.96,N/A
+Information Technology,Electronic Components,GLW,Corning Inc.,s&p500,2026-06-25,228.01,256.98,35.93,16.25,"19,025,838","4,889.26",N/A
+Information Technology,Semiconductor Materials & Equipment,AMAT,Applied Materials,s&p500,2026-06-25,668.00,697.72,70.88,11.31,"10,569,318","7,374.42",N/A
+Information Technology,Semiconductor Materials & Equipment,LRCX,Lam Research,s&p500,2026-06-22,409.54,411.12,32.03,8.45,"9,593,357","3,944.02",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-06-26,151.35,156.33,4.98,3.29,"4,271,560",667.77,N/A
+Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-06-26,304.20,331.17,26.96,8.86,"7,426,043","2,459.25",N/A
+Real Estate,Health Care REITs,DOC,Healthpeak Properties,s&p500,2026-06-26,21.55,21.72,0.17,0.77,"2,473,531",53.71,N/A
+Real Estate,Multi-Family Residential REITs,AVB,AvalonBay Communities,s&p500,2026-06-26,190.12,190.87,0.75,0.39,"399,968",76.34,N/A
+Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-06-26,226.89,227.26,0.37,0.16,"850,118",193.20,N/A
+Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-06-26,73.48,73.50,0.02,0.03,"1,107,418",81.40,N/A
