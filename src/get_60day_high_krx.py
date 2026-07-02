@@ -289,7 +289,10 @@ def screen_60day_high(df_total):
     if missing_mask.any() and not df_kind_sub.empty:
         df_merged.loc[missing_mask, '본주코드'] = df_merged.loc[missing_mask, '종목코드'].str[:-1] + '0'
         df_merged = pd.merge(df_merged, df_kind_sub, left_on='본주코드', right_on='종목코드', how='left', suffixes=('', '_본주'))
+        df_merged = df_merged.reset_index(drop=True)
         
+        # merge 이후 인덱스가 재설정되므로 missing_mask를 새로 계산
+        missing_mask = df_merged['섹터A'].isna() | (df_merged['섹터A'] == '')
         df_merged.loc[missing_mask, '섹터A'] = df_merged.loc[missing_mask, '섹터A_본주']
         df_merged.loc[missing_mask, '섹터B'] = df_merged.loc[missing_mask, '섹터B_본주']
         df_merged.drop(columns=['본주코드', '종목코드_본주', '섹터A_본주', '섹터B_본주'], inplace=True, errors='ignore')
