@@ -7,7 +7,7 @@ Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-
 Consumer Discretionary,Restaurants,YUM,Yum! Brands,s&p500,2026-04-17,162.00,164.73,3.14,1.94,"1,745,587",287.55,N/A
 Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-04-20,189.80,192.01,3.14,1.66,"4,558,816",875.34,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DLTR,Dollar Tree,s&p500,2026-06-26,123.87,124.05,2.90,2.39,"3,155,667",391.46,N/A
-Consumer Staples,Food Distributors,SYY,Sysco,s&p500,2026-06-30,83.58,84.83,1.30,1.56,"2,185,729",185.42,N/A
+Consumer Staples,Food Distributors,SYY,Sysco,s&p500,2026-06-30,83.58,84.83,1.85,2.23,"2,185,729",185.42,N/A
 Consumer Staples,Household Products,CL,Colgate-Palmolive,s&p500,2026-07-01,92.76,95.13,2.37,2.55,"2,626,396",249.85,N/A
 Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-07-01,111.44,114.72,3.28,2.94,"4,269,093",489.75,N/A
 Consumer Staples,Packaged Foods & Meats,KHC,Kraft Heinz,s&p500,2026-07-01,25.01,25.37,0.36,1.44,"14,090,158",357.47,N/A
@@ -17,7 +17,7 @@ Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026
 Financials,Asset Management & Custody Banks,BEN,Franklin Resources,s&p500,2026-07-01,34.06,34.11,0.05,0.15,"3,223,162",109.94,N/A
 Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-06-23,176.26,176.50,0.90,0.51,"584,094",103.09,N/A
 Financials,Asset Management & Custody Banks,TROW,T. Rowe Price,s&p500,2026-07-01,116.11,118.55,2.44,2.1,"1,433,887",169.99,N/A
-Financials,Consumer Finance,AXP,American Express,s&p500,2026-07-01,348.00,351.96,3.96,1.14,"1,709,591",601.71,N/A
+Financials,Consumer Finance,AXP,American Express,s&p500,2026-07-01,347.05,351.96,4.91,1.41,"1,709,591",601.71,N/A
 Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-07-01,58.36,58.73,0.37,0.63,"24,345,325","1,429.80",N/A
 Financials,Financial Exchanges & Data,MCO,Moody's Corporation,s&p500,2026-06-16,468.41,490.51,22.13,4.72,"750,860",368.30,N/A
 Financials,Insurance Brokers,AJG,Arthur J. Gallagher & Co.,s&p500,2026-07-01,239.67,252.44,12.77,5.33,"2,735,120",690.45,N/A
@@ -36,7 +36,7 @@ Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-04-
 Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-07-01,243.12,250.33,7.21,2.97,"1,487,240",372.30,N/A
 Financials,Property & Casualty Insurance,CB,Chubb Limited,s&p500,2026-07-01,351.73,361.17,9.44,2.68,"1,489,943",538.12,N/A
 Financials,Property & Casualty Insurance,CINF,Cincinnati Financial,s&p500,2026-07-01,187.21,192.03,4.82,2.57,"687,232",131.97,N/A
-Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-07-01,225.30,232.22,6.92,3.07,"2,097,110",486.99,N/A
+Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-07-01,225.20,232.22,7.02,3.12,"2,097,110",486.99,N/A
 Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-01,334.62,342.31,7.69,2.3,"1,035,813",354.57,N/A
 Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-06-26,71.27,72.08,1.42,2.01,"1,821,753",131.31,N/A
 Financials,Reinsurance,EG,Everest Group,s&p500,2026-06-29,360.79,371.35,11.42,3.17,"300,646",111.64,N/A
@@ -64,13 +64,13 @@ Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-07-01,203.20,20
 Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-06-29,258.51,263.04,9.06,3.57,"7,901,835","2,078.50",N/A
 Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-06-29,129.38,129.56,4.19,3.34,"5,209,580",674.95,N/A
 Industrials,Aerospace & Defense,AXON,Axon Enterprise,s&p500,2026-07-01,593.96,597.04,3.08,0.52,"1,051,060",627.52,N/A
-Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-06-16,364.11,373.54,10.68,2.94,"1,288,788",481.41,N/A
+Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-06-16,364.11,373.54,12.27,3.4,"1,288,788",481.41,N/A
 Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-07-01,374.94,377.52,2.58,0.69,"2,504,732",945.59,N/A
 Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-06-25,"1,332.56","1,348.49",39.31,3.0,"259,880",350.45,N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-07-01,166.81,167.57,0.76,0.46,"651,389",109.15,N/A
 Industrials,Air Freight & Logistics,UPS,United Parcel Service,s&p500,2026-06-04,110.22,110.66,1.12,1.02,"3,206,092",354.79,N/A
 Industrials,Building Products,MAS,Masco,s&p500,2026-07-01,81.64,82.77,1.13,1.38,"1,652,393",136.77,N/A
-Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-04-09,217.00,217.34,2.63,1.22,"671,449",145.93,N/A
+Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-04-09,217.00,217.34,3.25,1.52,"671,449",145.93,N/A
 Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-04-14,92.39,92.55,2.21,2.45,"1,574,458",145.72,N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-01,235.73,242.27,6.54,2.77,"2,480,450",600.94,N/A
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-01,102.71,106.35,3.64,3.54,"3,645,818",387.73,N/A
