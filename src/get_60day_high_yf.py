@@ -197,16 +197,16 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
 
-    # (2) 미국 S&P 500 종목 목록 로드
+    # (2) 미국 NASDAQ 종목 목록 로드
     try:
-        df_sp500 = fdr.StockListing('S&P500')
-        for _, row in df_sp500.iterrows():
+        df_nasdaq = fdr.StockListing('NASDAQ')
+        for _, row in df_nasdaq.iterrows():
             symbol = str(row['Symbol']).strip()
             yf_ticker = symbol.replace('.', '-')
             ticker_map[symbol] = yf_ticker
             ticker_map_reverse[yf_ticker] = symbol
     except Exception as e:
-        print(f"[WARN] S&P500 종목 목록 로드 실패: {e}")
+        print(f"[WARN] NASDAQ 종목 목록 로드 실패: {e}")
 
     # (3) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
@@ -449,20 +449,20 @@ def screen_60day_high(df_total):
         df_krx_merged.loc[missing_mask, '섹터B'] = df_krx_merged.loc[missing_mask, '섹터B_본주']
         df_krx_merged.drop(columns=['본주코드', '종목코드_본주', '섹터A_본주', '섹터B_본주'], inplace=True, errors='ignore')
 
-    # 2. 미국 S&P 500 정보 구축
+    # 2. 미국 NASDAQ 정보 구축
     df_us_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     try:
-        df_sp500 = fdr.StockListing('S&P500')
+        df_nasdaq = fdr.StockListing('NASDAQ')
         df_us_meta = pd.DataFrame({
-            '종목코드': df_sp500['Symbol'].astype(str).str.strip(),
-            '종목명': df_sp500['Name'],
-            '시장구분': 'S&P500',
+            '종목코드': df_nasdaq['Symbol'].astype(str).str.strip(),
+            '종목명': df_nasdaq['Name'],
+            '시장구분': 'NASDAQ',
             '상장주식수': 0,
-            '섹터A': df_sp500['Sector'].fillna(''),
-            '섹터B': df_sp500['Industry'].fillna('')
+            '섹터A': df_nasdaq['Industry'].fillna(''),
+            '섹터B': df_nasdaq['IndustryCode'].fillna('') if 'IndustryCode' in df_nasdaq.columns else ''
         })
     except Exception as e:
-        print(f"[WARN] fdr S&P500 메타 정보 로드 실패: {e}")
+        print(f"[WARN] fdr NASDAQ 메타 정보 로드 실패: {e}")
 
     # 3. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
@@ -505,7 +505,7 @@ def screen_60day_high(df_total):
     # 종료일 거래금액 포맷팅: 환산하지 않고 통화 단위 그대로 백만 단위 표시
     df_merged['종료일 거래금액(백만원)'] = df_merged.apply(
         lambda r: f"{int(r['종료일 거래금액'] // 1_000_000):,}" if str(r['시장구분']).upper() in ['KOSPI', 'KOSDAQ']
-        else f"{r['종료일 거래금액'] / 1_000_000:,.2f}" if str(r['시장구분']).upper() == 'S&P500'
+        else f"{r['종료일 거래금액'] / 1_000_000:,.2f}" if str(r['시장구분']).upper() == 'NASDAQ'
         else f"{int(r['종료일 거래금액'] // 1_000_000):,}", axis=1
     )
 
@@ -515,7 +515,7 @@ def screen_60day_high(df_total):
         market = str(r['시장구분']).upper()
         if market in ['KOSPI', 'KOSDAQ']:
             return f"{int(round(val)):,}"
-        elif market == 'S&P500':
+        elif market == 'NASDAQ':
             return f"{val:,.2f}"
         else: # Japan TSE 등
             if val == int(val):
@@ -575,7 +575,7 @@ if __name__ == "__main__":
         # 시장별 분리 처리 매핑 정의
         markets_mapping = {
             "krx": result[result['시장구분'].isin(['kospi', 'kosdaq'])],
-            "sp500": result[result['시장구분'] == 's&p500'],
+            "nasdaq": result[result['시장구분'] == 'nasdaq'],
             # "tse": result[result['시장구분'] == 'tse']
         }
         
