@@ -222,12 +222,18 @@ def screen_60day_high(df_total):
             
             high_date_str = high_date.strftime('%Y-%m-%d') if not pd.isna(high_date) else 'N/A'
             
+            # 당일 최고가 및 최저가
+            today_high = df_recent["고가"].iloc[-1]
+            today_low = df_recent["저가"].iloc[-1]
+            
             # 파이썬 정밀 연산 및 int 캐스팅으로 int32 오버플로우 방지
             trade_amount = int(int(today_close) * int(today_volume))
             
             high_new_stocks.append(
                 {
                     "종목코드": str(ticker).strip().zfill(6),
+                    "당일최고가": int(today_high),
+                    "당일최저가": int(today_low),
                     "당일종가": int(today_close),
                     "대비": int(change),
                     "등락률": round(change_ratio, 2),
@@ -316,7 +322,7 @@ def screen_60day_high(df_total):
     df_merged['종료일 거래금액(백만원)'] = (df_merged['종료일 거래금액'].astype('int64') // 1_000_000).apply(lambda x: f"{x:,}")
     
     # 기타 수치 칼럼들 3자리 콤마 문자열 형식으로 변환
-    comma_cols = ['기존최고가', '당일종가', '대비', '종료일 거래량']
+    comma_cols = ['기존최고가', '당일최고가', '당일최저가', '당일종가', '대비', '종료일 거래량']
     for col in comma_cols:
         df_merged[col] = df_merged[col].astype('int64').apply(lambda x: f"{x:,}")
 
@@ -332,7 +338,7 @@ def screen_60day_high(df_total):
     # 8. 요청된 칼럼 순서로 정렬
     ordered_cols = [
         '섹터A', '섹터B', '종목코드', '종목명', '시장구분', 
-        '기존최고가달성일', '기존최고가', '당일종가', '대비', '등락률', 
+        '기존최고가달성일', '기존최고가', '당일최고가', '당일최저가', '당일종가', '대비', '등락률', 
         '종료일 거래량', '종료일 거래금액(백만원)', '종료일 시가총액(억원)'
     ]
     

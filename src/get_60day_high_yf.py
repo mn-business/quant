@@ -369,6 +369,10 @@ def screen_60day_high(df_total):
             
             high_date_str = high_date.strftime('%Y-%m-%d') if not pd.isna(high_date) else 'N/A'
             
+            # 당일 최고가 및 최저가
+            today_high = df_recent["고가"].iloc[-1]
+            today_low = df_recent["저가"].iloc[-1]
+            
             # 파이썬 정밀 연산으로 int32 오버플로우 방지
             trade_amount = float(today_close) * int(today_volume)
             
@@ -380,6 +384,8 @@ def screen_60day_high(df_total):
             high_new_stocks.append(
                 {
                     "종목코드": ticker_str,
+                    "당일최고가": float(today_high),
+                    "당일최저가": float(today_low),
                     "당일종가": float(today_close),
                     "대비": float(change),
                     "등락률": round(change_ratio, 2),
@@ -517,7 +523,7 @@ def screen_60day_high(df_total):
             else:
                 return f"{val:,.2f}"
 
-    for col in ['당일종가', '대비', '기존최고가']:
+    for col in ['당일최고가', '당일최저가', '당일종가', '대비', '기존최고가']:
         df_merged[col] = df_merged.apply(lambda r: format_row_value(r, col), axis=1)
 
     df_merged['종료일 거래량'] = df_merged['종료일 거래량'].astype('int64').apply(lambda x: f"{x:,}")
@@ -530,7 +536,7 @@ def screen_60day_high(df_total):
 
     ordered_cols = [
         '섹터A', '섹터B', '종목코드', '종목명', '시장구분', 
-        '기존최고가달성일', '기존최고가', '당일종가', '대비', '등락률', 
+        '기존최고가달성일', '기존최고가', '당일최고가', '당일최저가', '당일종가', '대비', '등락률', 
         '종료일 거래량', '종료일 거래금액(백만원)', '종료일 시가총액(억원)'
     ]
     
