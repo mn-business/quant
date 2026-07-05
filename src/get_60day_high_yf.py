@@ -163,9 +163,9 @@ def update_and_get_data():
         df_local = pd.concat(local_dfs, ignore_index=True)
         if not df_local.empty:
             last_saved_date = df_local["날짜"].max().strftime("%Y%m%d")
-            min_saved_date = df_local["날짜"].min().strftime("%Y%m%d")
-            if min_saved_date > start_date_limit:
-                print("[INFO] 로컬 데이터가 150일 미만으로 존재하므로 새로 수집을 유도합니다.")
+            # 60일 신고가 계산을 위해 최소한 70영업일 이상의 데이터가 필요함
+            if len(df_local["날짜"].unique()) < 70:
+                print("[INFO] 로컬 데이터 영업일수가 70일 미만으로 부족하여 새로 수집을 유도합니다.")
                 df_local = pd.DataFrame()
                 last_saved_date = None
 

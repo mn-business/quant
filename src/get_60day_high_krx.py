@@ -108,10 +108,9 @@ def update_and_get_data():
             )
             if not df_local.empty:
                 last_saved_date = df_local["날짜"].max().strftime("%Y%m%d")
-                # 60일 신고가 계산을 위해 최소한 150일 이전의 과거 데이터도 포함되어 있어야 함
-                min_saved_date = df_local["날짜"].min().strftime("%Y%m%d")
-                if min_saved_date > start_date_limit:
-                    print("[INFO] 로컬 데이터가 150일 미만으로 존재하므로 새로 수집을 유도합니다.")
+                # 60일 신고가 계산을 위해 최소한 70영업일 이상의 데이터가 필요함
+                if len(df_local["날짜"].unique()) < 70:
+                    print("[INFO] 로컬 데이터 영업일수가 70일 미만으로 부족하여 새로 수집을 유도합니다.")
                     df_local = pd.DataFrame()
                     last_saved_date = None
         except Exception as e:
@@ -179,8 +178,15 @@ def update_and_get_data():
         else:
             df_total = df_new
 
-        # 데이터 정렬 및 저장
+        # 데이터 정렬
         df_total = df_total.sort_values(by=["종목코드", "날짜"]).reset_index(drop=True)
+
+        # 슬라이딩 윈도우: 최근 100 영업일 분량만 보존 (Pruning)
+        unique_dates = sorted(df_total["날짜"].unique())
+        if len(unique_dates) > 100:
+            cutoff_date = unique_dates[-100]
+            df_total = df_total[df_total["날짜"] >= cutoff_date]
+
         os.makedirs(os.path.dirname(DB_FILE), exist_ok=True)
         df_total.to_csv(DB_FILE, index=False, encoding="utf-8-sig")
         print(f"로컬 파일 데이터 업데이트 완료: {DB_FILE} (총 {len(df_total)} 행)")
