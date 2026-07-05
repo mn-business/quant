@@ -224,11 +224,11 @@ def update_and_get_data():
         print(f"[WARN] NASDAQ 종목 목록 로드 실패: {e}")
 
     # (3) 대만 TWSE(가권) 지수 로드
-    try:
-        ticker_map['^TWII'] = '^TWII'
-        ticker_map_reverse['^TWII'] = '^TWII'
-    except Exception as e:
-        print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
+    # try:
+    #     ticker_map['^TWII'] = '^TWII'
+    #     ticker_map_reverse['^TWII'] = '^TWII'
+    # except Exception as e:
+    #     print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
 
     # (4) 중국 SSE 종목 목록 로드
     try:
@@ -240,6 +240,17 @@ def update_and_get_data():
             ticker_map_reverse[yf_ticker] = symbol
     except Exception as e:
         print(f"[WARN] SSE 종목 목록 로드 실패: {e}")
+
+    # (5) 중국 SZSE 종목 목록 로드
+    try:
+        df_szse = fdr.StockListing('SZSE')
+        for _, row in df_szse.iterrows():
+            symbol = str(row['Symbol']).strip()
+            yf_ticker = f"{symbol}.SZ"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] SZSE 종목 목록 로드 실패: {e}")
 
     # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
@@ -543,6 +554,21 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] fdr SSE 메타 정보 로드 실패: {e}")
 
+    # 5. 중국 SZSE 정보 구축
+    df_szse_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_szse = fdr.StockListing('SZSE')
+        df_szse_meta = pd.DataFrame({
+            '종목코드': df_szse['Symbol'].astype(str).str.strip(),
+            '종목명': df_szse['Name'],
+            '시장구분': 'SZSE',
+            '상장주식수': 0,
+            '섹터A': df_szse['Industry'].fillna('') if 'Industry' in df_szse.columns else '',
+            '섹터B': df_szse['IndustryCode'].fillna('') if 'IndustryCode' in df_szse.columns else ''
+        })
+    except Exception as e:
+        print(f"[WARN] fdr SZSE 메타 정보 로드 실패: {e}")
+
     # 4. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     # try:
@@ -559,7 +585,7 @@ def screen_60day_high(df_total):
     #     print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
 
     # 모든 메타 정보 수직 결합
-    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_jp_meta], ignore_index=True)
+    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_szse_meta, df_jp_meta], ignore_index=True)
 
     df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
     df_unified_meta['종목코드'] = df_unified_meta['종목코드'].astype(str).str.strip()
@@ -658,6 +684,7 @@ if __name__ == "__main__":
             "nasdaq": result[result['시장구분'] == 'nasdaq'],
             "twse": result[result['시장구분'] == 'twse'],
             "sse": result[result['시장구분'] == 'sse'],
+            "szse": result[result['시장구분'] == 'szse'],
             # "tse": result[result['시장구분'] == 'tse']
         }
         
