@@ -188,18 +188,18 @@ def update_and_get_data():
     ticker_map = {}
     ticker_map_reverse = {}
 
-    # (1) 한국 KRX 종목 목록 로드
-    try:
-        df_krx = get_robust_krx_listing()
-        df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
-        for _, row in df_krx.iterrows():
-            code = str(row['Code']).strip().zfill(6)
-            market = str(row['Market']).upper()
-            yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
-            ticker_map[code] = yf_ticker
-            ticker_map_reverse[yf_ticker] = code
-    except Exception as e:
-        print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
+    # (1) 한국 KRX 종목 목록 로드 (주석 처리)
+    # try:
+    #     df_krx = get_robust_krx_listing()
+    #     df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
+    #     for _, row in df_krx.iterrows():
+    #         code = str(row['Code']).strip().zfill(6)
+    #         market = str(row['Market']).upper()
+    #         yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
+    #         ticker_map[code] = yf_ticker
+    #         ticker_map_reverse[yf_ticker] = code
+    # except Exception as e:
+    #     print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
 
     # (2) 미국 S&P 500 종목 목록 로드
     try:
@@ -229,6 +229,17 @@ def update_and_get_data():
         ticker_map_reverse['^TWII'] = '^TWII'
     except Exception as e:
         print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
+
+    # (4) 중국 SSE 종목 목록 로드
+    try:
+        df_sse = fdr.StockListing('SSE')
+        for _, row in df_sse.iterrows():
+            symbol = str(row['Symbol']).strip()
+            yf_ticker = f"{symbol}.SS"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] SSE 종목 목록 로드 실패: {e}")
 
     # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
@@ -517,6 +528,21 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] 대만 TWSE 메타 정보 구축 실패: {e}")
 
+    # 4. 중국 SSE 정보 구축
+    df_sse_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_sse = fdr.StockListing('SSE')
+        df_sse_meta = pd.DataFrame({
+            '종목코드': df_sse['Symbol'].astype(str).str.strip(),
+            '종목명': df_sse['Name'],
+            '시장구분': 'SSE',
+            '상장주식수': 0,
+            '섹터A': df_sse['Industry'].fillna('') if 'Industry' in df_sse.columns else '',
+            '섹터B': df_sse['IndustryCode'].fillna('') if 'IndustryCode' in df_sse.columns else ''
+        })
+    except Exception as e:
+        print(f"[WARN] fdr SSE 메타 정보 로드 실패: {e}")
+
     # 4. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     # try:
@@ -533,7 +559,7 @@ def screen_60day_high(df_total):
     #     print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
 
     # 모든 메타 정보 수직 결합
-    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_jp_meta], ignore_index=True)
+    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_jp_meta], ignore_index=True)
 
     df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
     df_unified_meta['종목코드'] = df_unified_meta['종목코드'].astype(str).str.strip()
@@ -631,6 +657,7 @@ if __name__ == "__main__":
             "sp500": result[result['시장구분'] == 's&p500'],
             "nasdaq": result[result['시장구분'] == 'nasdaq'],
             "twse": result[result['시장구분'] == 'twse'],
+            "sse": result[result['시장구분'] == 'sse'],
             # "tse": result[result['시장구분'] == 'tse']
         }
         
