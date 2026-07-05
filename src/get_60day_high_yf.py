@@ -188,18 +188,18 @@ def update_and_get_data():
     ticker_map = {}
     ticker_map_reverse = {}
 
-    # (1) 한국 KRX 종목 목록 로드
-    try:
-        df_krx = get_robust_krx_listing()
-        df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
-        for _, row in df_krx.iterrows():
-            code = str(row['Code']).strip().zfill(6)
-            market = str(row['Market']).upper()
-            yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
-            ticker_map[code] = yf_ticker
-            ticker_map_reverse[yf_ticker] = code
-    except Exception as e:
-        print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
+    # (1) 한국 KRX 종목 목록 로드 (주석 처리)
+    # try:
+    #     df_krx = get_robust_krx_listing()
+    #     df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
+    #     for _, row in df_krx.iterrows():
+    #         code = str(row['Code']).strip().zfill(6)
+    #         market = str(row['Market']).upper()
+    #         yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
+    #         ticker_map[code] = yf_ticker
+    #         ticker_map_reverse[yf_ticker] = code
+    # except Exception as e:
+    #     print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
 
     # (2) 미국 S&P 500 종목 목록 로드
     try:
