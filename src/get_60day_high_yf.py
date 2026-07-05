@@ -142,6 +142,9 @@ def update_and_get_data():
     today = datetime.today().strftime("%Y%m%d")
     start_date_limit = (datetime.today() - timedelta(days=150)).strftime("%Y%m%d")
 
+    df_local = pd.DataFrame()
+    last_saved_date = None
+
     # 1. 로컬에 기존 데이터 파일이 있는지 확인하여 병합 로드
     local_dfs = []
     active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse']
