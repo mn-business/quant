@@ -230,6 +230,13 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
 
+    # (4) 중국 SSE(상해종합지수) 로드
+    try:
+        ticker_map['000001.SS'] = '000001.SS'
+        ticker_map_reverse['000001.SS'] = '000001.SS'
+    except Exception as e:
+        print(f"[WARN] 중국 SSE 지수 로드 실패: {e}")
+
     # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
     #     df_tse = fdr.StockListing('TSE').head(500)
@@ -517,6 +524,20 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] 대만 TWSE 메타 정보 구축 실패: {e}")
 
+    # 4. 중국 SSE 정보 구축
+    df_sse_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_sse_meta = pd.DataFrame([{
+            '종목코드': '000001.SS',
+            '종목명': '상해종합지수',
+            '시장구분': 'SSE',
+            '상장주식수': 0,
+            '섹터A': '지수',
+            '섹터B': '중국'
+        }])
+    except Exception as e:
+        print(f"[WARN] 중국 SSE 메타 정보 구축 실패: {e}")
+
     # 4. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     # try:
@@ -533,7 +554,7 @@ def screen_60day_high(df_total):
     #     print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
 
     # 모든 메타 정보 수직 결합
-    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_jp_meta], ignore_index=True)
+    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_jp_meta], ignore_index=True)
 
     df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
     df_unified_meta['종목코드'] = df_unified_meta['종목코드'].astype(str).str.strip()
@@ -631,6 +652,7 @@ if __name__ == "__main__":
             "sp500": result[result['시장구분'] == 's&p500'],
             "nasdaq": result[result['시장구분'] == 'nasdaq'],
             "twse": result[result['시장구분'] == 'twse'],
+            "sse": result[result['시장구분'] == 'sse'],
             # "tse": result[result['시장구분'] == 'tse']
         }
         
