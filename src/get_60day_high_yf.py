@@ -208,21 +208,12 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] NASDAQ 종목 목록 로드 실패: {e}")
 
-    # (3) 대만 TWSE 종목 목록 로드
+    # (3) 대만 TWSE(가권) 지수 로드
     try:
-        import requests
-        url = "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
-        res = requests.get(url, timeout=10)
-        if res.status_code == 200:
-            data = res.json()
-            for item in data:
-                code = str(item.get('公司代號', '')).strip()
-                if code.isdigit():
-                    yf_ticker = f"{code}.TW"
-                    ticker_map[code] = yf_ticker
-                    ticker_map_reverse[yf_ticker] = code
+        ticker_map['^TWII'] = '^TWII'
+        ticker_map_reverse['^TWII'] = '^TWII'
     except Exception as e:
-        print(f"[WARN] 대만 TWSE 종목 목록 로드 실패: {e}")
+        print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
 
     # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
@@ -481,30 +472,17 @@ def screen_60day_high(df_total):
         print(f"[WARN] fdr NASDAQ 메타 정보 로드 실패: {e}")
 
     # 3. 대만 TWSE 정보 구축
-    df_tw_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     try:
-        import requests
-        url = "https://openapi.twse.com.tw/v1/opendata/t187ap03_L"
-        res = requests.get(url, timeout=10)
-        if res.status_code == 200:
-            data = res.json()
-            tw_rows = []
-            for item in data:
-                code = str(item.get('公司代號', '')).strip()
-                name = str(item.get('公司簡稱', '')).strip() or str(item.get('公司名稱', '')).strip()
-                industry = str(item.get('產業別', '')).strip()
-                if code.isdigit():
-                    tw_rows.append({
-                        '종목코드': code,
-                        '종목명': name,
-                        '시장구분': 'TWSE',
-                        '상장주식수': 0,
-                        '섹터A': industry,
-                        '섹터B': ''
-                    })
-            df_tw_meta = pd.DataFrame(tw_rows)
+        df_tw_meta = pd.DataFrame([{
+            '종목코드': '^TWII',
+            '종목명': '대만 가권지수',
+            '시장구분': 'TWSE',
+            '상장주식수': 0,
+            '섹터A': '지수',
+            '섹터B': '대만'
+        }])
     except Exception as e:
-        print(f"[WARN] 대만 TWSE 메타 정보 로드 실패: {e}")
+        print(f"[WARN] 대만 TWSE 메타 정보 구축 실패: {e}")
 
     # 4. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
