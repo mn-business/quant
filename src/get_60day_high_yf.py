@@ -10,8 +10,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # 스크립트 위치 기준 상위 루트 디렉토리 구하기 (사이드 이펙트 방지)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 데이터 보관용 로컬 CSV 파일 경로를 절대 경로로 정의
-DB_FILE = os.path.join(BASE_DIR, "db", "60day_high_yf.csv")
+# 데이터 보관용 로컬 CSV 파일 경로를 구하는 헬퍼 함수
+def get_db_file_path(market_name):
+    return os.path.join(BASE_DIR, "db", f"60day_high_{market_name.lower()}.csv")
 
 def get_market_business_days(start_date, end_date):
     """삼성전자(005930.KS) 데이터를 기준으로 실제 주식시장 영업일 목록을 가져옵니다."""
@@ -141,26 +142,29 @@ def update_and_get_data():
     today = datetime.today().strftime("%Y%m%d")
     start_date_limit = (datetime.today() - timedelta(days=150)).strftime("%Y%m%d")
 
-    df_local = pd.DataFrame()
-    last_saved_date = None
-
-    # 1. 로컬에 기존 데이터 파일이 있는지 확인
-    if os.path.exists(DB_FILE):
-        print(f"기존 데이터 파일({DB_FILE})을 로드합니다.")
-        try:
-            df_local = pd.read_csv(
-                DB_FILE, dtype={"종목코드": str}, parse_dates=["날짜"]
-            )
-            if not df_local.empty:
-                last_saved_date = df_local["날짜"].max().strftime("%Y%m%d")
-                min_saved_date = df_local["날짜"].min().strftime("%Y%m%d")
-                if min_saved_date > start_date_limit:
-                    print("[INFO] 로컬 데이터가 150일 미만으로 존재하므로 새로 수집을 유도합니다.")
-                    df_local = pd.DataFrame()
-                    last_saved_date = None
-        except Exception as e:
-            print(f"파일을 읽는 중 오류 발생, 새로 수집합니다: {e}")
-            df_local = pd.DataFrame()
+    # 1. 로컬에 기존 데이터 파일이 있는지 확인하여 병합 로드
+    local_dfs = []
+    active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse']
+    for m in active_markets:
+        db_path = get_db_file_path(m)
+        if os.path.exists(db_path):
+            print(f"기존 {m.upper()} 데이터 파일({db_path})을 로드합니다.")
+            try:
+                df_m = pd.read_csv(db_path, dtype={"종목코드": str}, parse_dates=["날짜"])
+                if not df_m.empty:
+                    local_dfs.append(df_m)
+            except Exception as e:
+                print(f"{m.upper()} 파일을 읽는 중 오류 발생: {e}")
+                
+    if local_dfs:
+        df_local = pd.concat(local_dfs, ignore_index=True)
+        if not df_local.empty:
+            last_saved_date = df_local["날짜"].max().strftime("%Y%m%d")
+            min_saved_date = df_local["날짜"].min().strftime("%Y%m%d")
+            if min_saved_date > start_date_limit:
+                print("[INFO] 로컬 데이터가 150일 미만으로 존재하므로 새로 수집을 유도합니다.")
+                df_local = pd.DataFrame()
+                last_saved_date = None
 
     # 2. 실제 마켓 영업일 기준 수집해야 할 날짜 계산
     if last_saved_date is not None:
@@ -187,25 +191,21 @@ def update_and_get_data():
     # 3. yfinance 병렬 다운로드 (종목들을 chunks로 쪼개서 다운로드)
     ticker_map = {}
     ticker_map_reverse = {}
-
-    # (1) 한국 KRX 종목 목록 로드 (주석 처리)
-    # try:
-    #     df_krx = get_robust_krx_listing()
-    #     df_krx = df_krx[df_krx['Market'].str.contains('KOSPI|KOSDAQ', case=False, na=False)].copy()
-    #     for _, row in df_krx.iterrows():
-    #         code = str(row['Code']).strip().zfill(6)
-    #         market = str(row['Market']).upper()
-    #         yf_ticker = f"{code}.KS" if 'KOSPI' in market else f"{code}.KQ"
-    #         ticker_map[code] = yf_ticker
-    #         ticker_map_reverse[yf_ticker] = code
-    # except Exception as e:
-    #     print(f"[WARN] KRX 종목 목록 로드 실패: {e}")
+    
+    # 각 시장별 심볼 셋 정의
+    sp500_symbols = set()
+    nasdaq_symbols = set()
+    sse_symbols = set()
+    szse_symbols = set()
+    twse_symbols = set()
+    twse_symbols.add('^TWII')
 
     # (2) 미국 S&P 500 종목 목록 로드
     try:
         df_sp500 = fdr.StockListing('S&P500')
         for _, row in df_sp500.iterrows():
             symbol = str(row['Symbol']).strip()
+            sp500_symbols.add(symbol)
             yf_ticker = symbol.replace('.', '-')
             ticker_map[symbol] = yf_ticker
             ticker_map_reverse[yf_ticker] = symbol
@@ -217,6 +217,7 @@ def update_and_get_data():
         df_nasdaq = fdr.StockListing('NASDAQ')
         for _, row in df_nasdaq.iterrows():
             symbol = str(row['Symbol']).strip()
+            nasdaq_symbols.add(symbol)
             yf_ticker = symbol.replace('.', '-')
             ticker_map[symbol] = yf_ticker
             ticker_map_reverse[yf_ticker] = symbol
@@ -361,11 +362,43 @@ def update_and_get_data():
         else:
             df_total = df_new
 
-        # 데이터 정렬 및 저장
+        # 데이터 정렬
         df_total = df_total.sort_values(by=["종목코드", "날짜"]).reset_index(drop=True)
-        os.makedirs(os.path.dirname(DB_FILE), exist_ok=True)
-        df_total.to_csv(DB_FILE, index=False, encoding="utf-8-sig")
-        print(f"로컬 파일 데이터 업데이트 완료: {DB_FILE} (총 {len(df_total)} 행)")
+
+        # 시장 분류 매핑용 헬퍼 함수
+        def get_market_of_code(code):
+            if code in sse_symbols:
+                return 'sse'
+            elif code in szse_symbols:
+                return 'szse'
+            elif code in sp500_symbols:
+                return 'sp500'
+            elif code in nasdaq_symbols:
+                return 'nasdaq'
+            elif code in twse_symbols or code == '^TWII':
+                return 'twse'
+            return 'nasdaq' # 기본 Fallback
+
+        df_total['market_tmp'] = df_total['종목코드'].apply(get_market_of_code)
+
+        # 시장별 분할 저장 및 최근 100 영업일 Pruning 적용
+        for m in active_markets:
+            df_m = df_total[df_total['market_tmp'] == m].copy()
+            df_m.drop(columns=['market_tmp'], errors='ignore', inplace=True)
+            
+            if not df_m.empty:
+                # 슬라이딩 윈도우: 최근 100 영업일 분량만 보존
+                unique_dates = sorted(df_m["날짜"].unique())
+                if len(unique_dates) > 100:
+                    cutoff_date = unique_dates[-100]
+                    df_m = df_m[df_m["날짜"] >= cutoff_date]
+                
+                db_path = get_db_file_path(m)
+                os.makedirs(os.path.dirname(db_path), exist_ok=True)
+                df_m.to_csv(db_path, index=False, encoding="utf-8-sig")
+                print(f"로컬 파일 데이터 업데이트 완료: {db_path} (총 {len(df_m)} 행)")
+
+        df_total.drop(columns=['market_tmp'], errors='ignore', inplace=True)
         return df_total
     else:
         return df_local
