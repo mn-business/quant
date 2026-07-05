@@ -230,12 +230,16 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] 대만 TWSE 지수 로드 실패: {e}")
 
-    # (4) 중국 SSE(상해종합지수) 로드
+    # (4) 중국 SSE 종목 목록 로드
     try:
-        ticker_map['000001.SS'] = '000001.SS'
-        ticker_map_reverse['000001.SS'] = '000001.SS'
+        df_sse = fdr.StockListing('SSE')
+        for _, row in df_sse.iterrows():
+            symbol = str(row['Symbol']).strip()
+            yf_ticker = f"{symbol}.SS"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
     except Exception as e:
-        print(f"[WARN] 중국 SSE 지수 로드 실패: {e}")
+        print(f"[WARN] SSE 종목 목록 로드 실패: {e}")
 
     # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
     # try:
@@ -527,16 +531,17 @@ def screen_60day_high(df_total):
     # 4. 중국 SSE 정보 구축
     df_sse_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     try:
-        df_sse_meta = pd.DataFrame([{
-            '종목코드': '000001.SS',
-            '종목명': '상해종합지수',
+        df_sse = fdr.StockListing('SSE')
+        df_sse_meta = pd.DataFrame({
+            '종목코드': df_sse['Symbol'].astype(str).str.strip(),
+            '종목명': df_sse['Name'],
             '시장구분': 'SSE',
             '상장주식수': 0,
-            '섹터A': '지수',
-            '섹터B': '중국'
-        }])
+            '섹터A': df_sse['Industry'].fillna('') if 'Industry' in df_sse.columns else '',
+            '섹터B': df_sse['IndustryCode'].fillna('') if 'IndustryCode' in df_sse.columns else ''
+        })
     except Exception as e:
-        print(f"[WARN] 중국 SSE 메타 정보 구축 실패: {e}")
+        print(f"[WARN] fdr SSE 메타 정보 로드 실패: {e}")
 
     # 4. 일본 TSE 정보 구축 - 주석 처리
     df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
