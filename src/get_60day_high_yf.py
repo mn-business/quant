@@ -77,13 +77,17 @@ def get_robust_krx_listing():
         raise e
 
 
-def parse_yfinance_chunk(df_chunk, ticker_map_reverse):
+def parse_yfinance_chunk(df_chunk, ticker_map_reverse, chunk_tickers=None):
     """yf.download 결과인 MultiIndex DataFrame을 [날짜, 종목코드, 시가, 고가, 저가, 종가, 거래량] 형태로 변환"""
     if df_chunk.empty:
         return pd.DataFrame()
     
     if not isinstance(df_chunk.columns, pd.MultiIndex):
-        ticker_name = df_chunk.columns.name or "UNKNOWN"
+        ticker_name = df_chunk.columns.name
+        if not ticker_name and chunk_tickers:
+            ticker_name = chunk_tickers[0]
+        if not ticker_name:
+            ticker_name = "UNKNOWN"
         df_chunk.columns = pd.MultiIndex.from_product([[ticker_name], df_chunk.columns])
         
     try:
@@ -268,7 +272,7 @@ def update_and_get_data():
         def download_chunk_full(chunk):
             try:
                 df_chunk = yf.download(chunk, start=start_dt_full, end=end_dt, group_by='ticker', progress=False)
-                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse)
+                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse, chunk)
                 return parsed_df
             except Exception as e:
                 return pd.DataFrame()
@@ -292,7 +296,7 @@ def update_and_get_data():
         def download_chunk_inc(chunk):
             try:
                 df_chunk = yf.download(chunk, start=start_dt_inc, end=end_dt, group_by='ticker', progress=False)
-                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse)
+                parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse, chunk)
                 return parsed_df
             except Exception as e:
                 return pd.DataFrame()
