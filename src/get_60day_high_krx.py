@@ -1,22 +1,31 @@
-from datetime import datetime, timedelta
 import os
+import sys
+from datetime import datetime, timedelta
 import time
 import pandas as pd
-from pykrx import stock
 from tqdm import tqdm
 import FinanceDataReader as fdr
 
-# KRX 로그인 환경 변수 설정 (.env 파일 또는 시스템 환경 변수에서 로드)
+# 1. dotenv 로드 (pykrx 임포트 및 로그인 전에 수행되어야 함)
 try:
     from dotenv import load_dotenv
     load_dotenv()
 except ImportError:
     pass
 
+# 2. KRX 로그인 환경 변수 설정 검증
 if "KRX_ID" not in os.environ or not os.environ["KRX_ID"]:
-    raise ValueError("환경 변수 KRX_ID가 설정되지 않았습니다. 로컬 실행을 위해 .env 파일을 확인해 주세요.")
+    raise ValueError("환경 변수 KRX_ID가 설정되지 않았습니다. GitHub Secrets 또는 로컬 .env 파일을 확인해 주세요.")
 if "KRX_PW" not in os.environ or not os.environ["KRX_PW"]:
-    raise ValueError("환경 변수 KRX_PW가 설정되지 않았습니다. 로컬 실행을 위해 .env 파일을 확인해 주세요.")
+    raise ValueError("환경 변수 KRX_PW가 설정되지 않았습니다. GitHub Secrets 또는 로컬 .env 파일을 확인해 주세요.")
+
+# 3. pykrx 임포트 (로그인 시도)
+try:
+    from pykrx import stock
+except Exception as e:
+    print(f"[CRITICAL] pykrx 라이브러리 로드 또는 KRX 로그인에 실패했습니다. 에러: {e}")
+    print("KRX 서버 접속 차단(해외/클라우드 IP 차단) 또는 계정 정보 오류일 수 있습니다.")
+    sys.exit(1)
 
 # 스크립트 위치 기준 상위 루트 디렉토리 구하기 (사이드 이펙트 방지)
 # get_60day_high.py가 src/ 폴더 밑에 위치하게 되므로, 
