@@ -715,10 +715,10 @@ if __name__ == "__main__":
         
         # 시장별 분리 처리 매핑 정의
         markets_mapping = {
-            "krx": result[result['시장구분'].isin(['kospi', 'kosdaq'])],
+            # "krx": result[result['시장구분'].isin(['kospi', 'kosdaq'])],
             "sp500": result[result['시장구분'] == 's&p500'],
             "nasdaq": result[result['시장구분'] == 'nasdaq'],
-            "twse": result[result['시장구분'] == 'twse'],
+            # "twse": result[result['시장구분'] == 'twse'],
             "sse": result[result['시장구분'] == 'sse'],
             "szse": result[result['시장구분'] == 'szse'],
             # "tse": result[result['시장구분'] == 'tse']
