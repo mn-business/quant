@@ -239,6 +239,7 @@ def update_and_get_data():
         df_sse = fdr.StockListing('SSE')
         for _, row in df_sse.iterrows():
             symbol = str(row['Symbol']).strip()
+            sse_symbols.add(symbol)
             yf_ticker = f"{symbol}.SS"
             ticker_map[symbol] = yf_ticker
             ticker_map_reverse[yf_ticker] = symbol
@@ -250,6 +251,7 @@ def update_and_get_data():
         df_szse = fdr.StockListing('SZSE')
         for _, row in df_szse.iterrows():
             symbol = str(row['Symbol']).strip()
+            szse_symbols.add(symbol)
             yf_ticker = f"{symbol}.SZ"
             ticker_map[symbol] = yf_ticker
             ticker_map_reverse[yf_ticker] = symbol
