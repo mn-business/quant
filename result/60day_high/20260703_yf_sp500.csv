@@ -70,18 +70,19 @@ Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-06-29,129.38,129.61,125.
 Industrials,Aerospace & Defense,AXON,Axon Enterprise,s&p500,2026-07-01,593.96,603.00,575.82,597.04,3.08,0.52,"1,061,700",633.88,N/A
 Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-06-16,362.51,373.60,364.96,373.54,12.27,3.4,"1,293,200",483.06,N/A
 Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-07-01,374.94,382.97,374.37,377.52,2.58,0.69,"3,274,700","1,236.26",N/A
-Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-06-25,"1,332.56","1,350.74","1,318.35","1,348.49",39.31,3.0,"363,100",489.64,N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-02,"5,600.00","5,860.00","5,600.00","5,850.00",250.00,4.46,"213,000","1,246.05",N/A
+Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-02,"2,380.00","2,420.00","2,340.00","2,380.00",0.00,0.0,"24,700",58.79,N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-07-01,166.81,168.12,166.15,167.57,0.76,0.46,"947,500",158.77,N/A
 Industrials,Air Freight & Logistics,UPS,United Parcel Service,s&p500,2026-06-04,110.22,110.84,109.27,110.66,1.12,1.02,"3,377,000",373.70,N/A
 Industrials,Building Products,MAS,Masco,s&p500,2026-07-01,81.64,83.21,81.50,82.77,1.13,1.38,"1,660,100",137.41,N/A
 Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-04-09,216.37,218.28,211.75,217.34,3.25,1.52,"939,700",204.23,N/A
 Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-04-14,92.25,92.60,90.04,92.55,2.21,2.45,"2,228,200",206.22,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-01,235.73,243.03,236.00,242.27,6.54,2.77,"2,492,600",603.88,N/A
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-01,102.71,106.51,102.89,106.35,3.64,3.54,"3,656,500",388.87,N/A
 Industrials,Industrial Machinery & Supplies & Components,SNA,Snap-on,s&p500,2026-07-01,403.28,412.33,402.69,412.09,8.81,2.18,"415,400",171.18,N/A
 Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-01,48.33,49.21,48.53,48.89,0.56,1.16,"13,746,500",672.07,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-05-27,277.95,282.80,278.58,282.25,4.52,1.63,"2,272,500",641.41,N/A
 Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-04-29,187.68,190.02,182.42,188.35,4.63,2.52,"1,979,500",372.84,N/A
+Information Technology,Application Software,PTC,PTC Inc.,s&p500,2026-07-02,"6,740.00","6,840.00","6,510.00","6,840.00",100.00,1.48,400,2.74,N/A
 Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-06-30,84.69,85.83,83.11,85.80,2.26,2.71,"3,168,100",271.82,N/A
 Materials,Industrial Gases,APD,Air Products,s&p500,2026-07-01,306.40,314.28,303.83,314.19,7.79,2.54,"1,847,200",580.37,N/A
 Materials,Industrial Gases,LIN,Linde plc,s&p500,2026-07-01,533.55,547.22,532.96,546.64,13.09,2.45,"2,275,600","1,243.93",N/A
@@ -101,6 +102,7 @@ Real Estate,Multi-Family Residential REITs,UDR,"UDR, Inc.",s&p500,2026-07-01,40.
 Real Estate,Office REITs,BXP,"BXP, Inc.",s&p500,2026-07-01,67.76,69.41,68.12,69.32,1.56,2.3,"1,243,900",86.23,N/A
 Real Estate,Self-Storage REITs,EXR,Extra Space Storage,s&p500,2026-06-26,149.21,149.70,147.98,149.34,2.05,1.39,"782,300",116.83,N/A
 Real Estate,Self-Storage REITs,PSA,Public Storage,s&p500,2026-06-29,324.45,329.74,323.44,329.64,6.60,2.04,"963,400",317.58,N/A
+Real Estate,Telecom Tower REITs,CCI,Crown Castle,s&p500,2026-07-02,"19,200.00","19,200.00","19,200.00","19,200.00",0.00,0.0,200,3.84,N/A
 Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-06-29,73.77,74.63,72.95,74.44,2.24,3.1,"2,344,100",174.49,N/A
 Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-06-26,87.21,88.18,86.44,88.13,1.94,2.25,"1,505,500",132.68,N/A
 Utilities,Electric Utilities,LNT,Alliant Energy,s&p500,2026-06-26,77.25,78.21,76.03,78.03,2.24,2.96,"2,563,200",200.01,N/A
