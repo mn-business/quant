@@ -15,7 +15,7 @@ Financials,Consumer Finance,AXP,American Express,s&p500,2026-07-02,351.96,358.17
 Financials,Consumer Finance,COF,Capital One,s&p500,2026-04-17,205.59,208.09,204.06,206.50,+7.76%,+1.23%,1.38,0.67,"2,207,434",455.84,N/A
 Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-07-02,58.73,59.94,58.92,59.90,+16.06%,+3.49%,1.17,1.99,"34,491,606","2,066.05",N/A
 Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-06-25,335.12,339.71,334.11,337.72,+9.66%,+2.63%,3.25,0.97,"4,380,667","1,479.44",N/A
-Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-07-02,"29,600.00","31,500.00","31,500.00","31,500.00",+14119.41%,+12666.99%,"1,900.00",6.42,"1,228",38.68,N/A
+Financials,Diversified Banks,PNC,PNC Financial Services,s&p500,2026-07-02,"29,600.00","31,500.00","31,500.00","31,500.00",+14119.41%,+12666.99%,"1,900.00",6.42,"1,200",37.80,N/A
 Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-07-01,61.96,63.04,62.35,62.83,+14.46%,+4.03%,1.10,1.78,"8,535,892",536.31,N/A
 Financials,Diversified Banks,WFC,Wells Fargo,s&p500,2026-04-13,86.15,87.63,86.02,87.45,+3.89%,+4.28%,1.94,2.27,"9,877,952",863.83,N/A
 Financials,Financial Exchanges & Data,MCO,Moody's Corporation,s&p500,2026-07-02,490.51,499.90,480.63,498.78,+11.70%,+10.84%,8.27,1.69,"569,090",283.85,N/A
@@ -46,7 +46,6 @@ Industrials,Industrial Machinery & Supplies & Components,FTV,Fortive,s&p500,2026
 Industrials,Industrial Machinery & Supplies & Components,ITW,Illinois Tool Works,s&p500,2026-04-13,272.86,275.60,271.57,274.27,+2.38%,+3.07%,1.51,0.55,"755,371",207.18,N/A
 Industrials,Industrial Machinery & Supplies & Components,SNA,Snap-on,s&p500,2026-07-02,412.09,414.62,408.99,413.62,+9.41%,+4.16%,1.53,0.37,"230,178",95.21,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-02,282.25,283.97,279.43,282.59,+14.03%,+5.31%,0.34,0.12,"1,390,474",392.93,N/A
-Information Technology,Application Software,PTC,PTC Inc.,s&p500,2026-07-02,"6,740.00","6,840.00","6,510.00","6,840.00",+4639.47%,+5810.82%,100.00,1.48,400,2.74,N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-01,267.85,276.00,265.64,270.29,+22.23%,+7.46%,3.11,1.16,"674,260",182.25,N/A
 Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-06-01,195.54,209.49,188.55,199.38,+86.99%,+13.75%,5.40,2.78,"10,102,737","2,014.28",N/A
 Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-07-01,158.98,163.57,153.43,162.35,+94.41%,+7.27%,6.10,3.9,"5,160,942",837.88,N/A
@@ -56,4 +55,3 @@ Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-06-26,283.65,284.25,278.50,
 Real Estate,Multi-Family Residential REITs,AVB,AvalonBay Communities,s&p500,2026-07-02,193.96,195.09,192.00,194.35,+16.42%,+3.18%,0.39,0.2,"710,310",138.05,N/A
 Real Estate,Multi-Family Residential REITs,EQR,Equity Residential,s&p500,2026-07-02,69.83,70.19,69.23,69.93,+16.21%,+3.33%,0.10,0.14,"2,030,815",142.01,N/A
 Real Estate,Office REITs,BXP,"BXP, Inc.",s&p500,2026-07-02,69.32,70.23,68.54,69.97,+34.58%,+4.91%,0.65,0.94,"1,356,638",94.92,N/A
-Real Estate,Telecom Tower REITs,CCI,Crown Castle,s&p500,2026-07-02,"19,200.00","19,200.00","19,200.00","19,200.00",+22612.87%,+23138.92%,0.00,0.0,200,3.84,N/A
