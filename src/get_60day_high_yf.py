@@ -147,7 +147,7 @@ def update_and_get_data():
 
     # 1. 로컬에 기존 데이터 파일이 있는지 확인하여 병합 로드
     local_dfs = []
-    active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse']
+    active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse', 'hkex', 'tse', 'hose']
     for m in active_markets:
         db_path = get_db_file_path(m)
         if os.path.exists(db_path):
@@ -202,6 +202,9 @@ def update_and_get_data():
     szse_symbols = set()
     twse_symbols = set()
     twse_symbols.add('^TWII')
+    hkex_symbols = set()
+    tse_symbols = set()
+    hose_symbols = set()
 
     # (2) 미국 S&P 500 종목 목록 로드
     try:
@@ -258,16 +261,41 @@ def update_and_get_data():
     except Exception as e:
         print(f"[WARN] SZSE 종목 목록 로드 실패: {e}")
 
-    # (4) 일본 TSE 종목 목록 로드 (상위 500개 기업만 수집) - 주석 처리
-    # try:
-    #     df_tse = fdr.StockListing('TSE').head(500)
-    #     for _, row in df_tse.iterrows():
-    #         symbol = str(row['Symbol']).strip()
-    #         yf_ticker = f"{symbol}.T"
-    #         ticker_map[symbol] = yf_ticker
-    #         ticker_map_reverse[yf_ticker] = symbol
-    # except Exception as e:
-    #     print(f"[WARN] TSE 종목 목록 로드 실패: {e}")
+    # (6) 일본 TSE 종목 목록 로드
+    try:
+        df_tse = fdr.StockListing('TSE')
+        for _, row in df_tse.iterrows():
+            symbol = str(row['Symbol']).strip()
+            tse_symbols.add(symbol)
+            yf_ticker = f"{symbol}.T"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] TSE 종목 목록 로드 실패: {e}")
+
+    # (7) 홍콩 HKEX 종목 목록 로드
+    try:
+        df_hkex = fdr.StockListing('HKEX')
+        for _, row in df_hkex.iterrows():
+            symbol = str(row['Symbol']).strip()
+            hkex_symbols.add(symbol)
+            yf_ticker = f"{int(symbol):04d}.HK"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] HKEX 종목 목록 로드 실패: {e}")
+
+    # (8) 베트남 HOSE 종목 목록 로드
+    try:
+        df_hose = fdr.StockListing('HOSE')
+        for _, row in df_hose.iterrows():
+            symbol = str(row['Symbol']).strip()
+            hose_symbols.add(symbol)
+            yf_ticker = f"{symbol}.VN"
+            ticker_map[symbol] = yf_ticker
+            ticker_map_reverse[yf_ticker] = symbol
+    except Exception as e:
+        print(f"[WARN] HOSE 종목 목록 로드 실패: {e}")
 
     tickers_list = list(ticker_map.values())
 
@@ -382,6 +410,12 @@ def update_and_get_data():
                 return 'nasdaq'
             elif code in twse_symbols or code == '^TWII':
                 return 'twse'
+            elif code in hkex_symbols:
+                return 'hkex'
+            elif code in tse_symbols:
+                return 'tse'
+            elif code in hose_symbols:
+                return 'hose'
             return 'nasdaq' # 기본 Fallback
 
         df_total['market_tmp'] = df_total['종목코드'].apply(get_market_of_code)
@@ -607,23 +641,56 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] fdr SZSE 메타 정보 로드 실패: {e}")
 
-    # 4. 일본 TSE 정보 구축 - 주석 처리
-    df_jp_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
-    # try:
-    #     df_tse = fdr.StockListing('TSE').head(500)
-    #     df_jp_meta = pd.DataFrame({
-    #         '종목코드': df_tse['Symbol'].astype(str).str.strip(),
-    #         '종목명': df_tse['Name'],
-    #         '시장구분': 'TSE',
-    #         '상장주식수': 0,
-    #         '섹터A': df_tse['Industry'].fillna(''),
-    #         '섹터B': df_tse['IndustryCode'].fillna('')
-    #     })
-    # except Exception as e:
-    #     print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
+    # 6. 일본 TSE 정보 구축
+    df_tse_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_tse = fdr.StockListing('TSE')
+        df_tse_meta = pd.DataFrame({
+            '종목코드': df_tse['Symbol'].astype(str).str.strip(),
+            '종목명': df_tse['Name'],
+            '시장구분': 'TSE',
+            '상장주식수': 0,
+            '섹터A': df_tse['Industry'].fillna('') if 'Industry' in df_tse.columns else '',
+            '섹터B': df_tse['IndustryCode'].fillna('') if 'IndustryCode' in df_tse.columns else ''
+        })
+    except Exception as e:
+        print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
+
+    # 7. 홍콩 HKEX 정보 구축
+    df_hkex_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_hkex = fdr.StockListing('HKEX')
+        df_hkex_meta = pd.DataFrame({
+            '종목코드': df_hkex['Symbol'].astype(str).str.strip(),
+            '종목명': df_hkex['Name'],
+            '시장구분': 'HKEX',
+            '상장주식수': 0,
+            '섹터A': df_hkex['Industry'].fillna('') if 'Industry' in df_hkex.columns else '',
+            '섹터B': df_hkex['IndustryCode'].fillna('') if 'IndustryCode' in df_hkex.columns else ''
+        })
+    except Exception as e:
+        print(f"[WARN] fdr HKEX 메타 정보 로드 실패: {e}")
+
+    # 8. 베트남 HOSE 정보 구축
+    df_hose_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    try:
+        df_hose = fdr.StockListing('HOSE')
+        df_hose_meta = pd.DataFrame({
+            '종목코드': df_hose['Symbol'].astype(str).str.strip(),
+            '종목명': df_hose['Name'],
+            '시장구분': 'HOSE',
+            '상장주식수': 0,
+            '섹터A': df_hose['Industry'].fillna('') if 'Industry' in df_hose.columns else '',
+            '섹터B': df_hose['IndustryCode'].fillna('') if 'IndustryCode' in df_hose.columns else ''
+        })
+    except Exception as e:
+        print(f"[WARN] fdr HOSE 메타 정보 로드 실패: {e}")
 
     # 모든 메타 정보 수직 결합
-    df_unified_meta = pd.concat([df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_szse_meta, df_jp_meta], ignore_index=True)
+    df_unified_meta = pd.concat([
+        df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_szse_meta, 
+        df_tse_meta, df_hkex_meta, df_hose_meta
+    ], ignore_index=True)
 
     df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
     df_unified_meta['종목코드'] = df_unified_meta['종목코드'].astype(str).str.strip()
@@ -723,7 +790,9 @@ if __name__ == "__main__":
             # "twse": result[result['시장구분'] == 'twse'],
             "sse": result[result['시장구분'] == 'sse'],
             "szse": result[result['시장구분'] == 'szse'],
-            # "tse": result[result['시장구분'] == 'tse']
+            "tse": result[result['시장구분'] == 'tse'],
+            "hkex": result[result['시장구분'] == 'hkex'],
+            "hose": result[result['시장구분'] == 'hose'],
         }
         
         for m_name, df_m in markets_mapping.items():
