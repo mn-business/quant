@@ -56,11 +56,11 @@ jobs:
           mkdir -p public-repo/result/60day_high
 
           # 4. 방금 분석 가동되어 생성된 결과 CSV 파일들을 공개 레포지토리 폴더로 복사
-          cp -r result/60day_high/*.csv public-repo/result/60day_high/
+          cp -r result/60day_high/* public-repo/result/60day_high/
 
           # 5. 공개 레포지토리 폴더 내부로 진입하여 변경사항 커밋 및 푸시
           cd public-repo
-          git add result/60day_high/*.csv
+          git add result/60day_high/
           if ! git diff --cached --quiet; then
             git commit -m "Auto-update: 60-day new high results ($(date +'%Y-%m-%d'))"
             git push origin main
@@ -74,7 +74,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
           # db/ 하위 캐시들과 result/60day_high/ 하위의 새 결과 파일들을 스테이징
-          git add db/*.csv result/60day_high/*.csv
+          git add db/*.csv result/60day_high/
 
           # 변경 사항이 있을 때만 커밋 및 푸시 진행
           if ! git diff --cached --quiet; then
