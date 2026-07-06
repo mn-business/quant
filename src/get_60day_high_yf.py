@@ -327,13 +327,13 @@ def update_and_get_data():
         
         def download_chunk_full(chunk):
             try:
-                df_chunk = yf.download(chunk, start=start_dt_full, end=end_dt, group_by='ticker', progress=False)
+                df_chunk = yf.download(chunk, start=start_dt_full, end=end_dt, group_by='ticker', progress=False, timeout=15)
                 parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse, chunk)
                 return parsed_df
             except Exception as e:
                 return pd.DataFrame()
                 
-        with ThreadPoolExecutor(max_workers=8) as executor:
+        with ThreadPoolExecutor(max_workers=4) as executor:  # Rate Limit 완화: 8 → 4
             futures = {executor.submit(download_chunk_full, chunk): chunk for chunk in chunks_full}
             for future in tqdm(as_completed(futures), total=len(chunks_full), desc="신규 종목 전체 수집 중"):
                 df_res = future.result()
@@ -351,13 +351,13 @@ def update_and_get_data():
         
         def download_chunk_inc(chunk):
             try:
-                df_chunk = yf.download(chunk, start=start_dt_inc, end=end_dt, group_by='ticker', progress=False)
+                df_chunk = yf.download(chunk, start=start_dt_inc, end=end_dt, group_by='ticker', progress=False, timeout=15)
                 parsed_df = parse_yfinance_chunk(df_chunk, ticker_map_reverse, chunk)
                 return parsed_df
             except Exception as e:
                 return pd.DataFrame()
                 
-        with ThreadPoolExecutor(max_workers=8) as executor:
+        with ThreadPoolExecutor(max_workers=4) as executor:  # Rate Limit 완화: 8 → 4
             futures = {executor.submit(download_chunk_inc, chunk): chunk for chunk in chunks_inc}
             for future in tqdm(as_completed(futures), total=len(chunks_inc), desc="기존 종목 증분 수집 중"):
                 df_res = future.result()
