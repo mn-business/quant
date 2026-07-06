@@ -497,12 +497,21 @@ def screen_60day_high(df_total):
             if ticker_str.isdigit():
                 ticker_str = ticker_str.zfill(6)
             
+            # 1주 전 (5영업일 전) 및 3개월 전 (60영업일 전) 종가 상승률 계산
+            close_1w = group["종가"].iloc[-6] if len(group) >= 6 else 0.0
+            rate_1w = round(((today_close - close_1w) / close_1w) * 100, 2) if close_1w != 0.0 else 0.0
+
+            close_3m = group["종가"].iloc[-61] if len(group) >= 61 else (group["종가"].iloc[0] if len(group) > 0 else 0.0)
+            rate_3m = round(((today_close - close_3m) / close_3m) * 100, 2) if close_3m != 0.0 else 0.0
+            
             high_new_stocks.append(
                 {
                     "종목코드": ticker_str,
                     "당일최고가": float(today_high),
                     "당일최저가": float(today_low),
                     "당일종가": float(today_close),
+                    "3개월 종가 상승률": f"{rate_3m:+.2f}%",
+                    "1주 종가 상승률": f"{rate_1w:+.2f}%",
                     "대비": float(change),
                     "등락률": round(change_ratio, 2),
                     "종료일 거래량": int(today_volume),
@@ -746,7 +755,8 @@ def screen_60day_high(df_total):
 
     ordered_cols = [
         '섹터A', '섹터B', '종목코드', '종목명', '시장구분', 
-        '기존최고가달성일', '기존최고가', '당일최고가', '당일최저가', '당일종가', '대비', '등락률', 
+        '기존최고가달성일', '기존최고가', '당일최고가', '당일최저가', '당일종가', 
+        '3개월 종가 상승률', '1주 종가 상승률', '대비', '등락률', 
         '종료일 거래량', '종료일 거래금액(백만원)', '종료일 시가총액(억원)'
     ]
     
