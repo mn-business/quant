@@ -275,7 +275,15 @@ def update_and_get_data():
 
     # (7) 홍콩 HKEX 종목 목록 로드
     try:
-        df_hkex = fdr.StockListing('HKEX')
+        try:
+            df_hkex = fdr.StockListing('HKEX')
+            if df_hkex.empty:
+                raise ValueError("FinanceDataReader HKEX listing is empty")
+        except Exception:
+            print("[INFO] fdr.StockListing('HKEX') 실패로 GitHub 백업 소스에서 로드합니다.")
+            df_hkex = pd.read_csv("https://raw.githubusercontent.com/irachex/open-stock-data/master/symbols/HKEX.csv", dtype={'code': str})
+            df_hkex.rename(columns={'code': 'Symbol', 'name': 'Name'}, inplace=True)
+            
         for _, row in df_hkex.iterrows():
             symbol = str(row['Symbol']).strip()
             hkex_symbols.add(symbol)
@@ -668,7 +676,14 @@ def screen_60day_high(df_total):
     # 7. 홍콩 HKEX 정보 구축
     df_hkex_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
     try:
-        df_hkex = fdr.StockListing('HKEX')
+        try:
+            df_hkex = fdr.StockListing('HKEX')
+            if df_hkex.empty:
+                raise ValueError("FinanceDataReader HKEX listing is empty")
+        except Exception:
+            df_hkex = pd.read_csv("https://raw.githubusercontent.com/irachex/open-stock-data/master/symbols/HKEX.csv", dtype={'code': str})
+            df_hkex.rename(columns={'code': 'Symbol', 'name': 'Name'}, inplace=True)
+            
         df_hkex_meta = pd.DataFrame({
             '종목코드': df_hkex['Symbol'].astype(str).str.strip(),
             '종목명': df_hkex['Name'],
