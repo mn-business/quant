@@ -778,6 +778,10 @@ if __name__ == "__main__":
 
     for t_date in target_dates:
         t_date_str = t_date.strftime("%Y%m%d")
+        month_str = t_date.strftime("%Y%m")
+        monthly_output_dir = os.path.join(output_dir, month_str)
+        os.makedirs(monthly_output_dir, exist_ok=True)
+        
         # 해당 분석 대상일 이전 데이터만 슬라이싱하여 그 날짜 기준으로 신고가를 집계
         df_sub = total_data[total_data["날짜"] <= t_date]
         result = screen_60day_high(df_sub)
@@ -796,7 +800,7 @@ if __name__ == "__main__":
         }
         
         for m_name, df_m in markets_mapping.items():
-            file_path = os.path.join(output_dir, f"{t_date_str}_yf_{m_name}.csv")
+            file_path = os.path.join(monthly_output_dir, f"{t_date_str}_yf_{m_name}.csv")
             
             if not df_m.empty:
                 print(f"\n★ 60일 신고가 경신 종목 [{m_name.upper()}] - {t_date.strftime('%Y-%m-%d')} (총 {len(df_m)}개) ★")
