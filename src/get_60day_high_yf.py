@@ -341,7 +341,7 @@ def update_and_get_data():
             except Exception as e:
                 return pd.DataFrame()
                 
-        with ThreadPoolExecutor(max_workers=4) as executor:  # Rate Limit 완화: 8 → 4
+        with ThreadPoolExecutor(max_workers=5) as executor:  # Rate Limit 완화: 8 → 5
             futures = {executor.submit(download_chunk_full, chunk): chunk for chunk in chunks_full}
             for future in tqdm(as_completed(futures), total=len(chunks_full), desc="신규 종목 전체 수집 중"):
                 df_res = future.result()
@@ -365,7 +365,7 @@ def update_and_get_data():
             except Exception as e:
                 return pd.DataFrame()
                 
-        with ThreadPoolExecutor(max_workers=4) as executor:  # Rate Limit 완화: 8 → 4
+        with ThreadPoolExecutor(max_workers=5) as executor:  # Rate Limit 완화: 8 → 5
             futures = {executor.submit(download_chunk_inc, chunk): chunk for chunk in chunks_inc}
             for future in tqdm(as_completed(futures), total=len(chunks_inc), desc="기존 종목 증분 수집 중"):
                 df_res = future.result()
