@@ -1,7 +1,7 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Advertising,OMC,Omnicom Group,s&p500,2026-07-06,79.90,81.88,80.67,80.84,+9.11%,+9.35%,0.94,1.18,"2,929,200",236.80,N/A
 Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-06,78.00,80.15,78.00,78.72,+23.61%,+1.39%,0.72,0.92,"4,270,100",336.14,N/A
-Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-02,"8,240.00","8,300.00","7,770.00","8,300.00",+8948.29%,+9949.64%,540.00,6.96,"20,100",166.83,N/A
+Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-07,"8,300.00","8,880.00","8,880.00","8,880.00",+9501.04%,+10801.06%,580.00,6.99,100,0.89,N/A
 Consumer Discretionary,Restaurants,YUM,Yum! Brands,s&p500,2026-07-06,165.99,170.14,166.63,167.49,+4.68%,+5.85%,1.50,0.9,"2,138,300",358.14,N/A
 Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-07-02,192.01,199.05,193.08,195.72,+26.64%,+5.90%,7.26,3.85,"4,657,200",911.51,N/A
 Consumer Staples,Household Products,KMB,Kimberly-Clark,s&p500,2026-07-02,114.72,116.82,114.50,114.74,+18.74%,+4.39%,1.73,1.53,"3,324,900",381.50,N/A
@@ -40,17 +40,15 @@ Health Care,Managed Health Care,UNH,UnitedHealth Group,s&p500,2026-06-26,427.89,
 Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-07-02,263.04,269.43,264.05,267.24,+11.38%,+3.38%,7.91,3.05,"9,081,600","2,426.97",N/A
 Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-06-29,"1,229.93","1,249.45","1,222.77","1,235.56",+29.57%,+0.46%,35.50,2.96,"2,929,900","3,620.07",N/A
 Industrials,Aerospace & Defense,AXON,Axon Enterprise,s&p500,2026-07-06,622.35,665.07,624.00,640.46,+82.30%,+25.43%,18.11,2.91,"1,688,600","1,081.48",N/A
-Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-02,"2,380.00","2,530.00","2,330.00","2,530.00",+105.17%,+93.25%,160.00,6.75,"258,670",654.44,N/A
+Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-02,"2,380.00","2,530.00","2,330.00","2,530.00",+105.17%,+93.25%,160.00,6.75,"316,272",800.17,N/A
 Industrials,Air Freight & Logistics,UPS,United Parcel Service,s&p500,2026-07-02,110.66,112.30,109.82,111.96,+12.01%,+3.66%,1.94,1.76,"4,618,500",517.09,N/A
 Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-07-02,217.34,223.27,218.00,222.46,+2.82%,+3.93%,7.88,3.67,"1,975,600",439.49,N/A
 Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-07-02,92.55,94.30,92.49,93.10,+4.04%,+5.57%,0.62,0.67,"1,727,100",160.79,N/A
 Industrials,Environmental & Facilities Services,WM,Waste Management,s&p500,2026-04-23,231.80,238.20,231.68,237.21,+2.20%,+6.20%,8.23,3.59,"2,284,600",541.93,N/A
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-02,106.35,109.73,107.46,108.12,+24.64%,+8.33%,2.73,2.59,"2,883,800",311.80,N/A
-Industrials,Rail Transportation,NSC,Norfolk Southern,s&p500,2026-07-02,"73,000.00","73,000.00","73,000.00","73,000.00",+24539.00%,+22784.73%,100.00,0.14,"22,500","1,642.50",N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-06,282.59,285.79,280.20,283.12,+13.32%,+3.82%,0.53,0.19,"2,037,000",576.72,N/A
 Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-07-02,188.35,194.79,190.11,192.25,+13.79%,+7.28%,4.46,2.37,"1,797,300",345.53,N/A
 Information Technology,Application Software,FICO,Fair Isaac,s&p500,2026-05-28,"1,296.36","1,335.61","1,294.00","1,300.27",+21.25%,+10.42%,13.76,1.07,"267,700",348.08,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-02,"5,490.00","5,620.00","5,490.00","5,510.00",+3698.66%,+3099.40%,40.00,0.73,"57,442",316.51,N/A
 Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-07-06,86.39,87.69,86.10,86.75,+3.82%,+4.05%,0.36,0.42,"3,130,400",271.56,N/A
 Real Estate,Health Care REITs,DOC,Healthpeak Properties,s&p500,2026-07-02,21.89,22.13,21.75,21.93,+33.54%,+0.27%,0.18,0.83,"6,048,000",132.63,N/A
 Real Estate,Health Care REITs,VTR,Ventas,s&p500,2026-07-02,92.52,94.60,92.20,94.07,+11.38%,+5.96%,1.86,2.02,"3,753,100",353.05,N/A
@@ -59,7 +57,7 @@ Real Estate,Multi-Family Residential REITs,AVB,AvalonBay Communities,s&p500,2026
 Real Estate,Multi-Family Residential REITs,CPT,Camden Property Trust,s&p500,2026-07-02,117.25,119.81,117.48,117.58,+17.67%,+1.64%,0.63,0.54,"776,200",91.27,N/A
 Real Estate,Multi-Family Residential REITs,EQR,Equity Residential,s&p500,2026-07-06,69.93,71.50,70.02,70.15,+17.23%,+2.65%,0.22,0.31,"2,518,100",176.64,N/A
 Real Estate,Multi-Family Residential REITs,UDR,"UDR, Inc.",s&p500,2026-07-02,41.09,42.00,41.21,41.24,+19.79%,+2.77%,0.28,0.68,"2,392,900",98.68,N/A
-Real Estate,Telecom Tower REITs,CCI,Crown Castle,s&p500,2026-07-07,"20,500.00","20,500.00","20,500.00","20,500.00",+23716.27%,+26686.88%,0.00,0.0,209,4.28,N/A
+Real Estate,Telecom Tower REITs,CCI,Crown Castle,s&p500,2026-07-07,"20,500.00","20,500.00","20,500.00","20,500.00",+23716.27%,+26686.88%,0.00,0.0,366,7.50,N/A
 Utilities,Electric Utilities,EIX,Edison International,s&p500,2026-04-10,75.72,76.39,73.96,75.74,-0.11%,+0.37%,0.90,1.2,"3,088,700",233.94,N/A
 Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-07-02,74.44,75.63,74.01,74.75,+7.18%,+1.33%,1.52,2.08,"2,124,700",158.82,N/A
 Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-07-02,69.75,70.59,69.67,69.83,+10.01%,+0.94%,0.57,0.82,"13,938,500",973.33,N/A
