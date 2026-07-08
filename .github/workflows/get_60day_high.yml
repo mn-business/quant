@@ -2,8 +2,8 @@ name: Run 60-day New High Screener
 
 on:
   schedule:
-    # 매 47분마다
-    - cron: "47 * * * *"  
+    # 2시간 간격으로 매 47분에 실행
+    - cron: "47 */2 * * *"  
   workflow_dispatch:
     # GitHub 웹 UI에서 수동으로도 즉시 실행 가능하도록 지원
 
