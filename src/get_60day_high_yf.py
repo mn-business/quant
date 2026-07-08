@@ -147,7 +147,7 @@ def update_and_get_data():
 
     # 1. 로컬에 기존 데이터 파일이 있는지 확인하여 병합 로드
     local_dfs = []
-    active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse', 'hkex', 'tse', 'hose']
+    active_markets = ['nasdaq', 'sp500', 'twse', 'sse', 'szse', 'tse', 'hose']  # 'hkex' 제외
     for m in active_markets:
         db_path = get_db_file_path(m)
         if os.path.exists(db_path):
@@ -673,27 +673,27 @@ def screen_60day_high(df_total):
     except Exception as e:
         print(f"[WARN] fdr TSE 메타 정보 로드 실패: {e}")
 
-    # 7. 홍콩 HKEX 정보 구축
-    df_hkex_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
-    try:
-        try:
-            df_hkex = fdr.StockListing('HKEX')
-            if df_hkex.empty:
-                raise ValueError("FinanceDataReader HKEX listing is empty")
-        except Exception:
-            df_hkex = pd.read_csv("https://raw.githubusercontent.com/irachex/open-stock-data/master/symbols/HKEX.csv", dtype={'code': str})
-            df_hkex.rename(columns={'code': 'Symbol', 'name': 'Name'}, inplace=True)
-            
-        df_hkex_meta = pd.DataFrame({
-            '종목코드': df_hkex['Symbol'].astype(str).str.strip(),
-            '종목명': df_hkex['Name'],
-            '시장구분': 'HKEX',
-            '상장주식수': 0,
-            '섹터A': df_hkex['Industry'].fillna('') if 'Industry' in df_hkex.columns else '',
-            '섹터B': df_hkex['IndustryCode'].fillna('') if 'IndustryCode' in df_hkex.columns else ''
-        })
-    except Exception as e:
-        print(f"[WARN] fdr HKEX 메타 정보 로드 실패: {e}")
+    # 7. 홍콩 HKEX 정보 구축 (비활성화)
+    # df_hkex_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
+    # try:
+    #     try:
+    #         df_hkex = fdr.StockListing('HKEX')
+    #         if df_hkex.empty:
+    #             raise ValueError("FinanceDataReader HKEX listing is empty")
+    #     except Exception:
+    #         df_hkex = pd.read_csv("https://raw.githubusercontent.com/irachex/open-stock-data/master/symbols/HKEX.csv", dtype={'code': str})
+    #         df_hkex.rename(columns={'code': 'Symbol', 'name': 'Name'}, inplace=True)
+    #         
+    #     df_hkex_meta = pd.DataFrame({
+    #         '종목코드': df_hkex['Symbol'].astype(str).str.strip(),
+    #         '종목명': df_hkex['Name'],
+    #         '시장구분': 'HKEX',
+    #         '상장주식수': 0,
+    #         '섹터A': df_hkex['Industry'].fillna('') if 'Industry' in df_hkex.columns else '',
+    #         '섹터B': df_hkex['IndustryCode'].fillna('') if 'IndustryCode' in df_hkex.columns else ''
+    #     })
+    # except Exception as e:
+    #     print(f"[WARN] fdr HKEX 메타 정보 로드 실패: {e}")
 
     # 8. 베트남 HOSE 정보 구축
     df_hose_meta = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수', '섹터A', '섹터B'])
@@ -713,7 +713,7 @@ def screen_60day_high(df_total):
     # 모든 메타 정보 수직 결합
     df_unified_meta = pd.concat([
         df_krx_merged, df_us_meta, df_tw_meta, df_sse_meta, df_szse_meta, 
-        df_tse_meta, df_hkex_meta, df_hose_meta
+        df_tse_meta, df_hose_meta
     ], ignore_index=True)
 
     df_res['종목코드'] = df_res['종목코드'].astype(str).str.strip()
@@ -820,7 +820,7 @@ if __name__ == "__main__":
             "sse": result[result['시장구분'] == 'sse'],
             "szse": result[result['시장구분'] == 'szse'],
             "tse": result[result['시장구분'] == 'tse'],
-            "hkex": result[result['시장구분'] == 'hkex'],
+            # "hkex": result[result['시장구분'] == 'hkex'],
             "hose": result[result['시장구분'] == 'hose'],
         }
         
