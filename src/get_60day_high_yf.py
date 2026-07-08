@@ -540,6 +540,7 @@ def screen_60day_high(df_total):
         df_krx = df_krx[['Code', 'Name', 'Market', 'Stocks']].copy()
         df_krx.rename(columns={'Code': '종목코드', 'Name': '종목명', 'Market': '시장구분', 'Stocks': '상장주식수'}, inplace=True)
         df_krx['종목코드'] = df_krx['종목코드'].astype(str).str.strip().str.zfill(6)
+        df_krx = df_krx.drop_duplicates(subset=['종목코드'])
     except Exception as e:
         print(f"[WARN] fdr KRX 종목 리스트 로드 실패: {e}")
         df_krx = pd.DataFrame(columns=['종목코드', '종목명', '시장구분', '상장주식수'])
@@ -565,6 +566,7 @@ def screen_60day_high(df_total):
         df_kind_sub = df_kind[['종목코드', '업종', '주요제품']].copy()
         df_kind_sub['종목코드'] = df_kind_sub['종목코드'].astype(str).str.strip().str.zfill(6)
         df_kind_sub.rename(columns={'업종': '섹터A', '주요제품': '섹터B'}, inplace=True)
+        df_kind_sub = df_kind_sub.drop_duplicates(subset=['종목코드'])
     else:
         df_kind_sub = pd.DataFrame(columns=['종목코드', '섹터A', '섹터B'])
 
