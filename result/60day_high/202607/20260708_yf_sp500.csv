@@ -1,10 +1,10 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-07,"8,300.00","8,880.00","8,880.00","8,880.00",+9501.04%,+10801.06%,580.00,6.99,100,0.89,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-07-06,268.99,281.25,270.36,280.68,+26.56%,+9.78%,14.35,5.39,"2,447,973",687.10,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-06-03,184.68,189.87,181.62,187.81,+18.79%,+11.10%,8.97,5.02,"2,659,517",499.48,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-07-06,270.32,283.28,271.04,282.88,+19.01%,+8.62%,16.66,6.26,"3,111,125",880.08,N/A
-Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-05-22,276.75,279.00,273.91,277.86,+14.88%,+3.62%,4.05,1.48,"756,172",210.11,N/A
-Financials,Insurance Brokers,AJG,Arthur J. Gallagher & Co.,s&p500,2026-07-07,254.67,256.85,251.89,256.61,+20.56%,+11.78%,1.94,0.76,"1,519,408",389.90,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-07-06,268.99,281.25,270.00,280.68,+26.56%,+9.78%,14.35,5.39,"2,466,500",692.30,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-06-03,184.68,189.87,181.62,187.81,+18.79%,+11.10%,8.97,5.02,"3,816,900",716.85,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-07-06,270.32,283.28,271.04,282.88,+19.01%,+8.62%,16.66,6.26,"3,874,900","1,096.13",N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-05-22,276.75,279.00,273.88,277.86,+14.88%,+3.62%,4.05,1.48,"1,081,500",300.51,N/A
+Financials,Insurance Brokers,AJG,Arthur J. Gallagher & Co.,s&p500,2026-07-07,254.67,256.87,251.85,256.61,+20.56%,+11.78%,1.94,0.76,"1,942,500",498.46,N/A
 Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-02,"2,380.00","2,530.00","2,330.00","2,530.00",+105.17%,+93.25%,160.00,6.75,"316,000",799.48,N/A
-Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-04-22,177.73,181.27,166.04,181.05,+22.87%,+6.58%,14.59,8.76,"11,871,112","2,149.26",N/A
-Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-07-07,69.83,70.23,69.36,69.86,+9.85%,+2.30%,0.03,0.04,"5,720,020",399.60,N/A
+Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-04-22,177.73,181.27,165.99,181.05,+22.87%,+6.58%,14.59,8.76,"11,885,300","2,151.83",N/A
+Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-07-07,69.83,70.23,69.36,69.86,+9.85%,+2.30%,0.03,0.04,"5,728,600",400.20,N/A
