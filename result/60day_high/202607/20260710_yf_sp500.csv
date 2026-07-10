@@ -4,7 +4,7 @@ Consumer Staples,Consumer Staples Merchandise Retail,DLTR,Dollar Tree,s&p500,202
 Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-07-09,182.86,185.00,182.01,182.98,+17.98%,+3.67%,0.12,0.07,"272,421",49.85,N/A
 Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-07-09,180.16,182.09,177.63,180.21,+27.74%,+5.58%,0.05,0.03,"1,710,855",308.31,N/A
 Financials,Diversified Banks,TFC,Truist Financial,s&p500,2026-06-12,51.66,52.04,51.36,51.88,+5.84%,+1.76%,0.51,0.98,"3,020,103",156.67,N/A
-Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-07,101.93,103.57,101.80,103.12,+5.20%,+6.31%,1.21,1.19,"4,573,279",471.62,N/A
+Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-07,101.93,103.57,101.80,103.12,+5.19%,+6.31%,1.21,1.19,"5,677,427",585.46,N/A
 Financials,Regional Banks,MTB,M&T Bank,s&p500,2026-07-01,241.95,242.56,238.51,242.48,+9.96%,+1.51%,4.54,1.91,"690,131",167.34,N/A
 Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-07-01,30.80,31.15,30.70,31.14,+12.22%,+2.84%,0.56,1.83,"6,290,565",195.89,N/A
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-07-06,231.43,233.72,222.94,233.60,+30.99%,+1.97%,9.64,4.3,"652,900",152.52,N/A
@@ -17,8 +17,7 @@ Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-09,49.35,49.6
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-09,285.04,288.84,285.00,288.40,+15.02%,+2.18%,3.36,1.18,"832,348",240.05,N/A
 Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-07-09,184.69,187.59,182.50,187.00,+21.14%,+16.88%,2.31,1.25,"4,863,206",909.42,N/A
 Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-09,430.32,432.74,425.82,430.36,+45.79%,+5.44%,0.04,0.01,"191,812",82.55,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-02,"5,490.00","5,580.00","5,480.00","5,490.00",+3640.84%,+0.55%,0.00,0.0,"124,001",680.77,N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-09,272.65,276.98,270.97,274.50,+21.09%,+2.74%,1.85,0.68,"227,066",62.33,N/A
 Information Technology,Technology Distributors,CDW,CDW Corporation,s&p500,2026-04-22,141.60,144.97,142.22,144.39,+11.69%,+8.26%,4.18,2.98,"1,127,961",162.87,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-05-20,14.73,14.79,14.76,14.77,+3.83%,+1.30%,0.04,0.27,"3,900,198",57.61,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-05-20,14.73,14.79,14.76,14.78,+3.90%,+1.37%,0.05,0.34,"5,230,936",77.31,N/A
 Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-07-08,69.86,70.07,69.43,70.03,+11.02%,+0.40%,0.58,0.84,"1,925,505",134.84,N/A
