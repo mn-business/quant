@@ -1,5 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-01,205.45,206.59,204.86,206.56,+2.07%,+0.54%,1.67,0.82,"1,721,900",355.68,N/A
+Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-01,205.45,206.59,204.86,206.56,+2.07%,+0.54%,1.67,0.82,"1,722,400",355.78,N/A
 Communication Services,Publishing,NWSA,News Corp (Class A),s&p500,2026-06-05,27.26,27.53,26.70,27.49,+10.22%,+6.63%,0.77,2.88,"3,529,700",97.03,N/A
 Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-07,78.72,80.39,78.44,79.99,+33.20%,+3.57%,1.92,2.46,"3,450,200",275.98,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-07-08,280.68,283.68,279.05,283.30,+26.23%,+6.96%,2.62,0.93,"1,844,100",522.43,N/A
@@ -15,12 +15,12 @@ Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-06-26,71.
 Health Care,Managed Health Care,UNH,UnitedHealth Group,s&p500,2026-07-07,428.19,434.30,423.52,431.68,+38.70%,+1.21%,6.08,1.43,"5,566,000","2,402.73",N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-07,"5,900.00","5,940.00","5,700.00","5,900.00",+1388.55%,+5.36%,20.00,0.34,"108,800",641.92,N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-07-02,167.57,170.65,164.68,170.62,+18.58%,+2.28%,6.26,3.81,"1,666,000",284.25,N/A
-Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-02,48.89,49.55,48.80,49.35,+16.89%,+2.11%,0.66,1.36,"9,818,900",484.56,N/A
+Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-02,48.89,49.55,48.80,49.35,+16.89%,+2.11%,0.66,1.36,"9,821,100",484.67,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-07,283.12,285.43,280.96,285.04,+14.00%,+2.63%,4.10,1.46,"2,025,700",577.41,N/A
 Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-07-08,181.05,189.82,179.80,184.69,+21.49%,+10.85%,3.64,2.01,"9,932,000","1,834.34",N/A
 Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-01,424.18,431.41,418.12,430.32,+44.37%,+1.45%,11.18,2.67,"612,900",263.74,N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-02,"5,490.00","5,500.00","5,450.00","5,490.00",+3597.07%,+0.00%,10.00,0.18,"108,400",595.12,N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-06,270.29,273.46,262.97,272.65,+20.59%,+1.79%,8.33,3.15,"642,500",175.18,N/A
 Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-07-06,162.35,164.01,152.25,163.73,+107.94%,+2.99%,7.02,4.48,"4,626,500",757.50,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-06-02,315.20,316.53,308.16,316.22,+22.11%,+7.42%,2.83,0.9,"48,084,300","15,205.22",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-06-02,315.20,316.53,308.16,316.22,+22.11%,+7.42%,2.83,0.9,"48,124,500","15,217.93",N/A
 Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-05-20,14.73,14.82,14.62,14.73,+3.55%,+0.61%,0.09,0.61,"26,447,700",389.57,N/A
