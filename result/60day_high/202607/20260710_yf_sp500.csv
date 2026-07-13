@@ -6,7 +6,7 @@ Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-07-09,2
 Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-07-09,182.86,185.00,182.00,183.55,+18.34%,+3.99%,0.69,0.38,"805,600",147.87,N/A
 Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-07-09,180.16,182.09,177.63,180.22,+27.75%,+5.58%,0.06,0.03,"2,064,200",372.01,N/A
 Financials,Diversified Banks,TFC,Truist Financial,s&p500,2026-06-12,51.66,52.04,51.33,51.67,+5.42%,+1.35%,0.30,0.58,"6,037,100",311.94,N/A
-Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-07,101.93,103.57,101.80,103.12,+5.19%,+6.31%,1.21,1.19,"5,678,000",585.52,N/A
+Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-07,101.93,103.57,101.80,103.12,+5.19%,+6.31%,1.21,1.19,"5,680,000",585.72,N/A
 Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-07-07,251.46,251.87,249.00,251.61,+17.09%,+0.51%,2.97,1.19,"1,041,600",262.08,N/A
 Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-07-02,72.08,72.22,71.59,72.19,+10.38%,+0.15%,0.37,0.52,"1,765,400",127.44,N/A
 Financials,Regional Banks,MTB,M&T Bank,s&p500,2026-07-01,241.95,243.00,238.51,242.34,+9.90%,+1.45%,4.40,1.85,"1,392,700",337.51,N/A
@@ -14,14 +14,14 @@ Financials,Regional Banks,RF,Regions Financial Corporation,s&p500,2026-07-01,30.
 Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-07-02,197.93,199.84,195.05,199.05,+0.43%,+0.57%,3.07,1.57,"3,847,600",765.86,N/A
 Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-09,71.15,71.39,70.84,71.30,+21.77%,+0.66%,0.15,0.21,"2,938,700",209.53,N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-07-09,170.62,172.18,170.15,172.02,+18.71%,+2.66%,1.40,0.82,"1,213,200",208.69,N/A
-Industrials,Air Freight & Logistics,UPS,United Parcel Service,s&p500,2026-07-07,111.96,113.41,111.11,112.47,+10.80%,+1.64%,1.73,1.56,"3,408,700",383.38,N/A
+Industrials,Air Freight & Logistics,UPS,United Parcel Service,s&p500,2026-07-07,111.96,113.41,111.11,112.47,+10.80%,+1.64%,1.73,1.56,"3,410,400",383.57,N/A
 Industrials,Industrial Machinery & Supplies & Components,GWW,W. W. Grainger,s&p500,2026-06-25,"1,374.78","1,384.94","1,358.31","1,375.76",+19.31%,+2.44%,10.90,0.8,"221,500",304.73,N/A
 Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-09,49.35,49.67,49.21,49.41,+16.59%,+1.06%,0.06,0.12,"7,753,400",383.10,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-09,285.04,288.90,285.00,286.96,+14.45%,+1.67%,1.92,0.67,"1,876,200",538.39,N/A
-Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-07-09,184.69,187.62,182.50,186.96,+21.11%,+16.86%,2.27,1.23,"5,583,200","1,043.84",N/A
+Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-07-09,184.69,187.62,182.50,186.96,+21.11%,+16.86%,2.27,1.23,"5,592,500","1,045.57",N/A
 Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-09,430.32,432.74,425.82,430.39,+45.80%,+5.45%,0.07,0.02,"359,600",154.77,N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-02,"5,490.00","5,580.00","5,480.00","5,490.00",+3640.84%,+0.55%,0.00,0.0,"123,900",680.21,N/A
 Information Technology,Technology Distributors,CDW,CDW Corporation,s&p500,2026-04-22,141.60,144.97,142.22,144.39,+11.69%,+8.26%,4.18,2.98,"1,141,900",164.88,N/A
 Utilities,Electric Utilities,ES,Eversource Energy,s&p500,2026-07-07,74.75,74.87,74.00,74.82,+9.71%,+0.51%,0.89,1.2,"1,452,300",108.66,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-05-20,14.73,14.79,14.76,14.78,+3.90%,+1.37%,0.05,0.34,"5,232,300",77.33,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-05-20,14.73,14.79,14.76,14.78,+3.90%,+1.37%,0.05,0.34,"5,233,000",77.34,N/A
 Utilities,Multi-Utilities,D,Dominion Energy,s&p500,2026-07-08,69.86,70.27,69.43,70.08,+11.10%,+0.47%,0.63,0.91,"3,956,900",277.30,N/A
