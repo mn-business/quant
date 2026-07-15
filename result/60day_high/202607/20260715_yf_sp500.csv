@@ -9,10 +9,9 @@ Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-08,"8,880.00",
 Consumer Staples,Consumer Staples Merchandise Retail,DLTR,Dollar Tree,s&p500,2026-07-13,126.38,127.10,124.33,127.03,+19.92%,+2.77%,2.47,1.98,"695,548",88.36,N/A
 Consumer Staples,Packaged Foods & Meats,KHC,Kraft Heinz,s&p500,2026-07-02,25.37,25.77,24.71,25.52,+15.63%,+2.41%,0.44,1.75,"3,350,308",85.50,N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,MNST,Monster Beverage,s&p500,2026-07-14,98.00,98.89,97.29,98.89,+28.90%,+3.93%,0.89,0.9,"715,065",70.71,N/A
-Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026-07-14,518.60,531.13,516.42,531.13,+16.85%,+8.27%,12.53,2.42,"117,695",62.51,N/A
+Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026-07-14,518.60,533.04,516.42,528.53,+16.28%,+7.73%,9.93,1.91,"300,343",158.74,N/A
 Financials,Asset Management & Custody Banks,BLK,BlackRock,s&p500,2026-05-14,"1,097.84","1,109.99","1,078.00","1,102.15",+5.34%,+11.29%,76.71,7.48,"658,863",726.16,N/A
 Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-07-14,154.50,159.99,155.50,158.58,+17.85%,+5.62%,4.08,2.64,"1,969,688",312.35,N/A
-Financials,Asset Management & Custody Banks,BX,Blackstone Inc.,s&p500,2026-04-22,128.54,130.62,127.51,129.72,+1.43%,+9.36%,5.16,4.14,"1,376,152",178.51,N/A
 Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-06-16,29.20,30.53,28.99,30.40,+23.49%,+12.47%,1.67,5.81,"1,336,778",40.64,N/A
 Financials,Asset Management & Custody Banks,NTRS,Northern Trust,s&p500,2026-07-14,186.64,190.71,187.73,190.33,+20.14%,+5.79%,3.69,1.98,"340,618",64.83,N/A
 Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-07-14,183.65,186.46,184.24,185.36,+28.09%,+4.48%,1.71,0.93,"899,474",166.73,N/A
@@ -24,6 +23,7 @@ Financials,Diversified Banks,TFC,Truist Financial,s&p500,2026-07-13,51.95,52.95,
 Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-07-07,62.89,63.13,62.13,63.08,+11.74%,+3.40%,0.94,1.5,"2,066,547",130.35,N/A
 Financials,Financial Exchanges & Data,MCO,Moody's Corporation,s&p500,2026-07-07,500.49,511.84,497.36,510.96,+12.48%,+5.33%,16.23,3.28,"188,559",96.35,N/A
 Financials,Financial Exchanges & Data,SPGI,S&P Global,s&p500,2026-07-06,447.22,450.58,439.20,447.97,+7.24%,+3.99%,9.10,2.07,"380,729",170.56,N/A
+Financials,Investment Banking & Brokerage,GS,Goldman Sachs,s&p500,2026-07-14,"1,140.00","1,153.47","1,117.53","1,143.25",+23.47%,+11.03%,3.25,0.29,"1,870,940","2,138.95",N/A
 Financials,Investment Banking & Brokerage,IBKR,Interactive Brokers,s&p500,2026-06-22,96.82,97.44,96.43,96.83,+18.50%,+3.67%,1.22,1.28,"830,744",80.44,N/A
 Financials,Investment Banking & Brokerage,MS,Morgan Stanley,s&p500,2026-07-14,227.67,232.23,221.68,229.31,+22.10%,+5.16%,1.64,0.72,"3,903,569",895.14,N/A
 Financials,Investment Banking & Brokerage,RJF,Raymond James Financial,s&p500,2026-07-09,168.72,171.74,168.51,171.74,+13.58%,+3.86%,4.31,2.57,"120,918",20.77,N/A
