@@ -1,24 +1,24 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-16,207.84,209.34,208.96,209.29,+2.92%,+1.40%,1.45,0.7,"1,696,200",355.00,N/A
-Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-06-03,84.11,86.20,84.52,85.67,+23.49%,+6.54%,2.67,3.22,"3,180,800",272.50,N/A
-Consumer Staples,Tobacco,MO,Altria,s&p500,2026-06-29,74.05,74.84,73.84,74.66,+17.21%,+4.00%,1.63,2.23,"6,707,800",500.80,N/A
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-05-14,190.28,194.90,191.16,192.72,+26.80%,+6.11%,2.88,1.52,"4,754,000",916.19,N/A
+Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-16,207.84,209.34,208.96,209.29,+2.92%,+1.40%,1.45,0.7,"1,696,900",355.14,N/A
+Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-06-03,84.11,86.20,84.52,85.67,+23.49%,+6.54%,2.67,3.22,"3,181,900",272.59,N/A
+Consumer Staples,Tobacco,MO,Altria,s&p500,2026-06-29,74.05,74.84,73.84,74.66,+17.21%,+4.00%,1.63,2.23,"6,710,800",501.03,N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-05-14,190.28,194.90,191.16,192.72,+26.80%,+6.11%,2.88,1.52,"4,754,600",916.31,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-07-16,305.85,319.36,312.95,315.31,+43.64%,+11.13%,9.46,3.09,"1,589,200",501.09,N/A
 Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-07-14,201.45,211.05,206.07,208.80,+31.96%,+10.85%,7.48,3.72,"2,119,300",442.51,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-07-14,301.43,316.57,306.51,313.31,+34.88%,+11.62%,13.05,4.35,"2,491,100",780.49,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-07-14,301.43,316.57,306.51,313.31,+34.88%,+11.62%,13.05,4.35,"2,493,600",781.27,N/A
 Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-07-14,281.60,286.25,282.23,282.35,+21.97%,+3.29%,2.08,0.74,"969,400",273.71,N/A
 Financials,Life & Health Insurance,AFL,Aflac,s&p500,2026-07-13,123.30,125.05,123.90,124.08,+7.55%,+1.78%,1.06,0.86,"1,672,000",207.46,N/A
 Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-07,343.73,371.94,362.50,368.50,+22.77%,+8.73%,30.68,9.08,"2,378,600",876.51,N/A
 Financials,Reinsurance,EG,Everest Group,s&p500,2026-07-13,377.89,383.56,378.31,378.99,+8.99%,+2.27%,5.77,1.55,"444,700",168.54,N/A
-Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-07-16,80.49,83.03,78.87,82.37,+15.50%,+8.32%,1.88,2.34,"5,876,500",484.05,N/A
-Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-07-16,56.73,57.16,55.28,56.82,+12.04%,+22.67%,0.09,0.16,"24,695,700","1,403.21",N/A
-Health Care,Health Care Services,CVS,CVS Health,s&p500,2026-07-16,106.50,108.90,107.13,107.61,+40.32%,+3.32%,1.11,1.04,"6,627,900",713.23,N/A
+Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-07-16,80.49,83.03,78.87,82.37,+15.50%,+8.32%,1.88,2.34,"5,877,200",484.10,N/A
+Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-07-16,56.73,57.16,55.28,56.82,+12.04%,+22.67%,0.09,0.16,"24,700,800","1,403.50",N/A
+Health Care,Health Care Services,CVS,CVS Health,s&p500,2026-07-16,106.50,108.90,107.13,107.61,+40.32%,+3.32%,1.11,1.04,"6,628,800",713.33,N/A
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-07-16,197.37,199.87,191.24,197.41,+17.65%,+3.83%,0.04,0.02,"1,245,400",245.85,N/A
 Industrials,Air Freight & Logistics,CHRW,C.H. Robinson,s&p500,2026-07-16,205.75,209.65,204.71,205.80,+12.45%,+6.36%,0.05,0.02,"1,661,900",342.02,N/A
-Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-16,114.70,115.39,112.58,115.20,+24.55%,+7.12%,0.50,0.44,"2,962,700",341.30,N/A
-Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-07-16,179.62,181.20,173.80,180.08,-6.09%,+8.20%,0.46,0.26,"3,032,600",546.11,N/A
+Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-16,114.70,115.39,112.58,115.20,+24.55%,+7.12%,0.50,0.44,"2,965,200",341.59,N/A
+Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-07-16,179.62,181.20,173.80,180.08,-6.09%,+8.20%,0.46,0.26,"3,035,700",546.67,N/A
 Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-07-16,201.49,202.29,197.41,201.79,+11.12%,+8.85%,0.30,0.15,"1,576,400",318.10,N/A
 Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-07-07,86.75,87.59,86.10,86.78,+8.00%,+1.28%,0.13,0.15,"3,594,200",311.90,N/A
 Real Estate,Health Care REITs,VTR,Ventas,s&p500,2026-07-16,95.04,96.62,95.48,96.25,+17.91%,+6.17%,1.21,1.27,"2,581,300",248.45,N/A
 Real Estate,Health Care REITs,WELL,Welltower,s&p500,2026-07-16,241.49,245.36,242.68,244.84,+19.03%,+5.72%,3.35,1.39,"2,603,600",637.47,N/A
-Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-16,26.03,26.26,25.94,26.03,+11.08%,+4.62%,0.00,0.0,"4,362,900",113.57,N/A
+Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-16,26.03,26.26,25.94,26.03,+11.08%,+4.62%,0.00,0.0,"4,364,000",113.59,N/A
