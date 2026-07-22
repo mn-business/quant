@@ -1,23 +1,22 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-15,85.37,86.79,85.37,86.60,+42.68%,+3.11%,1.38,1.61,"944,176",81.76,N/A
-Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-07-21,86.20,87.67,86.21,86.46,+24.28%,+5.09%,0.26,0.31,"1,169,178",101.09,N/A
-Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-06-10,117.05,118.14,115.94,117.53,+23.54%,+8.01%,1.78,1.54,"563,776",66.26,N/A
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-20,192.72,199.78,189.38,194.61,+15.98%,+10.61%,6.57,3.49,"3,774,274",734.51,N/A
-Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-05-19,144.30,145.95,144.24,145.05,+8.35%,+5.10%,1.61,1.12,"908,821",131.82,N/A
-Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-07-20,282.35,284.92,280.54,283.32,+18.69%,+0.61%,3.10,1.11,"256,771",72.75,N/A
-Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-07-15,30.30,30.57,29.95,30.50,+21.16%,+6.16%,0.40,1.33,"2,249,354",68.61,N/A
-Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-07-15,61.59,61.89,61.17,61.72,+18.24%,+1.81%,0.50,0.82,"16,112,133",994.44,N/A
-Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-07-15,346.91,349.07,344.25,347.76,+11.57%,+1.42%,2.53,0.73,"2,565,301",892.11,N/A
-Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-07-16,64.01,64.18,63.45,64.04,+14.06%,+3.07%,0.33,0.53,"3,076,344",197.02,N/A
-Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-21,118.59,120.58,118.72,118.95,+27.79%,+3.62%,0.36,0.3,"594,551",70.72,N/A
-Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-21,369.63,373.21,366.51,372.06,+21.57%,+10.46%,2.43,0.66,"762,964",283.87,N/A
-Industrials,Construction Machinery & Heavy Transportation Equipment,PCAR,Paccar,s&p500,2026-04-27,126.81,131.84,126.82,131.74,+4.08%,+6.29%,5.49,4.34,"1,909,528",251.55,N/A
-Industrials,Construction Machinery & Heavy Transportation Equipment,WAB,Wabtec,s&p500,2026-06-25,282.45,295.41,271.44,291.52,+8.32%,+11.26%,27.99,10.62,"1,988,116",579.58,N/A
-Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-07-21,170.76,174.65,171.07,171.50,+19.02%,+9.53%,0.74,0.43,"2,174,746",372.97,N/A
-Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-07-21,86.94,88.36,87.42,88.29,+10.87%,+3.97%,1.35,1.55,"592,284",52.29,N/A
-Real Estate,Hotel & Resort REITs,HST,Host Hotels & Resorts,s&p500,2026-07-21,24.44,24.66,24.30,24.58,+21.11%,+5.11%,0.14,0.55,"1,654,490",40.66,N/A
-Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-21,26.10,26.25,26.07,26.15,+10.87%,+3.54%,0.05,0.17,"1,149,312",30.05,N/A
-Utilities,Electric Utilities,EIX,Edison International,s&p500,2026-07-21,78.17,80.64,78.60,80.52,+14.47%,+5.14%,2.35,3.01,"903,463",72.75,N/A
-Utilities,Electric Utilities,FE,FirstEnergy,s&p500,2026-07-14,49.23,49.39,48.56,49.34,+0.46%,+0.22%,0.95,1.96,"1,049,207",51.77,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-21,14.82,14.87,14.82,14.86,+3.78%,+0.44%,0.05,0.3,"2,791,201",41.49,N/A
-Utilities,Multi-Utilities,PCG,PG&E Corporation,s&p500,2026-07-16,17.53,18.01,17.50,17.99,+7.17%,+3.13%,0.50,2.83,"11,131,568",200.20,N/A
+Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-15,85.37,86.86,85.37,86.72,+42.88%,+3.26%,1.50,1.76,"1,277,126",110.75,N/A
+Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-07-21,86.20,87.67,86.21,87.42,+25.66%,+6.25%,1.22,1.42,"2,208,368",193.06,N/A
+Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-06-10,117.05,118.14,115.94,117.11,+23.09%,+7.62%,1.36,1.17,"1,623,613",190.13,N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-20,192.72,199.78,189.38,193.77,+15.48%,+10.13%,5.73,3.05,"4,952,793",959.70,N/A
+Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-05-19,144.30,145.95,144.24,145.19,+8.46%,+5.20%,1.75,1.22,"1,206,217",175.13,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-07-21,212.27,216.00,210.31,212.40,+34.11%,+5.44%,0.13,0.06,"1,442,571",306.40,N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-07-20,282.35,284.92,280.54,283.30,+18.68%,+0.61%,3.08,1.1,"379,816",107.60,N/A
+Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-07-15,30.30,30.60,29.95,30.56,+21.38%,+6.35%,0.45,1.51,"2,839,881",86.77,N/A
+Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-07-15,346.91,349.07,344.25,347.67,+11.54%,+1.39%,2.44,0.71,"3,434,792","1,194.17",N/A
+Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-07-16,64.01,64.18,63.45,64.17,+14.28%,+3.27%,0.46,0.72,"4,632,046",297.24,N/A
+Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-21,118.59,120.58,118.48,118.65,+27.47%,+3.36%,0.06,0.05,"770,505",91.42,N/A
+Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-21,369.63,373.21,366.51,372.43,+21.69%,+10.57%,2.80,0.76,"1,029,138",383.28,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-16,71.77,71.84,71.52,71.81,+37.82%,+0.81%,0.18,0.25,"1,381,970",99.24,N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,PCAR,Paccar,s&p500,2026-04-27,126.81,131.85,126.82,130.83,+3.36%,+5.56%,4.58,3.63,"3,001,434",392.68,N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,WAB,Wabtec,s&p500,2026-06-25,282.45,295.41,271.44,290.00,+7.76%,+10.68%,26.47,10.04,"2,336,740",677.65,N/A
+Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-07-21,86.94,88.36,87.42,88.11,+10.65%,+3.77%,1.17,1.35,"892,771",78.66,N/A
+Real Estate,Hotel & Resort REITs,HST,Host Hotels & Resorts,s&p500,2026-07-21,24.44,24.66,24.30,24.50,+20.71%,+4.77%,0.06,0.23,"2,550,761",62.48,N/A
+Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-21,26.10,26.25,26.07,26.17,+11.00%,+3.66%,0.07,0.29,"1,518,006",39.73,N/A
+Utilities,Electric Utilities,EIX,Edison International,s&p500,2026-07-21,78.17,80.90,78.60,80.42,+14.33%,+5.01%,2.25,2.88,"1,337,063",107.53,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-21,14.82,14.87,14.82,14.86,+3.78%,+0.44%,0.05,0.3,"3,742,196",55.63,N/A
+Utilities,Multi-Utilities,PCG,PG&E Corporation,s&p500,2026-07-16,17.53,18.08,17.50,17.98,+7.11%,+3.07%,0.49,2.77,"14,945,286",268.64,N/A
