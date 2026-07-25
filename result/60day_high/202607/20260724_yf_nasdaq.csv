@@ -37,6 +37,7 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings Inc,nasdaq,2
 은행,55101010,CFBK,CF Bankshares Inc,nasdaq,2026-07-16,33.26,33.83,32.71,33.44,+12.78%,+0.54%,0.77,2.36,"40,727",1.36,N/A
 은행,55101010,CHCO,City Holding Co,nasdaq,2026-07-22,139.17,140.27,136.82,139.62,+12.18%,+1.39%,2.06,1.5,"166,151",23.20,N/A
 은행,55101010,CHMG,Chemung Financial Corp,nasdaq,2026-07-16,77.98,81.88,75.16,80.98,+20.53%,+3.85%,6.41,8.6,"93,288",7.55,N/A
+은행,55101010,CNOBP,Connectone Bancorp New Depositary Shs Rep A 1 40Th Non Cm Perp Pref Shs Series A,nasdaq,2026-07-22,25.14,25.14,25.13,25.14,+2.93%,+0.24%,0.02,0.08,"3,595",0.09,N/A
 은행,55101010,CZFS,Citizens Financial Services Inc,nasdaq,2026-07-16,74.83,75.00,70.36,74.88,+15.36%,+0.07%,3.38,4.73,"15,989",1.20,N/A
 은행,55101010,CZNC,Citizens & Northern Corp,nasdaq,2026-07-01,24.04,25.00,23.51,24.35,+6.10%,+2.14%,1.09,4.69,"78,550",1.91,N/A
 은행,55101010,FBIZ,First Business Financial Services Inc,nasdaq,2026-07-16,66.53,67.60,65.35,67.18,+18.41%,+0.98%,1.16,1.76,"36,023",2.42,N/A
@@ -88,19 +89,18 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings Inc,nasdaq,2
 통합 하드웨어 및 소프트웨어,57107010,WLDS,Wearable Devices Ltd,nasdaq,2026-04-28,3.30,4.35,2.43,3.53,+6.01%,+161.48%,1.30,58.3,"26,897,396",94.95,N/A
 투자 지주 회사,55601010,ALDF,Aldel Financial II Inc,nasdaq,2026-07-09,10.73,10.74,10.74,10.74,+1.23%,+0.37%,0.01,0.09,"80,827",0.87,N/A
 투자 지주 회사,55601010,ANSC,Agriculture & Natural Solutions Acquisition Corp,nasdaq,2026-07-20,11.45,11.45,11.45,11.45,+1.42%,+0.13%,0.00,0.0,"5,234",0.06,N/A
-투자 지주 회사,55601010,APAC,StoneBridge Acquisition II Corp,nasdaq,2026-07-23,10.17,10.17,10.17,10.17,+0.99%,+0.10%,0.00,0.0,6,0.00,N/A
 투자 지주 회사,55601010,BLRK,Bluerock Acquisition Corp,nasdaq,2026-07-09,10.04,10.68,10.03,10.10,+1.71%,+0.80%,0.09,0.9,"152,973",1.55,N/A
 투자 지주 회사,55601010,BLRKU,Bluerock Acquisition Units,nasdaq,2026-07-07,10.17,10.20,10.10,10.20,+1.80%,+0.30%,0.11,1.09,"3,174",0.03,N/A
 투자 지주 회사,55601010,BPAC,Blueport Acquisition Ltd,nasdaq,2026-07-22,10.15,10.15,10.15,10.15,+0.94%,+0.20%,0.00,0.0,"35,100",0.36,N/A
 투자 지주 회사,55601010,CEPF,Cantor Equity Partners IV Inc,nasdaq,2026-07-23,10.46,10.64,10.44,10.50,+2.39%,+0.48%,0.04,0.38,"117,011",1.23,N/A
 투자 지주 회사,55601010,CRAC,Crown Reserve Acquisition Corp. I,nasdaq,2026-07-13,10.14,10.15,10.15,10.15,+0.84%,+0.14%,0.01,0.05,"36,015",0.37,N/A
 투자 지주 회사,55601010,DMAA,Drugs Made In America Acquisition Corp,nasdaq,2026-07-20,10.70,10.70,10.70,10.70,+1.28%,+0.47%,0.01,0.09,522,0.01,N/A
+투자 지주 회사,55601010,DMII,Drugs Made In America Acquisition II Corp,nasdaq,2026-06-17,10.10,10.10,10.10,10.10,+0.95%,+0.10%,0.01,0.1,217,0.00,N/A
 투자 지주 회사,55601010,DRDB,Roman Dbdr Acquisition Corp. II,nasdaq,2026-07-13,10.58,10.59,10.59,10.59,+0.62%,+0.14%,0.01,0.05,"108,909",1.15,N/A
 투자 지주 회사,55601010,DSAC,Daedalus Special Acquisition Corp,nasdaq,2026-07-13,10.16,10.17,10.16,10.16,+2.21%,+0.10%,0.00,0.0,"354,550",3.60,N/A
 투자 지주 회사,55601010,FVAV,Fortress Value Acquisition Corp V,nasdaq,2026-07-01,10.20,10.35,10.14,10.22,+1.29%,+1.09%,0.09,0.89,"322,800",3.30,N/A
 투자 지주 회사,55601010,GPAC,General Purpose Acquisition Corp,nasdaq,2026-05-15,10.01,10.01,10.01,10.01,+0.60%,+0.00%,0.00,0.0,200,0.00,N/A
 투자 지주 회사,55601010,GPACU,General Purpose Acquisition Units,nasdaq,2026-07-14,10.13,10.15,10.15,10.15,+0.79%,+0.20%,0.02,0.2,"20,500",0.21,N/A
-투자 지주 회사,55601010,HACQU,HCM IV Acquisition Units,nasdaq,2026-07-23,10.17,10.17,10.17,10.17,+1.50%,+0.00%,0.00,0.0,"3,000",0.03,N/A
 투자 지주 회사,55601010,HAVA,Harvard Ave Acquisition Corp,nasdaq,2026-07-20,10.14,10.15,10.15,10.15,+1.10%,+0.30%,0.01,0.1,"2,405",0.02,N/A
 투자 지주 회사,55601010,HVII,Hennessy Capital Investment Corp VII,nasdaq,2026-07-21,10.48,10.48,10.48,10.48,+0.67%,+0.14%,0.00,0.0,"2,046",0.02,N/A
 투자 지주 회사,55601010,INAC,Indigo Acquisition Corp,nasdaq,2026-07-07,10.28,10.30,10.28,10.28,+0.98%,+0.00%,0.00,0.0,"2,111",0.02,N/A
@@ -136,8 +136,8 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings Inc,nasdaq,2
 투자 지주 회사,55601010,WSTN,Westin Acquisition Corp,nasdaq,2026-07-23,10.13,10.13,10.13,10.13,+1.00%,+0.10%,0.00,0.0,142,0.00,N/A
 투자 지주 회사,55601010,XRPN,Armada Acquisition Corp II,nasdaq,2026-07-22,10.47,10.48,10.44,10.47,+1.16%,+0.48%,0.02,0.17,"124,579",1.30,N/A
 특수 REITs,60102040,HST,Host Hotels and Resorts  Inc,nasdaq,2026-07-22,24.50,24.74,23.99,24.50,+21.84%,+3.51%,0.54,2.25,"7,746,575",189.79,N/A
-특수 REITs,60102040,LANDO,Gladstone Land 6 00 Cum Redmabe Prf Shs Series B,nasdaq,2026-07-23,21.35,21.41,21.15,21.41,+4.50%,+2.44%,0.06,0.28,"6,617",0.14,N/A
-특수 REITs,60102040,LANDP,Gladstone Land 6 00 Cumulative Redeemable Preferred Stock Series C,nasdaq,2026-07-21,21.15,21.15,20.93,21.15,+4.40%,+0.86%,0.10,0.46,"19,321",0.41,N/A
+특수 REITs,60102040,LANDO,Gladstone Land 6 00 Cum Redmabe Prf Shs Series B,nasdaq,2026-07-22,21.27,21.41,21.15,21.41,+4.50%,+2.44%,0.18,0.87,"6,617",0.14,N/A
+특수 REITs,60102040,LANDP,Gladstone Land 6 00 Cumulative Redeemable Preferred Stock Series C,nasdaq,2026-07-21,21.15,21.15,20.93,21.15,+4.40%,+0.86%,0.22,1.06,"19,321",0.41,N/A
 특수 REITs,60102040,SBRA,Sabra Health Care REIT Inc,nasdaq,2026-07-21,22.04,22.40,22.12,22.36,+11.78%,+10.91%,0.33,1.5,"1,793,091",40.09,N/A
 핀테크,57301010,XBP,XBP Global Holdings Inc,nasdaq,2026-05-05,2.93,3.74,2.83,3.18,+9.66%,+15.22%,0.36,12.77,"161,227",0.51,N/A
 항공사,52406010,SKYW,SkyWest Inc,nasdaq,2026-07-16,100.32,105.78,98.54,103.65,+24.09%,+3.32%,7.41,7.7,"697,345",72.28,N/A
