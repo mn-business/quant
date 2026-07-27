@@ -18,11 +18,11 @@ Health Care,Health Care Services,LH,Labcorp,s&p500,2026-07-23,291.02,298.58,290.
 Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-23,61.51,62.82,61.60,62.09,+8.67%,+2.61%,0.58,0.94,"12,071,200",749.50,N/A
 Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-07-23,130.48,131.71,130.24,131.07,+19.76%,+2.70%,0.59,0.45,"6,153,700",806.57,N/A
 Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-07-23,381.79,388.12,382.14,386.75,+24.29%,+4.86%,4.96,1.3,"1,498,800",579.66,N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-07,"5,900.00","6,120.00","5,810.00","6,120.00",+1600.73%,+9.29%,400.00,6.99,"1,121,200","6,861.74",N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-24,"6,120.00","6,540.00","6,200.00","6,360.00",+1663.67%,+9.66%,240.00,3.92,"412,926","2,626.21",N/A
 Industrials,Aerospace & Defense,HWM,Howmet Aerospace,s&p500,2026-07-23,287.09,293.00,286.46,289.26,+19.73%,+6.66%,2.17,0.76,"2,111,700",610.83,N/A
 Industrials,Aerospace & Defense,LMT,Lockheed Martin,s&p500,2026-07-23,568.59,588.41,568.59,582.60,+13.49%,+13.45%,14.01,2.46,"1,737,400","1,012.21",N/A
 Industrials,Aerospace & Defense,RTX,RTX Corporation,s&p500,2026-07-23,209.16,214.89,209.26,212.79,+23.24%,+9.48%,3.63,1.74,"5,875,700","1,250.29",N/A
-Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-08,"2,530.00","2,600.00","2,500.00","2,560.00",+121.83%,+6.67%,40.00,1.59,"96,500",247.04,N/A
+Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-24,"2,560.00","2,730.00","2,560.00","2,720.00",+138.02%,+13.33%,160.00,6.25,"131,586",357.91,N/A
 Industrials,Construction Machinery & Heavy Transportation Equipment,PCAR,Paccar,s&p500,2026-07-22,131.11,133.90,130.46,132.24,+4.29%,+4.40%,1.49,1.14,"3,797,800",502.22,N/A
 Industrials,Construction Machinery & Heavy Transportation Equipment,WAB,Wabtec,s&p500,2026-07-23,297.99,302.96,297.00,302.50,+13.34%,+14.63%,4.51,1.51,"1,511,200",457.14,N/A
 Industrials,Electrical Components & Equipment,AME,Ametek,s&p500,2026-06-30,241.94,243.65,240.54,241.97,+4.02%,+1.97%,0.83,0.34,"1,091,400",264.09,N/A
@@ -31,7 +31,7 @@ Industrials,Industrial Machinery & Supplies & Components,ITW,Illinois Tool Works
 Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-07-23,52.81,53.41,52.59,53.23,+17.45%,+4.60%,0.42,0.8,"14,302,500",761.32,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-23,304.33,309.32,302.64,307.32,+14.88%,+2.64%,2.99,0.98,"3,661,900","1,125.38",N/A
 Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-07-23,"1,139.71","1,150.06","1,124.36","1,141.59",+19.18%,+6.51%,1.88,0.16,"490,600",560.06,N/A
-Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-06,364.25,371.28,359.42,367.34,+4.22%,+0.86%,12.22,3.44,"859,100",315.58,N/A
+Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-06,364.25,371.28,359.42,367.34,+4.22%,+0.86%,12.22,3.44,"859,429",315.70,N/A
 Materials,Fertilizers & Agricultural Chemicals,CTVA,Corteva,s&p500,2026-07-23,88.78,89.28,88.12,89.25,+12.38%,+3.00%,0.47,0.53,"2,484,200",221.71,N/A
 Materials,"Metal, Glass & Plastic Containers",BALL,Ball Corporation,s&p500,2026-07-02,63.39,63.88,61.69,63.84,+4.54%,+1.09%,1.61,2.59,"1,338,200",85.43,N/A
 Materials,Paper & Plastic Packaging Products & Materials,IP,International Paper,s&p500,2026-06-25,39.02,42.32,37.71,42.16,+31.05%,+11.33%,4.25,11.21,"11,964,800",504.44,N/A
