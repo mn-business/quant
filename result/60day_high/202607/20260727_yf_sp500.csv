@@ -1,64 +1,66 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Apparel Retail,ROST,Ross Stores,s&p500,2026-06-12,240.13,244.22,240.61,243.35,+8.12%,+3.21%,4.46,1.87,"2,095,134",509.85,N/A
-Consumer Discretionary,Automobile Manufacturers,GM,General Motors,s&p500,2026-05-28,84.17,87.08,84.10,87.04,+10.49%,+14.83%,4.40,5.32,"8,089,995",704.15,N/A
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-22,87.11,89.28,86.28,88.45,+51.63%,+3.90%,3.02,3.54,"2,406,614",212.87,N/A
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",BKNG,Booking Holdings,s&p500,2026-07-16,184.61,187.34,180.67,186.79,+8.01%,+4.09%,9.33,5.26,"5,663,419","1,057.87",N/A
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-07-16,270.95,280.76,265.01,278.37,+15.19%,+5.01%,18.43,7.09,"1,257,713",350.11,N/A
-Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-04-30,337.33,348.59,335.57,343.53,+1.53%,+4.43%,10.56,3.17,"1,051,082",361.08,N/A
-Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-07-24,118.32,121.64,117.52,121.05,+24.83%,+7.60%,2.73,2.31,"1,326,051",160.52,N/A
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-22,194.30,196.79,192.55,195.66,+18.92%,+1.53%,2.66,1.38,"2,598,219",508.37,N/A
-Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026-07-16,533.21,543.25,530.91,538.01,+13.60%,+2.24%,9.11,1.72,"615,353",331.07,N/A
-Financials,Asset Management & Custody Banks,BX,Blackstone Inc.,s&p500,2026-07-24,130.00,135.44,130.41,132.60,+10.13%,+7.27%,2.60,2.0,"5,254,467",696.74,N/A
-Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-07-24,62.05,62.99,61.84,62.13,+18.60%,+2.83%,0.08,0.13,"36,783,745","2,285.37",N/A
-Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-07-24,353.21,359.05,352.58,356.20,+14.37%,+5.11%,2.99,0.85,"5,718,439","2,036.91",N/A
-Financials,Insurance Brokers,MRSH,Marsh McLennan,s&p500,2026-07-16,182.15,185.04,181.25,183.31,+7.31%,+0.66%,2.57,1.42,"1,573,524",288.44,N/A
-Financials,Insurance Brokers,WTW,Willis Towers Watson,s&p500,2026-07-13,295.55,303.79,294.32,302.64,+4.42%,+3.18%,7.53,2.55,"449,950",136.17,N/A
-Financials,Investment Banking & Brokerage,RJF,Raymond James Financial,s&p500,2026-07-15,170.30,173.97,170.97,173.60,+11.90%,+3.14%,4.30,2.54,"800,043",138.89,N/A
-Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-10,103.12,104.29,102.36,104.18,+15.11%,+1.60%,2.21,2.17,"5,332,647",555.56,N/A
-Financials,Life & Health Insurance,AFL,Aflac,s&p500,2026-07-24,125.60,126.87,125.50,126.56,+9.39%,+2.00%,0.96,0.76,"1,307,507",165.48,N/A
-Financials,Life & Health Insurance,MET,MetLife,s&p500,2026-07-24,94.83,95.92,94.83,95.19,+22.53%,+2.37%,0.36,0.38,"3,893,059",370.58,N/A
-Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-24,119.96,122.57,120.67,121.89,+27.49%,+3.32%,1.93,1.61,"1,892,716",230.70,N/A
-Financials,Multi-line Insurance,L,Loews Corporation,s&p500,2026-07-24,117.90,118.97,117.20,118.54,+5.55%,+3.45%,0.64,0.54,"734,382",87.05,N/A
-Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-07-24,103.36,104.79,101.93,103.88,+7.03%,+2.01%,0.52,0.5,"1,822,542",189.33,N/A
-Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-07-24,259.97,262.24,258.91,261.27,+20.73%,+2.97%,1.30,0.5,"659,897",172.41,N/A
-Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-24,387.26,391.99,386.66,390.35,+26.44%,+5.93%,3.09,0.8,"1,127,540",440.14,N/A
-Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-07-24,75.46,76.04,74.87,75.70,+13.80%,+4.08%,0.24,0.32,"948,491",71.80,N/A
-Financials,Reinsurance,EG,Everest Group,s&p500,2026-07-24,385.12,390.53,385.33,389.34,+12.85%,+2.73%,4.22,1.1,"265,498",103.37,N/A
-Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-07-16,371.81,382.78,374.74,379.71,+21.87%,+2.82%,9.13,2.46,"353,245",134.13,N/A
-Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-07-20,82.37,84.34,82.03,84.06,+24.29%,+2.05%,3.14,3.88,"2,675,730",224.92,N/A
-Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-07-16,551.54,553.89,542.02,551.71,+8.69%,+0.78%,12.05,2.23,"2,358,237","1,301.06",N/A
-Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-07-24,376.04,382.28,374.39,376.26,+11.64%,+3.32%,0.22,0.06,"2,675,662","1,006.74",N/A
-Health Care,Biotechnology,INCY,Incyte,s&p500,2026-07-09,118.52,120.71,117.56,118.87,+21.62%,+2.78%,1.20,1.02,"2,683,660",319.01,N/A
-Health Care,Health Care Distributors,COR,Cencora,s&p500,2026-04-29,310.71,313.90,308.13,311.15,-0.04%,+2.36%,1.26,0.41,"735,648",228.90,N/A
-Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-07-16,841.31,856.52,836.86,850.06,+1.80%,+2.24%,9.16,1.09,"593,401",504.43,N/A
-Health Care,Health Care Equipment,MDT,Medtronic,s&p500,2026-07-10,83.87,85.14,83.21,84.22,+3.76%,+1.12%,1.01,1.21,"4,682,220",394.34,N/A
-Health Care,Health Care Equipment,SYK,Stryker Corporation,s&p500,2026-06-26,331.82,338.72,331.92,336.74,+5.04%,+5.51%,6.49,1.97,"1,645,135",553.98,N/A
-Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-07-23,227.90,231.95,224.96,231.84,+18.86%,+11.64%,3.98,1.75,"959,709",222.50,N/A
-Health Care,Health Care Services,LH,Labcorp,s&p500,2026-07-24,296.77,301.70,295.86,301.17,+16.35%,+7.00%,4.40,1.48,"532,352",160.33,N/A
-Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-07-16,210.49,213.48,206.87,213.22,+34.12%,+4.57%,5.17,2.48,"1,853,486",395.20,N/A
-Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-07-16,"1,335.09","1,341.49","1,313.70","1,336.29",+5.85%,+4.91%,9.11,0.69,"87,372",116.75,N/A
-Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-24,62.09,63.44,62.22,62.56,+8.59%,+3.99%,0.47,0.76,"7,395,154",462.64,N/A
-Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-07-21,17.59,17.75,17.28,17.64,+19.87%,+3.80%,0.40,2.29,"9,761,897",172.15,N/A
-Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-07-24,386.75,392.57,386.47,389.14,+24.60%,+5.00%,2.39,0.62,"876,022",340.90,N/A
-Industrials,Aerospace & Defense,RTX,RTX Corporation,s&p500,2026-07-24,212.79,220.39,213.80,218.42,+24.85%,+12.33%,5.63,2.65,"6,262,792","1,367.92",N/A
-Industrials,Aerospace & Defense,TXT,Textron,s&p500,2026-04-30,95.94,97.32,95.51,96.13,+9.09%,+5.88%,0.60,0.63,"2,004,874",192.73,N/A
-Industrials,Building Products,ALLE,Allegion,s&p500,2026-07-23,154.57,158.36,153.66,158.14,+15.18%,+14.49%,4.78,3.12,"1,196,505",189.22,N/A
-Industrials,Construction Machinery & Heavy Transportation Equipment,PCAR,Paccar,s&p500,2026-07-24,132.24,134.27,131.43,133.44,+11.91%,+7.33%,1.20,0.91,"3,522,048",469.98,N/A
-Industrials,Diversified Support Services,CTAS,Cintas,s&p500,2026-07-16,206.25,211.72,206.70,210.98,+21.43%,+4.55%,5.07,2.46,"2,226,790",469.81,N/A
-Industrials,Electrical Components & Equipment,AME,Ametek,s&p500,2026-07-24,241.97,243.84,238.11,243.12,+6.35%,+3.36%,1.15,0.48,"825,616",200.72,N/A
-Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-07-16,94.21,94.37,92.38,94.28,+10.30%,+1.21%,2.26,2.46,"1,853,543",174.75,N/A
-Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-20,115.20,116.90,114.50,115.48,+28.55%,+0.24%,1.93,1.7,"3,154,747",364.31,N/A
-Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-07-24,172.62,179.29,173.52,178.23,+22.68%,+12.02%,5.61,3.25,"3,704,257",660.21,N/A
-Industrials,Industrial Machinery & Supplies & Components,ITW,Illinois Tool Works,s&p500,2026-07-24,283.02,287.94,283.68,284.82,+6.73%,+4.83%,1.80,0.64,"1,758,084",500.74,N/A
-Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-06-30,94.12,94.19,92.25,94.17,+21.51%,+7.62%,2.91,3.19,"2,158,793",203.29,N/A
-Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-07-20,201.79,209.32,202.27,206.66,+17.30%,+2.41%,5.32,2.64,"1,745,474",360.72,N/A
-Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-24,367.34,380.81,367.51,375.02,+5.90%,+3.36%,7.68,2.09,"780,647",292.76,N/A
-Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-07-16,96.21,98.25,93.68,96.41,+13.02%,+1.66%,3.25,3.49,"1,415,179",136.44,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-07-16,333.26,339.57,334.02,336.91,+24.57%,+3.16%,3.89,1.17,"45,246,885","15,244.13",N/A
-Materials,"Metal, Glass & Plastic Containers",BALL,Ball Corporation,s&p500,2026-07-24,63.84,65.22,64.21,64.67,+5.27%,+3.89%,0.83,1.3,"1,608,108",104.00,N/A
-Materials,Paper & Plastic Packaging Products & Materials,AMCR,Amcor,s&p500,2026-07-02,45.00,45.41,44.59,45.24,+19.34%,+4.65%,0.70,1.57,"3,673,321",166.18,N/A
-Materials,Paper & Plastic Packaging Products & Materials,IP,International Paper,s&p500,2026-07-24,42.16,43.43,41.99,42.41,+26.52%,+16.99%,0.25,0.59,"5,743,851",243.60,N/A
-Materials,Paper & Plastic Packaging Products & Materials,SW,Smurfit Westrock,s&p500,2026-07-24,48.56,50.12,48.22,50.09,+24.91%,+16.11%,1.53,3.15,"6,347,630",317.95,N/A
-Real Estate,Hotel & Resort REITs,HST,Host Hotels & Resorts,s&p500,2026-07-22,24.50,25.00,24.55,24.97,+23.82%,+3.78%,0.47,1.92,"7,492,560",187.09,N/A
-Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-22,26.14,26.55,26.06,26.38,+12.05%,+1.34%,0.28,1.07,"3,503,848",92.43,N/A
-Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-07-24,229.78,231.71,229.36,231.67,+15.52%,+1.53%,1.89,0.82,"539,534",124.99,N/A
+Consumer Discretionary,Apparel Retail,ROST,Ross Stores,s&p500,2026-06-12,240.13,244.22,240.61,243.35,+8.12%,+3.21%,4.46,1.87,"2,775,200",675.34,N/A
+Consumer Discretionary,Automobile Manufacturers,GM,General Motors,s&p500,2026-05-28,84.17,87.08,84.10,87.04,+10.49%,+14.83%,4.40,5.32,"9,870,000",859.08,N/A
+Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-22,87.11,89.28,86.28,88.45,+51.63%,+3.90%,3.02,3.54,"2,821,900",249.60,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",BKNG,Booking Holdings,s&p500,2026-07-16,184.61,187.34,180.59,186.79,+8.01%,+4.09%,9.33,5.26,"5,665,000","1,058.17",N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-07-16,270.95,280.76,265.01,278.37,+15.19%,+5.01%,18.43,7.09,"1,273,000",354.37,N/A
+Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-04-30,337.33,348.60,335.57,343.53,+1.53%,+4.43%,10.56,3.17,"1,075,400",369.43,N/A
+Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-07-24,118.32,121.67,117.52,121.05,+24.83%,+7.60%,2.73,2.31,"1,980,400",239.73,N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-22,194.30,196.79,192.55,195.66,+18.92%,+1.53%,2.66,1.38,"3,699,000",723.75,N/A
+Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026-07-16,533.21,543.25,530.91,538.01,+13.60%,+2.24%,9.11,1.72,"654,000",351.86,N/A
+Financials,Asset Management & Custody Banks,BX,Blackstone Inc.,s&p500,2026-07-24,130.00,135.44,130.41,132.60,+10.13%,+7.27%,2.60,2.0,"6,801,300",901.85,N/A
+Financials,Diversified Banks,BAC,Bank of America,s&p500,2026-07-24,62.05,62.99,61.84,62.13,+18.60%,+2.83%,0.08,0.13,"36,899,800","2,292.58",N/A
+Financials,Diversified Banks,JPM,JPMorgan Chase,s&p500,2026-07-24,353.21,359.05,352.58,356.20,+14.37%,+5.11%,2.99,0.85,"7,884,900","2,808.60",N/A
+Financials,Insurance Brokers,MRSH,Marsh McLennan,s&p500,2026-07-16,182.15,185.05,181.25,183.31,+7.31%,+0.66%,2.57,1.42,"2,124,800",389.50,N/A
+Financials,Insurance Brokers,WTW,Willis Towers Watson,s&p500,2026-07-13,295.55,303.79,293.14,302.64,+4.42%,+3.18%,7.53,2.55,"462,400",139.94,N/A
+Financials,Investment Banking & Brokerage,RJF,Raymond James Financial,s&p500,2026-07-15,170.30,174.00,170.64,173.60,+11.90%,+3.14%,4.30,2.54,"1,113,400",193.29,N/A
+Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-07-10,103.12,104.29,102.36,104.18,+15.11%,+1.60%,2.21,2.17,"7,276,400",758.06,N/A
+Financials,Life & Health Insurance,AFL,Aflac,s&p500,2026-07-24,125.60,126.87,125.50,126.56,+9.39%,+2.00%,0.96,0.76,"1,962,600",248.39,N/A
+Financials,Life & Health Insurance,MET,MetLife,s&p500,2026-07-24,94.83,96.00,94.83,95.19,+22.53%,+2.37%,0.36,0.38,"5,151,000",490.32,N/A
+Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-24,119.96,122.57,120.62,121.89,+27.49%,+3.32%,1.93,1.61,"2,253,900",274.73,N/A
+Financials,Multi-line Insurance,L,Loews Corporation,s&p500,2026-07-24,117.90,119.02,117.20,118.54,+5.55%,+3.45%,0.64,0.54,"734,400",87.06,N/A
+Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-07-24,103.36,104.80,101.93,103.88,+7.03%,+2.01%,0.52,0.5,"1,874,600",194.73,N/A
+Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-07-24,259.97,262.24,258.90,261.27,+20.73%,+2.97%,1.30,0.5,"1,102,900",288.15,N/A
+Financials,Property & Casualty Insurance,TRV,Travelers Companies (The),s&p500,2026-07-24,387.26,391.99,386.66,390.35,+26.44%,+5.93%,3.09,0.8,"1,430,600",558.43,N/A
+Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-07-24,75.46,76.07,74.87,75.70,+13.80%,+4.08%,0.24,0.32,"1,371,100",103.79,N/A
+Financials,Reinsurance,EG,Everest Group,s&p500,2026-07-24,385.12,390.53,385.00,389.34,+12.85%,+2.73%,4.22,1.1,"319,300",124.32,N/A
+Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-07-16,371.81,382.78,374.74,379.71,+21.87%,+2.82%,9.13,2.46,"712,400",270.51,N/A
+Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-07-20,82.37,84.34,82.02,84.06,+24.29%,+2.05%,3.14,3.88,"3,472,900",291.93,N/A
+Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-07-16,551.54,553.89,542.02,551.71,+8.69%,+0.78%,12.05,2.23,"2,365,000","1,304.79",N/A
+Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-07-24,376.04,382.28,374.40,376.26,+11.64%,+3.32%,0.22,0.06,"2,902,200","1,091.98",N/A
+Health Care,Biotechnology,INCY,Incyte,s&p500,2026-07-09,118.52,120.71,117.25,118.87,+21.62%,+2.78%,1.20,1.02,"2,728,900",324.38,N/A
+Health Care,Health Care Distributors,COR,Cencora,s&p500,2026-04-29,310.71,313.90,308.13,311.15,-0.04%,+2.36%,1.26,0.41,"1,004,600",312.58,N/A
+Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-07-16,841.31,856.52,836.86,850.06,+1.80%,+2.24%,9.16,1.09,"799,800",679.88,N/A
+Health Care,Health Care Equipment,MDT,Medtronic,s&p500,2026-07-10,83.87,85.14,83.21,84.22,+3.76%,+1.12%,1.01,1.21,"5,420,600",456.52,N/A
+Health Care,Health Care Equipment,SYK,Stryker Corporation,s&p500,2026-06-26,331.82,338.79,331.92,336.74,+5.04%,+5.51%,6.49,1.97,"2,069,900",697.02,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-07-23,227.90,231.95,224.97,231.84,+18.86%,+11.64%,3.98,1.75,"1,143,200",265.04,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-07-24,296.77,301.79,295.48,301.17,+16.35%,+7.00%,4.40,1.48,"655,400",197.39,N/A
+Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-07-16,210.49,213.48,206.87,213.22,+34.12%,+4.57%,5.17,2.48,"2,160,100",460.58,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-07-16,"1,335.09","1,341.58","1,313.70","1,336.29",+5.85%,+4.91%,9.11,0.69,"110,400",147.53,N/A
+Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-24,62.09,63.44,62.22,62.56,+8.59%,+3.99%,0.47,0.76,"10,317,000",645.43,N/A
+Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-07-21,17.59,17.75,17.28,17.64,+19.90%,+3.83%,0.40,2.32,"9,762,900",172.22,N/A
+Industrials,Aerospace & Defense,GD,General Dynamics,s&p500,2026-07-24,386.75,392.57,386.47,389.14,+24.60%,+5.00%,2.39,0.62,"1,194,200",464.71,N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-24,"6,120.00","6,540.00","6,180.00","6,210.00",+1622.07%,+7.07%,90.00,1.47,"575,100","3,571.37",N/A
+Industrials,Aerospace & Defense,RTX,RTX Corporation,s&p500,2026-07-24,212.79,220.39,213.80,218.42,+24.85%,+12.33%,5.63,2.65,"8,191,700","1,789.23",N/A
+Industrials,Aerospace & Defense,TDG,TransDigm Group,s&p500,2026-07-24,"2,560.00","2,730.00","2,560.00","2,700.00",+136.27%,+12.50%,140.00,5.47,"206,000",556.20,N/A
+Industrials,Aerospace & Defense,TXT,Textron,s&p500,2026-04-30,95.94,97.32,95.52,96.13,+9.09%,+5.88%,0.60,0.63,"2,765,300",265.83,N/A
+Industrials,Building Products,ALLE,Allegion,s&p500,2026-07-23,154.57,158.40,153.66,158.14,+15.18%,+14.49%,4.78,3.12,"1,803,100",285.14,N/A
+Industrials,Construction Machinery & Heavy Transportation Equipment,PCAR,Paccar,s&p500,2026-07-24,132.24,134.27,131.42,133.44,+11.91%,+7.33%,1.20,0.91,"3,687,300",492.03,N/A
+Industrials,Diversified Support Services,CTAS,Cintas,s&p500,2026-07-16,206.25,211.72,206.35,210.98,+21.43%,+4.55%,5.07,2.46,"2,261,000",477.03,N/A
+Industrials,Electrical Components & Equipment,AME,Ametek,s&p500,2026-07-24,241.97,243.97,238.10,243.12,+6.35%,+3.36%,1.15,0.48,"1,016,900",247.23,N/A
+Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-07-16,94.21,94.37,92.31,94.28,+10.30%,+1.21%,2.26,2.46,"1,853,500",174.75,N/A
+Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-20,115.20,116.90,114.50,115.48,+28.55%,+0.24%,1.93,1.7,"3,451,700",398.60,N/A
+Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-07-24,172.62,179.29,173.52,178.23,+22.68%,+12.02%,5.61,3.25,"4,826,300",860.19,N/A
+Industrials,Industrial Machinery & Supplies & Components,ITW,Illinois Tool Works,s&p500,2026-07-24,283.02,287.94,283.68,284.82,+6.73%,+4.83%,1.80,0.64,"2,119,000",603.53,N/A
+Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-06-30,94.12,94.23,92.25,94.17,+21.51%,+7.62%,2.91,3.19,"2,179,800",205.27,N/A
+Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-07-20,201.79,209.32,202.24,206.66,+17.30%,+2.41%,5.32,2.64,"1,848,500",382.01,N/A
+Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-24,367.34,380.81,367.51,375.02,+5.90%,+3.36%,7.68,2.09,"780,700",292.78,N/A
+Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-07-16,96.21,98.25,93.68,96.41,+13.02%,+1.66%,3.25,3.49,"1,777,700",171.39,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-07-16,333.26,339.57,334.02,336.91,+24.57%,+3.16%,3.89,1.17,"49,556,300","16,696.01",N/A
+Materials,"Metal, Glass & Plastic Containers",BALL,Ball Corporation,s&p500,2026-07-24,63.84,65.22,64.13,64.67,+5.27%,+3.89%,0.83,1.3,"2,195,900",142.01,N/A
+Materials,Paper & Plastic Packaging Products & Materials,AMCR,Amcor,s&p500,2026-07-02,45.00,45.41,44.59,45.24,+19.34%,+4.65%,0.70,1.57,"3,673,700",166.20,N/A
+Materials,Paper & Plastic Packaging Products & Materials,IP,International Paper,s&p500,2026-07-24,42.16,43.43,41.99,42.41,+26.52%,+16.99%,0.25,0.59,"7,127,500",302.28,N/A
+Materials,Paper & Plastic Packaging Products & Materials,SW,Smurfit Westrock,s&p500,2026-07-24,48.56,50.12,48.22,50.09,+24.91%,+16.11%,1.53,3.15,"8,429,900",422.25,N/A
+Real Estate,Hotel & Resort REITs,HST,Host Hotels & Resorts,s&p500,2026-07-22,24.50,25.01,24.55,24.97,+23.82%,+3.78%,0.47,1.92,"8,199,200",204.73,N/A
+Real Estate,Retail REITs,KIM,Kimco Realty,s&p500,2026-07-22,26.14,26.55,26.06,26.38,+12.05%,+1.34%,0.28,1.07,"4,958,300",130.80,N/A
+Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-07-24,229.78,231.73,229.36,231.67,+15.52%,+1.53%,1.89,0.82,"896,900",207.78,N/A
