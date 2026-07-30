@@ -7,7 +7,7 @@ Consumer Discretionary,Consumer Electronics,GRMN,Garmin,s&p500,2026-07-28,253.65
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",BKNG,Booking Holdings,s&p500,2026-07-28,199.31,204.61,195.34,201.30,+19.87%,+13.18%,1.99,1.0,"7,906,000","1,591.48",N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-07-28,295.79,312.40,290.64,304.27,+22.77%,+16.54%,8.48,2.87,"2,495,400",759.28,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",RCL,Royal Caribbean Group,s&p500,2026-06-25,322.65,328.87,315.59,323.58,+23.32%,+13.20%,1.08,0.33,"2,687,100",869.49,N/A
-Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-15,"8,910.00","9,290.00","9,290.00","9,290.00",+9651.23%,+5.33%,390.00,4.38,"11,600",107.76,N/A
+Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-29,"9,290.00","9,840.00","9,840.00","9,840.00",+10371.43%,+19.71%,550.00,5.92,"3,508",34.52,N/A
 Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-07-28,350.47,364.58,347.61,360.00,+6.72%,+12.56%,9.53,2.72,"1,292,200",465.19,N/A
 Consumer Staples,Brewers,TAP,Molson Coors Beverage Company,s&p500,2026-05-07,42.62,43.62,42.13,42.76,+1.24%,+4.19%,0.25,0.59,"3,513,500",150.24,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-07-16,127.16,129.13,124.34,128.68,+11.05%,+7.02%,2.71,2.15,"1,807,500",232.59,N/A
@@ -44,7 +44,7 @@ Health Care,Health Care Technology,SOLV,Solventum,s&p500,2026-07-28,86.17,88.65,
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-07-28,201.20,209.33,200.30,207.91,+33.30%,+12.66%,6.71,3.33,"2,073,700",431.14,N/A
 Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-07-28,242.94,251.36,240.70,247.56,+56.32%,+24.70%,4.62,1.9,"2,241,800",554.98,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-07-28,576.41,584.54,571.20,576.46,+20.48%,+9.50%,0.05,0.01,"2,546,800","1,468.13",N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-27,"6,210.00","6,630.00","6,630.00","6,630.00",+1732.47%,+15.91%,430.00,6.94,"183,139","1,214.21",N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-27,"6,210.00","6,630.00","6,630.00","6,630.00",+1732.47%,+15.91%,430.00,6.94,"285,879","1,895.38",N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-06-01,158.88,163.24,157.36,159.20,+4.09%,+10.46%,1.02,0.64,"1,049,200",167.03,N/A
 Industrials,Diversified Support Services,CTAS,Cintas,s&p500,2026-07-28,214.90,219.17,213.54,216.53,+24.27%,+7.53%,1.63,0.76,"2,755,100",596.56,N/A
 Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-07-28,98.47,102.25,96.93,98.83,+12.22%,+8.43%,0.36,0.37,"3,105,500",306.92,N/A
@@ -54,7 +54,7 @@ Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-07-28,187.02,
 Industrials,Research & Consulting Services,VRSK,Verisk Analytics,s&p500,2026-07-28,212.26,226.08,212.01,213.15,+15.85%,+10.85%,0.89,0.42,"3,401,700",725.07,N/A
 Information Technology,Application Software,FICO,Fair Isaac,s&p500,2026-07-28,"1,336.22","1,410.17","1,334.24","1,373.08",+33.96%,+12.41%,36.86,2.76,"432,200",593.45,N/A
 Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-07-28,159.69,170.40,158.99,168.01,+37.26%,+26.88%,8.32,5.21,"7,241,400","1,216.63",N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-14,"5,580.00","5,700.00","5,520.00","5,580.00",+3862.57%,+4.49%,190.00,3.53,"460,895","2,571.79",N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-14,"5,580.00","5,700.00","5,520.00","5,620.00",+3890.98%,+5.24%,230.00,4.27,"522,895","2,938.67",N/A
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-28,390.92,410.26,390.93,408.07,+15.01%,+21.19%,17.15,4.39,"1,274,000",519.88,N/A
 Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-07-28,102.92,106.00,101.00,105.10,+21.10%,+17.56%,2.18,2.12,"1,979,200",208.01,N/A
 Information Technology,Technology Distributors,CDW,CDW Corporation,s&p500,2026-07-10,144.39,151.17,143.71,147.92,+8.68%,+13.93%,3.89,2.7,"2,560,900",378.81,N/A
