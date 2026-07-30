@@ -1,12 +1,17 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,"Apparel, Accessories & Luxury Goods",TPR,"Tapestry, Inc.",s&p500,2026-06-15,150.99,152.26,149.28,151.13,+6.18%,+8.63%,1.02,0.68,"169,103",25.56,N/A
+Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-20,209.29,209.80,208.70,209.47,+3.75%,+0.22%,0.56,0.27,"2,397,985",502.31,N/A
+Consumer Discretionary,"Apparel, Accessories & Luxury Goods",TPR,"Tapestry, Inc.",s&p500,2026-06-15,150.99,152.34,149.28,151.51,+6.45%,+8.90%,1.40,0.93,"416,162",63.05,N/A
 Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-29,"9,290.00","9,840.00","9,840.00","9,840.00",+10371.43%,+19.71%,550.00,5.92,"3,508",34.52,N/A
-Financials,Insurance Brokers,WTW,Willis Towers Watson,s&p500,2026-07-28,316.16,343.33,323.09,326.41,+27.80%,+13.19%,10.48,3.32,"312,070",101.86,N/A
-Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-07-29,563.32,582.62,567.63,572.23,+15.49%,+7.91%,8.91,1.58,"1,808,959","1,035.14",N/A
-Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-07-29,24.77,30.00,28.10,28.10,+63.36%,+29.67%,3.33,13.44,"7,327,673",205.91,N/A
-Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-28,72.07,72.21,71.99,72.14,+31.35%,+0.51%,0.11,0.15,"1,594,885",115.05,N/A
-Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-28,63.60,65.21,62.23,63.78,+10.80%,+3.70%,0.69,1.09,"7,449,405",475.16,N/A
+Financials,Asset Management & Custody Banks,BLK,BlackRock,s&p500,2026-05-14,"1,097.84","1,102.75","1,071.36","1,102.03",+4.39%,+6.25%,22.84,2.12,"289,710",319.27,N/A
+Financials,Insurance Brokers,WTW,Willis Towers Watson,s&p500,2026-07-28,316.16,343.33,323.09,332.79,+30.29%,+15.40%,16.86,5.34,"546,795",181.97,N/A
+Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-07-29,563.32,582.62,567.63,580.17,+17.10%,+9.41%,16.85,2.99,"2,695,453","1,563.83",N/A
+Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-07-29,24.77,30.00,26.46,26.51,+54.15%,+22.36%,1.74,7.04,"13,906,792",368.74,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-28,72.07,72.21,71.99,72.10,+31.29%,+0.46%,0.07,0.1,"2,394,322",172.63,N/A
+Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-28,63.60,65.21,62.23,64.39,+11.85%,+4.68%,1.29,2.04,"9,962,895",641.51,N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-27,"6,210.00","6,630.00","6,630.00","6,630.00",+1732.47%,+15.91%,430.00,6.94,"286,479","1,899.36",N/A
-Industrials,Industrial Machinery & Supplies & Components,IEX,IDEX Corporation,s&p500,2026-07-29,229.52,239.46,233.07,234.02,+9.27%,+5.31%,4.50,1.96,"340,740",79.74,N/A
+Industrials,Industrial Machinery & Supplies & Components,IEX,IDEX Corporation,s&p500,2026-07-29,229.52,239.46,232.56,234.67,+9.57%,+5.60%,5.15,2.24,"777,964",182.56,N/A
+Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-07-28,94.19,94.91,91.58,94.61,+21.77%,+8.24%,1.56,1.68,"1,008,234",95.39,N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-14,"5,580.00","5,700.00","5,520.00","5,610.00",+3883.88%,+5.06%,220.00,4.08,"538,395","3,020.40",N/A
-Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-07-28,169.13,186.31,176.22,178.20,+10.01%,+14.82%,11.06,6.62,"579,891",103.34,N/A
+Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-28,284.40,292.76,276.53,292.08,+28.62%,+13.67%,9.10,3.22,"348,889",101.90,N/A
+Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-07-28,169.13,186.31,176.16,177.98,+9.87%,+14.67%,10.84,6.48,"1,008,040",179.41,N/A
+Real Estate,Real Estate Services,CBRE,CBRE Group,s&p500,2026-07-29,147.78,149.87,144.58,149.24,+5.24%,+10.10%,1.46,0.99,"1,163,834",173.69,N/A
