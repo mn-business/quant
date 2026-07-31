@@ -1,15 +1,13 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-30,209.59,209.93,209.76,209.88,+4.09%,+0.39%,0.29,0.14,"2,911,822",611.12,N/A
-Consumer Discretionary,"Apparel, Accessories & Luxury Goods",TPR,"Tapestry, Inc.",s&p500,2026-07-30,152.58,154.61,151.49,153.15,+9.91%,+7.40%,0.57,0.37,"668,817",102.43,N/A
-Consumer Staples,Food Distributors,SYY,Sysco,s&p500,2026-07-29,85.32,85.69,84.11,85.65,+18.94%,+3.06%,0.94,1.12,"901,359",77.21,N/A
-Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-07-24,146.39,147.59,144.96,147.58,+4.22%,+0.81%,2.07,1.42,"831,565",122.72,N/A
-Financials,Asset Management & Custody Banks,AMP,Ameriprise Financial,s&p500,2026-07-28,546.62,549.39,543.44,547.75,+16.89%,+3.56%,3.29,0.6,"170,375",93.32,N/A
-Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-07-30,738.34,759.12,724.79,753.67,+6.43%,+14.89%,15.33,2.08,"549,401",414.07,N/A
-Health Care,Health Care Equipment,DXCM,Dexcom,s&p500,2026-06-09,78.19,84.70,79.67,83.68,+39.37%,+16.97%,9.14,12.26,"7,464,298",624.61,N/A
-Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-07-28,"1,388.38","1,464.90","1,369.50","1,406.90",+11.61%,+6.01%,26.29,1.9,"138,642",195.05,N/A
-Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-28,72.07,72.17,71.96,72.15,+32.06%,+0.78%,0.12,0.17,"2,911,596",210.09,N/A
-Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-30,64.86,65.66,63.53,65.26,+15.02%,+5.11%,0.40,0.62,"7,231,878",471.95,N/A
+Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-30,209.59,209.93,209.76,209.86,+4.08%,+0.38%,0.27,0.13,"4,551,261",955.13,N/A
+Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-07-24,146.39,148.69,144.96,148.69,+5.00%,+1.57%,3.18,2.19,"1,436,981",213.66,N/A
+Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-07-30,738.34,764.65,724.79,762.63,+7.69%,+16.25%,24.29,3.29,"1,126,578",859.16,N/A
+Health Care,Health Care Equipment,DXCM,Dexcom,s&p500,2026-06-09,78.19,84.70,79.67,83.45,+38.99%,+16.65%,8.91,11.95,"11,764,839",981.78,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-07-28,"1,388.38","1,464.90","1,369.50","1,416.30",+12.36%,+6.71%,35.69,2.59,"208,933",295.91,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-28,72.07,72.17,71.96,72.09,+31.94%,+0.68%,0.06,0.08,"3,982,408",287.09,N/A
+Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-30,64.86,65.66,63.53,65.31,+15.10%,+5.19%,0.45,0.69,"10,182,442",665.02,N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-30,"6,630.00","7,090.00","7,090.00","7,090.00",+2083.37%,+15.85%,460.00,6.94,"262,433","1,860.65",N/A
-Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-30,288.57,294.31,286.37,291.80,+30.43%,+12.27%,3.23,1.12,"399,262",116.50,N/A
-Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-06-01,460.52,464.80,449.55,462.00,+11.94%,+21.04%,10.90,2.42,"35,175,526","16,251.09",N/A
+Industrials,Aerospace & Defense,LMT,Lockheed Martin,s&p500,2026-07-24,582.60,583.89,570.89,582.91,+12.50%,+0.05%,8.80,1.53,"921,458",537.13,N/A
+Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-30,288.57,295.77,286.37,293.82,+31.33%,+13.04%,5.25,1.82,"965,391",283.65,N/A
+Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-06-01,460.52,466.84,449.55,464.72,+12.60%,+21.75%,13.62,3.02,"56,468,734","26,242.15",N/A
 Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-07-02,"122,000.00","124,400.00","123,300.00","124,400.00",+108798.70%,+15.40%,"8,100.00",6.96,"1,523,364","189,506.48",N/A

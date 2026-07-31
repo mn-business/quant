@@ -1,5 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-20,209.29,209.80,208.70,209.59,+3.81%,+0.28%,0.68,0.33,"4,123,100",864.16,N/A
+Communication Services,Interactive Home Entertainment,EA,Electronic Arts,s&p500,2026-07-20,209.29,209.80,208.70,209.59,+3.81%,+0.28%,0.68,0.33,"4,143,500",868.44,N/A
 Consumer Discretionary,Apparel Retail,ROST,Ross Stores,s&p500,2026-07-29,251.96,252.75,248.58,252.57,+10.59%,+8.68%,0.61,0.24,"2,452,000",619.30,N/A
 Consumer Discretionary,"Apparel, Accessories & Luxury Goods",TPR,"Tapestry, Inc.",s&p500,2026-06-15,150.99,152.68,149.28,152.58,+7.20%,+9.67%,2.47,1.65,"1,440,800",219.84,N/A
 Consumer Discretionary,Consumer Electronics,GRMN,Garmin,s&p500,2026-07-29,294.83,298.21,285.97,297.55,+23.29%,+23.93%,2.72,0.92,"1,350,600",401.87,N/A
@@ -12,7 +12,7 @@ Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-05-12,722.3
 Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-07-29,24.77,30.00,26.05,26.75,+55.51%,+23.44%,1.98,7.99,"22,670,900",606.45,N/A
 Health Care,Health Care Services,LH,Labcorp,s&p500,2026-07-28,314.23,316.11,294.34,315.53,+23.67%,+8.42%,8.38,2.73,"1,398,600",441.30,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-07-29,576.46,577.05,560.42,576.77,+23.05%,+0.78%,0.31,0.05,"2,264,700","1,306.21",N/A
-Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-28,63.60,65.56,62.23,64.86,+12.66%,+5.45%,1.76,2.79,"18,021,300","1,168.86",N/A
+Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-28,63.60,65.56,62.23,64.86,+12.66%,+5.45%,1.76,2.79,"18,031,400","1,169.52",N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-27,"6,210.00","6,630.00","6,630.00","6,630.00",+1732.47%,+15.91%,430.00,6.94,"286,300","1,898.17",N/A
 Industrials,Industrial Machinery & Supplies & Components,IEX,IDEX Corporation,s&p500,2026-07-29,229.52,239.46,230.98,233.77,+9.15%,+5.20%,4.25,1.85,"1,437,600",336.07,N/A
 Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-07-28,94.19,95.84,91.57,95.55,+22.97%,+9.31%,2.50,2.69,"3,504,500",334.85,N/A
