@@ -29,7 +29,6 @@ Health Care,Health Care Supplies,COO,Cooper Companies (The),s&p500,2026-07-02,74
 Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-07-31,"1,416.30","1,454.19","1,412.00","1,445.00",+10.95%,+8.14%,28.70,2.03,"155,459",224.64,N/A
 Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-07-31,72.09,72.20,72.07,72.14,+27.51%,+0.73%,0.05,0.07,"3,264,664",235.51,N/A
 Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-07-31,65.31,68.10,64.14,65.47,+16.26%,+4.65%,0.16,0.24,"24,636,623","1,612.96",N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-07-31,"7,090.00",0.00,0.00,"7,580.00",+2282.41%,+22.06%,490.00,6.91,600,4.55,N/A
 Industrials,Aerospace & Defense,LMT,Lockheed Martin,s&p500,2026-07-31,582.74,589.41,579.03,586.29,+15.20%,+1.08%,3.55,0.61,"975,059",571.67,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-07-28,161.23,162.09,159.17,161.28,+22.42%,+1.99%,3.88,2.47,"1,162,621",187.51,N/A
 Industrials,Electrical Components & Equipment,AME,Ametek,s&p500,2026-07-27,243.12,244.63,240.21,243.77,+4.09%,+0.27%,2.06,0.85,"1,341,766",327.08,N/A
@@ -38,9 +37,7 @@ Industrials,Electrical Components & Equipment,ETN,Eaton Corporation,s&p500,2026-
 Industrials,Industrial Machinery & Supplies & Components,IR,Ingersoll Rand,s&p500,2026-07-28,86.50,87.85,84.90,87.78,+15.81%,+3.69%,4.40,5.28,"5,723,930",502.45,N/A
 Industrials,Industrial Machinery & Supplies & Components,PH,Parker Hannifin,s&p500,2026-07-28,990.96,997.85,972.49,997.52,+14.56%,+1.03%,20.99,2.15,"502,780",501.53,N/A
 Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-07-30,95.55,98.13,95.57,98.11,+28.01%,+4.18%,3.53,3.73,"1,341,821",131.65,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-07-30,"5,610.00",0.00,0.00,"5,620.00",+3964.76%,+5.24%,70.00,1.26,"1,600",8.99,N/A
 Information Technology,Electronic Equipment & Instruments,TDY,Teledyne Technologies,s&p500,2026-06-30,666.90,671.12,653.71,670.56,+6.12%,+2.90%,14.99,2.29,"316,216",212.04,N/A
 Information Technology,Systems Software,GEN,Gen Digital,s&p500,2026-06-01,27.76,28.42,27.88,28.17,+43.69%,+5.35%,0.72,2.62,"3,698,333",104.18,N/A
 Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-07-31,464.72,491.64,475.00,487.65,+18.80%,+25.33%,22.93,4.93,"61,678,582","30,077.56",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-06-03,181.08,184.38,176.02,182.92,+60.26%,+7.73%,4.42,2.48,"1,952,075",357.07,N/A
-Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-07-31,"124,400.00",0.00,0.00,"133,100.00",+114937.84%,+23.47%,"8,700.00",6.99,100,13.31,N/A
