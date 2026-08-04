@@ -39,7 +39,6 @@ Health Care,Health Care Supplies,COO,Cooper Companies (The),s&p500,2026-08-03,74
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-07-29,207.91,212.34,204.68,211.86,+26.60%,+5.30%,5.61,2.72,"1,227,664",260.09,N/A
 Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-07-28,383.90,402.18,380.54,396.08,+13.32%,+3.17%,21.34,5.69,"1,660,813",657.81,N/A
 Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-08-03,65.47,66.31,63.87,65.89,+17.75%,+3.60%,0.42,0.64,"17,292,074","1,139.37",N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-03,"7,580.00","8,110.00","8,110.00","8,110.00",+2488.02%,+32.30%,530.00,6.99,"484,857","3,932.19",N/A
 Industrials,Aerospace & Defense,LMT,Lockheed Martin,s&p500,2026-08-03,586.29,592.50,578.30,589.33,+14.60%,+1.38%,3.04,0.52,"1,180,421",695.66,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-08-03,161.28,165.49,160.32,165.36,+22.69%,+2.56%,4.08,2.53,"633,270",104.72,N/A
 Industrials,Building Products,JCI,Johnson Controls,s&p500,2026-06-22,148.21,154.32,146.80,153.62,+7.62%,+9.51%,7.23,4.94,"4,569,319",701.94,N/A
@@ -59,7 +58,6 @@ Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,20
 Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-07-29,168.01,172.13,162.28,171.28,+39.67%,+7.26%,6.23,3.77,"3,209,743",549.76,N/A
 Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-07-10,186.96,194.35,187.01,190.51,+29.55%,+12.26%,5.62,3.04,"13,824,458","2,633.70",N/A
 Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-07-28,440.31,445.64,433.91,442.85,+2.43%,+0.58%,5.66,1.29,"672,850",297.97,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-03,"5,620.00","5,710.00","5,450.00","5,630.00",+4027.14%,+5.23%,10.00,0.18,"296,029","1,666.64",N/A
 Information Technology,Electronic Equipment & Instruments,TDY,Teledyne Technologies,s&p500,2026-08-03,670.56,687.20,672.99,684.76,+6.31%,+5.40%,14.20,2.12,"397,560",272.23,N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-07-31,293.82,369.79,329.47,368.83,+60.53%,+29.69%,77.19,26.47,"2,600,505",959.14,N/A
 Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-06-01,179.59,191.87,155.97,185.79,+23.00%,+19.22%,34.26,22.61,"3,353,039",622.96,N/A
@@ -76,5 +74,4 @@ Materials,Paper & Plastic Packaging Products & Materials,PKG,Packaging Corporati
 Materials,Specialty Chemicals,SHW,Sherwin-Williams,s&p500,2026-07-28,354.27,364.49,356.94,361.57,+12.01%,+2.06%,7.35,2.07,"1,803,248",652.00,N/A
 Materials,Steel,NUE,Nucor,s&p500,2026-06-12,265.70,274.42,262.10,274.04,+17.29%,+3.17%,12.76,4.88,"1,515,819",415.40,N/A
 Real Estate,Real Estate Services,CBRE,CBRE Group,s&p500,2026-07-30,149.46,151.98,148.10,151.05,+4.06%,+2.72%,2.62,1.77,"1,251,475",189.04,N/A
-Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-03,"133,100.00","137,900.00","132,100.00","133,100.00",+116031.84%,+23.58%,0.00,0.0,"1,226,736","163,278.56",N/A
 Real Estate,Timber REITs,WY,Weyerhaeuser,s&p500,2026-06-25,25.76,25.84,24.80,25.83,+8.37%,+4.96%,0.60,2.38,"4,089,744",105.64,N/A
