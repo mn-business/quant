@@ -131,7 +131,7 @@ IT 서비스 및 컨설팅,57201010,QLYS,Qualys  Inc.,nasdaq,2026-07-14,164.12,2
 은행,55101010,MBWM,Mercantile Bank Corp,nasdaq,2026-08-04,61.93,62.04,61.33,61.98,+20.06%,+2.56%,0.05,0.08,"184,041",11.41,N/A
 은행,55101010,OBT,Orange County Bancorp Inc,nasdaq,2026-07-28,38.88,39.01,38.50,38.89,+11.43%,+0.83%,0.09,0.23,"32,831",1.28,N/A
 은행,55101010,OSBC,Old Second Bancorp  Inc,nasdaq,2026-08-04,25.79,25.95,25.72,25.89,+22.82%,+2.37%,0.10,0.39,"459,594",11.90,N/A
-은행,55101010,PBAM,CalPrivate Bank,nasdaq,2026-08-03,85.70,86.12,85.75,85.76,+14.42%,+3.95%,0.11,0.13,"4,203",0.36,N/A
+은행,55101010,PBAM,CalPrivate Bank,nasdaq,2026-08-03,85.70,86.12,85.75,85.76,+14.42%,+3.95%,0.11,0.13,"4,159",0.36,N/A
 은행,55101010,PROV,Provident Financial Holdings Inc,nasdaq,2026-08-04,17.94,18.10,17.91,18.03,+5.94%,+1.41%,0.09,0.5,"11,444",0.21,N/A
 은행,55101010,QCRH,QCR Holdings Inc,nasdaq,2026-08-04,105.05,105.62,104.03,105.34,+15.30%,+2.33%,0.29,0.28,"88,125",9.28,N/A
 은행,55101010,SFST,Southern First Bancshares Inc,nasdaq,2026-08-04,64.12,64.76,63.07,64.18,+12.89%,+4.60%,0.06,0.09,"206,094",13.23,N/A
@@ -228,6 +228,7 @@ IT 서비스 및 컨설팅,57201010,QLYS,Qualys  Inc.,nasdaq,2026-07-14,164.12,2
 특수 REITs,60102040,AGNCL,AGNC Invt Dep Shs Repstg 1 1000Th Pref Shs Series G,nasdaq,2026-08-04,25.15,25.15,25.00,25.15,+3.35%,+0.84%,0.00,0.02,"18,033",0.45,N/A
 특수 REITs,60102040,AGNCO,AGNC Investment DS REP 1/1000 Cumulative Pref Shs Series E,nasdaq,2026-08-04,25.54,25.64,25.52,25.55,+2.52%,+0.71%,0.01,0.04,"24,289",0.62,N/A
 특수 REITs,60102040,AGNCP,Agnc Invt 1000 Dep Shs Repstg Cum Red Prf Series F,nasdaq,2026-08-04,25.20,25.23,25.17,25.20,+3.15%,+0.72%,0.00,0.0,"36,244",0.91,N/A
+특수 REITs,60102040,DHC,Diversified Healthcare Trust,nasdaq,2026-08-03,"34,600.00","35,300.00","34,200.00","34,650.00",+409959.18%,+12.50%,550.00,1.61,"535,600","18,558.54",N/A
 특수 REITs,60102040,LANDO,Gladstone Land 6 00 Cum Redmabe Prf Shs Series B,nasdaq,2026-07-31,21.86,21.98,21.80,21.98,+5.47%,+2.00%,0.15,0.69,"6,285",0.14,N/A
 특수 REITs,60102040,LANDP,Gladstone Land 6 00 Cumulative Redeemable Preferred Stock Series C,nasdaq,2026-08-03,21.44,21.50,21.38,21.50,+5.20%,+2.58%,0.08,0.37,"30,207",0.65,N/A
 특수 화학제,51101030,BCPC,Balchem Corporation,nasdaq,2026-08-04,174.78,178.89,173.46,178.79,+12.09%,+9.21%,4.01,2.29,"261,320",46.72,N/A
