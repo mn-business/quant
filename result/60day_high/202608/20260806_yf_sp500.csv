@@ -36,7 +36,7 @@ Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-07-30,576.77,578.00,564.40,577.83,+21.91%,+0.24%,13.08,2.32,"1,552,800",897.25,N/A
 Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-04,396.08,402.48,390.75,400.00,+14.13%,+5.41%,3.92,0.99,"1,104,500",441.80,N/A
 Industrials,Aerospace & Defense,GE,GE Aerospace,s&p500,2026-07-06,378.68,384.51,378.74,381.22,+25.97%,+8.72%,3.94,1.04,"3,158,900","1,204.24",N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-05,"8,670.00","9,250.00","8,800.00","9,020.00",+2750.97%,+36.05%,350.00,4.04,"1,170,243","10,555.59",N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-05,"8,670.00","9,250.00","8,670.00","8,850.00",+2697.24%,+33.48%,180.00,2.08,"1,607,958","14,230.43",N/A
 Industrials,Aerospace & Defense,HWM,Howmet Aerospace,s&p500,2026-07-24,289.26,292.88,288.97,291.42,+6.97%,+6.83%,3.22,1.12,"2,225,300",648.50,N/A
 Industrials,Aerospace & Defense,RTX,RTX Corporation,s&p500,2026-07-28,218.58,222.82,218.90,222.31,+26.28%,+3.28%,4.38,2.01,"4,273,200",949.98,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-08-04,165.36,168.60,164.40,168.58,+23.73%,+6.38%,3.22,1.95,"1,271,100",214.28,N/A
@@ -52,7 +52,7 @@ Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Dec
 Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-08-04,49.71,50.55,49.77,49.99,+12.69%,+4.63%,0.28,0.56,"6,878,700",343.87,N/A
 Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-08-04,"1,150.13","1,168.93","1,146.28","1,162.04",+23.34%,+10.13%,11.91,1.04,"374,100",434.72,N/A
 Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-08-04,190.51,214.89,191.01,197.31,+39.20%,+24.90%,6.80,3.57,"20,204,400","3,986.53",N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-05,"5,700.00","5,780.00","5,700.00","5,740.00",+4593.93%,+2.32%,40.00,0.7,"61,065",350.51,N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-05,"5,700.00","5,780.00","5,700.00","5,760.00",+4610.29%,+2.67%,60.00,1.05,"190,223","1,095.68",N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-08-04,368.83,376.70,361.83,368.99,+61.40%,+30.39%,0.16,0.04,"1,385,000",511.05,N/A
 Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-08-04,185.79,192.79,184.11,186.41,+18.15%,+12.53%,0.62,0.33,"2,354,900",438.98,N/A
 Materials,Paper & Plastic Packaging Products & Materials,AMCR,Amcor,s&p500,2026-08-04,47.14,47.95,47.23,47.75,+21.61%,+4.17%,0.61,1.29,"3,447,900",164.64,N/A
