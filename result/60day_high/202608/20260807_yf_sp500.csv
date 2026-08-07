@@ -26,7 +26,7 @@ Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-08-05,213.51,2
 Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-05,141.11,141.79,139.29,141.34,+22.48%,+1.90%,0.23,0.16,"752,449",106.35,N/A
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-05,260.72,267.74,255.79,265.51,+49.48%,+13.17%,4.79,1.84,"1,306,807",346.97,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-05,577.83,580.31,569.86,580.02,+24.86%,+0.56%,2.19,0.38,"1,716,186",995.42,N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-05,"8,670.00","9,250.00","8,670.00","8,850.00",+2697.24%,+33.48%,180.00,2.08,"1,606,700","14,219.30",N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-06,"8,850.00","8,900.00","8,480.00","8,900.00",+2579.71%,+25.53%,50.00,0.56,"175,798","1,564.60",N/A
 Industrials,Aerospace & Defense,NOC,Northrop Grumman,s&p500,2026-05-29,563.68,568.54,559.00,567.74,+3.32%,+6.15%,10.27,1.84,"474,349",269.31,N/A
 Industrials,Aerospace & Defense,RTX,RTX Corporation,s&p500,2026-08-05,222.31,225.65,220.48,223.25,+27.31%,+4.14%,0.94,0.42,"3,412,389",761.82,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-08-05,168.58,169.76,167.62,168.70,+26.07%,+7.41%,0.12,0.07,"848,562",143.15,N/A
@@ -37,7 +37,7 @@ Industrials,Industrial Machinery & Supplies & Components,PH,Parker Hannifin,s&p5
 Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-08-05,49.99,50.90,50.33,50.80,+15.01%,+8.87%,0.81,1.62,"8,311,769",422.24,N/A
 Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-08-05,"1,162.04","1,174.07","1,152.36","1,162.66",+24.34%,+8.80%,0.62,0.05,"392,786",456.68,N/A
 Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-08-04,442.85,493.57,464.01,474.07,+23.83%,+10.04%,35.93,8.2,"1,522,510",721.78,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-05,"5,700.00","5,780.00","5,700.00","5,760.00",+4610.29%,+2.67%,60.00,1.05,"190,000","1,094.40",N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-06,"5,760.00","5,840.00","5,720.00","5,810.00",+4450.53%,+4.68%,50.00,0.87,"144,104",837.24,N/A
 Information Technology,Electronic Equipment & Instruments,TDY,Teledyne Technologies,s&p500,2026-08-04,684.76,694.76,681.65,687.52,+10.64%,+5.91%,3.79,0.55,"178,939",123.02,N/A
 Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-08-04,492.81,501.55,488.52,499.86,+20.67%,+10.81%,12.40,2.54,"32,788,866","16,389.84",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-08-04,190.46,191.95,180.10,191.48,+62.27%,+10.06%,4.88,2.62,"2,626,985",503.02,N/A
