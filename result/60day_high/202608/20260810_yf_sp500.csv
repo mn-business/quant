@@ -30,6 +30,7 @@ Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-08-03,72.
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-06,580.02,594.26,574.77,594.00,+31.37%,+3.43%,13.98,2.41,"2,206,600","1,310.72",N/A
 Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-05,400.00,407.88,397.09,406.86,+16.89%,+7.83%,7.16,1.79,"888,600",361.54,N/A
 Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-05-27,26.21,26.76,26.05,26.76,+3.68%,+7.00%,0.56,2.14,"42,717,100","1,143.11",N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-06,"8,850.00","9,100.00","8,640.00","9,000.00",+2604.47%,+18.73%,400.00,4.65,"802,430","7,221.87",N/A
 Industrials,Aerospace & Defense,NOC,Northrop Grumman,s&p500,2026-08-06,567.74,572.75,560.54,571.58,+4.26%,+5.36%,3.84,0.68,"442,900",253.15,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-08-06,168.70,170.87,166.83,168.94,+28.17%,+7.33%,0.24,0.14,"1,066,100",180.11,N/A
 Industrials,Building Products,FERG,Ferguson Enterprises,s&p500,2026-08-04,255.51,260.88,254.18,256.69,+8.22%,+9.54%,3.32,1.31,"2,616,700",671.68,N/A
@@ -44,7 +45,7 @@ Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-08-0
 Information Technology,Application Software,ADSK,Autodesk,s&p500,2026-06-01,248.16,252.89,245.00,249.08,+5.51%,+6.35%,6.61,2.73,"1,820,900",453.55,N/A
 Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-04,162.66,172.41,159.96,172.01,+25.66%,+39.78%,16.09,10.32,"77,382,900","13,310.63",N/A
 Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-08-04,171.28,182.72,174.28,179.64,+47.95%,+12.04%,9.40,5.52,"3,298,700",592.58,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-06,"5,760.00","5,820.00","5,760.00","5,790.00",+4552.39%,+3.02%,30.00,0.52,"12,407",71.84,N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-06,"5,760.00","5,820.00","5,760.00","5,810.00",+4568.46%,+3.38%,50.00,0.87,"180,118","1,046.49",N/A
 Information Technology,Electronic Equipment & Instruments,TDY,Teledyne Technologies,s&p500,2026-08-06,687.52,691.62,680.96,691.30,+9.28%,+5.45%,3.78,0.55,"302,800",209.33,N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-08-05,368.99,383.63,365.50,376.49,+73.53%,+28.14%,12.25,3.36,"733,700",276.23,N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-06-01,57.16,58.23,56.27,57.67,+17.92%,+4.19%,0.78,1.37,"12,627,300",728.22,N/A
