@@ -42,7 +42,7 @@ Industrials,Diversified Support Services,LDOS,Leidos,s&p500,2026-08-10,139.10,14
 Industrials,Electrical Components & Equipment,AME,Ametek,s&p500,2026-08-05,254.76,257.87,252.69,256.30,+10.92%,+0.89%,3.42,1.35,"824,400",211.29,N/A
 Industrials,Electrical Components & Equipment,EMR,Emerson Electric,s&p500,2026-08-05,162.47,164.42,159.00,164.38,+19.81%,+3.49%,5.67,3.57,"2,530,900",416.03,N/A
 Industrials,Electrical Components & Equipment,ETN,Eaton Corporation,s&p500,2026-08-07,448.68,463.75,446.50,459.29,+12.86%,+3.26%,14.33,3.22,"1,840,300",845.23,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,400.00","23,000.00","23,400.00",+10892.88%,+1.74%,400.00,1.74,"4,420",103.43,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,400.00","23,000.00","23,300.00",+10845.90%,+1.30%,300.00,1.3,"4,820",112.31,N/A
 Industrials,Industrial Conglomerates,MMM,3M,s&p500,2026-08-07,182.90,184.38,181.76,183.13,+25.14%,+0.93%,1.09,0.6,"2,335,500",427.70,N/A
 Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-08-05,310.67,312.95,309.12,311.36,+11.94%,+0.55%,2.67,0.86,"303,800",94.59,N/A
 Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Decker,s&p500,2026-08-07,103.89,104.68,102.50,104.00,+35.35%,+1.56%,1.36,1.33,"1,588,400",165.19,N/A
@@ -53,3 +53,4 @@ Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologie
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-10,58.31,59.23,57.44,58.60,+28.37%,+4.40%,0.29,0.5,"9,528,700",558.38,N/A
 Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-08-10,178.35,180.36,175.23,179.73,+13.95%,+3.71%,1.38,0.77,"668,100",120.08,N/A
 Materials,Paper & Plastic Packaging Products & Materials,PKG,Packaging Corporation of America,s&p500,2026-08-07,256.04,258.63,252.92,257.43,+18.75%,+0.76%,2.68,1.05,"493,700",127.09,N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-11,"146,500.00","148,500.00","145,000.00","148,000.00",+131896.59%,+9.63%,"1,500.00",1.02,"1,128,355","166,996.54",N/A
