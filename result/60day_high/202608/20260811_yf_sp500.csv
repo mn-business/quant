@@ -36,6 +36,7 @@ Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-10,277.00,282.29,271.83,282.00,+73.17%,+20.45%,5.00,1.81,"962,153",271.33,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-10,599.69,606.21,594.81,605.00,+35.78%,+7.13%,5.31,0.89,"1,347,366",815.16,N/A
 Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-10,411.77,415.63,408.20,415.00,+23.91%,+4.78%,3.23,0.78,"552,116",229.13,N/A
+Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-08-10,"9,200.00","9,750.00","9,250.00","9,390.00",+2698.80%,+15.78%,190.00,2.07,"900,700","8,457.57",N/A
 Industrials,Building Products,JCI,Johnson Controls,s&p500,2026-08-06,154.55,154.96,151.76,154.76,+7.92%,+0.74%,4.06,2.69,"2,448,913",378.99,N/A
 Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-10,147.33,149.54,144.98,147.62,+38.05%,+3.46%,0.29,0.2,"421,277",62.19,N/A
 Industrials,Diversified Support Services,LDOS,Leidos,s&p500,2026-08-10,139.10,143.16,137.35,140.89,+13.87%,+7.88%,1.79,1.29,"1,563,324",220.26,N/A
@@ -48,7 +49,9 @@ Industrials,Industrial Machinery & Supplies & Components,SWK,Stanley Black & Dec
 Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-10,78.03,78.99,77.46,78.54,+5.14%,+9.10%,0.51,0.65,"16,444,743","1,291.57",N/A
 Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-08-10,52.15,52.92,52.11,52.38,+19.67%,+5.37%,0.23,0.44,"8,858,024",463.98,N/A
 Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-08-05,197.31,198.92,190.48,197.85,+40.63%,+3.85%,6.33,3.31,"5,207,498","1,030.30",N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-08-10,"5,830.00","6,200.00","5,840.00","6,160.00",+4675.36%,+9.41%,330.00,5.66,"736,800","4,538.69",N/A
 Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-08-10,378.08,385.11,376.26,383.06,+55.24%,+3.86%,4.98,1.32,"549,125",210.35,N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-10,58.31,59.23,57.44,58.60,+28.37%,+4.40%,0.29,0.5,"6,372,017",373.40,N/A
 Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-08-10,178.35,180.26,175.23,179.73,+13.95%,+3.71%,1.38,0.77,"409,402",73.58,N/A
 Materials,Paper & Plastic Packaging Products & Materials,PKG,Packaging Corporation of America,s&p500,2026-08-07,256.04,258.42,252.91,257.43,+18.75%,+0.76%,2.68,1.05,"332,979",85.72,N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-10,"137,000.00","146,500.00","138,000.00","146,500.00",+129801.15%,+10.07%,"9,500.00",6.93,"1,428,500","209,275.25",N/A
