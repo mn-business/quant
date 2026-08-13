@@ -1,6 +1,6 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Advertising,OMC,Omnicom Group,s&p500,2026-07-28,86.22,88.40,85.67,88.36,+26.08%,+7.09%,2.85,3.33,"1,689,769",149.31,N/A
-Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-12,27.65,28.08,27.65,27.75,+2.85%,+5.11%,0.10,0.36,"25,192,599",699.09,N/A
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-12,27.65,28.08,27.65,27.75,+2.85%,+5.11%,0.10,0.36,"25,175,378",698.62,N/A
 Communication Services,Cable & Satellite,CMCSA,Comcast,s&p500,2026-08-11,25.65,26.26,25.62,26.18,+7.18%,+4.01%,0.71,2.79,"18,034,591",472.15,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-08-11,184.98,185.33,179.60,185.13,+39.35%,+22.09%,5.04,2.8,"4,854,978",898.80,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-08-12,325.57,329.56,318.85,328.31,+51.11%,+7.09%,2.74,0.84,"765,829",251.43,N/A
@@ -8,7 +8,7 @@ Consumer Discretionary,Restaurants,SBUX,Starbucks,s&p500,2026-08-12,108.49,110.5
 Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-08-12,154.00,156.46,154.39,155.51,+27.95%,+5.73%,1.51,0.98,"2,713,652",422.00,N/A
 Consumer Staples,Packaged Foods & Meats,GIS,General Mills,s&p500,2026-07-16,38.70,39.11,38.34,38.91,+17.94%,+7.87%,0.73,1.91,"6,496,492",252.78,N/A
 Consumer Staples,Packaged Foods & Meats,MKC,McCormick & Company,s&p500,2026-07-13,53.75,54.74,53.26,54.45,+17.48%,+4.15%,1.48,2.79,"2,036,229",110.87,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-05-19,197.25,198.09,193.78,197.70,+4.40%,+4.48%,1.10,0.56,"5,873,368","1,161.16",N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-05-19,197.25,198.07,193.78,197.70,+4.40%,+4.48%,1.10,0.56,"5,873,368","1,161.16",N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-08-12,348.25,357.20,344.00,356.37,+40.27%,+19.09%,8.12,2.33,"2,231,053",795.08,N/A
 Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-08-12,225.58,232.89,223.42,232.61,+32.97%,+13.18%,7.03,3.12,"1,731,358",402.73,N/A
 Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-08-12,330.21,343.72,326.12,342.92,+37.41%,+13.18%,12.71,3.85,"1,828,571",627.05,N/A
@@ -47,10 +47,10 @@ Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-08-
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-11,58.60,59.82,57.63,59.29,+26.69%,+4.22%,1.09,1.87,"6,456,189",382.79,N/A
 Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-06-01,224.10,227.23,223.71,225.30,+0.11%,+2.88%,1.21,0.54,"93,629,467","21,094.72",N/A
 Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-10,225.16,226.68,220.23,225.53,+51.85%,+8.75%,3.75,1.69,"5,809,902","1,310.31",N/A
-Information Technology,Systems Software,GEN,Gen Digital,s&p500,2026-08-10,29.29,29.60,28.67,29.57,+26.77%,+5.23%,0.93,3.25,"4,719,867",139.57,N/A
+Information Technology,Systems Software,GEN,Gen Digital,s&p500,2026-08-10,29.29,29.60,28.67,29.57,+26.77%,+5.23%,0.93,3.25,"4,707,597",139.20,N/A
 Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-08-12,387.01,398.87,387.35,396.00,+63.08%,+10.16%,8.99,2.32,"4,506,332","1,784.51",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-08-12,484.50,514.00,487.12,494.51,+104.35%,+12.99%,10.01,2.07,"8,035,699","3,973.73",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-08-12,58.79,63.41,59.68,59.82,+81.25%,+14.09%,1.03,1.75,"23,626,313","1,413.33",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-08-07,30.05,32.19,29.49,31.30,+52.24%,+11.07%,2.02,6.9,"23,433,238",733.46,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-08-07,30.05,32.19,29.50,31.30,+52.24%,+11.07%,2.02,6.9,"23,433,238",733.46,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-08-12,202.05,209.06,203.00,204.99,+70.92%,+7.06%,2.94,1.46,"3,068,329",628.98,N/A
 Real Estate,Real Estate Services,CBRE,CBRE Group,s&p500,2026-08-05,151.16,152.01,147.39,151.89,+16.88%,+3.01%,4.49,3.05,"1,012,642",153.81,N/A
