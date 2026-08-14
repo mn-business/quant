@@ -1,7 +1,7 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Advertising,OMC,Omnicom Group,s&p500,2026-07-28,86.22,88.40,85.67,88.36,+26.08%,+7.09%,2.85,3.33,"2,252,200",199.00,N/A
 Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-12,27.65,28.08,27.64,27.75,+2.85%,+5.11%,0.10,0.36,"25,255,700",700.85,N/A
-Communication Services,Cable & Satellite,CMCSA,Comcast,s&p500,2026-08-11,25.65,26.26,25.62,26.18,+7.18%,+4.01%,0.71,2.79,"18,078,300",473.29,N/A
+Communication Services,Cable & Satellite,CMCSA,Comcast,s&p500,2026-08-11,25.65,26.26,25.62,26.18,+7.18%,+4.01%,0.71,2.79,"18,079,800",473.33,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-08-11,184.98,185.33,179.60,185.13,+39.35%,+22.09%,5.04,2.8,"5,139,900",951.55,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-08-12,325.57,329.56,318.85,328.31,+51.11%,+7.09%,2.74,0.84,"833,200",273.55,N/A
 Consumer Discretionary,Restaurants,SBUX,Starbucks,s&p500,2026-08-12,108.49,110.51,108.45,108.55,+1.62%,+3.22%,0.06,0.06,"5,190,000",563.37,N/A
@@ -27,7 +27,7 @@ Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-07-28,95.9
 Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-08-12,109.34,110.20,108.90,110.06,+21.10%,+2.23%,0.72,0.66,"5,155,200",567.38,N/A
 Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-28,123.93,124.93,122.98,124.75,+24.06%,+2.67%,2.01,1.64,"1,164,300",145.25,N/A
 Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-08-12,409.68,425.95,409.94,425.24,+29.56%,+6.77%,15.56,3.8,"583,600",248.17,N/A
-Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-08-12,88.53,95.58,88.60,94.83,+40.86%,+8.14%,6.30,7.12,"3,637,700",344.96,N/A
+Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-08-12,88.53,95.58,88.60,94.83,+40.86%,+8.14%,6.30,7.12,"3,638,200",345.01,N/A
 Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-08-06,59.78,60.76,59.01,60.59,+36.88%,+1.35%,1.39,2.35,"9,568,900",579.78,N/A
 Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-08-10,417.20,420.26,415.78,417.84,+28.05%,+3.21%,1.66,0.4,"2,777,900","1,160.72",N/A
 Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-07-07,136.36,138.30,136.03,138.14,+7.31%,+5.56%,2.27,1.67,"4,896,600",676.42,N/A
@@ -43,7 +43,7 @@ Industrials,Diversified Support Services,LDOS,Leidos,s&p500,2026-08-11,140.89,14
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-07-29,122.13,125.65,120.86,125.40,+36.99%,+4.39%,5.03,4.18,"2,431,000",304.85,N/A
 Information Technology,Application Software,ADSK,Autodesk,s&p500,2026-08-10,256.07,259.36,242.86,257.96,+9.02%,+6.39%,8.45,3.39,"2,261,000",583.25,N/A
 Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-10,175.23,179.91,172.33,179.01,+33.60%,+14.81%,7.97,4.66,"36,511,200","6,535.87",N/A
-Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-08-10,184.19,227.49,174.60,206.45,+65.15%,+21.27%,31.16,17.78,"16,311,100","3,367.43",N/A
+Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-08-10,184.19,227.49,174.60,206.45,+65.15%,+21.27%,31.16,17.78,"16,323,900","3,370.07",N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-11,58.60,59.82,57.63,59.29,+26.69%,+4.22%,1.09,1.87,"7,521,000",445.92,N/A
 Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-06-01,224.10,227.23,223.71,225.30,+0.11%,+2.88%,1.21,0.54,"98,867,200","22,274.78",N/A
 Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-10,225.16,226.68,220.23,225.53,+51.85%,+8.75%,3.75,1.69,"5,822,700","1,313.19",N/A
