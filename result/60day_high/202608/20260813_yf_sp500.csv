@@ -4,7 +4,6 @@ Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-12
 Communication Services,Cable & Satellite,CMCSA,Comcast,s&p500,2026-08-11,25.65,26.26,25.62,26.18,+7.18%,+4.01%,0.71,2.79,"18,079,800",473.33,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-08-11,184.98,185.33,179.60,185.13,+39.35%,+22.09%,5.04,2.8,"5,139,900",951.55,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-08-12,325.57,329.56,318.85,328.31,+51.11%,+7.09%,2.74,0.84,"833,200",273.55,N/A
-Consumer Discretionary,Restaurants,SBUX,Starbucks,s&p500,2026-08-12,108.49,110.51,108.45,108.55,+1.62%,+3.22%,0.06,0.06,"5,190,000",563.37,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-08-12,154.00,156.47,154.39,155.51,+27.95%,+5.73%,1.51,0.98,"3,650,200",567.64,N/A
 Consumer Staples,Packaged Foods & Meats,GIS,General Mills,s&p500,2026-07-16,38.70,39.11,38.34,38.91,+17.94%,+7.87%,0.73,1.91,"8,153,200",317.24,N/A
 Consumer Staples,Packaged Foods & Meats,MKC,McCormick & Company,s&p500,2026-07-13,53.75,54.75,53.24,54.45,+17.48%,+4.15%,1.48,2.79,"2,036,600",110.89,N/A
@@ -17,14 +16,14 @@ Financials,Asset Management & Custody Banks,APO,Apollo Global Management,s&p500,
 Financials,Asset Management & Custody Banks,ARES,Ares Management,s&p500,2026-08-11,143.11,149.87,142.25,149.45,+22.32%,+8.16%,7.10,4.99,"3,195,400",477.55,N/A
 Financials,Asset Management & Custody Banks,BLK,BlackRock,s&p500,2026-08-12,"1,160.91","1,186.74","1,164.31","1,182.84",+9.95%,+4.74%,21.93,1.89,"379,200",448.53,N/A
 Financials,Asset Management & Custody Banks,BX,Blackstone Inc.,s&p500,2026-08-11,147.17,150.24,145.47,149.32,+26.66%,+11.89%,2.91,1.99,"4,228,900",631.46,N/A
-Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-08-05,32.01,32.41,31.65,32.36,+19.32%,+2.11%,0.82,2.6,"3,746,500",121.24,N/A
+Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-08-05,32.01,32.19,31.44,32.15,+18.53%,+1.44%,0.60,1.92,"3,746,500",120.43,N/A
 Financials,Asset Management & Custody Banks,KKR,KKR & Co.,s&p500,2026-08-11,110.97,116.57,111.36,115.30,+18.90%,+11.56%,4.40,3.97,"7,227,100",833.28,N/A
 Financials,Consumer Finance,COF,Capital One,s&p500,2026-08-12,222.44,225.50,221.19,223.83,+20.10%,+1.74%,1.39,0.62,"2,657,200",594.76,N/A
 Financials,Consumer Finance,SYF,Synchrony Financial,s&p500,2026-08-12,79.41,80.50,79.13,80.08,+12.19%,+1.79%,0.67,0.84,"2,546,100",203.89,N/A
 Financials,Diversified Banks,USB,U.S. Bancorp,s&p500,2026-08-12,65.02,65.61,64.97,65.17,+23.73%,+2.13%,0.15,0.23,"3,994,700",260.33,N/A
 Financials,Financial Exchanges & Data,FDS,FactSet,s&p500,2026-08-07,285.57,289.45,274.50,287.18,+35.75%,+4.59%,9.19,3.31,"686,900",197.26,N/A
 Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-07-28,95.96,97.73,95.28,97.59,+7.56%,+3.05%,1.93,2.02,"2,595,100",253.26,N/A
-Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-08-12,109.34,110.20,108.90,110.06,+21.10%,+2.23%,0.72,0.66,"5,155,200",567.38,N/A
+Financials,Investment Banking & Brokerage,SCHW,Charles Schwab Corporation,s&p500,2026-08-12,109.34,109.88,108.58,109.74,+20.75%,+1.93%,0.40,0.37,"5,155,200",565.73,N/A
 Financials,Life & Health Insurance,PRU,Prudential Financial,s&p500,2026-07-28,123.93,124.93,122.98,124.75,+24.06%,+2.67%,2.01,1.64,"1,164,300",145.25,N/A
 Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-08-12,409.68,425.95,409.94,425.24,+29.56%,+6.77%,15.56,3.8,"583,600",248.17,N/A
 Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-08-12,88.53,95.58,88.60,94.83,+40.86%,+8.14%,6.30,7.12,"3,638,200",345.01,N/A
