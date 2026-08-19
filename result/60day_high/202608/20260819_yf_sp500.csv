@@ -25,7 +25,7 @@ Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-07-29,263.30,266.92,259.85,265
 Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-08-18,425.28,443.19,429.51,442.36,+33.41%,+6.77%,17.08,4.02,"2,543,010","1,124.93",N/A
 Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-06-29,216.63,222.15,215.07,221.56,+17.98%,+8.67%,9.01,4.24,"886,758",196.47,N/A
 Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-08-18,143.44,148.97,144.30,147.60,+13.68%,+8.71%,4.16,2.9,"6,717,506",991.50,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-07-06,81.80,176.66,114.46,174.38,+262.39%,+187.90%,111.42,176.97,"185,077,360","32,273.79",N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-07-06,81.80,176.66,114.46,174.38,+262.39%,+187.90%,111.42,176.97,"185,057,621","32,270.35",N/A
 Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-08-18,810.24,844.90,815.38,840.84,+29.41%,+5.50%,30.60,3.78,"732,428",615.85,N/A
 Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-08-11,529.65,553.69,532.88,552.06,+28.25%,+4.23%,23.87,4.52,"1,437,126",793.38,N/A
 Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-08-12,183.58,187.93,181.52,187.60,+28.56%,+3.41%,6.83,3.78,"2,164,438",406.05,N/A
@@ -35,7 +35,7 @@ Health Care,Health Care Equipment,RMD,ResMed|,s&p500,2026-08-13,226.74,231.04,22
 Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-12,117.88,122.11,115.29,119.45,+26.00%,+3.21%,5.70,5.01,"1,441,064",172.14,N/A
 Health Care,Health Care Equipment,ZBH,Zimmer Biomet,s&p500,2026-08-14,100.65,101.95,98.09,100.74,+18.30%,+3.61%,1.59,1.6,"1,119,204",112.75,N/A
 Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-08-06,238.50,242.39,237.38,241.76,+24.78%,+1.79%,5.51,2.33,"923,921",223.37,N/A
-Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-12,323.48,331.20,323.41,330.44,+28.72%,+2.49%,8.26,2.56,"518,205",171.24,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-12,323.48,331.00,323.41,330.44,+28.72%,+2.49%,8.26,2.56,"518,205",171.24,N/A
 Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-11,149.49,156.26,150.00,155.41,+36.85%,+3.96%,6.97,4.7,"2,421,738",376.36,N/A
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-12,284.37,294.55,280.68,290.00,+85.86%,+2.84%,10.81,3.87,"904,009",262.16,N/A
 Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-08-10,209.37,212.19,202.90,211.50,+23.85%,+1.96%,11.92,5.97,"5,252,761","1,110.96",N/A
@@ -58,6 +58,6 @@ Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,20
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-13,59.29,61.51,57.78,60.93,+18.77%,+3.98%,3.15,5.45,"6,809,878",414.93,N/A
 Materials,Gold,NEM,Newmont,s&p500,2026-08-12,117.84,126.60,123.20,125.08,+16.74%,+6.71%,9.10,7.85,"9,030,357","1,129.52",N/A
 Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-08-12,181.03,184.48,176.40,183.16,+16.43%,+1.91%,5.45,3.07,"425,441",77.92,N/A
-Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-08-05,285.47,285.78,279.10,285.62,+15.19%,+0.35%,5.62,2.01,"1,169,715",334.09,N/A
+Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-08-05,285.47,285.72,279.10,285.62,+15.19%,+0.35%,5.62,2.01,"1,169,715",334.09,N/A
 Real Estate,Real Estate Services,CBRE,CBRE Group,s&p500,2026-08-14,152.86,156.51,148.32,155.07,+18.27%,+5.16%,7.77,5.27,"1,133,883",175.83,N/A
 Utilities,Water Utilities,AWK,American Water Works,s&p500,2026-07-29,138.09,139.36,136.30,138.71,+13.36%,+1.95%,2.44,1.79,"1,891,744",262.40,N/A
