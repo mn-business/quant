@@ -1,35 +1,36 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Movies & Entertainment,DIS,Walt Disney Company (The),s&p500,2026-08-19,106.93,108.69,106.42,107.38,+4.46%,+4.03%,0.44,0.42,"5,712,754",613.41,N/A
-Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-08-19,220.22,224.02,216.42,222.36,+39.61%,+4.64%,2.14,0.97,"5,388,929","1,198.28",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-08-19,90.35,91.86,89.74,90.54,+12.26%,+4.41%,0.19,0.2,"11,220,419","1,015.84",N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-19,205.76,208.98,205.58,205.85,+7.77%,+4.70%,0.09,0.04,"6,188,302","1,273.83",N/A
-Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-08-18,165.56,168.64,166.07,166.29,+7.08%,+4.09%,1.51,0.92,"8,966,897","1,491.06",N/A
+Communication Services,Movies & Entertainment,DIS,Walt Disney Company (The),s&p500,2026-08-19,106.93,108.69,106.42,107.32,+4.40%,+3.97%,0.39,0.36,"7,713,862",827.85,N/A
+Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-08-19,220.22,224.02,216.42,222.36,+39.61%,+4.64%,2.14,0.97,"5,810,235","1,291.96",N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-08-19,90.35,91.86,89.74,90.50,+12.21%,+4.37%,0.15,0.17,"14,918,715","1,350.14",N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-19,205.76,208.98,205.58,205.77,+7.73%,+4.66%,0.01,0.0,"7,803,076","1,605.64",N/A
+Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-08-18,165.56,168.64,166.07,166.15,+6.99%,+4.01%,1.38,0.84,"13,443,210","2,233.59",N/A
 Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-08-19,43.45,45.05,44.21,44.39,+15.78%,+11.06%,0.94,2.16,"6,135,832",272.37,N/A
-Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-19,130.58,135.87,132.23,134.90,+11.90%,+5.97%,4.32,3.31,"6,498,761",876.68,N/A
-Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-08-19,48.19,49.72,48.95,49.29,+5.38%,+9.89%,1.10,2.29,"8,622,641",425.05,N/A
-Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-08-19,149.48,153.67,151.23,152.21,+8.74%,+6.34%,2.73,1.83,"1,871,649",284.88,N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-19,130.58,135.87,132.23,134.89,+11.90%,+5.96%,4.31,3.3,"8,603,782","1,160.56",N/A
+Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-08-19,48.19,49.72,48.95,49.30,+5.39%,+9.90%,1.11,2.3,"8,622,641",425.10,N/A
+Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-08-19,149.48,153.67,151.23,152.19,+8.72%,+6.32%,2.71,1.81,"2,388,656",363.53,N/A
 Energy,Oil & Gas Exploration & Production,FANG,Diamondback Energy,s&p500,2026-06-03,210.59,216.90,209.31,211.02,+5.00%,+5.07%,2.47,1.18,"2,036,112",429.66,N/A
-Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-19,60.09,62.15,60.94,61.51,+5.05%,+5.06%,1.42,2.37,"7,701,649",473.77,N/A
-Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-08-18,297.77,306.63,299.26,302.30,+11.86%,+12.52%,5.21,1.75,"1,705,693",515.63,N/A
-Financials,Financial Exchanges & Data,FDS,FactSet,s&p500,2026-08-19,298.10,304.30,293.58,300.11,+34.03%,+7.96%,2.01,0.67,"485,611",145.74,N/A
-Financials,Financial Exchanges & Data,ICE,Intercontinental Exchange,s&p500,2026-08-19,157.24,160.51,156.32,158.71,+5.16%,+4.88%,1.47,0.94,"3,122,167",495.53,N/A
+Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-19,60.09,62.15,60.94,61.52,+5.06%,+5.07%,1.43,2.38,"7,701,649",473.81,N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-08-18,297.77,306.63,299.26,302.25,+11.85%,+12.50%,5.16,1.74,"1,705,693",515.55,N/A
+Financials,Financial Exchanges & Data,FDS,FactSet,s&p500,2026-08-19,298.10,304.30,293.58,300.06,+34.00%,+7.94%,1.96,0.66,"485,611",145.71,N/A
+Financials,Financial Exchanges & Data,ICE,Intercontinental Exchange,s&p500,2026-08-19,157.24,160.51,156.32,158.61,+5.09%,+4.81%,1.37,0.87,"3,122,167",495.21,N/A
 Financials,Transaction & Payment Processing Services,JKHY,Jack Henry & Associates,s&p500,2026-08-19,163.06,167.57,162.58,165.08,+18.29%,+8.38%,2.02,1.24,"1,026,800",169.50,N/A
-Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-08-14,61.66,62.73,60.95,62.30,+41.10%,+5.24%,1.05,1.71,"11,621,199",724.00,N/A
-Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-08-19,187.60,190.01,185.36,187.61,+29.18%,+2.20%,0.01,0.01,"1,678,499",314.90,N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-19,119.45,124.42,116.96,124.19,+30.21%,+5.35%,4.74,3.97,"2,062,274",256.11,N/A
-Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-19,330.44,338.19,327.45,332.86,+30.51%,+2.90%,2.42,0.73,"625,623",208.24,N/A
-Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-19,155.41,159.94,152.12,156.27,+36.40%,+5.42%,0.86,0.55,"2,434,123",380.38,N/A
-Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-19,290.00,299.32,281.73,291.44,+83.46%,+2.49%,1.44,0.5,"942,048",274.55,N/A
-Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-08-19,211.50,220.63,208.21,216.00,+24.88%,+4.96%,4.50,2.13,"4,798,037","1,036.38",N/A
-Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-08-19,249.28,260.26,246.99,256.16,+52.46%,+5.98%,6.88,2.76,"1,512,975",387.56,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-19,613.54,634.70,608.82,627.64,+39.81%,+4.08%,14.10,2.3,"2,327,452","1,460.79",N/A
-Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-11,147.62,148.96,145.57,147.93,+30.13%,+1.76%,0.56,0.38,"682,077",100.90,N/A
-Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-19,176.03,178.61,175.87,178.44,+19.75%,+5.42%,2.41,1.37,"720,068",128.49,N/A
+Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-08-14,61.66,62.73,60.95,62.30,+41.10%,+5.24%,1.05,1.71,"11,874,175",739.76,N/A
+Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-08-19,187.60,190.01,185.36,187.62,+29.19%,+2.20%,0.02,0.01,"1,678,499",314.92,N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-19,119.45,124.42,116.96,124.13,+30.14%,+5.30%,4.68,3.92,"2,062,274",255.99,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-19,330.44,338.19,327.45,332.81,+30.49%,+2.88%,2.37,0.72,"625,623",208.21,N/A
+Health Care,Health Care Technology,SOLV,Solventum,s&p500,2026-08-14,88.59,89.44,87.03,88.61,+15.45%,+3.89%,0.80,0.91,"641,038",56.80,N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-19,155.41,159.94,152.12,156.30,+36.42%,+5.44%,0.89,0.57,"2,434,123",380.45,N/A
+Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-19,290.00,299.32,281.73,291.45,+83.46%,+2.49%,1.45,0.5,"942,048",274.56,N/A
+Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-08-19,211.50,220.63,208.21,215.91,+24.82%,+4.92%,4.41,2.09,"4,798,037","1,035.94",N/A
+Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-08-19,249.28,260.26,246.99,256.05,+52.39%,+5.93%,6.77,2.72,"1,512,975",387.40,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-19,613.54,634.70,608.82,627.55,+39.79%,+4.07%,14.01,2.28,"2,704,576","1,697.26",N/A
+Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-11,147.62,148.96,145.57,147.94,+30.14%,+1.77%,0.57,0.39,"909,912",134.61,N/A
+Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-19,176.03,178.61,175.87,178.50,+19.79%,+5.45%,2.47,1.4,"720,068",128.53,N/A
 Industrials,Diversified Support Services,CPRT,Copart,s&p500,2026-08-19,33.85,34.62,33.46,34.33,-0.20%,+18.42%,0.48,1.42,"10,654,521",365.77,N/A
-Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-08-11,311.36,336.70,308.42,334.70,+17.04%,+7.53%,24.78,8.0,"1,193,728",399.54,N/A
-Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-11,78.54,80.15,78.09,78.57,+6.74%,+4.26%,0.53,0.68,"13,974,043","1,097.94",N/A
-Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-19,192.10,195.86,188.19,192.45,+18.40%,+6.64%,0.35,0.18,"968,461",186.38,N/A
-Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-19,346.88,353.39,345.38,348.01,+12.72%,+9.56%,1.13,0.33,"557,784",194.11,N/A
-Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-29,408.07,412.63,405.44,410.45,+26.65%,+3.85%,3.13,0.77,"560,885",230.22,N/A
-Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-08-10,193.17,196.35,190.56,193.60,+23.14%,+7.88%,0.78,0.4,"710,790",137.61,N/A
-Materials,Gold,NEM,Newmont,s&p500,2026-08-19,125.08,128.69,123.71,127.68,+18.14%,+8.35%,2.60,2.08,"7,850,396","1,002.34",N/A
+Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-08-11,311.36,336.70,308.42,334.70,+17.04%,+7.53%,24.78,8.0,"1,221,030",408.68,N/A
+Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-11,78.54,80.15,78.09,78.55,+6.71%,+4.23%,0.51,0.65,"17,266,109","1,356.25",N/A
+Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-19,192.10,195.86,188.19,192.41,+18.38%,+6.62%,0.31,0.16,"968,461",186.34,N/A
+Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-19,346.88,353.39,345.38,348.14,+12.76%,+9.60%,1.26,0.36,"643,462",224.01,N/A
+Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-29,408.07,412.63,405.44,410.45,+26.65%,+3.85%,3.13,0.77,"580,570",238.29,N/A
+Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-08-10,193.17,196.35,190.56,193.68,+23.19%,+7.92%,0.86,0.45,"854,216",165.44,N/A
+Materials,Gold,NEM,Newmont,s&p500,2026-08-19,125.08,128.69,123.71,127.64,+18.10%,+8.32%,2.56,2.05,"9,574,961","1,222.15",N/A
