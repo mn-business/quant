@@ -1,5 +1,6 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Movies & Entertainment,DIS,Walt Disney Company (The),s&p500,2026-08-19,106.93,108.69,106.42,107.32,+4.40%,+3.97%,0.39,0.36,"7,969,900",855.33,N/A
+Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-30,"9,840.00","9,900.00","9,900.00","9,900.00",+11151.28%,+26.76%,460.00,4.87,100,0.99,N/A
 Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-08-19,220.22,224.04,216.01,222.36,+39.61%,+4.64%,2.14,0.97,"5,870,900","1,305.45",N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-08-19,90.35,91.87,89.73,90.50,+12.21%,+4.37%,0.15,0.17,"14,921,900","1,350.43",N/A
 Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-19,205.76,208.98,205.52,205.77,+7.73%,+4.66%,0.01,0.0,"8,189,500","1,685.15",N/A
