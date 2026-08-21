@@ -1,36 +1,36 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Movies & Entertainment,DIS,Walt Disney Company (The),s&p500,2026-08-19,106.93,108.69,106.42,107.32,+4.40%,+3.97%,0.39,0.36,"7,969,900",855.33,N/A
+Communication Services,Movies & Entertainment,DIS,Walt Disney Company (The),s&p500,2026-08-19,106.93,108.69,106.42,107.32,+4.40%,+3.97%,0.39,0.36,"7,971,500",855.50,N/A
 Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-08-19,220.22,224.04,216.01,222.36,+39.61%,+4.64%,2.14,0.97,"5,870,900","1,305.45",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-08-19,90.35,91.87,89.73,90.50,+12.21%,+4.37%,0.15,0.17,"14,921,900","1,350.43",N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-19,205.76,208.98,205.52,205.77,+7.73%,+4.66%,0.01,0.0,"8,189,500","1,685.15",N/A
-Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-08-18,165.56,168.64,166.07,166.15,+6.99%,+4.01%,1.38,0.84,"13,794,800","2,292.01",N/A
-Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-08-19,43.45,45.05,44.20,44.39,+15.78%,+11.06%,0.94,2.16,"6,278,500",278.70,N/A
-Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-19,130.58,135.87,132.23,134.89,+11.90%,+5.96%,4.31,3.3,"9,355,200","1,261.92",N/A
-Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-08-19,48.19,49.72,48.93,49.30,+5.39%,+9.90%,1.11,2.3,"10,356,700",510.59,N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-08-19,90.35,91.87,89.73,90.50,+12.21%,+4.37%,0.15,0.17,"14,928,000","1,350.98",N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-19,205.76,208.98,205.52,205.77,+7.73%,+4.66%,0.01,0.0,"8,200,600","1,687.44",N/A
+Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-08-18,165.56,168.64,166.07,166.15,+6.99%,+4.01%,1.38,0.84,"13,803,000","2,293.37",N/A
+Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-08-19,43.45,45.05,44.20,44.39,+15.78%,+11.06%,0.94,2.16,"6,279,400",278.74,N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-19,130.58,135.87,132.23,134.89,+11.90%,+5.96%,4.31,3.3,"9,358,400","1,262.35",N/A
+Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-08-19,48.19,49.72,48.93,49.30,+5.39%,+9.90%,1.11,2.3,"10,357,900",510.64,N/A
 Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-08-19,149.48,153.67,151.23,152.19,+8.72%,+6.32%,2.71,1.81,"2,428,900",369.65,N/A
-Energy,Oil & Gas Exploration & Production,FANG,Diamondback Energy,s&p500,2026-06-03,210.59,216.90,209.31,211.02,+5.00%,+5.07%,2.47,1.18,"2,233,100",471.23,N/A
-Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-19,60.09,62.15,60.94,61.52,+5.06%,+5.07%,1.43,2.38,"8,952,200",550.74,N/A
+Energy,Oil & Gas Exploration & Production,FANG,Diamondback Energy,s&p500,2026-06-03,210.59,216.90,209.31,211.02,+5.00%,+5.07%,2.47,1.18,"2,234,400",471.50,N/A
+Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-19,60.09,62.15,60.94,61.52,+5.06%,+5.07%,1.43,2.38,"8,957,700",551.08,N/A
 Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-08-18,297.77,306.73,299.26,302.25,+11.85%,+12.50%,5.16,1.74,"2,292,700",692.97,N/A
 Financials,Financial Exchanges & Data,FDS,FactSet,s&p500,2026-08-19,298.10,304.30,293.58,300.06,+34.00%,+7.94%,1.96,0.66,"958,200",287.52,N/A
 Financials,Financial Exchanges & Data,ICE,Intercontinental Exchange,s&p500,2026-08-19,157.24,160.51,156.21,158.61,+5.09%,+4.81%,1.37,0.87,"4,522,300",717.28,N/A
 Financials,Transaction & Payment Processing Services,JKHY,Jack Henry & Associates,s&p500,2026-08-19,163.06,167.61,162.58,165.08,+18.29%,+8.38%,2.02,1.24,"1,038,600",171.45,N/A
-Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-08-14,61.66,62.73,60.95,62.30,+41.10%,+5.24%,1.05,1.71,"12,015,300",748.55,N/A
+Financials,Transaction & Payment Processing Services,PYPL,PayPal,s&p500,2026-08-14,61.66,62.73,60.95,62.30,+41.10%,+5.24%,1.05,1.71,"12,019,600",748.82,N/A
 Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-08-19,187.60,190.01,185.36,187.62,+29.19%,+2.20%,0.02,0.01,"1,972,600",370.10,N/A
 Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-19,119.45,124.49,116.96,124.13,+30.14%,+5.30%,4.68,3.92,"2,344,500",291.02,N/A
 Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-19,330.44,338.19,326.74,332.81,+30.49%,+2.88%,2.37,0.72,"731,800",243.55,N/A
 Health Care,Health Care Technology,SOLV,Solventum,s&p500,2026-08-14,88.59,89.44,87.03,88.61,+15.45%,+3.89%,0.80,0.91,"805,100",71.34,N/A
-Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-19,155.41,159.94,152.12,156.30,+36.42%,+5.44%,0.89,0.57,"2,829,300",442.22,N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-19,155.41,159.94,152.12,156.30,+36.42%,+5.44%,0.89,0.57,"2,830,300",442.38,N/A
 Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-19,290.00,299.32,281.73,291.45,+83.46%,+2.49%,1.45,0.5,"1,059,300",308.73,N/A
 Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-08-19,211.50,220.67,208.21,215.91,+24.82%,+4.92%,4.41,2.09,"5,503,200","1,188.20",N/A
 Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-08-19,249.28,260.30,246.87,256.05,+52.39%,+5.93%,6.77,2.72,"1,787,200",457.61,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-08-19,613.54,634.70,607.37,627.55,+39.79%,+4.07%,14.01,2.28,"2,750,100","1,725.83",N/A
 Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-11,147.62,149.00,145.57,147.94,+30.14%,+1.77%,0.57,0.39,"909,900",134.61,N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-19,176.03,178.61,174.17,178.50,+19.79%,+5.45%,2.47,1.4,"1,071,600",191.28,N/A
-Industrials,Diversified Support Services,CPRT,Copart,s&p500,2026-08-19,33.85,34.63,33.42,34.33,-0.20%,+18.42%,0.48,1.42,"10,793,400",370.54,N/A
-Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-08-11,311.36,336.70,308.42,334.70,+17.04%,+7.53%,24.78,8.0,"1,255,400",420.18,N/A
-Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-11,78.54,80.15,78.09,78.55,+6.71%,+4.23%,0.51,0.65,"17,551,900","1,378.70",N/A
+Industrials,Diversified Support Services,CPRT,Copart,s&p500,2026-08-19,33.85,34.63,33.42,34.33,-0.20%,+18.42%,0.48,1.42,"10,797,300",370.67,N/A
+Industrials,Industrial Machinery & Supplies & Components,NDSN,Nordson Corporation,s&p500,2026-08-11,311.36,336.70,308.42,334.70,+17.04%,+7.53%,24.78,8.0,"1,255,900",420.35,N/A
+Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-11,78.54,80.15,78.09,78.55,+6.71%,+4.23%,0.51,0.65,"17,575,800","1,380.58",N/A
 Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-19,192.10,195.86,188.19,192.41,+18.38%,+6.62%,0.31,0.16,"1,194,000",229.74,N/A
 Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-19,346.88,353.39,345.38,348.14,+12.76%,+9.60%,1.26,0.36,"643,500",224.03,N/A
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-07-29,408.07,412.63,405.44,410.45,+26.65%,+3.85%,3.13,0.77,"580,600",238.31,N/A
 Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-08-10,193.17,196.35,190.42,193.68,+23.19%,+7.92%,0.86,0.45,"854,200",165.44,N/A
-Materials,Gold,NEM,Newmont,s&p500,2026-08-19,125.08,128.69,123.71,127.64,+18.10%,+8.32%,2.56,2.05,"9,669,300","1,234.19",N/A
+Materials,Gold,NEM,Newmont,s&p500,2026-08-19,125.08,128.69,123.71,127.64,+18.10%,+8.32%,2.56,2.05,"9,674,100","1,234.80",N/A
