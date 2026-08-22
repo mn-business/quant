@@ -21,7 +21,7 @@ Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-0
 Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-08-06,370.47,371.80,366.66,371.04,+12.82%,+1.53%,5.31,1.45,"4,746,812","1,761.26",N/A
 Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-08-20,187.62,192.29,186.95,192.00,+30.97%,+5.51%,4.38,2.33,"1,791,004",343.87,N/A
 Health Care,Health Care Equipment,DXCM,Dexcom,s&p500,2026-08-13,91.48,92.56,89.20,92.34,+28.07%,+0.94%,2.12,2.35,"3,478,990",321.25,N/A
-Health Care,Health Care Equipment,GEHC,GE HealthCare,s&p500,2026-08-19,74.62,75.00,73.69,74.82,+16.49%,+1.40%,0.76,1.03,"2,113,322",158.12,N/A
+Health Care,Health Care Equipment,GEHC,GE HealthCare,s&p500,2026-08-19,74.62,75.00,73.69,74.82,+16.49%,+1.40%,0.76,1.03,"2,118,031",158.47,N/A
 Health Care,Health Care Equipment,RMD,ResMed|,s&p500,2026-08-19,229.99,234.14,228.54,231.52,+11.28%,+2.11%,3.08,1.35,"925,810",214.34,N/A
 Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-20,124.13,124.97,121.51,124.75,+28.67%,+6.17%,0.62,0.5,"1,864,543",232.60,N/A
 Health Care,Health Care Equipment,ZBH,Zimmer Biomet,s&p500,2026-08-19,100.74,101.15,98.67,100.98,+18.42%,+1.42%,2.01,2.03,"881,576",89.02,N/A
@@ -38,11 +38,11 @@ Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2
 Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-08-19,152.20,154.49,148.59,152.55,+25.52%,+12.54%,3.56,2.39,"11,433,963","1,744.25",N/A
 Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-07-28,639.84,654.23,607.90,647.47,+22.68%,+5.73%,26.53,4.27,"2,121,866","1,373.84",N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-13,187.05,188.98,186.85,187.81,+18.51%,+0.41%,1.41,0.76,"655,107",123.04,N/A
-Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-20,147.94,150.25,147.74,150.08,+30.86%,+4.29%,2.14,1.45,"681,864",102.33,N/A
+Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-11,147.62,150.25,147.74,150.08,+30.86%,+4.29%,2.50,1.69,"681,864",102.33,N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-20,178.50,182.52,178.39,182.18,+21.88%,+5.77%,3.68,2.06,"889,183",161.99,N/A
 Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-20,78.55,80.22,77.86,78.80,+9.72%,+3.85%,0.25,0.32,"10,747,289",846.89,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-24,307.32,308.26,303.87,308.05,+16.46%,+3.45%,4.08,1.34,"2,684,224",826.88,N/A
-Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-20,192.41,196.28,190.90,192.62,+17.42%,+3.79%,0.21,0.11,"1,165,606",224.52,N/A
+Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-20,192.41,196.28,190.83,192.62,+17.42%,+3.79%,0.21,0.11,"1,165,606",224.52,N/A
 Information Technology,Application Software,ADBE,Adobe Inc.,s&p500,2026-06-01,274.03,277.10,269.92,275.30,+12.48%,+1.78%,3.08,1.13,"4,335,077","1,193.45",N/A
 Information Technology,Application Software,CRM,Salesforce,s&p500,2026-06-01,209.06,211.06,204.73,209.17,+16.46%,+3.87%,3.74,1.82,"8,348,520","1,746.26",N/A
 Information Technology,Application Software,INTU,Intuit,s&p500,2026-08-19,362.47,371.70,360.07,367.00,+14.71%,+2.43%,5.13,1.42,"3,448,367","1,265.55",N/A
@@ -50,7 +50,7 @@ Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,20
 Information Technology,Application Software,TRMB,Trimble Inc.,s&p500,2026-08-04,59.81,60.68,59.45,60.25,+6.94%,+4.71%,0.57,0.96,"2,760,748",166.34,N/A
 Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-20,348.14,354.77,342.28,350.73,+11.96%,+6.62%,2.59,0.74,"449,965",157.82,N/A
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-08-20,410.45,413.54,403.33,411.79,+25.95%,+3.59%,1.34,0.33,"559,084",230.23,N/A
-Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-19,60.93,63.11,60.19,61.87,+17.29%,+4.35%,0.95,1.56,"6,460,139",399.69,N/A
+Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-19,60.93,63.11,60.19,61.87,+17.29%,+4.35%,0.95,1.56,"6,495,177",401.86,N/A
 Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-08-20,193.68,196.79,189.61,195.90,+22.43%,+6.87%,2.22,1.15,"685,204",134.23,N/A
 Materials,Copper,FCX,Freeport-McMoRan,s&p500,2026-06-02,71.72,77.33,74.40,76.66,+23.67%,+14.71%,5.44,7.64,"28,484,655","2,183.63",N/A
 Materials,Fertilizers & Agricultural Chemicals,CF,CF Industries,s&p500,2026-07-22,127.35,131.70,127.22,129.60,+6.49%,+11.29%,3.90,3.1,"2,814,823",364.80,N/A
