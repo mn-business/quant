@@ -104,6 +104,7 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings  Inc.,nasdaq
 소프트웨어,57201020,BRZE,Braze Inc,nasdaq,2026-08-20,30.71,31.43,29.89,31.06,+27.56%,+3.98%,0.35,1.14,"3,315,000",102.96,N/A
 소프트웨어,57201020,BSY,Bentley Systems  Inc,nasdaq,2026-07-29,36.96,37.33,35.79,37.08,+11.82%,+1.42%,0.68,1.87,"1,658,700",61.50,N/A
 소프트웨어,57201020,BTLN,Brightline Interactive  Inc.,nasdaq,2026-07-22,0.98,1.09,0.91,1.07,+37.53%,+18.36%,0.14,15.05,"516,600",0.55,N/A
+소프트웨어,57201020,CCC,CCC Intelligent Solutions Holdings Inc.,nasdaq,2026-07-30,"7,500.00","7,900.00","7,600.00","7,600.00",+163340.86%,+1.74%,200.00,2.7,354,2.69,N/A
 소프트웨어,57201020,CTW,CTW,nasdaq,2026-06-16,2.77,2.96,2.49,2.77,+19.91%,+6.13%,0.16,6.13,"24,200",0.07,N/A
 소프트웨어,57201020,DCBO,Docebo Inc.,nasdaq,2026-08-20,23.49,25.20,24.37,24.69,+41.90%,+5.42%,1.20,5.11,"111,400",2.75,N/A
 소프트웨어,57201020,INTA,Intapp  Inc.,nasdaq,2026-08-13,41.02,41.42,39.27,41.35,+102.70%,+0.80%,1.18,2.94,"824,000",34.07,N/A
@@ -147,9 +148,8 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings  Inc.,nasdaq
 은행,55101010,MGYR,Magyar Bancorp Inc,nasdaq,2026-08-18,19.50,19.60,19.13,19.60,+12.32%,+0.82%,0.14,0.72,"1,000",0.02,N/A
 은행,55101010,PBAM,Private Bancorp of America Inc,nasdaq,2026-08-18,87.33,87.90,87.60,87.71,+19.45%,+1.28%,0.51,0.58,"11,900",1.04,N/A
 은행,55101010,UMBFO,Umb Finl Corp Dep Shs Repstg 1 400Th Perp Pfd Ser B,nasdaq,2026-08-07,26.74,26.79,26.55,26.79,+1.58%,+0.83%,0.13,0.49,"8,700",0.23,N/A
-은행,55101010,VLYPP,Valley National 6 25 Fixed to Floating Rate Non Cumulative Perpetual Pref Shs,nasdaq,2026-08-20,25.15,25.16,25.11,25.15,+1.95%,+0.32%,0.00,0.0,"4,700",0.12,N/A
 은행,55101010,WAFDP,Wafd Depositary Shares,nasdaq,2026-08-04,16.57,16.59,16.53,16.59,+3.38%,+0.42%,0.02,0.12,"6,300",0.10,N/A
-은행,55101010,WSBCO,Wesbanco Depositary Shs Each Repstg 1 40Th In Sh Of Fxd Rate Rst Non Cumulatv,nasdaq,2026-08-20,25.72,25.72,25.63,25.72,+1.62%,+0.16%,0.00,0.0,"2,200",0.06,N/A
+은행,55101010,WSBCO,Wesbanco Depositary Shs Each Repstg 1 40Th In Sh Of Fxd Rate Rst Non Cumulatv,nasdaq,2026-07-20,25.72,25.72,25.63,25.72,+1.62%,+0.16%,0.00,0.0,"2,200",0.06,N/A
 의료 시설 및 서비스,56102010,ADUS,Addus Homecare Corp,nasdaq,2026-08-20,120.55,121.95,119.55,120.81,+30.39%,+2.74%,0.26,0.22,"264,500",31.95,N/A
 의료 시설 및 서비스,56102010,AVAH,Aveanna Healthcare Holdings Inc,nasdaq,2026-08-19,13.16,13.60,12.39,13.16,+79.54%,+16.56%,0.19,1.46,"8,415,300",110.75,N/A
 의료 시설 및 서비스,56102010,BDSX,Biodesix Inc,nasdaq,2026-08-19,25.54,27.10,24.11,26.63,+78.37%,+11.94%,2.60,10.82,"272,600",7.26,N/A
@@ -222,7 +222,6 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings  Inc.,nasdaq
 투자 지주 회사,55601010,ASPC,A SPAC III Acquisition Corp,nasdaq,2026-05-26,11.10,12.65,11.00,12.45,+11.16%,+17.45%,1.61,14.85,"532,500",6.63,N/A
 투자 지주 회사,55601010,BDCI,BTC Development Corp,nasdaq,2026-07-09,10.10,10.12,10.10,10.12,+0.90%,+0.30%,0.03,0.3,"18,900",0.19,N/A
 투자 지주 회사,55601010,BEAG,Bold Eagle Acquisition Corp,nasdaq,2026-08-11,10.75,10.90,10.74,10.80,+2.08%,+0.47%,0.07,0.65,"24,400",0.26,N/A
-투자 지주 회사,55601010,BIXI,Bitcoin Infrastructure Acquisition Corp Ltd,nasdaq,2026-08-20,10.10,10.10,10.05,10.10,+1.20%,+0.50%,0.00,0.0,"100,400",1.01,N/A
 투자 지주 회사,55601010,BIXIU,Bitcoin Infrastructure Acquisition Units,nasdaq,2026-08-18,10.22,10.26,10.26,10.26,+1.58%,+1.18%,0.04,0.39,100,0.00,N/A
 투자 지주 회사,55601010,BLUW,Blue Water Acquisition Corp III,nasdaq,2026-08-07,10.38,10.38,10.37,10.38,+1.17%,+0.29%,0.01,0.1,"26,200",0.27,N/A
 투자 지주 회사,55601010,BPAC,Blueport Acquisition Ltd,nasdaq,2026-08-13,10.18,10.18,10.15,10.18,+0.89%,+0.00%,0.02,0.2,"11,000",0.11,N/A
@@ -234,7 +233,7 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings  Inc.,nasdaq
 투자 지주 회사,55601010,DMII,Drugs Made In America Acquisition II Corp,nasdaq,2026-08-20,10.14,10.14,10.14,10.14,+0.80%,+0.10%,0.00,0.0,"1,100",0.01,N/A
 투자 지주 회사,55601010,DNMX,Dynamix Corp III,nasdaq,2026-08-20,10.06,10.07,10.06,10.06,+0.40%,+0.20%,0.00,0.0,"2,400",0.02,N/A
 투자 지주 회사,55601010,DYOR,Insight Digital Partners II,nasdaq,2026-06-05,10.10,10.11,10.10,10.10,+0.75%,+0.05%,0.00,0.05,"2,700",0.03,N/A
-투자 지주 회사,55601010,DYORU,Insight Digital Partners II Units,nasdaq,2026-08-20,10.15,10.22,10.22,10.22,+0.89%,+0.69%,0.07,0.69,"15,000",0.15,N/A
+투자 지주 회사,55601010,DYORU,Insight Digital Partners II Units,nasdaq,2026-07-02,10.15,10.22,10.22,10.22,+0.89%,+0.69%,0.07,0.69,"15,000",0.15,N/A
 투자 지주 회사,55601010,EGHA,EGH Acquisition Corp,nasdaq,2026-07-20,10.37,10.38,10.37,10.38,+0.48%,+0.28%,0.01,0.1,"1,300",0.01,N/A
 투자 지주 회사,55601010,EVOX,Evolution Global Acquisition Corp,nasdaq,2026-08-18,10.09,10.10,10.10,10.10,+0.80%,+0.20%,0.01,0.1,"5,000",0.05,N/A
 투자 지주 회사,55601010,FERA,Fifth Era Acquisition Corp I,nasdaq,2026-08-20,10.48,10.49,10.48,10.49,+1.06%,+0.19%,0.01,0.1,"1,000",0.01,N/A
@@ -255,7 +254,7 @@ IT 서비스 및 컨설팅,57201010,SSNC,SS&C Technologies Holdings  Inc.,nasdaq
 투자 지주 회사,55601010,PACH,Pioneer Acquisition I Corp,nasdaq,2026-08-13,10.30,10.30,10.30,10.30,+0.88%,+0.00%,0.00,0.0,"100,000",1.03,N/A
 투자 지주 회사,55601010,PALO,Paloma Acquisition Corp I,nasdaq,2026-06-02,9.95,9.99,9.99,9.99,+1.32%,+0.40%,0.04,0.4,200,0.00,N/A
 투자 지주 회사,55601010,RANG,Range Capital Acquisition Corp,nasdaq,2026-08-19,10.79,10.79,10.79,10.79,+1.60%,+0.37%,0.00,0.0,"1,400",0.02,N/A
-투자 지주 회사,55601010,RDAG,Republic Digital Acquisition Co,nasdaq,2026-08-20,10.40,10.40,10.40,10.40,+0.97%,+0.19%,0.00,0.0,"2,200",0.02,N/A
+투자 지주 회사,55601010,RDAG,Republic Digital Acquisition Co,nasdaq,2026-08-10,10.40,10.40,10.40,10.40,+0.97%,+0.19%,0.00,0.0,"2,200",0.02,N/A
 투자 지주 회사,55601010,RFAI,RF Acquisition Corp II,nasdaq,2026-08-20,12.73,73.00,35.22,58.00,+427.75%,+423.70%,45.27,355.62,"3,112,800",180.54,N/A
 투자 지주 회사,55601010,RFAIU,RF Acquisition II Units,nasdaq,2026-06-08,12.49,51.76,38.00,51.76,+369.27%,+369.27%,40.73,369.27,"2,800",0.14,N/A
 투자 지주 회사,55601010,SDHI,Siddhi Acquisition Corp,nasdaq,2026-08-18,10.50,10.51,10.50,10.51,+1.15%,+0.29%,0.01,0.1,"130,600",1.37,N/A
