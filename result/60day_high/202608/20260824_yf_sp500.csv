@@ -12,7 +12,6 @@ Communication Services,Publishing,NWSA,News Corp (Class A),s&p500,2026-08-21,30.
 Consumer Discretionary,Distributors,GPC,Genuine Parts Company,s&p500,2026-08-07,135.63,135.73,133.93,135.69,+41.34%,+0.49%,1.73,1.29,"669,778",90.88,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",ABNB,Airbnb,s&p500,2026-08-21,187.30,193.45,188.53,190.21,+43.36%,+3.34%,2.91,1.55,"5,595,891","1,064.39",N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",EXPE,Expedia Group,s&p500,2026-08-14,332.69,341.09,323.55,339.12,+52.42%,+1.93%,17.49,5.44,"1,562,298",529.81,N/A
-Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-07-30,"9,840.00","9,900.00","9,900.00","9,900.00",+11151.28%,+26.76%,460.00,4.87,100,0.99,N/A
 Consumer Discretionary,Specialized Consumer Services,DASH,DoorDash,s&p500,2026-08-21,223.49,230.06,219.99,229.06,+48.74%,+5.55%,5.57,2.49,"3,879,915",888.73,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DLTR,Dollar Tree,s&p500,2026-08-19,131.84,137.07,131.57,136.75,+45.94%,+5.69%,5.27,4.01,"2,413,229",330.01,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-08-21,165.44,170.75,165.71,169.89,+35.45%,+9.98%,4.45,2.69,"6,143,195","1,043.67",N/A
@@ -42,7 +41,7 @@ Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-08-21,6
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-21,187.81,189.30,185.56,187.83,+16.88%,+0.92%,0.02,0.01,"692,430",130.06,N/A
 Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-21,150.08,152.46,149.66,151.61,+30.87%,+4.80%,1.53,1.02,"1,024,747",155.36,N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-21,182.18,186.89,183.34,185.45,+27.05%,+8.44%,3.27,1.79,"1,409,598",261.41,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,850.00","23,100.00","23,750.00",+10894.80%,+3.26%,700.00,3.04,"9,064",215.27,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,850.00","23,100.00","23,750.00",+10894.80%,+3.26%,700.00,3.04,"9,000",213.75,N/A
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-08-13,125.40,127.09,124.61,126.01,+32.92%,+3.27%,1.53,1.23,"2,307,201",290.73,N/A
 Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-21,78.80,79.52,77.90,79.29,+13.08%,+4.40%,0.49,0.62,"11,936,387",946.44,N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-08-21,308.05,311.17,305.71,309.86,+14.89%,+5.51%,1.81,0.59,"2,265,692",702.05,N/A
