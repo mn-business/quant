@@ -40,7 +40,7 @@ Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-07-28,6
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-13,187.05,188.98,186.85,187.81,+18.51%,+0.41%,1.41,0.76,"872,300",163.83,N/A
 Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-08-11,147.62,150.25,147.74,150.08,+30.86%,+4.29%,2.50,1.69,"890,600",133.66,N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-20,178.50,182.52,178.22,182.18,+21.88%,+5.77%,3.68,2.06,"1,142,600",208.16,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,850.00","23,100.00","23,850.00",+10941.10%,+3.70%,800.00,3.47,"7,164",170.86,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-07-02,"23,300.00","23,850.00","23,100.00","23,750.00",+10894.80%,+3.26%,700.00,3.04,"9,064",215.27,N/A
 Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-20,78.55,80.22,77.85,78.80,+9.72%,+3.85%,0.25,0.32,"12,709,300","1,001.49",N/A
 Industrials,Rail Transportation,UNP,Union Pacific Corporation,s&p500,2026-07-24,307.32,308.29,303.87,308.05,+16.46%,+3.45%,4.08,1.34,"2,684,600",826.99,N/A
 Industrials,Research & Consulting Services,EFX,Equifax,s&p500,2026-08-20,192.41,196.28,190.78,192.62,+17.42%,+3.79%,0.21,0.11,"1,169,300",225.23,N/A
@@ -59,3 +59,4 @@ Materials,Fertilizers & Agricultural Chemicals,MOS,Mosaic Company (The),s&p500,2
 Materials,Gold,NEM,Newmont,s&p500,2026-08-20,127.64,132.34,129.80,131.58,+22.53%,+15.23%,3.94,3.09,"10,513,100","1,383.31",N/A
 Materials,Paper & Plastic Packaging Products & Materials,AMCR,Amcor,s&p500,2026-08-07,47.86,48.77,47.93,48.59,+28.71%,+4.76%,0.78,1.63,"3,057,900",148.58,N/A
 Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-08-19,183.16,185.42,181.60,183.71,+15.80%,+2.06%,1.03,0.56,"478,100",87.83,N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-12,"148,000.00","148,000.00","142,600.00","148,000.00",+123282.91%,+3.57%,"4,500.00",3.14,"441,394","65,326.31",N/A
