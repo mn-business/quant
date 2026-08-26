@@ -29,10 +29,11 @@ Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-08-19,67.61,68.
 Health Care,Pharmaceuticals,MRK,Merck & Co.,s&p500,2026-08-21,152.55,156.92,150.66,156.45,+31.05%,+15.74%,5.79,3.84,"13,898,396","2,174.40",N/A
 Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-08-19,28.24,28.58,27.84,28.57,+9.00%,+4.84%,0.60,2.15,"31,840,109",909.67,N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-24,187.83,189.99,186.75,189.05,+17.05%,+1.67%,1.22,0.65,"582,284",110.08,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-24,"23,750.00","24,000.00","24,000.00","24,000.00",+10800.69%,+4.35%,750.00,3.23,100,2.40,N/A
 Industrials,Passenger Ground Transportation,UBER,Uber,s&p500,2026-08-24,79.29,80.42,78.61,80.35,+13.60%,+7.62%,1.06,1.34,"14,118,251","1,134.40",N/A
 Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-08-24,481.52,487.33,480.40,485.39,+19.12%,+3.38%,3.87,0.8,"1,083,245",525.80,N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-24,62.20,63.30,61.10,63.06,+18.62%,+9.14%,0.86,1.38,"5,817,002",366.82,N/A
 Materials,Copper,FCX,Freeport-McMoRan,s&p500,2026-08-24,77.80,79.94,76.80,79.91,+25.59%,+20.49%,2.11,2.71,"15,779,231","1,260.92",N/A
 Materials,Gold,NEM,Newmont,s&p500,2026-08-24,131.84,135.29,129.70,135.14,+26.03%,+16.52%,3.30,2.5,"7,058,156",953.84,N/A
 Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-08-24,286.98,290.27,285.01,289.54,+10.57%,+3.41%,2.56,0.89,"1,761,574",510.05,N/A
-Utilities,Multi-Utilities,PCG,PG&E Corporation,s&p500,2026-08-24,18.11,18.38,18.03,18.36,+11.39%,+3.03%,0.25,1.38,"15,188,082",278.85,N/A
+Utilities,Multi-Utilities,PCG,PG&E Corporation,s&p500,2026-07-22,18.11,18.38,18.03,18.36,+11.39%,+3.03%,0.25,1.38,"15,188,082",278.85,N/A
