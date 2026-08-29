@@ -6,9 +6,9 @@ Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,20
 Consumer Staples,Personal Care Products,EL,Estée Lauder Companies (The),s&p500,2026-08-26,105.06,108.38,103.74,106.21,+19.40%,+10.46%,1.15,1.09,"4,548,100",483.05,N/A
 Financials,Asset Management & Custody Banks,IVZ,Invesco,s&p500,2026-08-26,32.98,33.65,32.85,33.31,+17.04%,+6.22%,0.33,1.0,"2,628,800",87.57,N/A
 Financials,Financial Exchanges & Data,CBOE,Cboe Global Markets,s&p500,2026-08-26,312.19,317.74,310.94,313.95,-5.88%,+6.75%,1.76,0.56,"836,400",262.59,N/A
-Financials,Financial Exchanges & Data,COIN,Coinbase,s&p500,2026-08-25,187.16,193.81,180.11,190.72,+0.89%,+10.66%,8.94,4.92,"9,203,700","1,755.33",N/A
+Financials,Financial Exchanges & Data,COIN,Coinbase,s&p500,2026-08-25,187.16,193.81,180.11,190.72,+0.89%,+10.66%,8.94,4.92,"9,240,900","1,762.42",N/A
 Financials,Transaction & Payment Processing Services,XYZ,"Block, Inc.",s&p500,2026-08-04,84.64,86.92,83.48,84.85,+12.06%,+5.96%,1.75,2.11,"5,762,700",488.97,N/A
-Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-08-25,148.77,149.11,146.01,148.86,+11.46%,+3.78%,0.77,0.52,"5,000,600",744.39,N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-08-25,148.77,149.11,146.01,148.86,+11.46%,+3.78%,0.77,0.52,"5,014,800",746.50,N/A
 Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-08-26,126.35,129.80,126.50,129.71,+24.07%,+4.50%,3.36,2.66,"1,932,700",250.69,N/A
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-08-13,252.64,296.24,274.81,282.13,+61.83%,+12.61%,37.22,15.2,"6,408,800","1,808.11",N/A
 Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-08-26,261.51,265.25,259.75,262.38,+44.00%,+2.47%,0.87,0.33,"1,232,400",323.36,N/A
@@ -16,16 +16,16 @@ Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-26,190.18,191.65,187.59,190.72,+20.72%,+2.32%,0.54,0.28,"782,900",149.31,N/A
 Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-08-24,126.01,127.23,124.16,126.48,+30.42%,+2.90%,1.60,1.28,"1,725,800",218.28,N/A
 Information Technology,Application Software,ADBE,Adobe Inc.,s&p500,2026-08-24,276.27,291.18,278.37,289.15,+11.55%,+6.22%,15.68,5.73,"6,521,600","1,885.72",N/A
-Information Technology,Application Software,ADSK,Autodesk,s&p500,2026-08-13,257.96,271.72,260.29,270.58,+16.98%,+7.79%,15.81,6.21,"3,952,200","1,069.39",N/A
-Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-21,209.17,254.48,230.05,252.05,+32.23%,+22.69%,46.43,22.58,"55,465,200","13,980.00",N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-21,179.94,186.86,178.01,185.93,+18.77%,+6.88%,8.43,4.75,"40,651,900","7,558.41",N/A
+Information Technology,Application Software,ADSK,Autodesk,s&p500,2026-08-13,257.96,271.72,260.29,270.58,+16.98%,+7.79%,15.81,6.21,"3,963,200","1,072.36",N/A
+Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-21,209.17,254.48,230.05,252.05,+32.23%,+22.69%,46.43,22.58,"55,517,500","13,993.19",N/A
+Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-21,179.94,186.86,178.01,185.93,+18.77%,+6.88%,8.43,4.75,"40,739,300","7,574.66",N/A
 Information Technology,Application Software,TRMB,Trimble Inc.,s&p500,2026-08-24,60.67,61.69,59.97,61.54,+9.09%,+3.12%,1.86,3.12,"2,193,000",134.96,N/A
 Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-24,355.79,373.03,356.83,369.88,+18.12%,+6.24%,17.23,4.89,"1,276,700",472.23,N/A
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-08-24,415.51,423.99,412.97,422.69,+29.85%,+2.98%,9.41,2.28,"907,000",383.38,N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-25,63.06,64.24,62.66,63.76,+14.35%,+4.66%,1.67,2.69,"5,800,800",369.86,N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-08-13,225.30,230.47,220.90,227.98,+8.10%,+5.13%,18.32,8.74,"298,231,200","67,990.75",N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-13,225.53,229.08,206.10,227.96,+24.74%,+19.76%,38.78,20.5,"23,398,800","5,333.99",N/A
+Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-08-13,225.30,230.47,220.90,227.98,+8.10%,+5.13%,18.32,8.74,"298,909,800","68,145.45",N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-13,225.53,229.08,206.10,227.96,+24.74%,+19.76%,38.78,20.5,"23,443,200","5,344.11",N/A
 Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-08-04,168.29,173.89,159.88,172.78,+25.23%,+14.58%,15.24,9.67,"6,902,800","1,192.67",N/A
 Information Technology,Systems Software,GEN,Gen Digital,s&p500,2026-08-26,29.64,30.53,29.51,30.50,+18.26%,+8.23%,0.86,2.9,"6,391,500",194.94,N/A
-Information Technology,Systems Software,NOW,ServiceNow,s&p500,2026-06-01,135.86,139.32,130.25,138.43,+11.30%,+6.69%,12.63,10.04,"27,762,900","3,843.22",N/A
+Information Technology,Systems Software,NOW,ServiceNow,s&p500,2026-06-01,135.86,139.32,130.25,138.43,+11.30%,+6.69%,12.63,10.04,"27,815,500","3,850.50",N/A
 Utilities,Electric Utilities,CEG,Constellation Energy,s&p500,2026-08-14,282.07,283.81,279.09,282.41,-1.86%,+3.48%,2.89,1.03,"1,771,000",500.15,N/A
