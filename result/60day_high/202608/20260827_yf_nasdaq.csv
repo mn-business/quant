@@ -171,7 +171,6 @@ IT 서비스 및 컨설팅,57201010,SAIC,Science Applications International Corp
 투자 관리 및 펀드 운영,55102020,CSWC,Capital Southwest Corporation,nasdaq,2026-08-24,25.28,25.48,25.20,25.40,+10.58%,+2.92%,0.16,0.63,"412,100",10.47,N/A
 투자 관리 및 펀드 운영,55102020,GROW,US Global Investors Inc,nasdaq,2026-08-26,3.34,3.39,3.28,3.35,+27.24%,+3.08%,0.01,0.3,"10,900",0.04,N/A
 투자 관리 및 펀드 운영,55102020,HSDT,Solana Co,nasdaq,2026-08-24,2.18,2.48,2.08,2.43,+27.56%,+30.65%,0.38,18.54,"1,094,400",2.66,N/A
-투자 관리 및 펀드 운영,55102020,SATA,Strive Perp Var Rate Pref Shs Series A,nasdaq,2026-08-25,100.00,100.01,99.99,100.01,+0.73%,+0.15%,0.05,0.05,"519,100",51.92,N/A
 투자 관리 및 펀드 운영,55102020,SEIC,SEI Investments Company,nasdaq,2026-08-25,110.98,111.43,109.89,111.30,+27.39%,+3.44%,0.52,0.47,"710,100",79.03,N/A
 투자 관리 및 펀드 운영,55102020,VCTR,Victory Capital Holdings  Inc.,nasdaq,2026-08-26,120.64,122.64,118.37,121.13,+44.07%,+7.12%,0.49,0.41,"810,000",98.12,N/A
 투자 은행 및 중개 서비스,55102010,RILYN,BRC Group Holdings 6 50 Senior Notes Due 2026,nasdaq,2026-07-14,25.06,25.08,25.06,25.07,+0.26%,+0.10%,0.01,0.02,"40,000",1.00,N/A
@@ -206,10 +205,12 @@ IT 서비스 및 컨설팅,57201010,SAIC,Science Applications International Corp
 투자 지주 회사,55601010,NPACU,New Providence Acquisition III Units,nasdaq,2026-07-31,10.55,10.59,10.59,10.59,+1.63%,+1.15%,0.12,1.15,100,0.00,N/A
 투자 지주 회사,55601010,OTGA,OTG Acquisition I Corp,nasdaq,2026-08-19,10.23,10.23,10.23,10.23,+0.69%,+0.00%,0.01,0.1,"50,500",0.52,N/A
 투자 지주 회사,55601010,PCAPU,Procap Acquisition Units A,nasdaq,2026-07-31,10.45,10.46,10.39,10.46,+1.06%,+0.48%,0.01,0.1,500,0.01,N/A
+투자 지주 회사,55601010,QUMS,Quantumsphere Acquisition Corp,nasdaq,2026-08-19,10.32,10.32,10.31,10.32,+1.18%,+0.00%,0.00,0.0,"23,700",0.24,N/A
 투자 지주 회사,55601010,RANG,Range Capital Acquisition Corp,nasdaq,2026-08-25,10.80,10.80,10.79,10.80,+1.79%,+0.09%,0.00,0.0,"57,200",0.62,N/A
 투자 지주 회사,55601010,SCPQ,Social Commerce Partners Corp,nasdaq,2026-08-26,10.05,10.05,10.05,10.05,+0.90%,+0.40%,0.00,0.0,"4,200",0.04,N/A
 투자 지주 회사,55601010,SUMAU,SUMA Acquisition Units,nasdaq,2026-07-07,10.25,10.25,10.25,10.25,+1.49%,+0.00%,0.00,0.0,100,0.00,N/A
 투자 지주 회사,55601010,SVCC,Stellar V Capital Corp,nasdaq,2026-08-24,10.66,10.66,10.66,10.66,+0.85%,+0.09%,0.00,0.0,"19,200",0.20,N/A
+투자 지주 회사,55601010,SZZL,Sizzle Acquisition Corp II,nasdaq,2026-08-26,10.45,10.46,10.45,10.45,+1.21%,+0.05%,0.00,0.0,"612,400",6.40,N/A
 투자 지주 회사,55601010,TRGS,TRG Latin America Acquisitions Corp,nasdaq,2026-07-01,9.95,9.96,9.94,9.96,+0.91%,+0.20%,0.01,0.1,"2,000",0.02,N/A
 투자 지주 회사,55601010,UYSC,UY Scuti Acquisition Corp,nasdaq,2026-08-14,10.85,10.88,10.84,10.88,+1.68%,+0.37%,0.04,0.37,"25,300",0.28,N/A
 투자 지주 회사,55601010,WTG,Wintergreen Acquisition Corp,nasdaq,2026-08-21,10.56,10.59,10.53,10.56,+2.03%,+0.57%,0.01,0.09,"37,300",0.39,N/A
@@ -221,6 +222,7 @@ IT 서비스 및 컨설팅,57201010,SAIC,Science Applications International Corp
 특수 REITs,60102040,AGNCL,AGNC Invt Dep Shs Repstg 1 1000Th Pref Shs Series G,nasdaq,2026-08-07,25.29,25.37,25.22,25.32,+2.99%,+0.68%,0.11,0.44,"8,600",0.22,N/A
 특수 REITs,60102040,AGNCM,AGNC Investment 1000 DS Rep 6.875 Fixed to Floating Cumulative Redeemable Pref,nasdaq,2026-08-25,25.27,25.29,25.22,25.27,+3.47%,+0.14%,0.00,0.02,"2,000",0.05,N/A
 특수 REITs,60102040,AGNCP,Agnc Invt 1000 Dep Shs Repstg Cum Red Prf Series F,nasdaq,2026-08-24,25.45,25.45,25.39,25.45,+3.55%,+0.32%,0.00,0.0,"18,000",0.46,N/A
+특수 REITs,60102040,AGNCZ,AGNC Investment 8 75 Fixed Rate Cumulative Redeemable Prf Shs Series H,nasdaq,2026-08-25,25.64,25.65,25.43,25.64,+3.21%,+0.23%,0.09,0.35,"26,100",0.67,N/A
 특수 REITs,60102040,NHPBP,National Healthcare 7.125 Cumulative Redeemable Perpetual Pref Shs Series B,nasdaq,2026-08-26,25.28,25.32,25.29,25.30,+17.29%,+0.20%,0.02,0.08,"2,200",0.06,N/A
 핀테크,57301010,AIOS,AIOS Tech Inc,nasdaq,2026-06-01,15.88,18.26,13.90,16.77,+5.74%,+24.96%,2.07,14.08,"274,600",4.61,N/A
 핀테크,57301010,BULL,Webull Corp,nasdaq,2026-08-25,8.94,9.62,8.75,9.57,+49.53%,+8.14%,0.79,9.0,"27,057,800",258.94,N/A
