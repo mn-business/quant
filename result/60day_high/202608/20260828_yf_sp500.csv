@@ -1,6 +1,7 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Integrated Telecommunication Services,T,AT&T,s&p500,2026-08-26,25.87,26.03,25.51,26.01,+5.95%,+2.85%,0.58,2.28,"22,672,085",589.70,N/A
 Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-08-27,10.80,10.98,10.68,10.88,-0.44%,+5.12%,0.08,0.74,"10,028,916",109.11,N/A
+Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-08-27,"10,300.00","10,800.00","10,300.00","10,650.00",+12596.71%,+7.58%,350.00,3.4,400,4.26,N/A
 Consumer Staples,Packaged Foods & Meats,GIS,General Mills,s&p500,2026-08-24,40.92,41.67,40.66,41.55,+23.55%,+3.95%,1.11,2.74,"8,925,450",370.85,N/A
 Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-08-27,131.84,134.40,131.10,132.34,+31.54%,+6.45%,0.50,0.38,"1,448,156",191.65,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-08-18,365.21,369.12,363.20,368.83,+42.59%,+2.25%,5.29,1.46,"1,917,722",707.31,N/A
