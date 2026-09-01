@@ -1,20 +1,22 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-08-28,10.88,11.21,10.74,10.91,+1.69%,+5.41%,0.03,0.28,"11,109,800",121.21,N/A
+Communication Services,Integrated Telecommunication Services,T,AT&T,s&p500,2026-08-28,26.01,26.32,26.00,26.01,+10.47%,+0.95%,0.12,0.48,"32,622,707",848.68,N/A
+Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-08-25,50.25,50.92,50.24,50.30,+7.82%,+0.10%,0.28,0.56,"19,750,132",993.43,N/A
 Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-08-27,"10,300.00","10,800.00","10,300.00","10,650.00",+12596.71%,+7.58%,350.00,3.4,400,4.26,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-20,205.77,208.42,203.84,206.14,+9.91%,+1.50%,4.28,2.12,"12,048,900","2,483.76",N/A
-Energy,Oil & Gas Equipment & Services,SLB,Schlumberger,s&p500,2026-06-04,58.01,60.46,57.97,60.10,+6.82%,+11.30%,2.77,4.83,"35,191,600","2,115.02",N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-08-28,368.83,376.56,366.68,373.32,+41.91%,+2.98%,4.49,1.22,"3,626,500","1,353.85",N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-08-28,244.01,250.66,243.15,246.58,+35.07%,+1.91%,2.57,1.05,"4,438,400","1,094.42",N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-08-28,352.36,362.79,351.18,358.92,+38.98%,+3.73%,6.56,1.86,"3,537,300","1,269.61",N/A
-Financials,Financial Exchanges & Data,FDS,FactSet,s&p500,2026-08-28,308.98,314.51,303.65,313.55,+22.57%,+2.70%,4.57,1.48,"1,078,900",338.29,N/A
-Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-08-27,282.13,290.47,273.60,285.69,+56.17%,+14.98%,9.00,3.25,"2,844,900",812.76,N/A
-Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-08-25,28.57,29.09,28.50,28.59,+12.83%,+0.07%,0.13,0.46,"21,877,039",625.46,N/A
-Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-08-24,648.64,657.17,641.13,654.91,+13.35%,+0.97%,24.58,3.9,"1,786,500","1,170.00",N/A
-Industrials,Human Resource & Employment Services,PAYX,Paychex,s&p500,2026-08-28,127.04,127.87,125.56,127.34,+26.34%,+1.06%,0.30,0.24,"2,470,400",314.58,N/A
-Information Technology,Application Software,ADBE,Adobe Inc.,s&p500,2026-08-28,291.52,294.13,286.26,292.79,+11.71%,+5.98%,1.27,0.44,"5,207,600","1,524.73",N/A
-Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-28,256.00,262.28,254.39,257.54,+28.56%,+23.19%,1.54,0.6,"22,458,000","5,783.83",N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-28,186.29,187.94,183.79,186.38,+22.48%,+5.96%,0.09,0.05,"25,898,200","4,826.91",N/A
-Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-08-28,189.61,191.46,186.76,189.76,+1.90%,+1.73%,0.15,0.08,"4,194,000",795.85,N/A
-Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-08-28,64.04,64.91,63.13,64.58,+17.12%,+3.83%,0.54,0.84,"8,661,300",559.35,N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-27,227.96,233.88,221.00,231.00,+20.16%,+21.15%,12.60,5.77,"17,811,900","4,114.55",N/A
-Materials,Fertilizers & Agricultural Chemicals,CF,CF Industries,s&p500,2026-08-21,129.60,132.22,126.72,130.03,+14.58%,+0.61%,4.24,3.37,"3,255,800",423.35,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-07-29,128.68,131.77,126.24,131.07,+24.72%,+6.93%,4.32,3.41,"3,755,337",492.21,N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-31,206.14,211.07,207.80,211.05,+11.25%,+5.58%,4.91,2.38,"8,528,692","1,799.98",N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-20,134.89,136.30,133.64,136.19,+14.40%,+3.30%,3.70,2.79,"6,400,559",871.69,N/A
+Energy,Oil & Gas Exploration & Production,EQT,EQT Corporation,s&p500,2026-06-04,55.24,55.74,54.30,55.59,+2.06%,+2.94%,1.41,2.6,"5,605,435",311.61,N/A
+Energy,Oil & Gas Exploration & Production,EXE,Expand Energy,s&p500,2026-08-11,98.24,100.13,98.02,99.98,+9.78%,+5.62%,1.82,1.85,"2,376,746",237.63,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-08-31,373.32,383.00,373.00,383.00,+43.33%,+7.92%,9.68,2.59,"2,365,627",906.04,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-08-31,246.58,252.05,247.13,252.02,+36.46%,+6.38%,5.44,2.21,"3,090,481",778.86,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-08-31,358.92,364.90,356.23,361.99,+38.45%,+6.34%,3.07,0.86,"2,713,142",982.13,N/A
+Financials,Financial Exchanges & Data,CME,CME Group,s&p500,2026-08-28,285.80,289.90,282.98,286.45,+13.97%,+3.29%,0.95,0.33,"1,610,148",461.23,N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-08-27,148.86,149.96,146.91,149.92,+16.99%,+0.77%,3.58,2.45,"4,826,106",723.53,N/A
+Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-08-25,905.09,914.43,886.83,906.77,+22.61%,+0.19%,21.45,2.42,"653,944",592.98,N/A
+Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-08-25,28.57,29.09,28.47,28.57,+12.75%,+0.00%,0.11,0.39,"40,525,428","1,157.81",N/A
+Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-08-31,654.91,677.89,654.91,676.08,+15.22%,+7.20%,21.17,3.23,"2,274,121","1,537.49",N/A
+Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-31,257.54,262.32,254.25,258.11,+35.76%,+25.48%,0.57,0.22,"15,040,979","3,882.23",N/A
+Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-08-26,487.28,494.77,486.27,491.24,+20.65%,+1.21%,5.94,1.22,"967,950",475.50,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-08-13,31.30,31.42,29.75,31.32,+21.74%,+6.10%,1.30,4.33,"14,496,075",454.02,N/A
+Materials,Fertilizers & Agricultural Chemicals,CF,CF Industries,s&p500,2026-08-31,130.03,135.77,129.73,135.60,+16.30%,+6.55%,5.57,4.28,"3,805,792",516.07,N/A
+Materials,Fertilizers & Agricultural Chemicals,MOS,Mosaic Company (The),s&p500,2026-08-21,24.41,25.20,23.42,24.79,+6.39%,+2.14%,0.67,2.78,"8,992,378",222.92,N/A
