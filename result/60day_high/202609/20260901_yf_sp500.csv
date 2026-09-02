@@ -3,7 +3,7 @@ Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2
 Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-07-29,128.68,131.78,126.22,131.09,+24.74%,+6.94%,4.34,3.42,"3,878,200",508.39,N/A
 Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-31,206.14,211.08,207.80,211.05,+11.25%,+5.58%,4.91,2.38,"8,551,500","1,804.79",N/A
 Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-20,134.89,136.30,133.64,136.19,+14.40%,+3.30%,3.70,2.79,"6,414,000",873.52,N/A
-Energy,Oil & Gas Exploration & Production,EQT,EQT Corporation,s&p500,2026-06-04,55.24,55.74,54.30,55.59,+2.06%,+2.94%,1.41,2.6,"5,788,700",321.79,N/A
+Energy,Oil & Gas Exploration & Production,EQT,EQT Corporation,s&p500,2026-06-04,55.24,55.74,54.30,55.59,+2.06%,+2.94%,1.41,2.6,"5,815,700",323.29,N/A
 Energy,Oil & Gas Exploration & Production,EXE,Expand Energy,s&p500,2026-08-11,98.24,100.13,98.02,99.98,+9.78%,+5.62%,1.82,1.85,"2,447,600",244.71,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-08-31,373.32,383.01,373.00,383.00,+43.33%,+7.92%,9.68,2.59,"2,376,700",910.28,N/A
 Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-08-31,246.58,252.05,247.14,252.02,+36.46%,+6.38%,5.44,2.21,"3,097,400",780.61,N/A
@@ -12,7 +12,7 @@ Financials,Financial Exchanges & Data,CME,CME Group,s&p500,2026-08-28,285.80,289
 Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-08-27,148.86,149.96,146.92,149.92,+16.99%,+0.77%,3.58,2.45,"4,868,100",729.83,N/A
 Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-08-25,905.09,914.43,886.83,906.77,+22.61%,+0.19%,21.45,2.42,"788,000",714.53,N/A
 Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-08-31,654.91,677.89,654.05,676.08,+15.22%,+7.20%,21.17,3.23,"2,309,600","1,561.47",N/A
-Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-31,257.54,262.32,254.25,258.11,+35.76%,+25.48%,0.57,0.22,"15,886,300","4,100.41",N/A
+Information Technology,Application Software,CRM,Salesforce,s&p500,2026-08-31,257.54,262.32,254.25,258.11,+35.76%,+25.48%,0.57,0.22,"15,897,500","4,103.30",N/A
 Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-08-26,487.28,494.85,486.27,491.24,+20.65%,+1.21%,5.94,1.22,"1,004,300",493.35,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-08-13,31.30,31.42,29.75,31.32,+21.74%,+6.10%,1.30,4.33,"14,872,800",465.82,N/A
 Materials,Fertilizers & Agricultural Chemicals,CF,CF Industries,s&p500,2026-08-31,130.03,135.77,129.63,135.60,+16.30%,+6.55%,5.57,4.28,"3,834,200",519.92,N/A
