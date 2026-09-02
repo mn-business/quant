@@ -1,6 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-08-25,50.25,50.92,50.24,50.30,+7.82%,+0.10%,0.28,0.56,"20,183,361","1,015.22",N/A
-Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-08-27,"10,300.00","10,800.00","10,300.00","10,650.00",+12596.71%,+7.58%,350.00,3.4,400,4.26,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-07-29,128.68,131.77,126.24,131.09,+24.74%,+6.94%,4.34,3.42,"3,755,453",492.30,N/A
 Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-08-31,206.14,211.07,207.80,211.05,+11.25%,+5.58%,4.91,2.38,"8,540,067","1,802.38",N/A
 Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-08-20,134.89,136.30,133.64,136.19,+14.40%,+3.30%,3.70,2.79,"6,405,596",872.38,N/A
