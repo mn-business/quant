@@ -2,7 +2,6 @@
 Communication Services,Integrated Telecommunication Services,T,AT&T,s&p500,2026-08-28,26.01,26.25,25.80,26.19,+15.12%,+2.99%,0.24,0.92,"32,839,800",860.07,N/A
 Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-09-01,50.30,50.82,50.15,50.59,+11.51%,+2.35%,0.37,0.74,"17,998,500",910.54,N/A
 Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-09-02,10.97,11.19,10.78,11.04,+8.54%,+2.22%,0.07,0.64,"9,272,700",102.37,N/A
-Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-08-28,"10,650.00","10,800.00","10,200.00","10,800.00",+12717.47%,+1.41%,450.00,4.35,"14,005",151.25,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-09-01,131.09,133.76,130.64,131.26,+26.58%,+4.27%,0.37,0.28,"1,726,000",226.55,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-02,387.00,398.52,382.92,387.71,+47.98%,+6.65%,0.71,0.18,"2,135,500",827.95,N/A
 Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-02,366.09,375.11,362.55,370.69,+44.90%,+6.95%,4.60,1.26,"2,525,800",936.29,N/A
@@ -24,6 +23,7 @@ Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-09-02,263.84,27
 Health Care,Pharmaceuticals,BMY,Bristol Myers Squibb,s&p500,2026-08-25,67.92,68.24,66.62,68.09,+20.24%,+1.70%,0.43,0.64,"6,224,000",423.79,N/A
 Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-09-02,275.21,278.89,273.16,278.43,+19.62%,+4.76%,3.22,1.17,"5,940,300","1,653.96",N/A
 Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-07-16,224.51,225.74,222.16,225.12,+7.49%,+2.67%,2.60,1.17,"1,395,500",314.15,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,400.00","23,800.00",+10273.56%,+1.93%,0.00,0.0,"3,248",77.30,N/A
 Information Technology,Application Software,CRM,Salesforce,s&p500,2026-09-01,258.11,268.27,261.60,264.43,+42.79%,+4.91%,7.50,2.92,"16,028,300","4,238.36",N/A
 Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-08-28,377.94,393.53,375.39,379.27,+21.53%,+2.54%,4.39,1.17,"814,300",308.84,N/A
 Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-08-13,206.45,211.83,203.00,206.92,+43.42%,+6.90%,6.05,3.01,"2,981,900",617.01,N/A
