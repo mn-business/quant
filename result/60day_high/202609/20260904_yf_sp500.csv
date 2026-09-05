@@ -1,15 +1,15 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-29,90.17,90.82,87.13,90.27,+23.33%,+9.50%,2.78,3.18,"3,911,700",353.11,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-09-03,131.26,133.63,130.77,133.21,+24.71%,+8.40%,1.95,1.49,"1,706,475",227.32,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-03,387.71,390.88,379.10,388.90,+46.11%,+5.44%,1.19,0.31,"1,854,351",721.16,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-03,370.69,372.34,360.31,370.72,+43.47%,+5.21%,0.03,0.01,"2,835,300","1,051.10",N/A
-Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-09-03,164.33,165.83,163.62,164.84,+16.26%,+1.44%,0.51,0.31,"2,335,654",385.01,N/A
-Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-09-03,193.94,195.40,192.34,194.26,+20.65%,+0.48%,0.32,0.16,"1,121,972",217.95,N/A
-Financials,Diversified Banks,WFC,Wells Fargo,s&p500,2026-09-02,89.27,90.13,88.73,89.97,+11.13%,+3.78%,0.78,0.87,"7,957,649",715.95,N/A
-Health Care,Health Care Equipment,MDT,Medtronic,s&p500,2026-08-19,94.13,94.74,92.31,94.17,+17.76%,+3.22%,1.07,1.15,"8,627,339",812.44,N/A
+Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-07-29,90.17,90.82,87.13,90.27,+23.33%,+9.50%,2.78,3.18,"3,954,700",356.99,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-09-03,131.26,133.63,130.77,133.21,+24.71%,+8.40%,1.95,1.49,"1,709,600",227.74,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-03,387.71,391.00,379.10,388.90,+46.11%,+5.44%,1.19,0.31,"1,874,700",729.07,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-03,370.69,372.34,360.31,370.72,+43.47%,+5.21%,0.03,0.01,"2,849,000","1,056.18",N/A
+Financials,Asset Management & Custody Banks,BNY,BNY Mellon,s&p500,2026-09-03,164.33,165.84,163.58,164.84,+16.26%,+1.44%,0.51,0.31,"2,367,100",390.19,N/A
+Financials,Asset Management & Custody Banks,STT,State Street Corporation,s&p500,2026-09-03,193.94,195.40,192.13,194.26,+20.65%,+0.48%,0.32,0.16,"1,127,400",219.01,N/A
+Financials,Diversified Banks,WFC,Wells Fargo,s&p500,2026-09-02,89.27,90.13,88.73,89.97,+11.13%,+3.78%,0.78,0.87,"8,003,900",720.11,N/A
+Health Care,Health Care Equipment,MDT,Medtronic,s&p500,2026-08-19,94.13,94.74,92.31,94.17,+17.76%,+3.22%,1.07,1.15,"9,012,900",848.74,N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,400.00","23,800.00",+10273.56%,+1.93%,0.00,0.0,"3,200",76.16,N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-03,228.45,234.76,229.63,230.36,+10.41%,+5.89%,1.91,0.84,"132,204,717","30,454.68",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-03,516.39,534.96,510.27,524.14,+30.78%,+14.88%,7.75,1.5,"10,960,031","5,744.59",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-09-02,31.99,32.78,31.62,32.64,+30.17%,+6.95%,0.71,2.22,"13,146,642",429.11,N/A
-Materials,Fertilizers & Agricultural Chemicals,MOS,Mosaic Company (The),s&p500,2026-09-02,25.78,26.04,24.77,25.85,+20.91%,+9.53%,0.36,1.41,"8,463,724",218.79,N/A
-Utilities,Electric Utilities,CEG,Constellation Energy,s&p500,2026-09-02,290.04,299.73,284.04,298.96,+19.26%,+8.03%,13.91,4.88,"2,798,083",836.51,N/A
+Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-03,228.45,234.76,229.63,230.36,+10.41%,+5.89%,1.91,0.84,"134,946,800","31,086.34",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-03,516.39,534.99,510.15,524.14,+30.78%,+14.88%,7.75,1.5,"11,108,300","5,822.30",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-09-02,31.99,32.78,31.63,32.64,+30.17%,+6.95%,0.71,2.22,"13,302,000",434.18,N/A
+Materials,Fertilizers & Agricultural Chemicals,MOS,Mosaic Company (The),s&p500,2026-09-02,25.78,26.04,24.77,25.85,+20.91%,+9.53%,0.36,1.41,"8,508,100",219.93,N/A
+Utilities,Electric Utilities,CEG,Constellation Energy,s&p500,2026-09-02,290.04,299.73,284.04,298.96,+19.26%,+8.03%,13.91,4.88,"2,896,300",865.88,N/A
