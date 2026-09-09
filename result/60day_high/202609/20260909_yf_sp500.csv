@@ -1,9 +1,9 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-02,211.78,215.28,212.23,213.82,+12.66%,+1.31%,4.02,1.92,"7,106,481","1,519.51",N/A
-Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-02,44.70,44.89,44.22,44.84,+18.00%,+1.22%,1.29,2.96,"4,532,198",203.22,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-08,397.77,401.85,393.54,399.33,+51.68%,+4.26%,1.56,0.39,"1,641,051",655.32,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-08,259.14,263.66,257.93,260.71,+43.47%,+3.45%,1.57,0.61,"1,759,289",458.67,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-08,382.85,389.17,379.59,388.89,+50.74%,+7.43%,6.04,1.58,"2,572,391","1,000.36",N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-08,978.53,"1,026.76",978.11,988.98,+15.91%,+13.81%,10.45,1.07,"4,274,066","4,226.97",N/A
-Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-06-15,76.26,76.66,74.18,76.54,+8.89%,+13.54%,1.16,1.54,"4,585,063",350.94,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-08,533.88,562.99,532.39,535.47,+44.79%,+25.99%,1.59,0.3,"6,939,089","3,715.67",N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-02,211.78,215.28,212.23,213.81,+12.65%,+1.31%,4.01,1.91,"8,370,900","1,789.78",N/A
+Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-02,44.70,44.89,44.22,44.84,+18.00%,+1.22%,1.29,2.96,"4,917,151",220.49,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-08,397.77,401.85,393.54,399.44,+51.72%,+4.29%,1.67,0.42,"1,970,802",787.22,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-08,259.14,263.66,257.93,260.78,+43.51%,+3.48%,1.64,0.63,"2,159,738",563.22,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-08,382.85,389.17,379.59,388.95,+50.76%,+7.45%,6.10,1.59,"3,051,993","1,187.07",N/A
+Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-08,978.53,"1,026.76",978.11,988.98,+15.91%,+13.81%,10.45,1.07,"4,519,016","4,469.22",N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-06-15,76.26,76.66,74.18,76.54,+8.89%,+13.54%,1.16,1.54,"4,638,427",355.03,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-08,533.88,562.99,532.39,535.25,+44.73%,+25.94%,1.37,0.26,"7,258,767","3,885.26",N/A
