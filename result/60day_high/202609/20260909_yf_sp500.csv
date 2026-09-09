@@ -1,15 +1,13 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-09-04,90.27,90.70,88.44,90.57,+21.34%,+9.62%,1.24,1.39,"293,744",26.61,N/A
 Consumer Discretionary,Leisure Products,HAS,Hasbro,s&p500,2026-09-08,"10,700.00","11,300.00","11,300.00","11,300.00",+13368.41%,+6.10%,600.00,5.61,306,3.46,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-02,211.78,215.28,212.55,214.69,+13.11%,+1.72%,4.89,2.33,"1,393,291",299.13,N/A
-Energy,Oil & Gas Equipment & Services,BKR,Baker Hughes,s&p500,2026-08-14,64.82,66.09,63.60,65.18,+3.43%,+2.39%,1.26,1.97,"1,146,886",74.75,N/A
-Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-09-02,137.20,137.68,136.59,137.34,+14.53%,+0.84%,2.30,1.7,"315,153",43.28,N/A
-Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-20,61.52,62.21,61.63,61.99,+8.56%,+1.71%,1.34,2.21,"929,958",57.65,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-08,259.14,263.66,259.80,259.92,+43.03%,+3.13%,0.78,0.3,"183,445",47.68,N/A
-Energy,Oil & Gas Storage & Transportation,OKE,Oneok,s&p500,2026-09-08,97.51,99.29,98.11,98.53,+8.78%,+2.96%,1.01,1.04,"146,973",14.48,N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-02,211.78,215.28,212.23,213.24,+12.35%,+1.04%,3.44,1.64,"3,322,666",708.52,N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-09-02,137.20,137.87,136.54,137.36,+14.54%,+0.86%,2.32,1.72,"1,845,537",253.50,N/A
+Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-20,61.52,62.21,61.37,61.65,+7.96%,+1.14%,0.99,1.64,"2,843,774",175.30,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-08,397.77,401.85,393.54,398.69,+51.43%,+4.10%,0.92,0.23,"592,669",236.29,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-08,259.14,263.66,257.93,260.34,+43.26%,+3.30%,1.20,0.46,"685,790",178.54,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-08,382.85,388.00,379.59,383.71,+48.73%,+6.00%,0.86,0.23,"1,106,688",424.65,N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-09-08,"9,630.00","10,300.00","9,880.00","9,900.00",+3225.72%,+12.50%,270.00,2.8,"1,606,768","15,907.00",N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","24,000.00","23,800.00","23,900.00",+10465.40%,+2.36%,100.00,0.42,"3,500",83.65,N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-08,978.53,"1,020.20",978.11,999.53,+17.14%,+15.03%,21.00,2.15,"783,099",782.73,N/A
+Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-08,978.53,"1,026.76",978.11,"1,006.46",+17.95%,+15.82%,27.93,2.85,"2,088,627","2,102.12",N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-08,"6,380.00","6,540.00","6,250.00","6,400.00",+4067.53%,+8.47%,20.00,0.31,"424,896","2,719.33",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-08,533.88,560.47,538.43,559.70,+51.34%,+31.69%,25.82,4.84,"1,473,862",824.92,N/A
-Utilities,Water Utilities,AWK,American Water Works,s&p500,2026-09-03,140.89,142.02,139.94,141.92,+12.23%,+3.29%,1.54,1.1,"119,247",16.92,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-08,533.88,562.99,538.43,548.29,+48.26%,+29.01%,14.41,2.7,"3,745,855","2,053.83",N/A
