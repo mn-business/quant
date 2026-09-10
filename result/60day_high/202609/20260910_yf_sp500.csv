@@ -1,12 +1,6 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-02,211.78,215.28,212.23,213.81,+12.65%,+1.31%,4.01,1.91,"8,384,700","1,792.73",N/A
-Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-02,44.70,44.89,44.23,44.84,+18.00%,+1.22%,1.29,2.96,"4,919,200",220.58,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-08,397.77,402.00,393.54,399.44,+51.72%,+4.29%,1.67,0.42,"1,973,400",788.25,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-08,259.14,263.66,257.93,260.78,+43.51%,+3.48%,1.64,0.63,"2,181,300",568.84,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-08,382.85,389.18,379.59,388.95,+50.76%,+7.45%,6.10,1.59,"3,207,000","1,247.36",N/A
 Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-09-08,"9,630.00","10,550.00","9,750.00","10,550.00",+3420.66%,+18.01%,920.00,9.55,"839,713","8,858.97",N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,550.00","23,800.00",+10562.13%,+0.00%,0.00,0.0,"2,708",64.45,N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-08,978.53,"1,026.76",978.11,988.98,+15.91%,+13.81%,10.45,1.07,"4,528,200","4,478.30",N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-08,"6,380.00","6,470.00","6,250.00","6,400.00",+3941.65%,+4.92%,20.00,0.31,"233,670","1,495.49",N/A
-Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-06-15,76.26,76.66,74.18,76.54,+8.89%,+13.54%,1.16,1.54,"4,745,600",363.23,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-08,533.88,562.99,532.39,535.25,+44.73%,+25.94%,1.37,0.26,"7,271,500","3,892.07",N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-09,76.54,77.47,74.79,77.18,+6.12%,+7.69%,0.64,0.84,"1,015,959",78.41,N/A
+Utilities,Water Utilities,AWK,American Water Works,s&p500,2026-09-03,140.89,142.37,140.76,141.37,+13.60%,+1.35%,1.04,0.74,"417,587",59.03,N/A
