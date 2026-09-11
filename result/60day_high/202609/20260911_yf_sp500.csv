@@ -1,7 +1,6 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-08-20,49.30,50.05,48.50,50.02,+12.92%,+2.02%,1.04,2.12,"16,664,100",833.54,N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-09-10,"10,550.00","11,000.00","10,350.00","10,600.00",+3450.97%,+18.97%,50.00,0.47,"686,100","7,272.66",N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,500.00","23,800.00",+10620.72%,+0.00%,0.00,0.0,500,11.90,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-10,"6,400.00","6,550.00","6,400.00","6,500.00",+3999.12%,+7.62%,100.00,1.56,"381,902","2,482.36",N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,500.00","23,800.00",+10620.72%,+0.00%,0.00,0.0,600,14.28,N/A
+Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-10,"6,400.00","6,550.00","6,400.00","6,430.00",+3954.97%,+6.46%,30.00,0.47,"472,202","3,036.26",N/A
 Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-09,76.54,85.89,74.79,84.03,+15.54%,+17.25%,7.49,9.79,"11,329,600",952.03,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-09-04,32.64,33.17,31.73,32.73,+32.62%,+2.31%,0.34,1.05,"14,196,100",464.64,N/A
