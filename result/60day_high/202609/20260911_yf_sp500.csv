@@ -1,13 +1,14 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-09-04,90.27,91.37,88.07,91.33,+17.85%,+4.39%,3.24,3.68,"1,393,912",127.31,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-09,213.81,215.55,212.49,214.33,+14.48%,+1.42%,1.57,0.74,"4,402,917",943.68,N/A
-Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-09-10,50.02,50.15,49.23,50.12,+11.39%,+2.72%,0.10,0.19,"6,644,433",332.99,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-09,388.95,399.26,385.40,391.17,+51.23%,+5.53%,5.74,1.49,"2,357,677",922.26,N/A
-Financials,Diversified Banks,WFC,Wells Fargo,s&p500,2026-09-04,89.97,91.15,89.75,90.49,+8.07%,+1.46%,1.04,1.16,"8,433,933",763.19,N/A
-Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-28,190.97,193.15,189.02,192.02,+15.24%,+2.61%,2.70,1.43,"495,266",95.10,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","23,800.00","23,500.00","23,800.00",+10620.72%,+0.00%,0.00,0.0,600,14.28,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-10,"6,400.00","6,550.00","6,400.00","6,430.00",+3954.97%,+6.46%,30.00,0.47,"472,202","3,036.26",N/A
-Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-10,84.03,92.30,83.95,88.86,+20.14%,+24.29%,4.83,5.75,"8,349,731",742.00,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-09,535.25,567.75,517.52,560.74,+41.75%,+8.59%,54.12,10.68,"12,101,033","6,785.53",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-08-13,59.82,61.84,56.33,61.27,+27.57%,+12.55%,6.05,10.96,"27,636,225","1,693.27",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-09-10,32.73,36.22,32.93,35.45,+40.45%,+11.03%,2.72,8.31,"20,007,459",709.27,N/A
+Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-09-03,50.59,50.82,50.22,50.61,+5.20%,+0.04%,0.64,1.28,"15,932,684",806.35,N/A
+Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-09-04,90.27,91.37,88.07,90.80,+17.16%,+3.78%,2.71,3.08,"2,999,585",272.36,N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-09,213.81,215.55,212.49,214.06,+14.34%,+1.30%,1.30,0.61,"6,562,176","1,404.70",N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-09-02,137.20,137.65,135.54,137.35,+17.41%,+1.20%,0.31,0.23,"5,427,168",745.42,N/A
+Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-09-10,50.02,50.24,49.23,50.23,+11.65%,+2.95%,0.21,0.42,"10,196,542",512.17,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-09,388.95,399.26,385.40,390.42,+50.93%,+5.32%,4.99,1.29,"3,051,770","1,191.47",N/A
+Financials,Diversified Banks,WFC,Wells Fargo,s&p500,2026-09-04,89.97,91.15,89.75,90.29,+7.83%,+1.23%,0.84,0.94,"12,897,605","1,164.52",N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-07-01,409.42,410.98,401.17,409.80,+8.32%,+0.81%,9.07,2.26,"683,948",280.28,N/A
+Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-08-28,190.97,193.15,189.02,192.60,+15.59%,+2.92%,3.28,1.73,"863,063",166.23,N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-10,84.03,92.30,83.95,88.35,+19.44%,+23.57%,4.32,5.14,"11,123,967",982.80,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-09,535.25,567.75,517.52,567.29,+43.41%,+9.86%,60.67,11.98,"14,366,604","8,150.03",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-08-13,59.82,62.15,56.33,62.09,+29.27%,+14.05%,6.87,12.44,"38,956,735","2,418.82",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPQ,HP Inc.,s&p500,2026-09-10,32.73,36.22,32.93,35.48,+40.57%,+11.12%,2.75,8.4,"26,507,780",940.50,N/A
