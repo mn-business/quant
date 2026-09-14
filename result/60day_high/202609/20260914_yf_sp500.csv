@@ -1,18 +1,13 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-09-11,50.61,51.45,50.92,50.97,+8.30%,+1.67%,0.36,0.72,"3,075,810",156.79,N/A
-Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-09-11,90.80,92.96,90.53,92.64,+21.27%,+2.63%,1.84,2.03,"829,402",76.84,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-09-11,214.06,217.65,215.43,215.73,+19.58%,+3.42%,1.67,0.78,"1,395,429",301.03,N/A
-Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-08-20,166.15,169.45,167.09,167.26,+18.69%,+4.88%,1.27,0.77,"2,511,617",420.09,N/A
-Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-09,44.84,46.56,45.56,46.24,+32.99%,+8.11%,1.51,3.38,"1,350,215",62.43,N/A
-Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-09-11,137.35,139.75,138.45,138.97,+23.79%,+3.51%,1.62,1.18,"1,124,900",156.33,N/A
-Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-09-11,50.23,51.70,50.93,50.98,+17.11%,+6.08%,0.75,1.49,"3,162,538",161.23,N/A
-Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-20,61.52,62.90,62.40,62.67,+15.08%,+4.39%,1.22,1.98,"1,941,273",121.67,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-09,399.44,409.50,395.69,405.64,+61.70%,+4.30%,9.71,2.45,"534,001",216.61,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-09,260.78,264.86,260.12,262.40,+51.45%,+2.87%,2.93,1.13,"431,533",113.23,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-11,390.42,399.70,390.36,395.37,+59.97%,+6.65%,4.95,1.27,"742,355",293.50,N/A
-Energy,Oil & Gas Storage & Transportation,OKE,Oneok,s&p500,2026-09-08,97.51,99.02,97.41,98.50,+12.64%,+3.22%,1.88,1.95,"544,545",53.64,N/A
-Health Care,Managed Health Care,HUM,Humana,s&p500,2026-09-11,409.80,413.85,408.29,410.86,+8.30%,+2.32%,1.07,0.26,"91,622",37.64,N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-09-10,"10,550.00","11,000.00","10,150.00","10,950.00",+3588.23%,+21.67%,650.00,6.31,"1,560,503","17,087.51",N/A
-Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-09-03,225.12,227.12,225.47,225.90,+8.88%,+1.43%,3.16,1.42,"146,093",33.00,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-11,"6,430.00","6,840.00","6,400.00","6,700.00",+4064.92%,+12.23%,270.00,4.2,"998,144","6,687.56",N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-31,231.00,232.48,216.17,232.07,+33.97%,+8.90%,25.33,12.25,"8,585,513","1,992.48",N/A
+Communication Services,Integrated Telecommunication Services,T,AT&T,s&p500,2026-09-03,26.19,26.59,26.16,26.58,+14.15%,+3.52%,0.52,2.01,"23,676,224",629.43,N/A
+Communication Services,Integrated Telecommunication Services,VZ,Verizon,s&p500,2026-09-11,50.61,51.49,50.92,51.34,+9.07%,+2.39%,0.73,1.44,"9,766,444",501.41,N/A
+Consumer Discretionary,Computer & Electronics Retail,BBY,Best Buy,s&p500,2026-09-11,90.80,94.71,90.53,94.61,+23.85%,+4.81%,3.81,4.2,"2,790,702",264.03,N/A
+Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-09,44.84,46.59,44.89,45.06,+29.59%,+5.35%,0.33,0.74,"5,354,048",241.25,N/A
+Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-08-20,61.52,62.97,61.47,61.66,+13.22%,+2.70%,0.20,0.33,"7,404,471",456.56,N/A
+Health Care,Managed Health Care,CNC,Centene Corporation,s&p500,2026-07-14,68.72,69.62,67.15,69.40,+9.46%,+3.52%,2.98,4.49,"2,880,586",199.91,N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-09-11,409.80,415.76,408.29,410.41,+8.18%,+2.21%,0.61,0.15,"413,103",169.54,N/A
+Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-09-11,192.60,193.82,190.84,192.99,+18.23%,+2.22%,0.39,0.2,"593,692",114.58,N/A
+Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-09-03,225.12,227.32,225.07,225.44,+8.65%,+1.23%,2.70,1.21,"747,195",168.45,N/A
+Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-09-03,193.12,195.32,187.79,195.16,+18.02%,+4.52%,11.26,6.12,"3,858,033",752.93,N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-08-31,231.00,239.37,216.17,236.14,+36.32%,+10.81%,29.40,14.22,"22,295,668","5,264.90",N/A
+Information Technology,Systems Software,GEN,Gen Digital,s&p500,2026-09-03,31.33,31.50,30.74,31.42,+28.72%,+2.51%,1.16,3.83,"3,727,873",117.13,N/A
