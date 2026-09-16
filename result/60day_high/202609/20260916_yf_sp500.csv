@@ -1,13 +1,9 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-09-03,11.04,11.27,10.90,11.11,+11.37%,+8.76%,0.10,0.95,"7,587,539",84.34,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-15,410.84,419.00,402.66,418.72,+71.18%,+4.83%,7.88,1.92,"1,180,669",494.37,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-15,264.93,266.57,259.36,266.57,+59.46%,+2.22%,1.64,0.62,"1,154,667",307.79,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-15,397.04,406.78,388.00,406.65,+69.60%,+4.55%,9.61,2.42,"1,662,645",676.11,N/A
-Financials,Life & Health Insurance,PFG,Principal Financial Group,s&p500,2026-09-03,118.51,118.91,116.97,118.64,+7.64%,+4.05%,0.27,0.23,"457,373",54.26,N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-15,140.19,147.49,140.20,145.46,+48.70%,+17.45%,5.27,3.76,"1,602,596",233.11,N/A
-Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-08-24,429.24,431.77,420.00,431.77,+11.24%,+2.36%,7.95,1.88,"344,584",148.78,N/A
-Health Care,Health Care Facilities,UHS,Universal Health Services,s&p500,2026-08-26,178.69,180.44,175.37,180.40,+27.71%,+2.63%,3.55,2.01,"228,833",41.28,N/A
-Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-09-03,271.62,273.13,269.08,272.32,+59.56%,+5.97%,2.64,0.98,"484,068",131.82,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-15,641.39,648.99,638.00,648.75,+40.52%,+7.11%,7.36,1.15,"1,080,692",701.10,N/A
-Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-27,421.26,424.73,415.93,422.02,+18.21%,+4.25%,4.93,1.18,"211,889",89.42,N/A
-Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-08-04,299.20,301.73,294.68,300.74,+13.52%,+4.81%,3.48,1.17,"194,595",58.52,N/A
+Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-09-03,11.04,11.27,10.90,11.14,+11.57%,+8.95%,0.12,1.14,"17,220,193",191.75,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-15,410.84,419.39,402.66,413.92,+69.22%,+3.63%,3.08,0.75,"2,866,454","1,186.48",N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-15,397.04,407.27,388.00,403.28,+68.19%,+3.68%,6.24,1.57,"3,516,512","1,418.14",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-15,140.19,147.49,140.20,145.73,+48.98%,+17.67%,5.54,3.95,"3,403,551",496.00,N/A
+Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-08-24,429.24,433.65,420.00,430.43,+10.89%,+2.04%,6.61,1.56,"1,366,139",588.03,N/A
+Health Care,Health Care Facilities,UHS,Universal Health Services,s&p500,2026-08-26,178.69,182.19,175.37,181.21,+28.28%,+3.09%,4.36,2.47,"869,533",157.57,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-09-15,247.08,248.57,244.85,247.08,+24.94%,+4.94%,0.00,0.0,"948,630",234.39,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-15,641.39,653.40,638.00,648.43,+40.45%,+7.06%,7.04,1.1,"2,872,969","1,862.92",N/A
