@@ -1,10 +1,20 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Movies & Entertainment,PSKY,Paramount Skydance Corporation,s&p500,2026-09-03,11.04,11.28,10.90,11.14,+11.62%,+9.00%,0.13,1.18,"17,221,900",191.85,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-15,410.84,419.39,402.66,413.92,+69.22%,+3.63%,3.08,0.75,"2,868,700","1,187.41",N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-15,397.04,407.27,388.00,403.28,+68.19%,+3.68%,6.24,1.57,"3,522,900","1,420.72",N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-15,140.19,147.50,140.20,145.73,+48.98%,+17.67%,5.54,3.95,"3,404,200",496.09,N/A
-Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-08-24,429.24,433.70,420.00,430.43,+10.89%,+2.04%,7.39,1.75,"1,369,600",589.52,N/A
-Health Care,Health Care Facilities,UHS,Universal Health Services,s&p500,2026-08-26,178.69,182.19,175.37,181.21,+28.28%,+3.09%,4.36,2.47,"881,500",159.74,N/A
-Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-09-15,247.08,248.57,244.85,247.08,+24.94%,+4.94%,0.00,0.0,"948,700",234.40,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-15,641.39,653.40,638.00,648.43,+40.45%,+7.06%,7.04,1.1,"2,880,000","1,867.48",N/A
+Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-07-22,87.32,88.03,84.24,88.01,+17.19%,+1.27%,3.01,3.54,"1,180,599",103.90,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-16,413.92,423.11,407.00,422.37,+73.88%,+7.63%,8.45,2.04,"1,210,842",511.42,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-15,264.93,272.15,260.68,272.04,+63.74%,+5.23%,7.41,2.8,"1,417,976",385.75,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-16,403.28,411.37,394.05,410.55,+73.74%,+6.52%,7.27,1.8,"1,786,427",733.41,N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-16,145.73,149.52,145.21,148.40,+48.40%,+22.71%,2.67,1.83,"1,261,807",187.25,N/A
+Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-09-16,430.43,433.51,426.56,430.76,+14.82%,+2.27%,0.33,0.08,"449,018",193.42,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-09-15,247.08,248.70,246.26,248.05,+27.21%,+7.32%,0.97,0.39,"375,985",93.26,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-16,648.43,659.48,649.00,654.70,+40.91%,+8.54%,6.27,0.97,"1,654,843","1,083.42",N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-27,421.26,431.77,422.05,426.81,+20.08%,+6.27%,8.17,1.95,"256,574",109.51,N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","24,000.00","24,000.00","24,000.00",+10784.35%,+0.84%,300.00,1.27,"1,213",29.11,N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-14,431.26,439.48,423.30,435.15,+12.88%,+9.20%,11.56,2.73,"168,458",73.30,N/A
+Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-08-04,299.20,302.35,293.52,301.76,+14.03%,+4.47%,3.30,1.11,"280,456",84.63,N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-15,90.00,91.19,84.43,90.56,+24.99%,+7.77%,4.97,5.8,"3,190,713",288.94,N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-15,242.49,250.32,233.19,246.94,+44.23%,+18.23%,5.58,2.31,"7,553,668","1,865.30",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-08-27,172.78,176.10,167.77,172.91,+19.47%,+8.85%,1.14,0.66,"2,149,246",371.63,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-11,567.29,592.20,565.50,587.60,+43.49%,+15.98%,24.31,4.32,"5,943,875","3,492.62",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-08,40.26,41.01,37.82,40.62,+32.47%,+8.65%,3.77,10.22,"47,112,468","1,913.47",N/A
+Real Estate,Office REITs,ARE,Alexandria Real Estate Equities,s&p500,2026-06-29,54.87,56.29,53.85,55.99,+11.15%,+12.96%,2.47,4.61,"1,101,459",61.67,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-22,14.86,14.88,14.82,14.87,+1.72%,+0.48%,0.06,0.41,"4,834,280",71.89,N/A
