@@ -1,5 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-07-15,681.31,683.20,667.05,682.31,+18.21%,+5.89%,9.00,1.34,"15,888,400","10,840.81",N/A
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-07-15,681.31,683.20,667.05,682.31,+18.21%,+5.89%,9.00,1.34,"15,928,000","10,867.83",N/A
 Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-07-22,87.32,88.27,84.24,88.09,+17.30%,+1.36%,3.09,3.64,"3,673,200",323.57,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-16,413.92,423.83,407.00,421.96,+73.71%,+7.53%,8.04,1.94,"2,694,600","1,137.01",N/A
 Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-15,264.93,274.21,260.50,274.21,+65.05%,+6.07%,9.58,3.62,"3,574,700",980.22,N/A
@@ -14,6 +14,6 @@ Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-1
 Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-08-04,299.20,303.41,293.52,302.05,+14.14%,+4.57%,3.59,1.2,"656,900",198.42,N/A
 Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-15,90.00,91.46,84.44,91.32,+26.05%,+8.68%,5.73,6.69,"7,349,500",671.16,N/A
 Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-15,242.49,250.32,233.19,245.70,+43.50%,+17.64%,4.34,1.8,"12,331,300","3,029.80",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-11,567.29,593.98,565.50,588.40,+43.69%,+16.14%,25.11,4.46,"9,317,800","5,482.59",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-08,40.26,41.01,37.82,40.35,+31.60%,+7.95%,3.50,9.5,"62,398,000","2,517.76",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-11,567.29,593.98,565.50,588.40,+43.69%,+16.14%,25.11,4.46,"9,350,700","5,501.95",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-08,40.26,41.01,37.82,40.35,+31.60%,+7.95%,3.50,9.5,"62,517,100","2,522.56",N/A
 Real Estate,Office REITs,ARE,Alexandria Real Estate Equities,s&p500,2026-06-29,54.87,56.66,53.70,56.34,+11.85%,+13.68%,2.82,5.27,"3,356,400",189.10,N/A
