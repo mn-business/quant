@@ -1,0 +1,19 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-07-15,681.31,683.20,667.05,682.31,+18.21%,+5.89%,9.00,1.34,"15,740,199","10,739.70",N/A
+Consumer Staples,Agricultural Products & Services,ADM,Archer Daniels Midland,s&p500,2026-07-22,87.32,88.27,84.24,88.09,+17.30%,+1.36%,3.09,3.64,"3,440,954",303.11,N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-16,413.92,423.83,407.00,421.96,+73.71%,+7.53%,8.04,1.94,"2,510,226","1,059.21",N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-15,264.93,274.21,260.68,274.21,+65.05%,+6.07%,9.58,3.62,"3,566,168",977.88,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-16,403.28,413.44,394.05,412.53,+74.58%,+7.03%,9.25,2.29,"3,250,717","1,341.02",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-16,145.73,149.52,145.21,146.73,+46.73%,+21.32%,1.00,0.69,"2,703,904",396.74,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-09-15,247.08,248.70,246.26,247.45,+26.90%,+7.06%,0.37,0.15,"989,467",244.84,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-07-02,365.74,368.80,363.14,366.60,+11.79%,+6.49%,4.59,1.27,"456,837",167.48,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-16,648.43,663.57,649.00,658.32,+41.69%,+9.14%,9.89,1.53,"4,184,841","2,754.96",N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-08-27,421.26,431.77,422.05,429.72,+20.90%,+6.99%,11.08,2.65,"688,808",295.99,N/A
+Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-08-26,"23,800.00","24,000.00","24,000.00","24,000.00",+10784.35%,+0.84%,300.00,1.27,"1,200",28.80,N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-07-14,431.26,439.48,423.30,434.62,+12.74%,+9.07%,11.03,2.6,"518,989",225.56,N/A
+Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-08-04,299.20,303.27,293.52,302.05,+14.14%,+4.57%,3.59,1.2,"649,392",196.15,N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-15,90.00,91.45,84.43,91.32,+26.05%,+8.68%,5.73,6.69,"7,287,229",665.47,N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-15,242.49,250.32,233.19,245.70,+43.50%,+17.64%,4.34,1.8,"12,277,927","3,016.69",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",DELL,Dell Technologies,s&p500,2026-09-11,567.29,593.98,565.50,588.40,+43.69%,+16.14%,25.11,4.46,"9,164,982","5,392.68",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-08,40.26,41.01,37.82,40.35,+31.60%,+7.95%,3.50,9.5,"62,169,127","2,508.52",N/A
+Real Estate,Office REITs,ARE,Alexandria Real Estate Equities,s&p500,2026-06-29,54.87,56.66,53.85,56.34,+11.85%,+13.68%,2.82,5.27,"3,356,369",189.10,N/A
