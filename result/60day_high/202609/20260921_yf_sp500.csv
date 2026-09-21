@@ -1,15 +1,12 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-25,28.90,30.88,29.66,30.84,+14.75%,+9.77%,3.05,10.95,"160,902,995","4,963.05",N/A
-Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-17,682.31,735.45,679.60,734.49,+30.65%,+10.35%,68.74,10.33,"26,040,515","19,126.50",N/A
-Financials,Financial Exchanges & Data,COIN,Coinbase,s&p500,2026-09-18,194.25,208.33,201.65,201.68,+27.50%,+5.34%,7.43,3.82,"9,955,735","2,007.87",N/A
-Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-09-03,151.22,151.92,148.22,151.29,+20.98%,+3.33%,1.18,0.79,"2,257,093",341.48,N/A
-Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-21,159.00,161.71,157.08,161.59,+27.81%,+10.07%,5.12,3.27,"788,022",127.33,N/A
-Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-08-19,72.48,72.54,72.45,72.48,+28.83%,+0.29%,0.11,0.15,"1,742,326",126.28,N/A
-Industrials,Aerospace & Defense,HII,Huntington Ingalls Industries,s&p500,2026-09-14,"10,950.00","11,300.00","10,600.00","11,300.00",+3948.87%,+3.20%,700.00,6.6,"525,577","5,939.02",N/A
-Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-09-17,434.62,442.64,432.09,442.52,+13.60%,+7.54%,10.49,2.43,"215,235",95.25,N/A
-Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-15,"6,970.00","7,390.00","6,950.00","7,390.00",+4374.72%,+10.30%,480.00,6.95,"1,523,783","11,260.76",N/A
-Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-09-18,303.12,308.16,302.10,305.83,+23.71%,+2.42%,2.71,0.89,"725,051",221.74,N/A
-Information Technology,Semiconductors,AMD,Advanced Micro Devices,s&p500,2026-06-30,580.91,615.99,582.27,606.86,+16.74%,+22.99%,47.04,8.4,"29,426,967","17,858.05",N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-17,245.70,248.33,230.85,247.30,+45.27%,+5.06%,9.65,4.06,"7,358,031","1,819.64",N/A
-Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-08-27,172.78,175.00,167.41,174.69,+18.03%,+2.65%,4.85,2.86,"1,308,929",228.66,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-17,40.35,41.48,40.00,41.46,+24.44%,+12.85%,2.37,6.07,"29,806,453","1,235.84",N/A
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-08-25,28.90,30.92,29.66,30.80,+14.58%,+9.61%,3.00,10.79,"233,836,583","7,202.17",N/A
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-17,682.31,753.00,679.60,741.24,+31.85%,+11.36%,75.49,11.34,"48,450,536","35,913.72",N/A
+Financials,Financial Exchanges & Data,COIN,Coinbase,s&p500,2026-09-18,194.25,208.33,200.65,201.05,+27.10%,+5.01%,6.80,3.5,"14,434,173","2,901.99",N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-08-21,159.00,162.89,157.08,161.94,+28.09%,+10.31%,5.47,3.5,"2,645,517",428.42,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-17,658.32,660.43,649.12,658.76,+40.36%,+7.36%,7.31,1.12,"1,922,969","1,266.78",N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-09-17,434.62,450.94,432.09,450.10,+15.55%,+9.38%,18.07,4.18,"680,841",306.45,N/A
+Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-09-18,303.12,308.28,302.10,308.18,+24.66%,+3.21%,5.06,1.67,"1,336,700",411.94,N/A
+Information Technology,Semiconductors,AMD,Advanced Micro Devices,s&p500,2026-06-30,580.91,616.68,582.27,615.52,+18.40%,+24.75%,55.70,9.95,"44,156,939","27,179.48",N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-17,245.70,250.31,230.85,249.35,+46.48%,+5.94%,11.70,4.92,"13,270,075","3,308.89",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-08-27,172.78,175.69,167.41,175.23,+18.40%,+2.97%,5.39,3.17,"3,141,693",550.52,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-17,40.35,41.72,40.00,41.20,+23.65%,+12.14%,2.11,5.4,"47,696,820","1,965.11",N/A
