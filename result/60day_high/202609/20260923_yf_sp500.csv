@@ -1,17 +1,17 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-21,741.25,763.90,739.51,744.10,+37.07%,+10.51%,7.50,1.02,"30,241,497","22,502.70",N/A
-Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-22,225.36,229.01,222.35,227.53,+12.66%,+5.33%,2.17,0.96,"1,494,257",339.99,N/A
-Health Care,Health Care Facilities,UHS,Universal Health Services,s&p500,2026-09-16,181.21,186.04,179.09,181.39,+25.56%,+0.10%,2.10,1.17,"894,227",162.20,N/A
-Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-09-22,371.09,376.06,368.20,375.87,+8.46%,+3.83%,4.78,1.29,"875,026",328.90,N/A
-Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-22,221.09,223.29,219.92,221.56,+14.91%,+6.34%,0.47,0.21,"3,161,432",700.45,N/A
-Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-22,247.46,256.17,246.99,255.38,+43.75%,+11.55%,7.92,3.2,"2,297,195",586.66,N/A
-Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-22,"1,490.76","1,512.88","1,482.20","1,492.34",+20.02%,+8.24%,1.58,0.11,"238,559",356.01,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-21,658.76,671.47,655.78,665.30,+31.55%,+2.60%,6.78,1.03,"2,315,339","1,540.40",N/A
-Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-09-22,703.12,721.10,701.72,709.48,+12.77%,+5.98%,6.36,0.9,"1,620,365","1,149.62",N/A
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-21,741.25,763.90,739.51,744.10,+37.07%,+10.51%,7.50,1.02,"30,346,000","22,580.46",N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-22,225.36,229.19,222.36,227.53,+12.66%,+5.33%,2.17,0.96,"1,494,300",340.00,N/A
+Health Care,Health Care Facilities,UHS,Universal Health Services,s&p500,2026-09-16,181.21,186.06,179.09,181.39,+25.56%,+0.10%,2.10,1.17,"896,200",162.56,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-09-22,371.09,376.06,368.20,375.87,+8.46%,+3.83%,4.78,1.29,"876,900",329.60,N/A
+Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-22,221.09,223.42,219.92,221.56,+14.91%,+6.34%,0.47,0.21,"3,401,500",753.64,N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-22,247.46,256.17,247.00,255.38,+43.75%,+11.55%,7.92,3.2,"2,299,200",587.17,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-22,"1,490.76","1,512.88","1,482.20","1,492.34",+20.02%,+8.24%,1.58,0.11,"238,600",356.07,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-21,658.76,671.47,655.78,665.30,+31.55%,+2.60%,6.78,1.03,"2,345,600","1,560.53",N/A
+Industrials,Agricultural & Farm Machinery,DE,Deere & Company,s&p500,2026-09-22,703.12,721.22,701.72,709.48,+12.77%,+5.98%,6.36,0.9,"1,819,000","1,290.54",N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-09-22,"24,200.00","24,400.00","24,000.00","24,200.00",+10656.99%,+2.11%,0.00,0.0,"6,600",159.72,N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-31,186.38,193.79,182.95,191.79,+78.79%,+10.01%,6.80,3.68,"34,908,712","6,695.14",N/A
-Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-09-22,453.33,461.91,452.17,455.99,+18.13%,+7.65%,2.66,0.59,"480,916",219.29,N/A
-Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-17,91.32,92.80,89.40,91.45,+30.75%,+6.85%,1.49,1.66,"5,029,014",459.90,N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-22,250.06,263.19,248.51,262.49,+54.71%,+8.75%,12.43,4.97,"13,188,006","3,461.72",N/A
-Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-21,175.23,179.35,173.37,178.74,+19.22%,+4.06%,4.48,2.57,"3,408,347",609.21,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-11,62.09,63.36,61.30,62.33,+33.41%,+9.97%,1.30,2.13,"14,956,866",932.26,N/A
+Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-08-31,186.38,193.79,182.94,191.79,+78.79%,+10.01%,6.80,3.68,"35,029,400","6,718.29",N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-09-22,453.33,462.00,452.17,455.99,+18.13%,+7.65%,2.66,0.59,"480,900",219.29,N/A
+Information Technology,Semiconductors,SWKS,Skyworks Solutions,s&p500,2026-09-17,91.32,92.80,89.40,91.45,+30.75%,+6.85%,1.49,1.66,"5,030,600",460.05,N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-22,250.06,263.19,248.51,262.49,+54.71%,+8.75%,12.43,4.97,"13,203,900","3,465.89",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-21,175.23,179.35,173.37,178.74,+19.22%,+4.06%,4.48,2.57,"3,411,500",609.77,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-11,62.09,63.36,61.30,62.33,+33.41%,+9.97%,1.30,2.13,"14,964,400",932.73,N/A
