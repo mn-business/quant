@@ -1,20 +1,18 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-22,30.83,30.88,30.84,30.85,+15.39%,+9.26%,0.09,0.31,"12,726,964",392.69,N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-08-19,265.97,266.35,263.38,266.13,+5.04%,+0.80%,1.05,0.4,"486,639",129.51,N/A
-Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-23,227.53,229.09,225.51,227.86,+5.48%,+4.02%,0.33,0.15,"164,504",37.48,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-22,182.56,198.65,189.10,193.82,+188.12%,+22.62%,11.71,6.43,"4,599,607",891.50,N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-17,146.73,150.33,148.12,148.66,+31.53%,+1.32%,6.55,4.61,"168,120",24.99,N/A
-Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-09-22,438.12,443.14,431.16,438.19,+11.87%,+2.13%,1.71,0.39,"176,266",77.24,N/A
-Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-09-22,167.26,174.74,169.63,173.76,+28.00%,+11.14%,8.43,5.1,"349,630",60.75,N/A
-Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-23,221.56,225.37,222.10,224.68,+14.52%,+5.73%,3.12,1.41,"475,209",106.77,N/A
-Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-23,255.38,275.69,263.58,270.06,+52.97%,+10.15%,14.68,5.75,"848,681",229.19,N/A
-Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-23,"1,492.34","1,518.89","1,485.30","1,514.89",+19.87%,+7.41%,22.55,1.51,"24,217",36.69,N/A
-Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-09-22,72.55,72.65,72.56,72.64,+2.30%,+0.31%,0.12,0.16,"726,264",52.75,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-23,665.30,677.51,664.23,672.26,+31.04%,+2.12%,6.96,1.05,"253,566",170.46,N/A
-Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-09-17,429.72,434.79,423.89,434.14,+15.95%,+1.03%,13.57,3.23,"156,282",67.85,N/A
-Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-07-28,17.86,17.90,17.54,17.90,+9.58%,+4.47%,0.77,4.53,"1,492,158",26.70,N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-09-22,"24,200.00","24,500.00","24,300.00","24,500.00",+10839.94%,+2.08%,300.00,1.24,"2,643",64.75,N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-04,230.36,233.21,229.50,230.77,+19.86%,+5.21%,5.26,2.33,"53,379,352","12,318.32",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-07-28,340.08,342.99,340.17,340.67,+20.05%,+1.09%,3.65,1.08,"7,502,069","2,555.77",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-08-14,118.16,130.64,125.00,125.89,+59.78%,+21.06%,16.24,14.81,"1,036,051",130.43,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-22,14.86,14.89,14.86,14.89,+1.47%,+0.24%,0.07,0.51,"802,676",11.95,N/A
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-22,30.83,30.90,30.84,30.90,+15.56%,+9.42%,0.14,0.46,"43,499,528","1,344.14",N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-08-19,265.97,267.73,263.38,266.28,+5.10%,+0.86%,1.20,0.45,"3,550,892",945.53,N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-23,227.53,230.49,225.51,228.69,+5.86%,+4.40%,1.16,0.51,"1,313,719",300.43,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-22,182.56,199.82,189.10,197.28,+193.27%,+24.81%,15.17,8.33,"12,795,649","2,524.33",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-17,146.73,151.04,148.12,151.02,+33.62%,+2.92%,8.91,6.27,"1,477,907",223.19,N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-09-22,167.26,176.02,169.63,175.21,+29.07%,+12.07%,9.89,5.98,"2,139,055",374.78,N/A
+Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-23,221.56,228.38,222.10,227.33,+15.87%,+6.98%,5.77,2.6,"4,896,969","1,113.23",N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-23,255.38,275.69,263.58,271.90,+54.01%,+10.90%,16.52,6.47,"2,972,495",808.22,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-23,"1,492.34","1,545.45","1,485.30","1,545.26",+22.28%,+9.56%,52.92,3.55,"184,960",285.81,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-23,665.30,682.43,664.23,678.60,+32.27%,+3.08%,13.30,2.0,"1,903,962","1,292.03",N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-09-17,429.72,445.48,423.89,442.94,+18.30%,+3.08%,22.37,5.32,"981,089",434.56,N/A
+Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-07-28,17.86,18.37,17.54,18.27,+11.88%,+6.65%,1.15,6.72,"12,373,396",226.06,N/A
+Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-08-14,357.82,364.19,355.33,359.74,+9.46%,+8.54%,6.38,1.81,"861,397",309.88,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-23,62.33,63.35,61.00,62.63,+43.29%,+2.60%,0.30,0.48,"15,010,291",940.09,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-08-14,118.16,130.88,125.00,129.40,+64.23%,+24.44%,19.75,18.01,"4,592,672",594.29,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-22,41.54,43.06,40.96,41.78,+36.40%,+3.54%,0.34,0.82,"29,305,369","1,224.38",N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-22,14.86,14.89,14.86,14.87,+1.36%,+0.13%,0.06,0.41,"6,572,077",97.73,N/A
