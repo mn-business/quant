@@ -1,11 +1,11 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-22,30.83,30.90,30.84,30.90,+15.56%,+9.42%,0.14,0.46,"43,547,900","1,345.63",N/A
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-22,30.83,30.90,30.84,30.90,+15.56%,+9.42%,0.14,0.46,"43,621,200","1,347.90",N/A
 Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-08-19,265.97,267.74,263.38,266.28,+5.10%,+0.86%,1.20,0.45,"4,421,300","1,177.30",N/A
-Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-23,227.53,230.49,225.51,228.69,+5.86%,+4.40%,1.16,0.51,"1,316,600",301.09,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-22,182.56,199.82,189.10,197.28,+193.27%,+24.81%,15.17,8.33,"13,312,200","2,626.23",N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-17,146.73,151.05,148.12,151.02,+33.62%,+2.92%,8.91,6.27,"1,478,200",223.24,N/A
-Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-09-22,167.26,176.02,169.50,175.21,+29.07%,+12.07%,9.89,5.98,"2,141,700",375.25,N/A
-Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-23,221.56,228.38,222.10,227.33,+15.87%,+6.98%,5.77,2.6,"4,898,600","1,113.60",N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-23,227.53,230.49,225.51,228.69,+5.86%,+4.40%,1.16,0.51,"1,332,300",304.68,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-22,182.56,199.82,189.10,197.28,+193.27%,+24.81%,15.17,8.33,"13,359,600","2,635.58",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-17,146.73,151.05,148.12,151.02,+33.62%,+2.92%,8.91,6.27,"1,500,500",226.61,N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-09-22,167.26,176.02,169.50,175.21,+29.07%,+12.07%,9.89,5.98,"2,194,100",384.43,N/A
+Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-09-23,221.56,228.38,222.10,227.33,+15.87%,+6.98%,5.77,2.6,"4,929,800","1,120.69",N/A
 Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-23,255.38,275.69,262.89,271.90,+54.01%,+10.90%,16.52,6.47,"2,979,300",810.07,N/A
 Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-23,"1,492.34","1,545.45","1,485.02","1,545.26",+22.28%,+9.56%,52.92,3.55,"185,000",285.87,N/A
 Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-23,665.30,682.61,664.23,678.60,+32.27%,+3.08%,13.30,2.0,"1,904,500","1,292.39",N/A
@@ -14,6 +14,6 @@ Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-07-28,17.86,18.37,17.54,18.
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-09-22,"24,200.00","24,500.00","24,300.00","24,500.00",+10839.94%,+2.08%,300.00,1.24,"2,600",63.70,N/A
 Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-08-14,357.82,364.19,355.33,359.74,+9.46%,+8.54%,6.38,1.81,"862,600",310.31,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-23,62.33,63.38,61.00,62.63,+43.29%,+2.60%,0.30,0.48,"15,021,800",940.82,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-08-14,118.16,130.88,124.60,129.40,+64.23%,+24.44%,19.75,18.01,"4,596,100",594.74,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-22,41.54,43.06,40.96,41.78,+36.40%,+3.54%,0.34,0.82,"29,422,700","1,229.28",N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-22,14.86,14.89,14.86,14.87,+1.36%,+0.13%,0.06,0.41,"6,573,000",97.74,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-08-14,118.16,130.88,124.60,129.40,+64.23%,+24.44%,19.75,18.01,"4,700,100",608.19,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-22,41.54,43.06,40.96,41.78,+36.40%,+3.54%,0.34,0.82,"29,494,500","1,232.28",N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-07-22,14.86,14.89,14.86,14.87,+1.36%,+0.13%,0.06,0.41,"6,755,900",100.46,N/A

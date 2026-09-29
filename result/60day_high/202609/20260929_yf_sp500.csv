@@ -1,10 +1,11 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-28,197.28,208.90,196.80,197.76,+183.73%,+28.38%,0.48,0.24,"5,152,127","1,018.88",N/A
-Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-28,271.90,278.99,271.00,272.42,+50.42%,+13.69%,0.52,0.19,"523,042",142.49,N/A
-Industrials,Electrical Components & Equipment,BE,Bloom Energy,s&p500,2026-07-06,295.05,302.13,271.23,301.13,+4.02%,+13.36%,38.26,14.55,"10,478,195","3,155.30",N/A
-Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-09-28,"24,500.00","24,600.00","24,300.00","24,500.00",+10293.25%,+2.73%,0.00,0.0,"8,100",198.45,N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-09,988.98,998.88,934.51,992.43,+16.56%,+6.61%,71.11,7.72,"2,374,277","2,356.30",N/A
-Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-06-30,397.17,405.38,398.39,402.80,+2.81%,+7.21%,7.37,1.86,"416,033",167.58,N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-04,230.36,232.82,229.22,230.38,+18.16%,+3.65%,1.52,0.66,"25,602,514","5,898.31",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-28,41.78,42.69,41.74,42.18,+49.84%,+7.90%,0.40,0.96,"6,507,063",274.47,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-09-28,14.87,14.91,14.86,14.89,+1.78%,+0.40%,0.02,0.13,"1,258,165",18.73,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-28,197.28,208.90,190.00,203.38,+191.79%,+32.03%,6.10,3.09,"11,431,004","2,324.84",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-28,151.02,153.02,149.41,152.99,+37.57%,+6.65%,1.97,1.3,"952,605",145.74,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-09-23,375.87,377.58,370.80,376.78,+6.23%,+3.99%,1.13,0.3,"311,767",117.47,N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-28,271.90,278.99,267.04,272.88,+50.68%,+13.88%,0.98,0.36,"1,645,658",449.06,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-28,678.60,681.21,670.90,679.18,+34.11%,+4.26%,0.58,0.09,"1,114,599",757.01,N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-09-28,442.94,443.74,437.88,443.01,+20.10%,+5.07%,0.07,0.01,"400,127",177.26,N/A
+Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-06-30,397.17,405.38,395.74,397.33,+1.42%,+5.75%,1.90,0.48,"1,611,185",640.16,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-08-14,207.08,210.04,200.79,208.24,+34.30%,+5.28%,3.83,1.87,"1,896,626",394.95,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-09-28,129.40,132.43,127.71,129.96,+68.47%,+24.79%,0.56,0.43,"2,997,896",389.59,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-09-28,14.87,14.91,14.85,14.87,+1.66%,+0.29%,0.00,0.02,"12,284,239",182.70,N/A
