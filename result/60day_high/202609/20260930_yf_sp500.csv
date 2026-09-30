@@ -1,13 +1,18 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-28,197.28,208.90,190.00,203.46,+191.91%,+32.08%,6.18,3.13,"13,257,700","2,697.41",N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-28,151.02,153.06,149.29,152.77,+37.37%,+6.50%,1.75,1.16,"1,600,100",244.45,N/A
-Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-09-23,375.87,377.78,370.80,376.63,+6.19%,+3.95%,0.98,0.26,"560,100",210.95,N/A
-Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-28,271.90,278.99,267.00,272.00,+50.19%,+13.51%,0.10,0.04,"2,229,200",606.34,N/A
-Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-28,678.60,681.38,670.90,679.61,+34.20%,+4.32%,1.01,0.15,"1,850,900","1,257.89",N/A
-Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-09-28,442.94,444.41,437.88,443.26,+20.17%,+5.13%,0.32,0.07,"625,600",277.30,N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-29,152.77,158.28,153.16,157.88,+41.90%,+9.95%,5.11,3.34,"1,493,874",235.85,N/A
+Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-08-31,285.69,288.41,276.75,287.18,+61.82%,+9.90%,8.61,3.09,"544,566",156.39,N/A
+Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-24,298.58,298.98,293.65,298.85,+31.77%,+7.11%,2.89,0.98,"193,455",57.81,N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-29,272.00,280.17,270.91,278.17,+58.20%,+16.47%,6.17,2.27,"1,352,587",376.24,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-09-29,679.61,683.32,671.63,682.96,+36.22%,+3.67%,3.35,0.49,"708,030",483.56,N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-09-29,443.26,447.98,441.72,444.38,+18.49%,+4.83%,1.12,0.25,"202,436",89.96,N/A
 Industrials,Human Resource & Employment Services,ADP,Automatic Data Processing,s&p500,2026-09-28,"24,500.00","24,550.00","24,500.00","24,500.00",+5.15%,+2.51%,0.00,0.0,"27,310",669.10,N/A
-Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-09-28,359.74,364.95,356.60,360.65,+6.03%,+7.66%,0.91,0.25,"883,300",318.56,N/A
-Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-06-30,397.17,405.38,395.74,398.22,+1.64%,+5.99%,2.79,0.71,"2,476,000",985.99,N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-23,262.49,267.69,255.76,262.74,+41.47%,+10.56%,3.49,1.35,"7,059,400","1,854.79",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-08-14,207.08,210.04,200.79,209.18,+34.90%,+5.76%,4.77,2.33,"2,717,000",568.34,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-09-28,129.40,132.43,127.71,130.05,+68.59%,+24.88%,0.65,0.5,"4,512,100",586.80,N/A
+Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-09-29,360.65,366.58,360.56,364.38,+4.09%,+6.53%,3.73,1.03,"213,287",77.72,N/A
+Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-04,230.36,232.37,228.80,230.40,+15.15%,+1.33%,3.19,1.4,"42,403,039","9,769.66",N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-29,262.74,268.95,261.58,266.91,+39.90%,+7.04%,4.17,1.59,"3,536,925",944.03,N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-23,178.74,180.45,175.54,180.26,+17.34%,+2.87%,4.30,2.44,"811,866",146.35,N/A
+Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-08-28,513.53,519.83,510.33,518.42,+38.98%,+3.35%,9.46,1.86,"8,282,412","4,293.81",N/A
+Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-08-13,396.00,404.69,388.89,403.89,+18.44%,+8.64%,15.48,3.99,"2,617,293","1,057.10",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-28,62.63,67.10,63.59,65.30,+44.76%,+5.75%,3.81,6.2,"16,875,013","1,101.94",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-09-29,209.18,216.81,209.21,212.03,+37.01%,+7.00%,2.85,1.36,"969,991",205.67,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-09-29,130.05,133.32,130.47,131.12,+80.34%,+15.37%,1.07,0.83,"979,520",128.44,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-09-28,14.87,14.91,14.85,14.90,+1.60%,+0.44%,0.04,0.24,"5,153,590",76.76,N/A
