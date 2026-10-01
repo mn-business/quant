@@ -1,0 +1,12 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-28,30.90,30.97,30.79,30.95,+16.09%,+0.49%,0.10,0.32,"84,498,021","2,615.21",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-29,152.77,158.28,152.89,152.89,+37.42%,+6.48%,0.12,0.08,"4,432,396",677.67,N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-09-29,272.00,280.17,270.53,273.68,+55.65%,+14.60%,1.68,0.62,"2,938,846",804.30,N/A
+Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-09-29,360.65,366.76,360.56,364.04,+3.99%,+6.44%,3.39,0.94,"964,402",351.08,N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-29,262.74,268.95,261.58,264.75,+38.77%,+6.18%,2.01,0.77,"8,749,894","2,316.53",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-23,178.74,180.49,175.54,178.76,+16.37%,+2.01%,2.80,1.59,"3,109,907",555.93,N/A
+Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-08-13,396.00,404.69,388.89,397.31,+16.51%,+6.87%,8.90,2.29,"6,033,488","2,397.17",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-28,62.63,67.10,63.59,63.89,+41.63%,+3.47%,2.40,3.9,"32,701,137","2,089.28",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-09-29,209.18,216.81,209.21,210.08,+35.75%,+6.02%,0.90,0.43,"3,190,766",670.32,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-09-29,130.05,133.32,129.88,130.78,+79.87%,+15.06%,0.73,0.56,"2,912,503",380.90,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-09-28,14.87,14.92,14.85,14.90,+1.64%,+0.47%,0.04,0.27,"11,468,041",170.87,N/A
