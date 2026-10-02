@@ -1,20 +1,19 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-30,30.95,30.95,30.94,30.95,+16.88%,+0.62%,0.00,0.0,"16,628,397",514.65,N/A
-Industrials,Building Products,JCI,Johnson Controls,s&p500,2026-08-11,154.76,156.15,153.18,155.06,+10.16%,+6.28%,3.29,2.17,"1,576,835",244.50,N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-10-01,"1,045.78","1,091.61","1,037.24","1,086.95",+49.24%,+16.00%,41.17,3.94,"3,677,347","3,997.09",N/A
-Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-10-01,373.88,387.93,378.24,383.92,+22.32%,+8.65%,10.04,2.69,"711,304",273.09,N/A
-Information Technology,Electronic Manufacturing Services,TEL,TE Connectivity,s&p500,2026-08-11,218.69,222.54,217.47,220.87,+11.87%,+3.02%,3.11,1.43,"601,327",132.82,N/A
-Information Technology,Semiconductor Materials & Equipment,TER,Teradyne,s&p500,2026-08-14,418.79,450.61,427.03,450.37,+22.02%,+15.73%,34.58,8.32,"2,326,833","1,047.94",N/A
-Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-01,404.60,421.70,414.00,416.58,+10.45%,+8.14%,11.98,2.96,"1,532,329",638.34,N/A
-Information Technology,Semiconductors,AMD,Advanced Micro Devices,s&p500,2026-09-22,623.77,645.46,628.55,631.86,+22.02%,+2.81%,16.13,2.62,"14,555,906","9,197.33",N/A
-Information Technology,Semiconductors,MPWR,Monolithic Power Systems,s&p500,2026-07-31,"1,426.03","1,455.99","1,393.13","1,439.77",+11.77%,+6.22%,78.80,5.79,"420,235",605.04,N/A
-Information Technology,Semiconductors,MRVL,Marvell Technology,s&p500,2026-10-01,268.08,280.00,271.59,273.27,+11.41%,+4.74%,5.19,1.94,"11,070,488","3,025.23",N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-10-01,230.86,237.87,234.19,234.45,+20.34%,+3.96%,3.59,1.56,"101,750,266","23,855.35",N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-10-01,266.09,273.54,267.67,268.04,+38.18%,+2.11%,1.95,0.73,"3,954,381","1,059.93",N/A
-Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-30,178.76,183.09,180.18,180.24,+15.35%,+0.84%,1.51,0.85,"1,465,427",264.12,N/A
-Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-08-28,513.53,522.50,513.66,515.17,+31.93%,+2.91%,2.37,0.46,"9,571,360","4,930.88",N/A
-Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-09-30,397.31,409.50,400.00,400.80,+15.15%,+1.91%,4.55,1.15,"2,976,837","1,193.13",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-10-01,64.58,70.18,66.00,70.06,+69.91%,+12.39%,5.47,8.48,"20,445,708","1,432.32",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-10-01,215.05,231.90,216.25,226.77,+47.09%,+15.50%,11.72,5.45,"3,010,110",682.60,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-01,134.13,140.46,134.00,140.26,+79.24%,+27.91%,6.12,4.57,"2,711,889",380.36,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-10-01,41.92,44.58,42.28,43.65,+60.36%,+5.33%,1.73,4.13,"35,749,051","1,560.45",N/A
+Industrials,Building Products,JCI,Johnson Controls,s&p500,2026-08-11,154.76,156.95,153.18,156.24,+11.00%,+7.09%,4.47,2.95,"3,221,206",503.28,N/A
+Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-10-01,"1,045.78","1,091.61","1,037.24","1,085.42",+49.03%,+15.84%,39.64,3.79,"4,663,824","5,062.21",N/A
+Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-10-01,373.88,387.93,378.24,384.64,+22.55%,+8.85%,10.76,2.88,"1,248,141",480.08,N/A
+Information Technology,Electronic Manufacturing Services,TEL,TE Connectivity,s&p500,2026-08-11,218.69,222.54,217.47,220.36,+11.61%,+2.78%,2.60,1.19,"1,271,492",280.19,N/A
+Information Technology,Semiconductor Materials & Equipment,TER,Teradyne,s&p500,2026-08-14,418.79,451.77,427.03,449.04,+21.66%,+15.39%,33.25,8.0,"3,357,703","1,507.74",N/A
+Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-01,404.60,421.70,414.00,417.15,+10.60%,+8.29%,12.55,3.1,"2,623,345","1,094.33",N/A
+Information Technology,Semiconductors,AMD,Advanced Micro Devices,s&p500,2026-09-22,623.77,645.46,628.55,633.91,+22.42%,+3.14%,18.18,2.95,"19,323,673","12,249.47",N/A
+Information Technology,Semiconductors,MPWR,Monolithic Power Systems,s&p500,2026-07-31,"1,426.03","1,455.99","1,393.13","1,439.73",+11.77%,+6.22%,78.76,5.79,"690,356",993.93,N/A
+Information Technology,Semiconductors,MRVL,Marvell Technology,s&p500,2026-10-01,268.08,280.00,271.59,272.29,+11.01%,+4.37%,4.21,1.57,"14,725,646","4,009.65",N/A
+Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-10-01,230.86,237.87,233.60,233.95,+20.08%,+3.74%,3.09,1.34,"134,470,648","31,459.41",N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-10-01,266.09,273.54,267.67,270.04,+39.21%,+2.88%,3.95,1.48,"5,830,129","1,574.37",N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-09-30,178.76,183.09,180.04,180.95,+15.81%,+1.24%,2.23,1.25,"3,403,414",615.85,N/A
+Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-08-28,513.53,522.50,513.66,517.53,+32.53%,+3.38%,4.73,0.92,"17,179,496","8,890.91",N/A
+Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-09-30,397.31,409.50,400.00,403.24,+15.85%,+2.53%,6.99,1.76,"4,829,505","1,947.45",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-10-01,64.58,70.29,66.00,69.33,+68.15%,+11.23%,4.75,7.36,"28,994,373","2,010.18",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-10-01,215.05,231.90,216.25,226.27,+46.77%,+15.25%,11.22,5.22,"4,741,673","1,072.90",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-01,134.13,140.83,134.00,140.14,+79.09%,+27.81%,6.01,4.48,"4,867,493",682.13,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-10-01,41.92,44.58,42.28,43.69,+60.51%,+5.43%,1.77,4.22,"42,778,087","1,868.97",N/A
