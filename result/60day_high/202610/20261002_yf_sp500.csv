@@ -1,0 +1,16 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Communication Services,Broadcasting,WBD,Warner Bros. Discovery,s&p500,2026-09-30,30.95,30.96,30.93,30.95,+15.44%,+0.39%,0.00,0.0,"44,280,500","1,370.48",N/A
+Information Technology,Application Software,SNPS,Synopsys,s&p500,2026-08-27,464.89,496.95,462.00,490.54,+7.92%,+19.87%,55.60,12.78,"6,662,200","3,268.08",N/A
+Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-09-09,988.98,"1,078.04",966.00,"1,045.78",+30.53%,+10.59%,74.52,7.67,"7,535,000","7,879.95",N/A
+Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-09-30,364.04,376.67,363.01,373.88,+11.41%,+7.65%,9.84,2.7,"1,274,300",476.44,N/A
+Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-09-14,195.00,227.63,211.04,212.30,+61.90%,+15.56%,28.93,15.78,"28,979,200","6,152.28",N/A
+Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-09-29,398.22,406.19,393.92,404.60,+4.02%,+3.65%,7.89,1.99,"3,161,400","1,279.10",N/A
+Information Technology,Semiconductors,MRVL,Marvell Technology,s&p500,2026-09-30,264.21,270.28,257.58,268.08,-1.46%,+2.18%,3.87,1.46,"18,986,300","5,089.85",N/A
+Information Technology,Semiconductors,MU,Micron Technology,s&p500,2026-09-22,"1,096.16","1,098.90","1,022.90","1,097.39",+6.31%,+0.11%,32.28,3.03,"45,562,800","50,000.16",N/A
+Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-09-04,230.36,232.29,228.16,230.86,+16.84%,+0.87%,2.48,1.09,"98,369,800","22,709.65",N/A
+Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-09-30,264.75,269.30,259.30,266.09,+37.74%,+6.41%,1.34,0.51,"6,947,000","1,848.53",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-09-30,63.89,66.11,61.76,64.58,+46.94%,+5.82%,0.69,1.08,"16,428,700","1,060.97",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-09-30,210.08,215.22,208.03,215.05,+37.52%,+11.48%,4.97,2.37,"2,348,700",505.09,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-09-30,130.78,135.68,130.08,134.13,+72.56%,+20.96%,3.35,2.56,"4,593,500",616.13,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-09-28,41.78,42.02,40.13,41.92,+51.61%,+0.91%,0.85,2.07,"26,436,800","1,108.23",N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-09-30,14.90,14.94,14.89,14.92,+1.91%,+0.67%,0.02,0.13,"9,167,700",136.78,N/A
