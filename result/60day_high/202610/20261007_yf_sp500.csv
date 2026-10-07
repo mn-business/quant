@@ -1,33 +1,22 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Wireless Telecommunication Services,ECHO,EchoStar,s&p500,2026-07-09,97.96,100.90,97.86,100.01,+1.75%,+12.09%,5.76,6.11,"4,553,900",455.44,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-09-18,424.89,435.69,427.20,432.36,+60.73%,+11.02%,10.03,2.37,"1,570,100",678.85,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-09-18,413.28,422.99,413.43,419.22,+55.08%,+7.61%,12.92,3.18,"1,908,400",800.04,N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-09-28,266.28,268.86,260.62,266.69,+4.68%,+0.15%,3.87,1.47,"4,500,700","1,200.29",N/A
-Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-09-30,152.89,166.25,151.45,153.30,+35.72%,+1.51%,1.77,1.17,"2,678,200",410.57,N/A
-Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-08-24,298.58,333.30,300.01,304.96,+31.77%,+3.52%,14.77,5.09,"1,923,100",586.47,N/A
-Industrials,Building Products,JCI,Johnson Controls,s&p500,2026-10-02,156.24,160.41,156.73,158.76,+11.24%,+6.63%,2.52,1.61,"3,790,400",601.76,N/A
-Industrials,Construction & Engineering,PWR,Quanta Services,s&p500,2026-08-18,696.15,722.21,685.95,719.56,+6.75%,+11.67%,43.00,6.36,"1,132,300",814.76,N/A
-Industrials,Electrical Components & Equipment,BE,Bloom Energy,s&p500,2026-09-29,291.25,300.80,285.64,295.78,+16.32%,+12.52%,6.63,2.29,"12,308,900","3,640.73",N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-09-23,191.79,194.56,190.22,192.07,+44.91%,+2.45%,3.32,1.76,"17,614,000","3,383.12",N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-10-06,432.36,444.99,435.00,442.26,+66.06%,+12.81%,9.90,2.29,"1,923,373",850.63,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-10-06,419.22,428.99,421.27,424.10,+59.30%,+9.38%,4.88,1.16,"1,826,747",774.72,N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-06,266.69,274.94,266.89,271.36,+6.56%,+3.07%,4.67,1.75,"5,475,359","1,485.79",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-10-06,153.30,156.00,149.36,153.60,+37.08%,+0.54%,0.30,0.2,"2,226,396",341.97,N/A
+Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-09-22,438.12,442.50,427.59,439.17,+3.80%,+1.75%,6.97,1.61,"998,787",438.64,N/A
+Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-10-06,192.07,194.70,190.11,194.12,+44.47%,+3.82%,2.05,1.07,"15,675,589","3,042.95",N/A
 Information Technology,Application Software,SNPS,Synopsys,s&p500,2026-10-01,490.54,507.50,486.50,505.17,+14.22%,+20.97%,15.27,3.12,"2,737,600","1,382.95",N/A
-Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-08-12,210.50,216.07,207.20,215.36,+24.28%,+5.09%,8.01,3.86,"6,969,400","1,500.93",N/A
-Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-09-23,455.99,472.00,460.32,469.79,+12.11%,+7.86%,15.75,3.47,"518,400",243.54,N/A
-Information Technology,Communications Equipment,LITE,Lumentum,s&p500,2026-10-02,"1,085.42","1,137.20","1,084.04","1,133.40",+54.99%,+23.02%,47.98,4.42,"4,249,500","4,816.38",N/A
+Information Technology,Communications Equipment,ANET,Arista Networks,s&p500,2026-10-06,215.36,217.32,209.13,215.83,+29.66%,+6.39%,0.47,0.22,"4,989,746","1,076.94",N/A
 Information Technology,Electronic Components,APH,Amphenol,s&p500,2026-09-21,"7,390.00","7,400.00","6,940.00","7,400.00",+35.04%,+8.82%,420.00,6.02,"1,891,578","13,997.68",N/A
-Information Technology,Electronic Equipment & Instruments,KEYS,Keysight Technologies,s&p500,2026-10-02,384.64,389.93,384.07,388.03,+21.36%,+7.86%,3.39,0.88,"1,479,700",574.17,N/A
-Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-08-11,383.06,390.80,374.63,385.78,+42.73%,+3.74%,9.92,2.64,"650,000",250.76,N/A
-Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-02,417.15,422.67,417.19,420.55,+8.16%,+6.35%,3.40,0.82,"2,263,400",951.87,N/A
+Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-10-06,385.78,387.51,378.08,386.05,+45.87%,+2.68%,0.27,0.07,"473,956",182.97,N/A
 Information Technology,Semiconductors,AMD,Advanced Micro Devices,s&p500,2026-10-02,633.91,658.52,628.00,649.42,+17.64%,+6.84%,15.51,2.45,"24,200,600","15,716.35",N/A
 Information Technology,Semiconductors,MPWR,Monolithic Power Systems,s&p500,2026-10-02,"1,439.73","1,491.64","1,458.79","1,473.69",+9.48%,+9.07%,33.96,2.36,"374,700",552.19,N/A
 Information Technology,Semiconductors,MRVL,Marvell Technology,s&p500,2026-10-02,272.29,301.27,267.26,287.01,+15.14%,+13.94%,14.72,5.41,"51,160,800","14,683.66",N/A
-Information Technology,Semiconductors,NVDA,Nvidia,s&p500,2026-10-02,233.95,243.37,238.93,239.24,+22.34%,+4.54%,5.29,2.26,"100,868,800","24,131.85",N/A
-Information Technology,Systems Software,CRWD,CrowdStrike,s&p500,2026-10-02,270.04,286.99,276.00,278.86,+39.86%,+7.56%,8.82,3.27,"7,929,500","2,211.22",N/A
-Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-10-02,180.95,192.41,186.50,191.27,+17.81%,+8.47%,10.32,5.7,"4,242,900",811.54,N/A
 Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-10-02,517.53,535.69,528.78,529.30,+36.86%,+3.94%,11.77,2.27,"21,092,600","11,164.31",N/A
-Information Technology,Systems Software,PANW,Palo Alto Networks,s&p500,2026-10-02,403.24,432.33,412.00,419.91,+17.45%,+7.10%,16.67,4.13,"5,440,700","2,284.60",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-10-02,69.33,71.22,68.56,70.48,+63.34%,+12.53%,1.15,1.66,"16,627,800","1,171.93",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-10-02,226.27,230.49,223.95,228.45,+39.68%,+11.76%,2.18,0.96,"2,842,900",649.46,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-02,140.14,149.04,144.50,147.20,+89.37%,+13.76%,7.06,5.04,"3,579,100",526.84,N/A
-Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-12,"148,000.00","151,000.00","144,000.00","150,500.00",+29.30%,+5.99%,"5,500.00",3.79,"1,546,824","232,797.01",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",HPE,Hewlett Packard Enterprise,s&p500,2026-10-06,70.48,73.28,69.82,72.09,+65.84%,+17.24%,1.61,2.28,"25,533,096","1,840.68",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-10-06,228.45,238.07,230.83,235.77,+42.22%,+12.71%,7.32,3.2,"3,002,392",707.87,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-06,147.20,153.44,144.47,152.66,+88.56%,+17.39%,5.46,3.71,"5,011,955",765.13,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",SMCI,Supermicro,s&p500,2026-10-02,43.69,45.76,42.46,44.94,+71.20%,+9.56%,1.48,3.41,"40,358,151","1,813.70",N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-08-12,"148,000.00","151,000.00","144,000.00","150,500.00",+29.30%,+5.99%,"5,500.00",3.79,"1,268,600","190,924.30",N/A
 Utilities,Electric Utilities,CEG,Constellation Energy,s&p500,2026-09-08,299.05,309.80,291.00,300.40,+22.18%,+15.35%,42.91,16.66,"13,463,900","4,044.56",N/A
 Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-01,14.92,14.94,14.88,14.93,+2.47%,+0.40%,0.02,0.13,"9,704,000",144.88,N/A
