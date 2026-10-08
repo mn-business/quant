@@ -1,10 +1,13 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-28,200.17,202.10,192.97,201.93,+7.94%,+5.82%,9.24,4.8,"1,994,529",402.76,N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-10-07,442.26,467.77,447.59,462.05,+64.62%,+16.85%,19.79,4.47,"1,404,836",649.10,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-17,274.21,280.38,274.04,279.72,+48.94%,+9.56%,8.10,2.98,"1,090,568",305.05,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-10-07,424.10,443.24,427.43,441.49,+56.07%,+13.90%,17.39,4.1,"1,434,854",633.47,N/A
-Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-09-28,414.79,416.50,407.70,416.41,+0.32%,+2.41%,1.89,0.46,"848,603",353.37,N/A
-Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-07,439.17,445.83,436.00,443.20,+7.94%,+3.86%,4.03,0.92,"366,329",162.36,N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-10-07,194.12,204.44,197.00,197.26,+49.19%,+5.46%,3.14,1.61,"30,493,150","6,014.93",N/A
-Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-10-07,"150,500.00","152,800.00","150,000.00","150,900.00",+30.65%,+2.65%,400.00,0.27,"1,193,931","180,164.19",N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-07,14.93,14.94,14.91,14.93,+1.98%,+0.20%,0.00,0.0,"5,049,909",75.40,N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-28,200.17,202.70,192.97,200.50,+7.18%,+5.07%,7.81,4.05,"5,517,172","1,106.19",N/A
+Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-10-07,442.26,467.77,447.59,463.34,+65.08%,+17.18%,21.08,4.77,"2,749,647","1,274.02",N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-17,274.21,282.64,274.04,281.60,+49.94%,+10.30%,9.98,3.67,"2,374,751",668.73,N/A
+Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-10-07,424.10,446.48,427.43,443.80,+56.89%,+14.50%,19.70,4.65,"2,570,225","1,140.67",N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-07,271.36,272.52,265.71,272.42,+7.79%,+4.14%,1.06,0.39,"4,301,279","1,171.75",N/A
+Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-09-02,924.78,938.51,907.43,930.25,+13.63%,+8.95%,19.92,2.19,"712,607",662.90,N/A
+Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-09-28,414.79,416.72,407.70,415.41,+0.07%,+2.16%,0.89,0.21,"2,529,814","1,050.91",N/A
+Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-07,439.17,446.48,436.00,445.01,+8.38%,+4.28%,5.84,1.33,"1,079,453",480.37,N/A
+Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-10-07,194.12,204.44,195.65,198.78,+50.34%,+6.27%,4.66,2.4,"41,744,992","8,298.07",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-07-28,340.08,341.57,335.90,340.42,+8.63%,+2.22%,3.75,1.11,"34,459,898","11,730.84",N/A
+Real Estate,Retail REITs,FRT,Federal Realty Investment Trust,s&p500,2026-10-07,"150,500.00","152,800.00","150,000.00","150,900.00",+30.65%,+2.65%,400.00,0.27,"685,600","103,457.04",N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-07,14.93,14.98,14.91,14.93,+1.98%,+0.20%,0.00,0.0,"13,106,526",195.68,N/A
