@@ -1,12 +1,30 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-07-28,200.17,202.70,192.97,200.50,+7.18%,+5.07%,7.81,4.05,"5,519,300","1,106.62",N/A
-Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-10-07,442.26,467.85,447.59,463.34,+65.08%,+17.18%,21.08,4.77,"2,750,500","1,274.42",N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-09-17,274.21,282.64,274.04,281.60,+49.94%,+10.30%,9.98,3.67,"2,379,000",669.93,N/A
-Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-10-07,424.10,446.48,427.43,443.80,+56.89%,+14.50%,19.70,4.65,"2,572,500","1,141.68",N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-07,271.36,272.52,265.71,272.42,+7.79%,+4.14%,1.06,0.39,"5,492,300","1,496.21",N/A
-Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-09-02,924.78,938.51,906.65,930.25,+13.63%,+8.95%,19.92,2.19,"715,600",665.69,N/A
-Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-09-28,414.79,416.72,407.70,415.41,+0.07%,+2.16%,0.89,0.21,"2,533,300","1,052.36",N/A
-Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-07,439.17,446.48,436.00,445.01,+8.38%,+4.28%,5.84,1.33,"1,127,300",501.66,N/A
-Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-10-07,194.12,204.44,195.65,198.78,+50.34%,+6.27%,4.66,2.4,"41,865,400","8,322.00",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-07-28,340.08,341.57,335.90,340.42,+8.63%,+2.22%,3.75,1.11,"35,332,400","12,027.86",N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-07,14.93,14.98,14.91,14.93,+1.98%,+0.20%,0.00,0.0,"13,107,300",195.69,N/A
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-23,744.10,751.58,727.78,745.90,+18.12%,+2.75%,25.01,3.47,"10,481,844","7,818.36",N/A
+Consumer Discretionary,Broadline Retail,EBAY,eBay Inc.,s&p500,2026-07-28,117.44,118.81,114.12,117.70,+0.32%,+11.15%,5.72,5.11,"2,210,114",260.13,N/A
+Consumer Discretionary,Other Specialty Retail,ULTA,Ulta Beauty,s&p500,2026-08-07,565.15,569.57,555.24,568.54,+23.53%,+5.73%,4.33,0.77,"146,383",83.22,N/A
+Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-07-16,151.50,152.99,150.95,152.92,+4.13%,+6.23%,2.33,1.55,"1,912,070",292.39,N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-10-08,200.50,202.77,200.50,201.43,+11.18%,+7.96%,0.93,0.46,"1,193,828",240.47,N/A
+Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-09-15,169.32,172.55,171.01,171.98,+25.11%,+4.98%,3.48,2.07,"3,538,294",608.52,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-10-08,281.60,285.72,279.42,282.18,+48.66%,+6.80%,0.58,0.21,"531,300",149.92,N/A
+Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-08-25,384.14,391.59,384.65,391.37,+12.40%,+8.76%,16.27,4.34,"1,684,773",659.37,N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-08,272.42,280.18,276.01,279.85,+11.98%,+7.66%,7.43,2.73,"985,035",275.66,N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-09-28,228.69,238.24,229.05,234.46,+17.87%,+5.22%,16.03,7.34,"581,976",136.45,N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-09-29,203.46,227.45,216.10,217.73,+184.38%,+15.23%,20.73,10.52,"7,532,961","1,640.11",N/A
+Health Care,Health Care Distributors,MCK,McKesson Corporation,s&p500,2026-10-08,930.25,956.24,936.77,943.30,+18.98%,+4.95%,13.05,1.4,"217,170",204.86,N/A
+Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-10-08,415.41,428.47,421.03,428.27,+4.06%,+6.74%,12.86,3.1,"604,346",258.83,N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-10-07,153.60,155.58,153.96,154.60,+36.88%,+3.72%,2.44,1.61,"276,853",42.80,N/A
+Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-08,445.01,458.95,444.81,458.92,+12.20%,+8.39%,13.91,3.13,"313,796",144.01,N/A
+Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-08-31,285.69,300.63,293.67,294.57,+55.28%,+4.48%,9.73,3.42,"491,520",144.79,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-09-28,"1,545.26","1,562.81","1,549.78","1,560.03",+21.12%,+5.32%,30.57,2.0,"26,775",41.77,N/A
+Health Care,Managed Health Care,HUM,Humana,s&p500,2026-09-11,409.80,436.93,423.15,433.36,+8.95%,+14.14%,46.24,11.95,"569,496",246.80,N/A
+Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-09-15,193.90,194.59,193.56,194.18,+13.81%,+3.43%,0.46,0.24,"193,504",37.57,N/A
+Information Technology,Application Software,PLTR,Palantir Technologies,s&p500,2026-10-08,198.78,212.94,206.05,206.90,+60.34%,+8.87%,8.12,4.08,"13,096,397","2,709.64",N/A
+Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-10-06,469.79,483.30,473.26,477.18,+10.89%,+7.55%,15.52,3.36,"113,491",54.16,N/A
+Information Technology,Electronic Equipment & Instruments,ZBRA,Zebra Technologies,s&p500,2026-10-07,386.05,389.72,384.27,387.20,+42.01%,+3.13%,5.06,1.32,"146,735",56.82,N/A
+Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-01,212.30,216.65,210.00,213.74,+53.71%,+0.68%,5.38,2.58,"2,597,044",555.11,N/A
+Information Technology,Systems Software,FTNT,Fortinet,s&p500,2026-10-06,191.27,196.87,193.11,193.21,+18.01%,+8.11%,4.11,2.17,"738,649",142.71,N/A
+Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-10-07,529.76,542.74,535.70,541.62,+40.91%,+5.62%,19.01,3.64,"8,058,388","4,364.59",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",NTAP,NetApp,s&p500,2026-10-07,235.24,239.24,235.24,237.13,+38.50%,+10.27%,6.60,2.86,"602,411",142.85,N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-07,152.66,155.35,151.40,152.99,+103.01%,+14.06%,2.42,1.61,"1,420,379",217.30,N/A
+Real Estate,Telecom Tower REITs,AMT,American Tower,s&p500,2026-07-29,179.26,183.00,180.03,182.67,+10.71%,+13.42%,15.94,9.56,"1,088,275",198.80,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-08,14.93,14.95,14.93,14.94,+1.46%,+0.17%,0.01,0.1,"5,175,365",77.35,N/A
