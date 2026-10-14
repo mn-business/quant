@@ -1,5 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-23,744.10,771.27,734.84,762.50,+13.94%,+4.73%,19.54,2.63,"22,679,300","17,292.97",N/A
+Communication Services,Interactive Media & Services,META,Meta Platforms,s&p500,2026-09-23,744.10,771.27,734.84,762.50,+13.94%,+4.73%,19.54,2.63,"22,706,200","17,313.48",N/A
 Consumer Discretionary,Other Specialty Retail,ULTA,Ulta Beauty,s&p500,2026-10-12,567.47,583.67,570.95,579.00,+23.40%,+6.49%,11.53,2.03,"507,500",293.84,N/A
 Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-10-12,172.15,174.89,172.65,174.08,+25.35%,+6.14%,1.93,1.12,"11,505,200","2,002.83",N/A
 Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-09-15,47.41,48.08,46.98,48.01,+43.57%,+9.91%,1.17,2.5,"4,820,400",231.43,N/A
@@ -10,7 +10,7 @@ Energy,Oil & Gas Storage & Transportation,KMI,Kinder Morgan,s&p500,2026-10-12,33
 Financials,Life & Health Insurance,MET,MetLife,s&p500,2026-10-12,100.17,101.44,99.90,100.65,+9.82%,+6.59%,0.48,0.48,"3,016,500",303.61,N/A
 Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-08-24,599.86,605.60,597.13,604.80,+14.82%,+9.51%,9.71,1.63,"3,710,300","2,243.99",N/A
 Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-10-12,389.27,396.35,390.69,396.06,+13.49%,+9.82%,6.79,1.74,"7,476,700","2,961.22",N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-10-12,213.74,218.48,204.70,216.25,+216.76%,+13.81%,2.51,1.17,"13,368,000","2,890.83",N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-10-12,213.74,218.48,204.70,216.25,+216.76%,+13.81%,2.51,1.17,"13,389,300","2,895.44",N/A
 Health Care,Health Care Distributors,MCK,McKesson,s&p500,2026-10-12,955.76,969.48,954.18,961.88,+19.35%,+6.61%,6.12,0.64,"743,600",715.25,N/A
 Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-12,458.60,462.44,455.81,460.75,+13.32%,+7.98%,2.15,0.47,"1,082,500",498.76,N/A
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-10-12,295.85,309.32,299.90,301.63,+58.65%,+10.35%,5.78,1.95,"2,252,900",679.54,N/A
@@ -18,8 +18,8 @@ Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-10-12,
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-09-15,193.90,195.90,192.54,195.13,+13.43%,+1.38%,1.72,0.89,"1,236,800",241.34,N/A
 Information Technology,Communications Equipment,FFIV,"F5, Inc.",s&p500,2026-10-12,473.49,480.22,465.48,476.24,+10.65%,+4.89%,2.75,0.58,"706,200",336.32,N/A
 Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-12,213.16,218.58,212.68,213.56,+57.92%,+7.37%,0.40,0.19,"6,309,100","1,347.37",N/A
-Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-10-12,541.15,551.15,543.06,543.45,+41.12%,+5.01%,2.30,0.43,"23,824,500","12,947.42",N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-12,340.97,348.15,340.74,341.27,+8.23%,+2.27%,0.30,0.09,"38,946,900","13,291.41",N/A
+Information Technology,Systems Software,MSFT,Microsoft,s&p500,2026-10-12,541.15,551.15,543.06,543.45,+41.12%,+5.01%,2.30,0.43,"23,852,000","12,962.37",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-12,340.97,348.15,340.74,341.27,+8.23%,+2.27%,0.30,0.09,"38,983,800","13,304.00",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",P,Everpure,s&p500,2026-10-12,155.31,157.57,148.95,156.97,+103.78%,+12.01%,1.66,1.07,"3,372,800",529.43,N/A
 Materials,Specialty Chemicals,IFF,International Flavors & Fragrances,s&p500,2026-08-05,88.07,88.88,86.36,88.20,+13.76%,+7.01%,3.24,3.81,"3,000,500",264.64,N/A
 Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-12,14.98,14.99,14.95,14.99,+1.42%,+0.54%,0.01,0.07,"6,568,200",98.46,N/A
