@@ -11,12 +11,12 @@ Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-10-13,174.08,177.43,174.5
 Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-09-15,141.22,142.55,140.90,142.34,+26.13%,+10.04%,1.44,1.02,"5,668,300",806.83,N/A
 Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-09-15,153.74,154.88,152.67,154.19,+10.44%,+6.87%,1.02,0.67,"2,507,100",386.57,N/A
 Energy,Oil & Gas Refining & Marketing,MPC,Marathon Petroleum,s&p500,2026-10-13,476.98,485.22,473.56,484.92,+63.34%,+12.16%,7.94,1.66,"1,631,700",791.24,N/A
-Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-10-13,292.73,297.38,289.84,297.29,+49.93%,+10.19%,4.56,1.56,"2,763,014",821.42,N/A
+Energy,Oil & Gas Refining & Marketing,PSX,Phillips 66,s&p500,2026-10-13,292.73,297.42,289.78,297.29,+49.93%,+10.19%,4.56,1.56,"2,763,100",821.44,N/A
 Energy,Oil & Gas Refining & Marketing,VLO,Valero Energy,s&p500,2026-10-13,456.46,461.52,451.50,459.78,+55.44%,+9.68%,3.32,0.73,"2,119,000",974.27,N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-12,281.12,285.40,275.97,283.48,+14.31%,+6.30%,9.12,3.32,"5,623,920","1,594.27",N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-12,281.12,285.40,275.97,283.48,+14.31%,+6.30%,9.12,3.32,"5,624,300","1,594.38",N/A
 Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-10-12,229.41,234.20,228.00,232.83,+11.39%,+4.46%,3.93,1.72,"1,947,100",453.34,N/A
 Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-09-22,152.67,153.76,147.48,153.54,+16.85%,+6.45%,5.62,3.8,"5,756,500",883.85,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-10-13,216.25,227.09,211.24,226.30,+237.71%,+20.72%,10.05,4.65,"16,579,584","3,751.96",N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-10-13,216.25,227.09,211.24,226.30,+237.71%,+20.72%,10.05,4.65,"16,561,200","3,747.80",N/A
 Health Care,Health Care Distributors,MCK,McKesson,s&p500,2026-10-13,961.88,979.82,965.05,976.57,+20.23%,+5.96%,14.69,1.53,"767,900",749.91,N/A
 Health Care,Health Care Equipment,MDT,Medtronic,s&p500,2026-09-04,94.17,94.72,92.16,94.23,+12.76%,+8.20%,1.22,1.31,"49,858,700","4,698.19",N/A
 Health Care,Health Care Facilities,HCA,HCA Healthcare,s&p500,2026-10-13,460.75,472.39,457.80,470.44,+20.40%,+8.85%,9.69,2.1,"1,081,400",508.73,N/A
@@ -26,7 +26,7 @@ Health Care,Managed Health Care,CNC,Centene Corporation,s&p500,2026-09-14,69.41,
 Health Care,Managed Health Care,ELV,Elevance Health,s&p500,2026-07-14,426.79,434.00,421.78,428.09,+0.69%,+7.00%,2.82,0.66,"2,115,900",905.80,N/A
 Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-09-02,29.02,29.49,28.55,29.21,+19.32%,+6.22%,0.84,2.96,"39,330,100","1,148.83",N/A
 Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-10-13,195.13,197.40,193.69,196.38,+11.90%,+2.39%,1.25,0.64,"1,068,300",209.79,N/A
-Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-08-19,100.10,100.71,98.99,100.66,+8.34%,+4.36%,1.67,1.69,"1,804,688",181.66,N/A
+Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-08-19,100.10,100.73,98.79,100.66,+8.34%,+4.36%,1.67,1.69,"1,804,600",181.65,N/A
 Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-13,213.56,218.88,212.71,214.96,+55.18%,+11.15%,1.40,0.66,"6,741,500","1,449.15",N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-13,341.27,347.09,341.72,342.96,+8.08%,+2.80%,1.69,0.5,"49,861,700","17,100.57",N/A
 Materials,Specialty Chemicals,IFF,International Flavors & Fragrances,s&p500,2026-10-13,88.20,89.70,87.53,89.60,+19.31%,+6.77%,1.40,1.59,"2,182,500",195.55,N/A
