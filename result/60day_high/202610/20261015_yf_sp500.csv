@@ -1,6 +1,5 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
 Consumer Discretionary,Broadline Retail,EBAY,eBay Inc.,s&p500,2026-07-28,117.44,124.59,118.04,122.91,+9.21%,+14.23%,6.03,5.16,"7,265,000",892.94,N/A
-Consumer Discretionary,Homefurnishing Retail,WSM,"Williams-Sonoma, Inc.",s&p500,2026-08-07,251.78,252.12,244.03,252.03,+14.38%,+4.81%,9.55,3.94,"1,673,900",421.87,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-08-19,334.73,344.46,331.83,342.98,+5.25%,+7.00%,14.98,4.57,"1,880,700",645.04,N/A
 Consumer Discretionary,"Hotels, Resorts & Cruise Lines",MAR,Marriott International,s&p500,2026-07-28,383.52,389.18,376.23,385.71,+6.20%,+8.19%,13.89,3.74,"1,907,300",735.66,N/A
 Consumer Discretionary,Other Specialty Retail,ULTA,Ulta Beauty,s&p500,2026-10-14,592.42,610.21,596.13,609.24,+29.87%,+11.69%,16.82,2.84,"571,700",348.30,N/A
