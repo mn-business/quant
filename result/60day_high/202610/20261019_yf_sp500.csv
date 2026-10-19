@@ -1,10 +1,15 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,"Hotels, Resorts & Cruise Lines",MAR,Marriott International,s&p500,2026-10-16,388.05,392.72,386.00,390.71,+5.27%,+5.80%,2.66,0.69,"218,615",85.42,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,COST,Costco,s&p500,2026-10-16,989.11,993.92,985.01,990.50,+4.75%,+3.24%,1.39,0.14,"366,619",363.14,N/A
-Financials,Multi-line Insurance,AIG,American International Group,s&p500,2026-07-28,80.83,81.23,80.37,80.94,+3.73%,+4.17%,0.20,0.25,"1,490,751",120.66,N/A
-Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-10-15,427.86,432.75,426.70,430.54,+7.01%,+0.68%,3.84,0.9,"901,291",388.04,N/A
-Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-10-16,384.02,387.01,383.20,384.55,+6.10%,+4.61%,0.53,0.14,"56,341",21.67,N/A
-Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-10-15,313.03,317.68,310.33,314.90,+59.55%,+6.44%,4.54,1.46,"315,462",99.34,N/A
-Health Care,Managed Health Care,ELV,Elevance Health,s&p500,2026-10-15,428.43,435.50,425.00,430.46,+15.45%,+1.98%,2.20,0.51,"177,612",76.45,N/A
-Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-16,229.68,231.86,226.74,230.51,+59.40%,+8.14%,0.84,0.36,"1,458,756",336.27,N/A
-Materials,Specialty Chemicals,IFF,International Flavors & Fragrances,s&p500,2026-10-16,90.68,91.55,90.54,90.95,+17.20%,+7.05%,0.27,0.3,"335,597",30.52,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",HLT,Hilton Worldwide,s&p500,2026-10-16,345.12,346.34,341.94,346.04,+7.07%,+5.65%,0.92,0.27,"1,757,444",608.15,N/A
+Consumer Discretionary,"Hotels, Resorts & Cruise Lines",MAR,Marriott International,s&p500,2026-10-16,388.05,392.77,386.00,390.70,+5.27%,+5.79%,2.65,0.68,"1,247,506",487.40,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,COST,Costco,s&p500,2026-10-16,989.11,997.43,985.01,995.53,+5.28%,+3.76%,6.42,0.65,"1,743,963","1,736.17",N/A
+Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-10-16,49.15,49.84,48.64,49.76,+45.16%,+6.23%,0.61,1.24,"4,384,239",218.16,N/A
+Financials,Transaction & Payment Processing Services,V,Visa Inc.,s&p500,2026-10-16,402.61,403.79,398.01,402.92,+10.35%,+3.51%,0.31,0.08,"5,823,305","2,346.33",N/A
+Health Care,Health Care Distributors,MCK,McKesson,s&p500,2026-10-16,"1,004.84","1,012.56",977.89,"1,010.43",+20.10%,+5.72%,5.59,0.56,"745,209",752.98,N/A
+Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-10-15,427.86,434.62,426.70,433.18,+7.67%,+1.30%,6.48,1.52,"2,470,673","1,070.25",N/A
+Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-10-15,313.03,317.68,310.33,316.80,+60.51%,+7.08%,6.44,2.08,"1,380,265",437.27,N/A
+Health Care,Managed Health Care,ELV,Elevance Health,s&p500,2026-10-15,428.43,435.50,425.00,430.23,+15.39%,+1.93%,1.97,0.46,"998,006",429.37,N/A
+Health Care,Pharmaceuticals,ZTS,Zoetis,s&p500,2026-10-16,79.38,79.98,78.45,79.59,+3.48%,+5.21%,0.21,0.26,"2,816,489",224.16,N/A
+Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-16,229.68,237.22,226.74,236.93,+63.84%,+11.15%,7.25,3.16,"6,910,403","1,637.28",N/A
+Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-10-16,66.03,66.84,65.15,66.79,+49.89%,+11.91%,0.76,1.15,"5,045,691",337.00,N/A
+Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-10-15,207.31,208.07,201.12,207.72,+45.37%,+7.02%,2.37,1.15,"748,029",155.38,N/A
+Materials,Specialty Chemicals,IFF,International Flavors & Fragrances,s&p500,2026-10-16,90.68,91.55,90.54,90.96,+17.22%,+7.06%,0.28,0.31,"1,822,700",165.79,N/A
