@@ -6,7 +6,7 @@ Consumer Discretionary,Homefurnishing Retail,WSM,"Williams-Sonoma, Inc.",s&p500,
 Consumer Discretionary,Other Specialty Retail,ULTA,Ulta Beauty,s&p500,2026-10-15,609.24,637.26,611.82,635.01,+31.33%,+4.23%,28.02,4.62,"816,200",518.30,N/A
 Consumer Staples,Consumer Staples Merchandise Retail,COST,Costco,s&p500,2026-10-21,998.31,"1,018.86","1,001.23","1,018.21",+9.80%,+4.11%,19.90,1.99,"2,837,400","2,889.07",N/A
 Consumer Staples,Consumer Staples Merchandise Retail,DG,Dollar General,s&p500,2026-10-16,134.36,139.12,132.21,139.11,+15.69%,+3.90%,6.99,5.29,"2,729,000",379.63,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-10-16,118.81,121.18,117.83,121.12,+10.78%,+2.76%,3.32,2.82,"28,309,400","3,428.83",N/A
+Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-10-16,118.81,121.18,117.83,121.12,+10.78%,+2.76%,3.32,2.82,"28,345,400","3,433.19",N/A
 Consumer Staples,Food Retail,KR,Kroger,s&p500,2026-10-21,64.13,67.96,64.56,67.87,+17.95%,+8.23%,3.74,5.83,"8,701,000",590.54,N/A
 Consumer Staples,Household Products,CHD,Church & Dwight,s&p500,2026-10-20,105.96,108.93,105.67,108.86,+12.08%,+5.61%,3.86,3.68,"3,143,300",342.18,N/A
 Consumer Staples,Household Products,CL,Colgate-Palmolive,s&p500,2026-10-20,94.54,97.50,94.55,97.39,+6.29%,+5.09%,3.99,4.27,"4,813,600",468.80,N/A
@@ -14,9 +14,9 @@ Consumer Staples,Packaged Foods & Meats,MDLZ,Mondelez International,s&p500,2026-
 Consumer Staples,Packaged Foods & Meats,SJM,J.M. Smucker Company (The),s&p500,2026-08-28,132.34,133.43,128.72,133.39,+12.99%,+5.92%,5.58,4.37,"1,061,800",141.63,N/A
 Consumer Staples,Personal Care Products,EL,Estée Lauder Companies (The),s&p500,2026-10-15,107.19,109.35,102.38,107.72,+30.36%,+0.49%,4.06,3.92,"3,881,600",418.13,N/A
 Consumer Staples,Personal Care Products,KVUE,Kenvue,s&p500,2026-07-29,19.79,19.89,19.17,19.88,+3.92%,+6.48%,0.84,4.41,"15,498,300",308.11,N/A
-Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-10-16,159.35,166.85,161.36,165.59,+11.04%,+5.42%,8.75,5.58,"22,021,000","3,646.46",N/A
+Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-10-16,159.35,166.85,161.36,165.59,+11.04%,+5.42%,8.75,5.58,"22,037,200","3,649.14",N/A
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-10-20,34.63,35.40,34.61,35.19,+16.52%,+2.95%,0.72,2.09,"28,532,300","1,004.05",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-10-16,93.90,95.37,93.60,95.34,+15.99%,+3.63%,2.66,2.87,"17,106,700","1,630.95",N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KO,Coca-Cola Company (The),s&p500,2026-10-16,93.90,95.37,93.60,95.34,+15.99%,+3.63%,2.66,2.87,"17,149,100","1,635.00",N/A
 Consumer Staples,Tobacco,MO,Altria,s&p500,2026-10-16,75.11,76.09,74.28,76.07,+5.40%,+3.02%,2.24,3.03,"7,156,900",544.43,N/A
 Financials,Financial Exchanges & Data,CBOE,Cboe Global Markets,s&p500,2026-10-21,318.82,330.56,320.00,327.72,+16.30%,+6.37%,8.90,2.79,"954,900",312.94,N/A
 Financials,Financial Exchanges & Data,CME,CME Group,s&p500,2026-10-21,295.79,307.27,299.25,305.98,+22.77%,+5.71%,10.19,3.45,"2,294,400",702.04,N/A
@@ -49,12 +49,12 @@ Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-10-21,
 Health Care,Managed Health Care,CNC,Centene Corporation,s&p500,2026-10-20,70.81,72.50,69.79,71.24,+8.12%,+1.04%,1.00,1.42,"4,696,100",334.55,N/A
 Health Care,Managed Health Care,ELV,Elevance Health,s&p500,2026-10-20,440.18,449.95,431.20,445.28,+14.44%,+3.93%,11.15,2.57,"1,428,100",635.90,N/A
 Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-10-20,"1,283.66","1,321.21","1,275.10","1,306.69",+12.35%,+4.40%,35.94,2.83,"2,654,400","3,468.48",N/A
-Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-10-20,30.11,30.44,29.88,30.42,+22.56%,+3.33%,0.57,1.91,"28,682,300",872.52,N/A
+Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-10-20,30.11,30.44,29.88,30.42,+22.56%,+3.33%,0.57,1.91,"28,703,400",873.16,N/A
 Health Care,Pharmaceuticals,ZTS,Zoetis,s&p500,2026-10-20,80.04,82.29,79.90,82.00,+10.53%,+4.57%,2.38,2.99,"4,827,200",395.83,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-08-07,168.94,176.94,167.62,176.52,+26.13%,+13.34%,17.52,11.02,"2,097,500",370.25,N/A
 Industrials,Data Processing & Outsourced Services,BR,Broadridge Financial Solutions,s&p500,2026-08-24,185.45,186.46,180.01,186.12,+29.14%,+6.90%,7.82,4.39,"778,800",144.95,N/A
 Industrials,Diversified Support Services,CTAS,Cintas,s&p500,2026-10-21,220.15,225.43,221.31,224.04,+11.26%,+5.15%,3.89,1.77,"2,262,700",506.94,N/A
-Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-10-20,232.98,242.42,230.70,241.90,+11.72%,+5.33%,11.58,5.03,"1,382,700",334.48,N/A
+Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-10-20,232.98,242.42,230.70,241.90,+11.72%,+5.33%,11.58,5.03,"1,398,400",338.27,N/A
 Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-10-20,101.36,104.90,102.00,104.90,+15.09%,+3.90%,3.59,3.54,"1,717,900",180.21,N/A
 Industrials,Industrial Machinery & Supplies & Components,OTIS,Otis Worldwide,s&p500,2026-08-07,73.99,75.75,72.58,75.60,+7.37%,+7.39%,3.25,4.49,"5,248,300",396.77,N/A
 Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-10-21,52.49,52.78,50.95,52.73,+16.32%,+4.66%,0.24,0.46,"10,026,000",528.67,N/A
@@ -64,12 +64,12 @@ Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-09-
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-08-28,426.20,439.93,406.46,436.23,+29.56%,+14.06%,38.67,9.73,"1,976,300",862.12,N/A
 Information Technology,IT Consulting & Other Services,ACN,Accenture,s&p500,2026-10-21,240.26,259.39,239.33,258.74,+84.70%,+15.04%,18.48,7.69,"8,296,900","2,146.74",N/A
 Information Technology,IT Consulting & Other Services,CTSH,Cognizant,s&p500,2026-10-21,69.55,73.92,69.57,73.72,+70.73%,+12.09%,4.17,6.0,"9,930,900",732.11,N/A
-Information Technology,IT Consulting & Other Services,IBM,IBM,s&p500,2026-10-21,251.46,256.30,240.00,252.11,+22.52%,+7.68%,0.65,0.26,"11,612,800","2,927.70",N/A
+Information Technology,IT Consulting & Other Services,IBM,IBM,s&p500,2026-10-21,251.46,256.30,240.00,252.11,+22.52%,+7.68%,0.65,0.26,"11,626,300","2,931.11",N/A
 Information Technology,IT Consulting & Other Services,IT,Gartner,s&p500,2026-10-20,219.64,234.53,221.23,234.44,+77.47%,+13.09%,14.87,6.77,"1,153,300",270.38,N/A
 Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-10-20,108.80,114.74,109.25,114.73,+28.33%,+6.93%,6.51,6.02,"2,085,700",239.29,N/A
-Information Technology,Systems Software,NOW,ServiceNow,s&p500,2026-10-21,153.12,157.60,153.57,157.00,+64.47%,+5.67%,3.88,2.53,"17,390,000","2,730.23",N/A
+Information Technology,Systems Software,NOW,ServiceNow,s&p500,2026-10-21,153.12,157.60,153.57,157.00,+64.47%,+5.67%,3.88,2.53,"17,406,900","2,732.88",N/A
 Information Technology,Technology Distributors,CDW,CDW Corporation,s&p500,2026-10-21,158.28,165.56,154.89,164.62,+26.80%,+6.67%,6.34,4.01,"1,952,300",321.39,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-21,343.99,348.36,342.28,348.22,+6.85%,+1.82%,4.23,1.23,"46,718,600","16,268.35",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-21,343.99,348.36,342.28,348.22,+6.85%,+1.82%,4.23,1.23,"46,898,900","16,331.14",N/A
 Materials,Paper & Plastic Packaging Products & Materials,AVY,Avery Dennison,s&p500,2026-08-21,183.71,184.67,178.43,184.66,+17.11%,+4.99%,5.62,3.14,"984,600",181.82,N/A
 Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-10-15,290.81,292.58,286.94,292.30,+9.52%,+0.51%,4.21,1.46,"1,249,600",365.26,N/A
 Materials,Specialty Chemicals,IFF,International Flavors & Fragrances,s&p500,2026-10-20,91.21,93.89,90.13,93.83,+21.54%,+3.92%,2.80,3.08,"1,930,400",181.13,N/A
