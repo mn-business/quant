@@ -11,6 +11,7 @@ Energy,Oil & Gas Exploration & Production,OXY,Occidental Petroleum,s&p500,2026-0
 Energy,Oil & Gas Storage & Transportation,KMI,Kinder Morgan,s&p500,2026-10-16,34.20,34.75,33.65,34.43,+5.07%,+0.67%,0.71,2.11,"18,956,100",652.66,N/A
 Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-08-20,302.25,303.60,289.45,302.37,+5.88%,+2.53%,12.83,4.43,"1,125,600",340.35,N/A
 Financials,Financial Exchanges & Data,CBOE,Cboe Global Markets,s&p500,2026-10-22,327.72,341.27,331.73,340.42,+19.50%,+8.08%,12.70,3.88,"1,864,600",634.75,N/A
+Health Care,Health Care Equipment,ABT,Abbott Laboratories,s&p500,2026-08-24,"53,000.00","53,300.00","53,300.00","53,300.00",+6.60%,+5.75%,"3,400.00",6.81,"3,858",205.63,N/A
 Health Care,Health Care Equipment,ISRG,Intuitive Surgical,s&p500,2026-10-22,443.85,458.45,442.56,452.29,+36.22%,+6.00%,8.44,1.9,"3,004,400","1,358.86",N/A
 Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-10-22,157.29,159.05,152.73,158.77,+40.29%,+4.02%,1.48,0.94,"1,113,400",176.77,N/A
 Health Care,Health Care Technology,VEEV,Veeva Systems,s&p500,2026-10-22,322.55,324.76,319.00,323.04,+79.89%,+4.09%,0.49,0.15,"1,371,200",442.95,N/A
@@ -18,7 +19,6 @@ Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500
 Health Care,Life Sciences Tools & Services,IQV,IQVIA,s&p500,2026-10-22,278.32,279.58,274.67,279.36,+34.75%,+4.67%,1.04,0.37,"981,200",274.11,N/A
 Industrials,Building Products,ALLE,Allegion,s&p500,2026-10-22,176.52,180.32,176.02,178.98,+15.79%,+14.33%,2.46,1.39,"1,811,100",324.15,N/A
 Industrials,Diversified Support Services,CTAS,Cintas,s&p500,2026-10-22,224.04,225.79,222.41,224.10,+10.26%,+4.87%,0.06,0.03,"1,934,600",433.54,N/A
-Information Technology,Application Software,WDAY,"Workday, Inc.",s&p500,2026-10-22,209.99,211.50,206.52,209.99,+64.22%,+10.05%,0.00,0.0,"1,955,900",410.72,N/A
 Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-10-22,436.23,444.77,433.54,438.14,+23.38%,+14.48%,1.91,0.44,"1,161,400",508.86,N/A
 Information Technology,IT Consulting & Other Services,IBM,IBM,s&p500,2026-10-22,252.11,254.71,247.03,253.56,+22.70%,+9.23%,1.45,0.58,"5,888,000","1,492.96",N/A
 Information Technology,Systems Software,NOW,ServiceNow,s&p500,2026-10-22,157.00,159.50,153.72,158.96,+72.90%,+11.97%,1.96,1.25,"11,083,500","1,761.83",N/A
