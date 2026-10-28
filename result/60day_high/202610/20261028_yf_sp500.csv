@@ -1,0 +1,20 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Consumer Discretionary,Automobile Manufacturers,TSLA,"Tesla, Inc.",s&p500,2026-10-26,391.62,408.45,395.25,407.46,+31.77%,+9.03%,15.84,4.04,"45,019,044","18,343.46",N/A
+Energy,Oil & Gas Exploration & Production,EQT,EQT Corporation,s&p500,2026-09-02,55.75,56.40,54.71,56.27,+8.21%,+2.65%,1.42,2.59,"16,346,577",919.82,N/A
+Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-10-22,447.28,448.55,439.28,447.95,+19.05%,+2.05%,3.32,0.75,"1,732,393",776.03,N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-10-26,158.69,159.28,155.76,159.08,+21.88%,+1.64%,0.39,0.25,"4,931,456",784.50,N/A
+Health Care,Health Care Equipment,ABT,Abbott Laboratories,s&p500,2026-10-26,"53,300.00","56,400.00","54,100.00","55,600.00",+9.45%,+11.31%,"2,300.00",4.32,"32,000","1,779.20",N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-10-26,160.39,162.76,156.28,161.86,+49.77%,+3.75%,1.47,0.92,"1,551,625",251.15,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-10-26,394.73,398.67,391.78,398.29,+20.24%,+2.45%,3.56,0.9,"790,666",314.91,N/A
+Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-10-26,357.27,359.80,352.95,358.84,+59.98%,+13.75%,1.57,0.44,"1,158,999",415.90,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-10-22,"1,684.64","1,692.98","1,648.36","1,685.32",+26.12%,+3.14%,15.70,0.94,"140,967",237.57,N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-10-21,457.47,470.85,452.35,468.55,+26.23%,+5.81%,12.57,2.76,"797,335",373.59,N/A
+Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-10-16,18.66,18.83,18.17,18.72,+6.12%,+0.38%,0.43,2.35,"6,070,329",113.64,N/A
+Industrials,Air Freight & Logistics,EXPD,Expeditors International,s&p500,2026-10-15,198.64,199.74,195.04,199.64,+16.52%,+0.62%,3.21,1.63,"848,681",169.43,N/A
+Industrials,Building Products,ALLE,Allegion,s&p500,2026-10-23,178.98,181.24,176.33,180.55,+14.17%,+14.98%,2.33,1.31,"1,200,379",216.73,N/A
+Industrials,Electrical Components & Equipment,EMR,Emerson Electric,s&p500,2026-08-11,164.38,166.60,161.96,166.27,+11.37%,+3.62%,4.57,2.83,"2,339,655",389.01,N/A
+Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-08-26,51.76,52.36,51.11,52.27,+0.91%,+8.71%,0.96,1.87,"9,405,180",491.61,N/A
+Information Technology,Electronic Manufacturing Services,TEL,TE Connectivity,s&p500,2026-10-02,220.36,225.76,215.76,225.35,+8.56%,+5.47%,11.49,5.37,"3,976,732",896.16,N/A
+Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-06,420.55,427.27,411.12,425.35,+14.38%,+7.13%,17.42,4.27,"4,047,001","1,721.39",N/A
+Information Technology,Semiconductors,TXN,Texas Instruments,s&p500,2026-10-26,298.12,309.47,299.35,308.91,+10.56%,+11.21%,10.79,3.62,"8,046,658","2,485.69",N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-26,15.03,15.04,15.01,15.03,+1.35%,+0.40%,0.00,0.0,"9,778,801",146.98,N/A
