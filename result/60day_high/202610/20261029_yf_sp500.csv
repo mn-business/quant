@@ -1,0 +1,29 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Consumer Staples,Personal Care Products,EL,Estée Lauder Companies (The),s&p500,2026-10-26,108.82,110.29,107.06,109.31,+28.98%,+5.45%,0.96,0.89,"3,128,800",342.01,N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-10-26,304.68,308.46,302.89,305.90,+16.91%,+3.48%,3.29,1.09,"933,200",285.47,N/A
+Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-10-26,104.72,105.70,104.23,105.55,+9.99%,+9.81%,1.19,1.14,"3,080,400",325.14,N/A
+Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-10-27,447.95,454.66,439.57,451.83,+14.94%,+3.08%,3.88,0.87,"2,910,500","1,315.05",N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-10-27,159.08,160.83,156.04,159.20,+18.52%,+3.67%,0.12,0.08,"4,990,300",794.46,N/A
+Health Care,Health Care Equipment,ABT,Abbott Laboratories,s&p500,2026-10-28,"55,900.00","56,000.00","55,900.00","56,000.00",+11.11%,+12.22%,100.00,0.18,310,17.36,N/A
+Health Care,Health Care Equipment,GEHC,GE HealthCare,s&p500,2026-08-21,74.82,77.88,74.64,75.82,+18.27%,+9.87%,4.71,6.62,"9,569,300",725.54,N/A
+Health Care,Health Care Equipment,RVTY,Revvity,s&p500,2026-10-27,161.86,169.06,162.85,165.33,+48.26%,+5.57%,3.47,2.14,"2,178,100",360.11,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-08-24,339.34,371.00,341.40,360.25,+14.65%,+11.27%,29.08,8.78,"1,797,100",647.41,N/A
+Health Care,Health Care Supplies,WST,West Pharmaceutical Services,s&p500,2026-10-27,398.29,404.99,396.83,403.64,+19.85%,+2.58%,5.35,1.34,"773,200",312.09,N/A
+Health Care,Life Sciences Tools & Services,A,Agilent Technologies,s&p500,2026-10-21,177.75,182.99,176.77,181.48,+29.13%,+2.10%,3.99,2.25,"1,550,400",281.37,N/A
+Health Care,Life Sciences Tools & Services,CRL,Charles River Laboratories,s&p500,2026-10-27,358.84,378.23,360.01,373.98,+55.55%,+8.44%,15.14,4.22,"1,299,300",485.91,N/A
+Health Care,Life Sciences Tools & Services,DHR,Danaher Corporation,s&p500,2026-10-21,233.86,238.03,229.55,234.07,+17.59%,+0.09%,2.07,0.89,"3,139,000",734.75,N/A
+Health Care,Life Sciences Tools & Services,ILMN,"Illumina, Inc.",s&p500,2026-10-21,282.86,294.21,277.20,288.79,+49.65%,+2.10%,9.32,3.33,"2,238,700",646.51,N/A
+Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-10-27,"1,685.32","1,722.76","1,682.82","1,698.47",+22.33%,+1.22%,13.15,0.78,"179,600",305.05,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-10-26,72.69,72.72,72.62,72.69,+0.86%,+0.07%,0.09,0.12,"2,719,700",197.69,N/A
+Health Care,Life Sciences Tools & Services,TMO,Thermo Fisher Scientific,s&p500,2026-10-15,696.49,710.84,691.03,704.15,+22.16%,+1.46%,11.13,1.61,"1,647,600","1,160.16",N/A
+Health Care,Life Sciences Tools & Services,WAT,Waters Corporation,s&p500,2026-10-27,468.55,482.28,465.30,476.88,+24.22%,+4.24%,8.33,1.78,"872,500",416.08,N/A
+Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-10-27,18.72,18.93,18.46,18.77,+5.10%,+1.73%,0.05,0.27,"7,851,200",147.37,N/A
+Industrials,Building Products,ALLE,Allegion,s&p500,2026-10-27,180.55,182.66,179.62,180.66,+12.05%,+13.62%,0.11,0.06,"1,566,800",283.06,N/A
+Industrials,Electrical Components & Equipment,EMR,Emerson Electric,s&p500,2026-10-27,166.27,168.62,166.49,167.71,+10.47%,+2.82%,1.44,0.87,"2,694,800",451.94,N/A
+Industrials,Industrial Machinery & Supplies & Components,FTV,Fortive,s&p500,2026-08-13,61.81,67.03,63.19,64.11,+0.03%,+9.33%,2.49,4.04,"6,339,300",406.41,N/A
+Industrials,Trading Companies & Distributors,URI,United Rentals,s&p500,2026-08-07,"1,162.84","1,189.01","1,166.31","1,174.61",+7.64%,+9.88%,12.61,1.09,"434,400",510.25,N/A
+Information Technology,Application Software,TRMB,Trimble Inc.,s&p500,2026-10-22,64.01,64.43,62.54,64.35,+10.23%,+2.81%,1.19,1.88,"2,218,800",142.78,N/A
+Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-27,425.35,429.64,420.17,428.27,+17.07%,+5.50%,2.92,0.69,"3,886,200","1,664.34",N/A
+Information Technology,Semiconductors,TXN,Texas Instruments,s&p500,2026-10-27,308.91,310.00,304.99,309.83,+11.82%,+8.85%,0.92,0.3,"7,355,100","2,278.83",N/A
+Materials,Commodity Chemicals,DOW,Dow Inc.,s&p500,2026-10-26,33.99,34.28,33.63,34.13,+18.30%,+12.34%,0.35,1.04,"7,174,100",244.85,N/A
+Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-10-22,292.30,293.81,288.24,292.41,+3.36%,+1.50%,1.14,0.39,"1,174,200",343.35,N/A
