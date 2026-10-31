@@ -1,59 +1,60 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-10-29,121.25,124.50,122.75,123.51,+11.17%,+3.02%,2.26,1.86,"29,601,109","3,656.03",N/A
-Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-10-29,35.30,36.13,35.53,35.84,+13.53%,+3.34%,0.54,1.53,"32,588,368","1,167.97",N/A
-Consumer Staples,Tobacco,MO,Altria,s&p500,2026-10-29,76.75,79.80,77.57,78.03,+14.85%,+5.01%,1.28,1.67,"20,450,633","1,595.76",N/A
-Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-10-29,208.50,214.35,208.02,208.79,+8.74%,+4.67%,0.29,0.14,"4,561,561",952.41,N/A
-Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-10-23,233.21,236.46,233.22,235.52,+22.47%,+0.99%,4.06,1.75,"11,009,664","2,593.00",N/A
-Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-10-26,184.54,188.50,184.68,187.25,+19.29%,+2.21%,3.96,2.16,"21,162,779","3,962.73",N/A
-Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-10-23,51.90,52.96,51.92,52.82,+45.39%,+1.77%,1.31,2.54,"4,427,515",233.86,N/A
-Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-10-26,151.37,154.28,151.28,154.03,+29.40%,+2.14%,4.00,2.67,"6,487,904",999.33,N/A
-Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-10-26,51.64,52.28,51.46,52.15,+18.07%,+1.48%,0.98,1.92,"9,434,659",492.02,N/A
-Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-10-26,163.68,165.93,162.96,165.54,+13.77%,+1.54%,3.32,2.05,"2,563,817",424.41,N/A
-Energy,Oil & Gas Exploration & Production,FANG,Diamondback Energy,s&p500,2026-09-15,211.53,212.54,209.01,212.08,+6.16%,+3.08%,5.65,2.74,"1,986,343",421.26,N/A
-Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-10-29,312.37,316.60,312.21,314.99,+17.93%,+4.17%,2.62,0.84,"1,479,625",466.07,N/A
-Financials,Financial Exchanges & Data,ICE,Intercontinental Exchange,s&p500,2026-09-03,164.59,169.90,164.54,168.85,+8.05%,+3.75%,5.81,3.56,"5,125,997",865.52,N/A
-Financials,Financial Exchanges & Data,MSCI,MSCI,s&p500,2026-10-22,620.24,626.16,618.31,623.38,+8.27%,+1.26%,4.83,0.78,"541,415",337.51,N/A
-Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-10-29,105.60,106.98,105.73,106.23,+11.63%,+3.58%,0.63,0.6,"4,921,077",522.77,N/A
-Financials,Financial Exchanges & Data,SPGI,S&P Global,s&p500,2026-10-29,460.66,469.49,463.85,466.55,+12.42%,+3.61%,5.89,1.28,"1,883,459",878.73,N/A
-Financials,Insurance Brokers,AJG,Arthur J. Gallagher & Co.,s&p500,2026-08-24,271.99,277.45,269.40,276.07,+7.65%,+3.00%,7.87,2.93,"3,190,829",880.89,N/A
-Financials,Insurance Brokers,MRSH,Marsh McLennan,s&p500,2026-10-22,199.27,202.70,199.21,200.62,+4.76%,+1.59%,3.59,1.82,"2,916,624",585.13,N/A
-Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-10-29,103.94,106.66,105.13,106.36,+5.16%,+4.59%,2.42,2.33,"2,479,821",263.75,N/A
-Financials,Property & Casualty Insurance,CB,Chubb Limited,s&p500,2026-10-22,363.95,368.98,363.23,364.12,+3.99%,+2.54%,1.84,0.51,"1,630,039",593.53,N/A
-Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-10-29,230.18,235.35,231.06,231.28,+8.44%,+1.41%,1.10,0.48,"1,938,388",448.31,N/A
-Financials,Reinsurance,EG,Everest Group,s&p500,2026-10-22,407.56,413.00,406.21,410.97,+9.49%,+3.10%,10.38,2.59,"708,775",291.29,N/A
-Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-08-13,94.83,101.17,84.66,96.84,+11.52%,+16.93%,11.12,12.97,"16,725,396","1,619.69",N/A
-Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-10-29,635.70,644.21,633.41,638.01,+10.51%,+2.31%,2.31,0.36,"4,516,903","2,881.83",N/A
-Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-29,290.79,298.74,291.01,294.89,+14.56%,+3.24%,4.10,1.41,"6,896,546","2,033.72",N/A
-Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-10-29,460.73,475.64,465.33,466.01,+20.22%,+6.09%,5.28,1.15,"3,290,355","1,533.34",N/A
-Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-10-29,165.61,175.65,169.00,170.68,+30.01%,+9.38%,5.07,3.06,"11,363,966","1,939.60",N/A
-Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-09-02,852.03,935.34,839.08,927.89,+25.67%,+15.26%,109.12,13.33,"2,851,725","2,646.09",N/A
-Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-09-03,557.96,563.80,549.89,558.88,+16.02%,+6.67%,18.88,3.5,"2,882,050","1,610.72",N/A
-Health Care,Health Care Equipment,GEHC,GE HealthCare,s&p500,2026-10-29,76.42,78.21,76.20,76.57,+9.48%,+7.17%,0.15,0.2,"3,967,429",303.79,N/A
-Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-10-29,"1,373.70","1,449.68","1,409.00","1,417.54",+22.73%,+11.31%,43.84,3.19,"5,032,743","7,134.11",N/A
-Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-10-22,30.42,30.66,30.14,30.52,+22.52%,+1.63%,0.57,1.9,"37,087,729","1,131.92",N/A
-Industrials,Building Products,MAS,Masco,s&p500,2026-10-29,80.18,82.17,80.04,80.64,+11.83%,+6.09%,0.46,0.57,"1,859,408",149.94,N/A
-Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-10-29,152.76,155.13,152.83,154.62,+16.47%,+6.59%,1.86,1.22,"646,548",99.97,N/A
-Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-10-22,241.90,248.71,240.37,244.04,+15.48%,+1.49%,7.76,3.28,"2,403,867",586.64,N/A
-Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-10-22,104.90,115.17,107.50,111.10,+17.31%,+6.49%,7.04,6.77,"4,161,289",462.32,N/A
-Industrials,Industrial Machinery & Supplies & Components,OTIS,Otis Worldwide,s&p500,2026-10-22,75.60,76.26,74.96,75.75,+5.66%,+0.80%,1.14,1.53,"6,755,466",511.73,N/A
-Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-10-22,392.45,397.23,376.21,394.30,+21.96%,+1.07%,20.37,5.45,"1,315,387",518.66,N/A
-Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-10-29,449.65,470.00,461.08,466.60,+19.87%,+6.50%,16.95,3.77,"1,950,395",910.05,N/A
-Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-10-22,114.73,118.11,104.69,117.24,+18.03%,+3.95%,11.35,10.72,"3,574,679",419.10,N/A
-Materials,Commodity Chemicals,DOW,Dow Inc.,s&p500,2026-10-28,34.13,34.85,33.63,34.70,+15.32%,+6.41%,1.08,3.21,"11,051,305",383.48,N/A
-Materials,Industrial Gases,APD,Air Products,s&p500,2026-10-29,311.75,316.63,310.43,316.43,+5.41%,+3.02%,4.68,1.5,"1,304,270",412.71,N/A
-Materials,Industrial Gases,LIN,Linde plc,s&p500,2026-10-22,510.36,517.70,508.73,514.24,+1.10%,+1.06%,11.09,2.2,"3,116,425","1,602.59",N/A
-Materials,"Metal, Glass & Plastic Containers",BALL,Ball Corporation,s&p500,2026-10-22,65.81,66.57,65.07,66.47,+1.78%,+2.64%,1.97,3.05,"4,257,401",282.99,N/A
-Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-10-29,300.86,305.71,300.71,302.98,+8.46%,+5.01%,2.12,0.7,"1,728,619",523.74,N/A
-Materials,Specialty Chemicals,LYB,LyondellBasell,s&p500,2026-08-20,68.10,68.73,64.67,68.64,+13.57%,+3.30%,3.27,5.0,"4,652,431",319.34,N/A
-Real Estate,Self-Storage REITs,EXR,Extra Space Storage,s&p500,2026-08-05,150.04,153.34,149.88,151.32,+2.10%,+5.52%,1.42,0.95,"1,705,574",258.09,N/A
-Utilities,Electric Utilities,DUK,Duke Energy,s&p500,2026-10-29,125.90,128.07,126.54,127.39,+0.89%,+1.93%,1.49,1.18,"4,907,212",625.13,N/A
-Utilities,Electric Utilities,ETR,Entergy,s&p500,2026-10-29,109.97,111.18,109.66,110.11,+1.93%,+2.58%,0.14,0.13,"3,272,748",360.36,N/A
-Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-10-29,85.41,86.54,85.72,85.93,+3.22%,+1.78%,0.52,0.61,"2,331,452",200.34,N/A
-Utilities,Electric Utilities,EXC,Exelon,s&p500,2026-10-29,45.91,47.09,45.90,46.16,+1.27%,+3.89%,0.25,0.54,"18,621,606",859.57,N/A
-Utilities,Electric Utilities,LNT,Alliant Energy,s&p500,2026-08-03,71.27,72.42,70.54,71.65,+1.84%,+2.86%,0.97,1.37,"5,837,299",418.24,N/A
-Utilities,Electric Utilities,WEC,WEC Energy Group,s&p500,2026-10-29,114.63,116.81,115.34,116.07,+5.47%,+4.48%,1.44,1.26,"3,614,441",419.53,N/A
-Utilities,Multi-Utilities,AEE,Ameren,s&p500,2026-10-29,110.21,111.59,110.36,110.54,+1.65%,+2.31%,0.33,0.3,"1,610,068",177.98,N/A
-Utilities,Multi-Utilities,CNP,CenterPoint Energy,s&p500,2026-10-29,42.21,42.63,42.21,42.44,+0.69%,+3.34%,0.23,0.54,"6,513,317",276.43,N/A
-Utilities,Multi-Utilities,ED,Consolidated Edison,s&p500,2026-10-22,116.26,117.65,116.20,116.64,+6.37%,+0.78%,1.15,1.0,"3,132,643",365.39,N/A
-Utilities,Multi-Utilities,XEL,Xcel Energy,s&p500,2026-08-19,79.41,80.52,79.32,79.82,+2.03%,+2.27%,0.78,0.99,"7,427,195",592.84,N/A
-Utilities,Water Utilities,AWK,American Water Works,s&p500,2026-10-22,143.23,146.62,143.86,144.37,+5.53%,+1.13%,2.16,1.52,"2,084,878",300.99,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-10-29,121.25,124.51,122.75,123.51,+11.17%,+3.02%,2.26,1.86,"29,769,400","3,676.82",N/A
+Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-10-29,35.30,36.13,35.53,35.84,+13.53%,+3.34%,0.54,1.53,"32,588,400","1,167.97",N/A
+Consumer Staples,Tobacco,MO,Altria,s&p500,2026-10-29,76.75,79.81,77.57,78.03,+14.85%,+5.01%,1.28,1.67,"20,516,200","1,600.88",N/A
+Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-10-29,208.50,214.35,208.02,208.79,+8.74%,+4.67%,0.29,0.14,"4,591,300",958.62,N/A
+Energy,Integrated Oil & Gas,CVX,Chevron Corporation,s&p500,2026-10-23,233.21,236.48,233.22,235.52,+22.47%,+0.99%,4.06,1.75,"11,013,300","2,593.85",N/A
+Energy,Integrated Oil & Gas,XOM,ExxonMobil,s&p500,2026-10-26,184.54,188.50,184.68,187.25,+19.29%,+2.21%,3.96,2.16,"21,825,700","4,086.86",N/A
+Energy,Oil & Gas Exploration & Production,APA,APA Corporation,s&p500,2026-10-23,51.90,52.96,51.91,52.82,+45.39%,+1.77%,1.31,2.54,"4,428,100",233.89,N/A
+Energy,Oil & Gas Exploration & Production,COP,ConocoPhillips,s&p500,2026-10-26,151.37,154.28,151.28,154.03,+29.40%,+2.14%,4.00,2.67,"7,030,500","1,082.91",N/A
+Energy,Oil & Gas Exploration & Production,DVN,Devon Energy,s&p500,2026-10-26,51.64,52.28,51.46,52.15,+18.07%,+1.48%,0.98,1.92,"9,439,500",492.27,N/A
+Energy,Oil & Gas Exploration & Production,EOG,EOG Resources,s&p500,2026-10-26,163.68,165.93,162.96,165.54,+13.77%,+1.54%,3.32,2.05,"2,592,500",429.16,N/A
+Energy,Oil & Gas Exploration & Production,FANG,Diamondback Energy,s&p500,2026-09-15,211.53,212.54,209.01,212.08,+6.16%,+3.08%,5.65,2.74,"1,986,400",421.28,N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-10-29,311.12,316.60,311.98,314.99,+17.93%,+4.17%,3.87,1.24,"1,479,700",466.09,N/A
+Financials,Financial Exchanges & Data,ICE,Intercontinental Exchange,s&p500,2026-09-03,164.59,169.92,164.54,168.85,+8.05%,+3.75%,5.81,3.56,"5,163,900",871.92,N/A
+Financials,Financial Exchanges & Data,MSCI,MSCI,s&p500,2026-10-22,620.24,626.16,618.31,623.38,+8.27%,+1.26%,4.83,0.78,"549,400",342.48,N/A
+Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-10-29,105.60,107.00,105.73,106.23,+11.63%,+3.58%,0.63,0.6,"4,921,700",522.83,N/A
+Financials,Financial Exchanges & Data,SPGI,S&P Global,s&p500,2026-10-29,460.66,470.00,463.85,466.55,+12.42%,+3.61%,5.89,1.28,"1,883,500",878.75,N/A
+Financials,Insurance Brokers,AJG,Arthur J. Gallagher & Co.,s&p500,2026-08-24,271.99,277.45,269.40,276.07,+7.65%,+3.00%,7.87,2.93,"3,190,800",880.88,N/A
+Financials,Insurance Brokers,MRSH,Marsh McLennan,s&p500,2026-10-22,199.27,202.70,199.22,200.62,+4.76%,+1.59%,3.59,1.82,"2,916,800",585.17,N/A
+Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-10-29,103.94,106.68,105.13,106.36,+5.16%,+4.59%,2.42,2.33,"2,479,800",263.75,N/A
+Financials,Property & Casualty Insurance,CB,Chubb Limited,s&p500,2026-10-22,363.95,369.00,363.23,364.12,+3.99%,+2.54%,1.84,0.51,"1,630,100",593.55,N/A
+Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-10-29,230.18,235.36,231.06,231.28,+8.44%,+1.41%,1.10,0.48,"1,938,600",448.36,N/A
+Financials,Reinsurance,EG,Everest Group,s&p500,2026-10-22,407.56,413.00,405.00,410.97,+9.49%,+3.10%,10.38,2.59,"708,800",291.30,N/A
+Financials,Transaction & Payment Processing Services,GPN,Global Payments,s&p500,2026-08-13,94.83,101.32,84.66,96.84,+11.52%,+16.93%,11.12,12.97,"16,726,200","1,619.77",N/A
+Financials,Transaction & Payment Processing Services,MA,Mastercard,s&p500,2026-10-29,635.70,644.24,633.34,638.01,+10.51%,+2.31%,2.31,0.36,"4,517,400","2,882.15",N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-10-29,290.79,298.74,291.01,294.89,+14.56%,+3.24%,4.10,1.41,"6,897,400","2,033.97",N/A
+Health Care,Biotechnology,AMGN,Amgen,s&p500,2026-10-29,460.73,475.65,465.33,466.01,+20.22%,+6.09%,5.28,1.15,"3,290,400","1,533.36",N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-10-29,165.61,175.65,169.00,170.68,+30.01%,+9.38%,5.07,3.06,"11,425,300","1,950.07",N/A
+Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-09-02,852.03,935.35,839.08,927.89,+25.67%,+15.26%,109.12,13.33,"2,870,600","2,663.60",N/A
+Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-09-03,557.96,563.80,549.89,558.88,+16.02%,+6.67%,18.88,3.5,"3,030,000","1,693.41",N/A
+Health Care,Health Care Equipment,GEHC,GE HealthCare,s&p500,2026-10-29,76.42,78.22,76.19,76.57,+9.48%,+7.17%,0.15,0.2,"3,967,500",303.79,N/A
+Health Care,Pharmaceuticals,LLY,Lilly (Eli),s&p500,2026-10-29,"1,373.70","1,449.68","1,408.36","1,417.54",+22.73%,+11.31%,43.84,3.19,"5,247,800","7,438.97",N/A
+Health Care,Pharmaceuticals,PFE,Pfizer,s&p500,2026-10-22,30.42,30.67,30.14,30.52,+22.52%,+1.63%,0.57,1.9,"45,476,900","1,387.96",N/A
+Industrials,Building Products,MAS,Masco,s&p500,2026-10-29,80.18,82.17,80.02,80.64,+11.83%,+6.09%,0.46,0.57,"1,859,400",149.94,N/A
+Industrials,Construction & Engineering,J,Jacobs Solutions,s&p500,2026-10-29,152.76,155.22,152.67,154.62,+16.47%,+6.59%,1.86,1.22,"646,500",99.96,N/A
+Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-10-22,241.90,249.37,240.37,244.04,+15.48%,+1.49%,7.76,3.28,"2,403,900",586.65,N/A
+Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-10-22,104.90,115.17,107.50,111.10,+17.31%,+6.49%,7.04,6.77,"4,402,100",489.07,N/A
+Industrials,Industrial Machinery & Supplies & Components,OTIS,Otis Worldwide,s&p500,2026-10-22,75.60,76.26,74.96,75.75,+5.66%,+0.80%,1.14,1.53,"6,755,500",511.73,N/A
+Information Technology,Application Software,TYL,Tyler Technologies,s&p500,2026-10-22,392.45,397.23,376.21,394.30,+21.96%,+1.07%,20.37,5.45,"1,315,500",518.70,N/A
+Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies,s&p500,2026-10-29,449.65,470.01,461.08,466.60,+19.87%,+6.50%,16.95,3.77,"1,950,400",910.06,N/A
+Information Technology,Internet Services & Infrastructure,GDDY,GoDaddy,s&p500,2026-10-22,114.73,118.11,103.70,117.24,+18.03%,+3.95%,11.35,10.72,"3,574,800",419.11,N/A
+Materials,Commodity Chemicals,DOW,Dow Inc.,s&p500,2026-10-28,34.13,34.85,33.63,34.70,+15.32%,+6.41%,1.08,3.21,"11,052,000",383.50,N/A
+Materials,Industrial Gases,APD,Air Products,s&p500,2026-10-29,311.75,316.64,310.43,316.43,+5.41%,+3.02%,4.68,1.5,"1,304,300",412.72,N/A
+Materials,Industrial Gases,LIN,Linde plc,s&p500,2026-10-22,510.36,517.70,508.73,514.24,+1.10%,+1.06%,11.09,2.2,"3,116,800","1,602.78",N/A
+Materials,"Metal, Glass & Plastic Containers",BALL,Ball Corporation,s&p500,2026-10-22,65.81,66.57,65.07,66.47,+1.78%,+2.64%,1.97,3.05,"4,257,500",283.00,N/A
+Materials,Specialty Chemicals,ECL,Ecolab,s&p500,2026-10-29,300.86,305.71,300.71,302.98,+8.46%,+5.01%,2.12,0.7,"1,743,600",528.28,N/A
+Materials,Specialty Chemicals,LYB,LyondellBasell,s&p500,2026-08-20,68.10,68.74,64.67,68.64,+13.57%,+3.30%,3.27,5.0,"4,652,800",319.37,N/A
+Real Estate,Self-Storage REITs,EXR,Extra Space Storage,s&p500,2026-08-05,150.04,153.34,149.88,151.32,+2.10%,+5.52%,1.42,0.95,"1,713,500",259.29,N/A
+Utilities,Electric Utilities,DUK,Duke Energy,s&p500,2026-10-29,125.90,128.09,126.54,127.39,+0.89%,+1.93%,1.49,1.18,"4,908,500",625.29,N/A
+Utilities,Electric Utilities,ETR,Entergy,s&p500,2026-10-29,109.97,111.18,109.66,110.11,+1.93%,+2.58%,0.14,0.13,"3,494,700",384.80,N/A
+Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-10-29,85.41,86.55,85.73,85.93,+3.22%,+1.78%,0.52,0.61,"2,331,500",200.35,N/A
+Utilities,Electric Utilities,EXC,Exelon,s&p500,2026-10-29,45.91,47.09,45.91,46.16,+1.27%,+3.89%,0.25,0.54,"18,690,000",862.73,N/A
+Utilities,Electric Utilities,LNT,Alliant Energy,s&p500,2026-08-03,71.27,72.42,70.54,71.65,+1.84%,+2.86%,1.50,2.15,"5,837,300",418.24,N/A
+Utilities,Electric Utilities,WEC,WEC Energy Group,s&p500,2026-10-29,114.63,116.81,115.34,116.07,+5.47%,+4.48%,1.44,1.26,"3,614,400",419.52,N/A
+Utilities,Multi-Utilities,AEE,Ameren,s&p500,2026-10-29,110.21,111.66,110.36,110.54,+1.65%,+2.31%,0.33,0.3,"1,610,100",177.98,N/A
+Utilities,Multi-Utilities,CNP,CenterPoint Energy,s&p500,2026-10-29,42.21,42.64,42.21,42.44,+0.69%,+3.34%,0.23,0.54,"6,513,300",276.42,N/A
+Utilities,Multi-Utilities,ED,Consolidated Edison,s&p500,2026-10-22,116.26,117.65,116.20,116.64,+6.37%,+0.78%,1.15,1.0,"3,132,600",365.39,N/A
+Utilities,Multi-Utilities,NI,NiSource,s&p500,2026-08-03,44.53,45.17,44.46,44.57,-0.45%,+2.98%,0.12,0.27,"7,477,900",333.29,N/A
+Utilities,Multi-Utilities,XEL,Xcel Energy,s&p500,2026-08-19,79.41,80.53,79.32,79.82,+2.03%,+2.27%,0.78,0.99,"7,494,700",598.23,N/A
+Utilities,Water Utilities,AWK,American Water Works,s&p500,2026-10-22,143.23,146.62,143.86,144.37,+5.53%,+1.13%,2.16,1.52,"2,085,600",301.10,N/A

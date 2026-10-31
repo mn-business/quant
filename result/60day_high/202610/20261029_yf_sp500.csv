@@ -5,7 +5,7 @@ Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-10-
 Consumer Staples,Soft Drinks & Non-alcoholic Beverages,KDP,Keurig Dr Pepper,s&p500,2026-10-22,35.19,35.38,34.68,35.30,+12.24%,+0.31%,0.37,1.06,"15,209,800",536.91,N/A
 Consumer Staples,Tobacco,MO,Altria,s&p500,2026-10-22,76.07,76.81,74.48,76.75,+2.44%,+0.89%,3.76,5.15,"12,526,900",961.44,N/A
 Consumer Staples,Tobacco,PM,Philip Morris International,s&p500,2026-10-14,205.58,208.95,204.80,208.50,+5.07%,+3.35%,5.86,2.89,"4,023,100",838.82,N/A
-Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-10-28,305.90,313.42,307.46,312.37,+18.02%,+7.88%,6.47,2.12,"1,127,700",352.26,N/A
+Energy,Oil & Gas Storage & Transportation,TRGP,Targa Resources,s&p500,2026-10-28,305.90,312.17,306.23,311.12,+17.55%,+7.45%,5.22,1.71,"1,127,700",350.85,N/A
 Financials,Financial Exchanges & Data,NDAQ,"Nasdaq, Inc.",s&p500,2026-10-28,105.55,107.93,104.93,105.60,+10.52%,+2.23%,0.05,0.05,"4,885,000",515.86,N/A
 Financials,Financial Exchanges & Data,SPGI,S&P Global,s&p500,2026-10-22,453.10,460.67,450.46,460.66,+9.78%,+1.67%,11.33,2.52,"1,451,200",668.51,N/A
 Financials,Property & Casualty Insurance,ACGL,Arch Capital Group,s&p500,2026-10-22,102.69,104.69,103.26,103.94,-0.58%,+1.22%,1.44,1.4,"1,932,400",200.85,N/A
@@ -46,7 +46,7 @@ Information Technology,Electronic Equipment & Instruments,ROP,Roper Technologies
 Information Technology,IT Consulting & Other Services,IBM,IBM,s&p500,2026-10-23,253.56,258.33,247.80,258.28,+14.06%,+2.45%,5.06,2.0,"3,934,500","1,016.20",N/A
 Information Technology,Semiconductors,ADI,Analog Devices,s&p500,2026-10-28,428.27,433.39,423.44,433.28,+22.61%,+12.32%,5.01,1.17,"3,155,900","1,367.39",N/A
 Information Technology,Semiconductors,NXPI,NXP Semiconductors,s&p500,2026-10-27,253.50,266.98,246.57,266.00,+10.38%,+11.86%,14.31,5.69,"5,983,200","1,591.53",N/A
-Information Technology,Semiconductors,TXN,Texas Instruments,s&p500,2026-10-28,309.83,313.07,306.03,312.94,+15.35%,+11.96%,3.11,1.0,"5,662,000","1,771.87",N/A
+Information Technology,Semiconductors,TXN,Texas Instruments,s&p500,2026-10-28,309.83,311.55,304.54,311.42,+14.79%,+11.42%,1.59,0.51,"5,662,000","1,763.26",N/A
 Information Technology,Technology Distributors,CDW,CDW Corporation,s&p500,2026-10-23,165.11,165.42,161.94,165.20,+11.68%,+0.35%,2.54,1.56,"910,800",150.46,N/A
 Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-10-22,348.22,351.43,347.30,348.91,+3.17%,+0.20%,5.08,1.48,"42,582,100","14,857.32",N/A
 Materials,Industrial Gases,APD,Air Products,s&p500,2026-08-31,309.46,311.76,306.78,311.75,+5.94%,+1.15%,4.55,1.48,"1,284,500",400.44,N/A
@@ -58,7 +58,6 @@ Utilities,Electric Utilities,ETR,Entergy,s&p500,2026-08-04,108.86,110.16,108.75,
 Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-10-27,85.30,85.78,84.61,85.41,+1.68%,+0.54%,1.16,1.38,"2,568,400",219.37,N/A
 Utilities,Electric Utilities,EXC,Exelon,s&p500,2026-08-14,45.86,46.03,45.20,45.91,-2.38%,+2.36%,1.14,2.55,"10,452,700",479.88,N/A
 Utilities,Electric Utilities,WEC,WEC Energy Group,s&p500,2026-10-22,112.15,115.92,113.05,114.63,+3.00%,+2.21%,4.13,3.74,"6,533,600",748.95,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-26,15.03,15.05,14.99,15.05,+1.55%,+0.53%,0.07,0.47,"8,969,100",134.98,N/A
 Utilities,Multi-Utilities,AEE,Ameren,s&p500,2026-08-14,109.74,110.48,109.10,110.21,+0.22%,+1.17%,2.21,2.05,"1,082,000",119.25,N/A
 Utilities,Multi-Utilities,CNP,CenterPoint Energy,s&p500,2026-07-30,42.15,42.47,41.86,42.21,-1.68%,+2.45%,0.62,1.49,"8,606,500",363.28,N/A
 Utilities,Multi-Utilities,PNW,Pinnacle West Capital,s&p500,2026-10-22,106.61,106.73,105.56,106.64,+4.26%,+0.03%,1.77,1.69,"1,942,800",207.18,N/A
