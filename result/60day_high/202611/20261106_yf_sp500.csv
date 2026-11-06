@@ -1,12 +1,13 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Communication Services,Advertising,APP,AppLovin,s&p500,2026-11-05,356.10,380.55,348.95,377.33,+12.41%,+65.13%,21.23,5.96,"2,470,327",932.13,N/A
-Financials,Financial Exchanges & Data,CBOE,Cboe Global Markets,s&p500,2026-11-05,353.07,356.99,346.34,355.30,+22.87%,+5.89%,2.23,0.63,"114,187",40.57,N/A
-Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-11-05,447.00,449.29,427.97,448.12,+12.51%,+11.77%,1.12,0.25,"158,404",70.98,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-11-04,258.38,265.62,237.86,260.43,+383.53%,+17.46%,18.97,7.86,"7,179,959","1,869.88",N/A
+Communication Services,Advertising,APP,AppLovin,s&p500,2026-11-05,356.10,398.00,348.95,391.22,+16.55%,+71.21%,35.12,9.86,"11,352,581","4,441.36",N/A
+Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-11-05,447.00,458.64,427.97,454.93,+14.22%,+13.47%,7.93,1.77,"932,529",424.24,N/A
+Financials,Transaction & Payment Processing Services,FISV,Fiserv,s&p500,2026-11-05,62.74,63.87,60.80,62.88,+16.21%,+25.71%,0.14,0.22,"9,511,233",598.07,N/A
+Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-11-05,267.82,272.99,263.92,271.89,+14.40%,+8.55%,4.07,1.52,"1,333,239",362.49,N/A
 Health Care,Health Care Equipment,ABT,Abbott Laboratories,s&p500,2026-11-05,"56,000.00","56,000.00","55,800.00","56,000.00",+10.89%,+0.36%,0.00,0.0,"1,058",59.25,N/A
-Health Care,Life Sciences Tools & Services,MTD,Mettler Toledo,s&p500,2026-11-04,"1,723.24","1,756.08","1,685.62","1,736.11",+22.15%,+3.66%,57.04,3.4,"40,885",70.98,N/A
-Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-11-04,72.73,72.78,72.63,72.75,+1.19%,+0.13%,0.09,0.13,"802,940",58.42,N/A
-Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-11-04,228.50,229.27,222.70,229.27,+3.35%,+5.29%,2.72,1.2,"163,572",37.50,N/A
-Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-11-05,87.41,87.76,86.10,87.69,+5.63%,+2.05%,0.28,0.32,"506,971",44.46,N/A
-Utilities,Electric Utilities,PPL,PPL Corporation,s&p500,2026-11-02,36.14,36.47,35.69,36.42,+5.21%,+2.17%,0.42,1.18,"2,689,894",97.98,N/A
-Utilities,Multi-Utilities,AEE,Ameren,s&p500,2026-11-04,113.08,114.34,111.42,114.15,+5.43%,+3.27%,1.34,1.19,"418,487",47.77,N/A
+Health Care,Health Care Equipment,EW,Edwards Lifesciences,s&p500,2026-11-05,100.82,102.19,98.50,102.12,+14.33%,+10.99%,1.30,1.29,"3,654,076",373.15,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-11-04,255.68,258.13,250.02,255.72,+7.22%,+1.55%,0.98,0.38,"708,883",181.28,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-11-04,72.73,72.80,72.63,72.78,+1.22%,+0.17%,0.12,0.17,"1,954,006",142.21,N/A
+Health Care,Pharmaceuticals,VTRS,Viatris,s&p500,2026-11-04,19.22,19.94,18.80,19.91,+22.22%,+4.57%,0.94,4.96,"13,964,556",278.03,N/A
+Industrials,Environmental & Facilities Services,VLTO,Veralto,s&p500,2026-11-04,117.02,117.24,113.00,117.08,+19.45%,+5.39%,0.53,0.46,"1,257,126",147.19,N/A
+Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-11-04,228.50,229.79,222.70,228.50,+3.01%,+4.94%,1.95,0.86,"1,201,297",274.50,N/A
+Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-11-05,87.41,88.01,86.10,87.54,+5.44%,+1.87%,0.13,0.15,"2,429,898",212.71,N/A
