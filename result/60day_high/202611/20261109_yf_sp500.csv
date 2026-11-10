@@ -19,7 +19,7 @@ Financials,Transaction & Payment Processing Services,CPAY,Corpay,s&p500,2026-11-
 Financials,Transaction & Payment Processing Services,FISV,Fiserv,s&p500,2026-11-06,62.88,64.06,62.89,63.52,+21.20%,+22.32%,0.64,1.02,"8,522,800",541.37,N/A
 Financials,Transaction & Payment Processing Services,XYZ,"Block, Inc.",s&p500,2026-11-04,87.63,89.39,86.93,88.56,+12.10%,+14.89%,3.08,3.6,"7,484,300",662.81,N/A
 Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-11-04,254.46,261.00,246.44,254.87,+22.57%,+2.35%,6.52,2.63,"1,143,200",291.37,N/A
-Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-11-04,258.38,280.80,253.33,269.00,+354.62%,+21.81%,14.81,5.83,"12,332,700","3,317.50",N/A
+Health Care,Biotechnology,MRNA,Moderna,s&p500,2026-11-04,258.38,280.80,253.33,269.00,+354.62%,+21.81%,14.81,5.83,"12,357,400","3,324.14",N/A
 Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-11-06,271.72,277.38,272.32,274.29,+16.03%,+7.85%,2.57,0.95,"1,383,400",379.45,N/A
 Health Care,Health Care Equipment,ABT,Abbott Laboratories,s&p500,2026-11-05,"56,000.00","57,700.00","56,300.00","57,300.00",+12.57%,+3.43%,"1,300.00",2.32,"6,100",349.53,N/A
 Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-11-05,213.55,216.74,211.13,215.25,+21.71%,+8.38%,3.37,1.59,"2,039,100",438.92,N/A
@@ -39,7 +39,7 @@ Industrials,Industrial Machinery & Supplies & Components,IR,Ingersoll Rand,s&p50
 Industrials,Passenger Airlines,DAL,Delta Air Lines,s&p500,2026-08-13,91.31,92.49,90.08,91.80,+0.50%,+10.05%,4.60,5.28,"6,890,500",632.55,N/A
 Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-11-04,53.21,54.99,53.30,54.57,+5.27%,+3.84%,1.58,2.98,"7,503,400",409.46,N/A
 Information Technology,Communications Equipment,MSI,Motorola Solutions,s&p500,2026-11-05,517.01,529.67,511.08,527.97,+12.92%,+8.34%,13.46,2.62,"1,234,100",651.57,N/A
-Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-11-04,349.51,352.33,344.78,350.69,+12.02%,+3.66%,8.32,2.43,"48,691,200","17,075.52",N/A
+Information Technology,"Technology Hardware, Storage & Peripherals",AAPL,Apple Inc.,s&p500,2026-11-04,349.51,352.33,344.78,350.69,+12.02%,+3.66%,8.32,2.43,"48,753,100","17,097.22",N/A
 Real Estate,Retail REITs,SPG,Simon Property Group,s&p500,2026-11-04,228.50,233.97,228.97,233.01,+4.53%,+5.09%,4.59,2.01,"2,044,700",476.44,N/A
 Utilities,Electric Utilities,EVRG,Evergy,s&p500,2026-11-06,87.54,88.64,87.70,87.99,+5.53%,+1.66%,0.45,0.51,"2,365,800",208.17,N/A
 Utilities,Multi-Utilities,AEE,Ameren,s&p500,2026-11-04,113.08,114.66,112.82,114.02,+4.76%,+2.33%,1.17,1.04,"2,276,300",259.54,N/A
