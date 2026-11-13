@@ -1,0 +1,18 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Consumer Staples,Consumer Staples Merchandise Retail,COST,Costco,s&p500,2026-11-11,"1,087.61","1,102.84","1,088.98","1,092.21",+15.02%,+2.50%,4.60,0.42,"2,203,000","2,406.14",N/A
+Consumer Staples,Food Retail,KR,Kroger,s&p500,2026-11-11,69.49,70.63,69.23,69.81,+24.53%,+0.55%,0.32,0.46,"3,516,600",245.49,N/A
+Consumer Staples,Household Products,CLX,Clorox,s&p500,2026-08-19,107.90,109.37,106.29,108.20,+2.31%,+8.53%,1.34,1.25,"4,321,600",467.60,N/A
+Financials,Property & Casualty Insurance,PGR,Progressive Corporation,s&p500,2026-11-04,234.82,237.42,234.44,235.49,+13.56%,+0.99%,1.96,0.84,"2,083,700",490.69,N/A
+Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-11-05,76.98,78.00,77.00,77.15,+10.64%,+0.22%,0.48,0.63,"1,104,500",85.21,N/A
+Health Care,Health Care Distributors,CAH,Cardinal Health,s&p500,2026-11-11,277.45,280.00,275.98,278.14,+18.78%,+3.85%,0.69,0.25,"1,295,600",360.36,N/A
+Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-11-09,215.25,216.85,213.34,215.71,+17.50%,+1.01%,1.19,0.55,"1,762,400",380.17,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-11-11,372.23,375.10,370.38,372.32,+15.10%,+2.48%,0.09,0.02,"519,300",193.35,N/A
+Health Care,Life Sciences Tools & Services,TECH,Bio-Techne,s&p500,2026-11-09,72.83,72.86,72.80,72.84,+0.84%,+0.25%,0.04,0.05,"2,191,700",159.64,N/A
+Health Care,Pharmaceuticals,JNJ,Johnson & Johnson,s&p500,2026-11-09,282.11,286.08,281.00,283.52,+8.69%,+4.11%,3.11,1.11,"8,804,800","2,496.34",N/A
+Industrials,Environmental & Facilities Services,RSG,Republic Services,s&p500,2026-11-05,249.42,254.27,249.71,253.00,+18.08%,+1.44%,3.66,1.47,"1,413,700",357.67,N/A
+Industrials,Environmental & Facilities Services,WM,Waste Management,s&p500,2026-11-05,241.27,245.00,241.38,244.11,+7.86%,+1.18%,3.82,1.59,"1,886,200",460.44,N/A
+Industrials,Industrial Machinery & Supplies & Components,GWW,W. W. Grainger,s&p500,2026-11-04,"1,489.39","1,515.34","1,493.49","1,502.61",+15.15%,+3.53%,16.08,1.08,"328,200",493.16,N/A
+Industrials,Rail Transportation,CSX,CSX Corporation,s&p500,2026-10-27,52.27,52.62,52.17,52.40,+4.63%,+3.09%,0.50,0.96,"7,179,300",376.20,N/A
+Industrials,Trading Companies & Distributors,FAST,Fastenal,s&p500,2026-11-11,55.49,56.27,55.46,55.55,+6.38%,+5.01%,0.06,0.11,"4,677,000",259.81,N/A
+Utilities,Multi-Utilities,NI,NiSource,s&p500,2026-11-11,45.55,46.15,45.56,45.81,+9.10%,+3.08%,0.26,0.57,"5,770,700",264.36,N/A
+Utilities,Multi-Utilities,XEL,Xcel Energy,s&p500,2026-11-11,81.10,81.97,81.12,81.50,+3.69%,+1.41%,0.40,0.49,"17,451,500","1,422.30",N/A
