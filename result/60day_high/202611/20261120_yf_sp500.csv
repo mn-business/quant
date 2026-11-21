@@ -1,12 +1,2 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Automotive Retail,ORLY,O'Reilly Automotive,s&p500,2026-11-18,93.37,95.22,93.37,93.70,+5.15%,+1.64%,1.09,1.18,"3,258,542",305.33,N/A
-Consumer Discretionary,Other Specialty Retail,TSCO,Tractor Supply,s&p500,2026-11-18,39.01,39.44,38.31,39.05,+12.41%,+7.13%,0.31,0.8,"6,609,102",258.09,N/A
-Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-11-18,353.54,359.80,352.97,354.14,+3.60%,+3.63%,1.86,0.53,"394,685",139.77,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,COST,Costco,s&p500,2026-11-16,"1,113.74","1,122.81","1,099.30","1,114.13",+17.56%,+0.72%,20.30,1.86,"1,726,713","1,923.78",N/A
-Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-11-04,129.17,130.52,127.22,129.74,+25.11%,+1.28%,3.69,2.93,"19,440,812","2,522.15",N/A
-Consumer Staples,Packaged Foods & Meats,TSN,Tyson Foods,s&p500,2026-11-18,64.25,65.75,64.28,65.04,+11.22%,+10.57%,1.18,1.85,"1,735,216",112.86,N/A
-Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-11-16,270.43,275.43,271.36,271.65,+7.02%,+1.50%,4.88,1.83,"623,066",169.26,N/A
-Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-11-16,78.52,79.69,78.52,79.16,+15.39%,+2.22%,1.76,2.27,"650,744",51.51,N/A
-Utilities,Electric Utilities,DUK,Duke Energy,s&p500,2026-11-16,130.59,131.27,129.60,130.88,+9.20%,+1.33%,2.02,1.57,"2,370,651",310.27,N/A
-Utilities,Electric Utilities,FE,FirstEnergy,s&p500,2026-11-18,47.69,48.01,47.33,47.79,+3.98%,+1.68%,0.66,1.4,"2,170,546",103.73,N/A
-Utilities,Multi-Utilities,CMS,CMS Energy,s&p500,2026-11-04,70.98,71.29,70.22,71.17,+4.24%,+1.12%,1.64,2.35,"1,959,781",139.47,N/A
+Consumer Staples,Packaged Foods & Meats,TSN,Tyson Foods,s&p500,2026-11-18,64.25,65.75,64.28,65.12,+11.35%,+10.71%,1.26,1.97,"7,171,300",467.00,N/A
