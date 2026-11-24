@@ -1,0 +1,10 @@
+﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
+Consumer Discretionary,Automotive Retail,ORLY,O'Reilly Automotive,s&p500,2026-11-18,93.37,93.97,92.38,93.62,+3.24%,+0.99%,0.97,1.05,"6,126,100",573.53,N/A
+Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-11-18,353.54,355.78,346.50,355.25,+1.79%,+2.55%,6.64,1.9,"569,600",202.35,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-11-19,167.46,169.89,163.67,168.19,-1.00%,+4.91%,2.36,1.42,"4,407,300",741.26,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-11-04,129.17,130.00,125.84,129.58,+21.68%,+0.91%,1.63,1.27,"25,105,000","3,253.11",N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-11-09,254.87,259.80,250.19,256.71,+17.69%,+2.01%,7.12,2.85,"1,304,300",334.83,N/A
+Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-08-26,26.50,26.64,25.41,26.59,+0.38%,+4.11%,1.20,4.73,"4,019,700",106.88,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-11-16,262.21,264.50,258.06,263.12,+7.89%,+0.35%,4.84,1.87,"964,600",253.81,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-11-16,372.46,374.57,367.57,372.56,+9.79%,+0.03%,5.43,1.48,"523,000",194.85,N/A
+Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-26,15.03,15.04,15.02,15.03,+1.90%,+0.60%,0.01,0.07,"9,505,800",142.87,N/A
