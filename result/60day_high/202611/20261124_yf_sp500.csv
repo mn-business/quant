@@ -1,10 +1,28 @@
 ﻿섹터A,섹터B,종목코드,종목명,시장구분,기존최고가달성일,기존최고가,당일최고가,당일최저가,당일종가,3개월 종가 상승률,1주 종가 상승률,대비,등락률,종료일 거래량,종료일 거래금액(백만원),종료일 시가총액(억원)
-Consumer Discretionary,Automotive Retail,ORLY,O'Reilly Automotive,s&p500,2026-11-18,93.37,93.97,92.38,93.62,+3.24%,+0.99%,0.97,1.05,"6,126,100",573.53,N/A
-Consumer Discretionary,Restaurants,DPZ,Domino's,s&p500,2026-11-18,353.54,355.78,346.50,355.25,+1.79%,+2.55%,6.64,1.9,"569,600",202.35,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-11-19,167.46,169.89,163.67,168.19,-1.00%,+4.91%,2.36,1.42,"4,407,300",741.26,N/A
-Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-11-04,129.17,130.00,125.84,129.58,+21.68%,+0.91%,1.63,1.27,"25,105,000","3,253.11",N/A
-Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-11-09,254.87,259.80,250.19,256.71,+17.69%,+2.01%,7.12,2.85,"1,304,300",334.83,N/A
-Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-08-26,26.50,26.64,25.41,26.59,+0.38%,+4.11%,1.20,4.73,"4,019,700",106.88,N/A
-Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-11-16,262.21,264.50,258.06,263.12,+7.89%,+0.35%,4.84,1.87,"964,600",253.81,N/A
-Health Care,Health Care Services,LH,Labcorp,s&p500,2026-11-16,372.46,374.57,367.57,372.56,+9.79%,+0.03%,5.43,1.48,"523,000",194.85,N/A
-Utilities,Independent Power Producers & Energy Traders,AES,AES Corporation,s&p500,2026-10-26,15.03,15.04,15.02,15.03,+1.90%,+0.60%,0.01,0.07,"9,505,800",142.87,N/A
+Consumer Discretionary,Automotive Retail,ORLY,O'Reilly Automotive,s&p500,2026-11-23,93.62,94.77,93.01,94.53,+4.66%,+1.99%,0.91,0.97,"1,105,393",104.49,N/A
+Consumer Discretionary,Other Specialty Retail,TSCO,Tractor Supply,s&p500,2026-11-18,39.01,39.22,37.56,39.21,+10.81%,+1.86%,1.64,4.35,"4,083,532",160.09,N/A
+Consumer Discretionary,Restaurants,YUM,Yum! Brands,s&p500,2026-11-04,166.31,166.82,164.82,166.44,+6.51%,+3.15%,2.00,1.22,"291,777",48.56,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,DLTR,Dollar Tree,s&p500,2026-11-04,147.00,156.89,147.83,155.21,+15.41%,+11.09%,16.11,11.58,"2,357,272",365.87,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,TGT,Target Corporation,s&p500,2026-11-23,168.19,176.26,170.60,175.70,+7.48%,+10.13%,7.51,4.46,"1,687,711",296.52,N/A
+Consumer Staples,Consumer Staples Merchandise Retail,WMT,Walmart,s&p500,2026-11-23,129.58,132.42,129.74,131.96,+25.22%,+3.48%,2.38,1.84,"7,331,752",967.50,N/A
+Consumer Staples,Personal Care Products,PG,Procter & Gamble,s&p500,2026-11-16,173.02,173.27,169.83,173.09,+19.04%,+0.80%,3.49,2.06,"2,733,618",473.16,N/A
+Financials,Insurance Brokers,BRO,Brown & Brown,s&p500,2026-10-22,74.49,75.34,73.21,75.23,+2.58%,+4.12%,2.50,3.44,"504,448",37.95,N/A
+Financials,Insurance Brokers,MRSH,Marsh McLennan,s&p500,2026-11-04,210.38,212.69,207.28,212.16,+9.70%,+2.96%,5.06,2.45,"467,831",99.26,N/A
+Financials,Insurance Brokers,WTW,Willis Towers Watson,s&p500,2026-08-28,343.75,347.42,336.11,345.89,-0.27%,+4.51%,10.12,3.01,"127,086",43.96,N/A
+Financials,Property & Casualty Insurance,ALL,Allstate,s&p500,2026-11-16,270.43,272.55,265.12,271.98,+5.58%,+0.57%,6.70,2.53,"282,766",76.91,N/A
+Financials,Property & Casualty Insurance,WRB,W. R. Berkley Corporation,s&p500,2026-11-16,78.52,79.29,77.72,79.09,+15.49%,+1.96%,1.19,1.53,"187,406",14.82,N/A
+Health Care,Biotechnology,ABBV,AbbVie,s&p500,2026-11-13,295.03,299.67,288.70,299.44,+12.66%,+2.26%,10.99,3.81,"1,567,068",469.24,N/A
+Health Care,Biotechnology,BIIB,Biogen,s&p500,2026-11-23,256.71,267.70,257.86,267.25,+21.05%,+6.56%,10.54,4.11,"421,106",112.54,N/A
+Health Care,Biotechnology,GILD,Gilead Sciences,s&p500,2026-11-04,174.48,177.73,171.14,177.51,+19.32%,+4.26%,6.92,4.06,"2,503,747",444.44,N/A
+Health Care,Biotechnology,REGN,Regeneron Pharmaceuticals,s&p500,2026-11-03,973.36,984.29,948.42,979.59,+17.52%,+2.28%,37.35,3.96,"237,749",232.90,N/A
+Health Care,Biotechnology,VRTX,Vertex Pharmaceuticals,s&p500,2026-10-30,558.88,563.17,540.00,558.94,+1.10%,+4.63%,20.40,3.79,"467,806",261.48,N/A
+Health Care,Health Care Equipment,BAX,Baxter International,s&p500,2026-11-23,26.59,27.00,26.23,26.89,+2.28%,+4.39%,0.30,1.13,"759,368",20.42,N/A
+Health Care,Health Care Equipment,BDX,Becton Dickinson,s&p500,2026-11-13,218.03,221.69,213.61,221.40,+16.66%,+2.77%,5.96,2.76,"388,747",86.07,N/A
+Health Care,Health Care Services,DGX,Quest Diagnostics,s&p500,2026-11-23,263.12,266.67,262.45,265.03,+8.39%,+3.39%,1.91,0.73,"172,619",45.75,N/A
+Health Care,Health Care Services,LH,Labcorp,s&p500,2026-11-23,372.56,375.64,369.39,374.89,+11.02%,+1.80%,2.33,0.62,"87,909",32.96,N/A
+Industrials,Environmental & Facilities Services,WM,Waste Management,s&p500,2026-11-16,244.33,245.37,240.53,245.22,+10.39%,+1.04%,4.63,1.92,"397,018",97.36,N/A
+Information Technology,Internet Services & Infrastructure,VRSN,Verisign,s&p500,2026-11-04,318.03,318.91,312.60,318.77,+8.52%,+4.28%,4.82,1.54,"144,405",46.03,N/A
+Utilities,Electric Utilities,DUK,Duke Energy,s&p500,2026-11-16,130.59,131.99,128.96,131.74,+8.35%,+1.47%,2.27,1.76,"901,216",118.73,N/A
+Utilities,Electric Utilities,FE,FirstEnergy,s&p500,2026-11-18,47.69,47.90,47.19,47.77,+2.47%,+1.51%,0.23,0.48,"775,913",37.07,N/A
+Utilities,Electric Utilities,WEC,WEC Energy Group,s&p500,2026-11-05,118.32,118.75,116.37,118.54,+11.12%,+1.93%,1.26,1.07,"344,020",40.78,N/A
+Utilities,Multi-Utilities,CMS,CMS Energy,s&p500,2026-11-04,70.98,71.33,70.01,71.19,+3.57%,+2.57%,0.82,1.16,"546,581",38.91,N/A
